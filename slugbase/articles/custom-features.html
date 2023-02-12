@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Writing Custom Features! </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Writing Custom Features! ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../logo.svg" alt="" class="logomark">
+              <span class="brand-title"></span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../logo.svg" alt="" class="logomark">
+                          <span class="brand-title"></span>
+                        </a>                      </div>
+
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  
+  <strong><a href='https://dotnet.github.io/docfx/'>DocFX</a> + <a href='https://www.singulink.com'>Singulink</a> = ♥</strong>
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="writing-custom-features">Writing Custom Features!</h1>
+
+<h2 id="basics">Basics</h2>
+<p>At its core, defining a feature just requires you to instantiate <a href="../api/SlugBase.Features.Feature-1.html"><code>Feature&lt;T&gt;</code></a>. The constructor takes a string ID (the same one that you must specify in your character's JSON) and a delegate that converts a <a href="../api/SlugBase.JsonAny.html"><code>JsonAny</code></a> into <code>T</code>. Accessing your feature requires a <a href="../api/SlugBase.SlugBaseCharacter.html"><code>SlugBaseCharacter</code></a> instance, which you can find via <a href="../api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_TryGet_"><code>SlugBaseCharacter.TryGet</code></a>.</p>
+<p>In most cases, neither parsing your own data nor getting the <a href="../api/SlugBase.SlugBaseCharacter.html"><code>SlugBaseCharacter</code></a> will be necessary.</p>
+<h2 id="simple-features">Simple Features</h2>
+<p>For most features, <a href="../api/SlugBase.Features.FeatureTypes.html"><code>FeatureTypes</code></a> will provide a suitable factory method that does the parsing for you.</p>
+<pre><code class="lang-cs">using static SlugBase.Features.FeatureTypes;
+
+[BepInPlugin(&quot;mycoolplugin&quot;, &quot;My Cool Plugin&quot;, &quot;1.2.3&quot;)]
+class MyCoolPlugin : BaseUnityPlugin
+{
+  static readonly PlayerFeature&lt;float&gt; SuperJump = PlayerFloat(&quot;super_jump&quot;);
+}
+</code></pre>
+<p>Then, you implement it with hooks:</p>
+<pre><code class="lang-cs">void Awake()
+{
+  On.Player.Jump += Player_Jump;
+}
+
+void Player_Jump(On.Player.orig_Jump orig, Player self)
+{
+  orig(self);
+  if(SuperJump.TryGet(self, out var superJump))
+  {
+    self.jumpBoost *= 1f + superJump;
+  }
+}
+</code></pre>
+<p>SlugBase provides two types of features: <a href="../api/SlugBase.Features.PlayerFeature-1.html"><code>PlayerFeature&lt;T&gt;</code></a> and <a href="../api/SlugBase.Features.GameFeature-1.html"><code>GameFeature&lt;T&gt;</code></a>. These allow you to get the feature's data by <code>Player</code> or <code>RainWorldGame</code> instance. If you've hooked a method that doesn't have access to either of those, getting by <a href="../api/SlugBase.SlugBaseCharacter.html"><code>SlugBaseCharacter</code></a> still works.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>If you construct your features in a static constructor or static field initializer, you must make sure that it is called during mod initialization! Consider placing feature fields directly in your <code>BaseUnityPlugin</code>.</p>
+</div>
+<h2 id="advanced-features">Advanced Features</h2>
+<p>If <a href="../api/SlugBase.Features.FeatureTypes.html"><code>FeatureTypes</code></a> doesn't have the data type that you need, you'll need to pass in your own factory delegate:</p>
+<pre><code class="lang-cs">static readonly GameFeature&lt;Dictionary&lt;CreatureTemplate.Type, float&gt;&gt; CreatureHealth = new(&quot;creature_health&quot;, json =&gt;
+{
+    var result = new Dictionary&lt;CreatureTemplate.Type, float&gt;();
+    
+    foreach (var pair in json.AsObject())
+        result.Add(new(pair.Key), pair.Value.AsFloat());
+
+    return result;
+});
+</code></pre>
+<p>After that it acts the same as any other feature. If the JSON data is invalid, consider throwing a <a href="../api/SlugBase.JsonException.html"><code>JsonException</code></a>, passing in the offending JSON element. This will give the modder a descriptive error with a path to that element.</p>
+<h2 id="reloading-features">Reloading Features</h2>
+<p>You can change a feature's value at any time by modifying the character's JSON file. Your features might not work properly with this right off the bat. If a feature you've implemented needs to update the game state upon reload, consider subscribing to <a href="../api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Refreshed"><code>SlugBaseCharacter.Refreshed</code></a>. This event is only raised while in-game.</p>
+</article>
+                </div>
+
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+</html>

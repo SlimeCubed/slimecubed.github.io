@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Built-In Features </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Built-In Features ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../logo.svg" alt="" class="logomark">
+              <span class="brand-title"></span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../logo.svg" alt="" class="logomark">
+                          <span class="brand-title"></span>
+                        </a>                      </div>
+
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  
+  <strong><a href='https://dotnet.github.io/docfx/'>DocFX</a> + <a href='https://www.singulink.com'>Singulink</a> = ♥</strong>
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="built-in-features">Built-In Features</h1>
+
+<ul>
+<li><code>boolean</code>: <code>true</code> or <code>false</code></li>
+<li><code>integer</code>: Number with no fractional component</li>
+<li><code>float</code>: Number with some fractional component</li>
+<li><code>color</code>: List of 3-4 color components, hex color string, or object with <code>&quot;r&quot;</code>, <code>&quot;g&quot;</code>, <code>&quot;b&quot;</code>, and optionally <code>&quot;a&quot;</code> properties</li>
+<li><code>type[min..max]</code>: List of between <code>min</code> and <code>max</code> elements of type <code>type</code></li>
+</ul>
+<h2 id="player-features">Player Features</h2>
+<h3 id="color">&quot;color&quot;</h3>
+<p><code>color</code></p>
+<p>Default color for body and UI elements.</p>
+<h3 id="auto_grab_batflies">&quot;auto_grab_batflies&quot;</h3>
+<p><code>boolean</code></p>
+<p>Grab batflies on collision.</p>
+<h3 id="weight">&quot;weight&quot;</h3>
+<p><code>float[1..2]</code></p>
+<p>Player normal and starving body mass. If unspecified, the starving value is automatically calculated.</p>
+<h3 id="tunnel_speed">&quot;tunnel_speed&quot;</h3>
+<p><code>float[1..2]</code></p>
+<p>Player normal and starving speed multiplier in crawlspaces. If unspecified, the starving value is automatically calculated.</p>
+<h3 id="climb_speed">&quot;climb_speed&quot;</h3>
+<p><code>float[1..2]</code></p>
+<p>Player normal and starving speed multiplier on poles. If unspecified, the starving value is automatically calculated.</p>
+<h3 id="walk_speed">&quot;walk_speed&quot;</h3>
+<p><code>float[1..2]</code></p>
+<p>Player normal and starving speed multiplier when walking. If unspecified, the starving value is automatically calculated.</p>
+<h3 id="crouch_stealth">&quot;crouch_stealth&quot;</h3>
+<p><code>float[1..2]</code></p>
+<p>Player normal and starving multiplier for visual stealth when down on all fours. If unspecified, the starving value is automatically calculated.</p>
+<h3 id="throw_skill">&quot;throw_skill&quot;</h3>
+<p><code>integer[1..2]</code></p>
+<p>Player normal and starving body mass. If unspecified, the starving value is automatically calculated.</p>
+<h3 id="lung_capacity">&quot;lung_capacity&quot;</h3>
+<p><code>float[1..2]</code></p>
+<p>Player normal and starving multiplier for lung capacity. If unspecified, the starving value is automatically calculated.</p>
+<h3 id="loudness">&quot;loudness&quot;</h3>
+<p><code>float[1..2]</code></p>
+<p>Player normal and starving multiplier for loudness in regards to drawing creature attention. If unspecified, the starving value is automatically calculated.</p>
+<h3 id="alignments">&quot;alignments&quot;</h3>
+<pre><code>{
+  &quot;&lt;CreatureCommunities.CommunityID&gt;&quot;: { &quot;like&quot;: float, &quot;strength&quot;: float = 1.0, &quot;locked&quot;: boolean = false },
+  ...
+}
+</code></pre>
+<p>Default reputation values that creature communities have towards the player. When a save is started, each community's reputation is moved towards <code>&quot;like&quot;</code> by the fraction <code>&quot;strength&quot;</code>. If <code>&quot;locked&quot;</code>, then the reputation will always be <code>&quot;like&quot;</code>.</p>
+<h3 id="diet">&quot;diet&quot;</h3>
+<pre><code>{
+  &quot;base&quot;: string,
+  &quot;corpses&quot;: float,
+  &quot;meat&quot;: float,
+  &quot;plants&quot;: float,
+  &quot;overrides&quot;: {
+    &quot;&lt;CreatureTemplate.Type&gt;&quot;: float,
+    &quot;&lt;AbstractPhysicalObject.Type&gt;&quot;: float,
+    ...
+  }
+}
+</code></pre>
+<p>Edibility and nourishment of foods. Values are rounded to the nearest fourth. 0 indicates inedibility and -1 indicates that eating stuns the player. <code>&quot;corpses&quot;</code> multiplies food from eating large, non-centipede bodies. <code>&quot;meat&quot;</code> multiplies food from eating small creatures and meat-like objects (i.e., eggbug eggs and jellyfish). <code>&quot;plants&quot;</code> multiplies food from eating non-meat objects. <code>&quot;overrides&quot;</code> sets multipliers for individual creatures and objects.</p>
+<p>If <code>&quot;base&quot;</code> is specified, it must refer to a <code>SlugcatStats.Name</code> that is from the base game or More Slugcats. When present, other diet properties are optional and default to the values for this character. Otherwise, these properties are required.</p>
+<h3 id="custom_colors">&quot;custom_colors&quot;</h3>
+<pre><code>[
+  { &quot;name&quot;: &quot;Body&quot;, &quot;story&quot;: color, &quot;arena&quot;: color[] },
+  { &quot;name&quot;: &quot;Eyes&quot;, &quot;story&quot;: color, &quot;arena&quot;: color[] },
+  { &quot;name&quot;: string, &quot;story&quot;: color, &quot;arena&quot;: color[] },
+  ...
+]
+</code></pre>
+<p>Configurable colors for this character. Colors are referenced by <code>&quot;name&quot;</code>, and will appear as such in the color customization menu. The color defaults to <code>&quot;story&quot;</code> in story mode, and is overridden by <code>&quot;arena&quot;</code> when in arena mode. If an insufficient number of colors are specified in <code>&quot;arena&quot;</code>, then some players in arena mode will use <code>&quot;story&quot;</code> colors.</p>
+<h2 id="game-features">Game Features</h2>
+<h3 id="karma">&quot;karma&quot;</h3>
+<p><code>integer</code></p>
+<p>Initial karma level from 0 to 9.</p>
+<h3 id="karma_cap">&quot;karma_cap&quot;</h3>
+<p><code>integer</code></p>
+<p>Initial karma cap from 0 to 9.</p>
+<h3 id="start_room">&quot;start_room&quot;</h3>
+<p><code>string[]</code></p>
+<p>Names of potential starting rooms. If the first room does not exist, then the second will be tried and so on.</p>
+<h3 id="guide_overseer">&quot;guide_overseer&quot;</h3>
+<p><code>integer</code></p>
+<p>Color index of the player guide. If unspecified, then the guide overseer will not spawn.</p>
+<ul>
+<li><code>1</code>: Yellow</li>
+<li><code>2</code>: Green</li>
+<li><code>3</code>: Red</li>
+<li><code>4</code>: White</li>
+<li><code>5</code>: Purple</li>
+</ul>
+<p>Colors may not work as expected if MSC is not enabled.</p>
+<h3 id="has_dreams">&quot;has_dreams&quot;</h3>
+<p><code>boolean</code></p>
+<p>Whether this character has a dream state.</p>
+<h3 id="cycle_length_min">&quot;cycle_length_min&quot;</h3>
+<p><code>float</code></p>
+<p>Minimum cycle length in minutes.</p>
+<h3 id="cycle_length_max">&quot;cycle_length_max&quot;</h3>
+<p><code>float</code></p>
+<p>Maximum cycle length in minutes.</p>
+<h3 id="perma_unlock_gates">&quot;perma_unlock_gates&quot;</h3>
+<p><code>boolean</code></p>
+<p>Whether this character unlocks gates permanently when passing through.</p>
+<h3 id="food_min">&quot;food_min&quot;</h3>
+<p><code>int</code></p>
+<p>Food required to hibernate.</p>
+<h3 id="food_max">&quot;food_max&quot;</h3>
+<p><code>int</code></p>
+<p>Max food stored at any time.</p>
+<h3 id="select_menu_scene">&quot;select_menu_scene&quot;</h3>
+<p><code>string</code></p>
+<p>Scene ID for character select menu.</p>
+<h3 id="select_menu_scene_ascended">&quot;select_menu_scene_ascended&quot;</h3>
+<p><code>string</code></p>
+<p>Scene ID for character select menu after ascension.</p>
+<h3 id="world_state">&quot;world_state&quot;</h3>
+<p><code>string</code></p>
+<p>A <code>SlugcatStats.Name</code> value to copy world state from. This includes spawns and room connections. Specifying an MSC slugcat will fail if MSC is not installed.</p>
+</article>
+                </div>
+
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+</html>

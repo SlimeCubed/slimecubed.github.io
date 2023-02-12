@@ -1,0 +1,2844 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SlugBase
+  name: SlugBase
+  href: api/SlugBase.html
+  commentId: N:SlugBase
+  fullName: SlugBase
+  nameWithType: SlugBase
+- uid: SlugBase.Assets
+  name: SlugBase.Assets
+  href: api/SlugBase.Assets.html
+  commentId: N:SlugBase.Assets
+  fullName: SlugBase.Assets
+  nameWithType: SlugBase.Assets
+- uid: SlugBase.Assets.CustomScene
+  name: CustomScene
+  href: api/SlugBase.Assets.CustomScene.html
+  commentId: T:SlugBase.Assets.CustomScene
+  fullName: SlugBase.Assets.CustomScene
+  nameWithType: CustomScene
+- uid: SlugBase.Assets.CustomScene.GlowPos
+  name: GlowPos
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_GlowPos
+  commentId: P:SlugBase.Assets.CustomScene.GlowPos
+  fullName: SlugBase.Assets.CustomScene.GlowPos
+  nameWithType: CustomScene.GlowPos
+- uid: SlugBase.Assets.CustomScene.GlowPos*
+  name: GlowPos
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_GlowPos_
+  commentId: Overload:SlugBase.Assets.CustomScene.GlowPos
+  fullName: SlugBase.Assets.CustomScene.GlowPos
+  nameWithType: CustomScene.GlowPos
+- uid: SlugBase.Assets.CustomScene.ID
+  name: ID
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_ID
+  commentId: P:SlugBase.Assets.CustomScene.ID
+  fullName: SlugBase.Assets.CustomScene.ID
+  nameWithType: CustomScene.ID
+- uid: SlugBase.Assets.CustomScene.ID*
+  name: ID
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_ID_
+  commentId: Overload:SlugBase.Assets.CustomScene.ID
+  fullName: SlugBase.Assets.CustomScene.ID
+  nameWithType: CustomScene.ID
+- uid: SlugBase.Assets.CustomScene.IdleDepths
+  name: IdleDepths
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_IdleDepths
+  commentId: P:SlugBase.Assets.CustomScene.IdleDepths
+  fullName: SlugBase.Assets.CustomScene.IdleDepths
+  nameWithType: CustomScene.IdleDepths
+- uid: SlugBase.Assets.CustomScene.IdleDepths*
+  name: IdleDepths
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_IdleDepths_
+  commentId: Overload:SlugBase.Assets.CustomScene.IdleDepths
+  fullName: SlugBase.Assets.CustomScene.IdleDepths
+  nameWithType: CustomScene.IdleDepths
+- uid: SlugBase.Assets.CustomScene.Image
+  name: CustomScene.Image
+  href: api/SlugBase.Assets.CustomScene.Image.html
+  commentId: T:SlugBase.Assets.CustomScene.Image
+  fullName: SlugBase.Assets.CustomScene.Image
+  nameWithType: CustomScene.Image
+- uid: SlugBase.Assets.CustomScene.Image.#ctor(SlugBase.JsonObject)
+  name: Image(JsonObject)
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image__ctor_SlugBase_JsonObject_
+  commentId: M:SlugBase.Assets.CustomScene.Image.#ctor(SlugBase.JsonObject)
+  fullName: SlugBase.Assets.CustomScene.Image.Image(SlugBase.JsonObject)
+  nameWithType: CustomScene.Image.Image(JsonObject)
+- uid: SlugBase.Assets.CustomScene.Image.#ctor(System.String,UnityEngine.Vector2)
+  name: Image(String, Vector2)
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image__ctor_System_String_UnityEngine_Vector2_
+  commentId: M:SlugBase.Assets.CustomScene.Image.#ctor(System.String,UnityEngine.Vector2)
+  fullName: SlugBase.Assets.CustomScene.Image.Image(System.String, UnityEngine.Vector2)
+  nameWithType: CustomScene.Image.Image(String, Vector2)
+- uid: SlugBase.Assets.CustomScene.Image.#ctor*
+  name: Image
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image__ctor_
+  commentId: Overload:SlugBase.Assets.CustomScene.Image.#ctor
+  fullName: SlugBase.Assets.CustomScene.Image.Image
+  nameWithType: CustomScene.Image.Image
+- uid: SlugBase.Assets.CustomScene.Image.Depth
+  name: Depth
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Depth
+  commentId: P:SlugBase.Assets.CustomScene.Image.Depth
+  fullName: SlugBase.Assets.CustomScene.Image.Depth
+  nameWithType: CustomScene.Image.Depth
+- uid: SlugBase.Assets.CustomScene.Image.Depth*
+  name: Depth
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Depth_
+  commentId: Overload:SlugBase.Assets.CustomScene.Image.Depth
+  fullName: SlugBase.Assets.CustomScene.Image.Depth
+  nameWithType: CustomScene.Image.Depth
+- uid: SlugBase.Assets.CustomScene.Image.Flatmode
+  name: Flatmode
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Flatmode
+  commentId: P:SlugBase.Assets.CustomScene.Image.Flatmode
+  fullName: SlugBase.Assets.CustomScene.Image.Flatmode
+  nameWithType: CustomScene.Image.Flatmode
+- uid: SlugBase.Assets.CustomScene.Image.Flatmode*
+  name: Flatmode
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Flatmode_
+  commentId: Overload:SlugBase.Assets.CustomScene.Image.Flatmode
+  fullName: SlugBase.Assets.CustomScene.Image.Flatmode
+  nameWithType: CustomScene.Image.Flatmode
+- uid: SlugBase.Assets.CustomScene.Image.Name
+  name: Name
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Name
+  commentId: P:SlugBase.Assets.CustomScene.Image.Name
+  fullName: SlugBase.Assets.CustomScene.Image.Name
+  nameWithType: CustomScene.Image.Name
+- uid: SlugBase.Assets.CustomScene.Image.Name*
+  name: Name
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Name_
+  commentId: Overload:SlugBase.Assets.CustomScene.Image.Name
+  fullName: SlugBase.Assets.CustomScene.Image.Name
+  nameWithType: CustomScene.Image.Name
+- uid: SlugBase.Assets.CustomScene.Image.Position
+  name: Position
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Position
+  commentId: P:SlugBase.Assets.CustomScene.Image.Position
+  fullName: SlugBase.Assets.CustomScene.Image.Position
+  nameWithType: CustomScene.Image.Position
+- uid: SlugBase.Assets.CustomScene.Image.Position*
+  name: Position
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Position_
+  commentId: Overload:SlugBase.Assets.CustomScene.Image.Position
+  fullName: SlugBase.Assets.CustomScene.Image.Position
+  nameWithType: CustomScene.Image.Position
+- uid: SlugBase.Assets.CustomScene.Image.Shader
+  name: Shader
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Shader
+  commentId: P:SlugBase.Assets.CustomScene.Image.Shader
+  fullName: SlugBase.Assets.CustomScene.Image.Shader
+  nameWithType: CustomScene.Image.Shader
+- uid: SlugBase.Assets.CustomScene.Image.Shader*
+  name: Shader
+  href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Shader_
+  commentId: Overload:SlugBase.Assets.CustomScene.Image.Shader
+  fullName: SlugBase.Assets.CustomScene.Image.Shader
+  nameWithType: CustomScene.Image.Shader
+- uid: SlugBase.Assets.CustomScene.Images
+  name: Images
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_Images
+  commentId: P:SlugBase.Assets.CustomScene.Images
+  fullName: SlugBase.Assets.CustomScene.Images
+  nameWithType: CustomScene.Images
+- uid: SlugBase.Assets.CustomScene.Images*
+  name: Images
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_Images_
+  commentId: Overload:SlugBase.Assets.CustomScene.Images
+  fullName: SlugBase.Assets.CustomScene.Images
+  nameWithType: CustomScene.Images
+- uid: SlugBase.Assets.CustomScene.MarkPos
+  name: MarkPos
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_MarkPos
+  commentId: P:SlugBase.Assets.CustomScene.MarkPos
+  fullName: SlugBase.Assets.CustomScene.MarkPos
+  nameWithType: CustomScene.MarkPos
+- uid: SlugBase.Assets.CustomScene.MarkPos*
+  name: MarkPos
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_MarkPos_
+  commentId: Overload:SlugBase.Assets.CustomScene.MarkPos
+  fullName: SlugBase.Assets.CustomScene.MarkPos
+  nameWithType: CustomScene.MarkPos
+- uid: SlugBase.Assets.CustomScene.Registry
+  name: Registry
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_Registry
+  commentId: P:SlugBase.Assets.CustomScene.Registry
+  fullName: SlugBase.Assets.CustomScene.Registry
+  nameWithType: CustomScene.Registry
+- uid: SlugBase.Assets.CustomScene.Registry*
+  name: Registry
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_Registry_
+  commentId: Overload:SlugBase.Assets.CustomScene.Registry
+  fullName: SlugBase.Assets.CustomScene.Registry
+  nameWithType: CustomScene.Registry
+- uid: SlugBase.Assets.CustomScene.SceneFolder
+  name: SceneFolder
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SceneFolder
+  commentId: P:SlugBase.Assets.CustomScene.SceneFolder
+  fullName: SlugBase.Assets.CustomScene.SceneFolder
+  nameWithType: CustomScene.SceneFolder
+- uid: SlugBase.Assets.CustomScene.SceneFolder*
+  name: SceneFolder
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SceneFolder_
+  commentId: Overload:SlugBase.Assets.CustomScene.SceneFolder
+  fullName: SlugBase.Assets.CustomScene.SceneFolder
+  nameWithType: CustomScene.SceneFolder
+- uid: SlugBase.Assets.CustomScene.SelectMenuOffset
+  name: SelectMenuOffset
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SelectMenuOffset
+  commentId: P:SlugBase.Assets.CustomScene.SelectMenuOffset
+  fullName: SlugBase.Assets.CustomScene.SelectMenuOffset
+  nameWithType: CustomScene.SelectMenuOffset
+- uid: SlugBase.Assets.CustomScene.SelectMenuOffset*
+  name: SelectMenuOffset
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SelectMenuOffset_
+  commentId: Overload:SlugBase.Assets.CustomScene.SelectMenuOffset
+  fullName: SlugBase.Assets.CustomScene.SelectMenuOffset
+  nameWithType: CustomScene.SelectMenuOffset
+- uid: SlugBase.Assets.CustomScene.SlugcatDepth
+  name: SlugcatDepth
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SlugcatDepth
+  commentId: P:SlugBase.Assets.CustomScene.SlugcatDepth
+  fullName: SlugBase.Assets.CustomScene.SlugcatDepth
+  nameWithType: CustomScene.SlugcatDepth
+- uid: SlugBase.Assets.CustomScene.SlugcatDepth*
+  name: SlugcatDepth
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SlugcatDepth_
+  commentId: Overload:SlugBase.Assets.CustomScene.SlugcatDepth
+  fullName: SlugBase.Assets.CustomScene.SlugcatDepth
+  nameWithType: CustomScene.SlugcatDepth
+- uid: SlugBase.DataTypes
+  name: SlugBase.DataTypes
+  href: api/SlugBase.DataTypes.html
+  commentId: N:SlugBase.DataTypes
+  fullName: SlugBase.DataTypes
+  nameWithType: SlugBase.DataTypes
+- uid: SlugBase.DataTypes.ColorSlot
+  name: ColorSlot
+  href: api/SlugBase.DataTypes.ColorSlot.html
+  commentId: T:SlugBase.DataTypes.ColorSlot
+  fullName: SlugBase.DataTypes.ColorSlot
+  nameWithType: ColorSlot
+- uid: SlugBase.DataTypes.ColorSlot.#ctor(System.Int32,SlugBase.JsonAny)
+  name: ColorSlot(Int32, JsonAny)
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot__ctor_System_Int32_SlugBase_JsonAny_
+  commentId: M:SlugBase.DataTypes.ColorSlot.#ctor(System.Int32,SlugBase.JsonAny)
+  fullName: SlugBase.DataTypes.ColorSlot.ColorSlot(System.Int32, SlugBase.JsonAny)
+  nameWithType: ColorSlot.ColorSlot(Int32, JsonAny)
+- uid: SlugBase.DataTypes.ColorSlot.#ctor(System.Int32,System.String)
+  name: ColorSlot(Int32, String)
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot__ctor_System_Int32_System_String_
+  commentId: M:SlugBase.DataTypes.ColorSlot.#ctor(System.Int32,System.String)
+  fullName: SlugBase.DataTypes.ColorSlot.ColorSlot(System.Int32, System.String)
+  nameWithType: ColorSlot.ColorSlot(Int32, String)
+- uid: SlugBase.DataTypes.ColorSlot.#ctor*
+  name: ColorSlot
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot__ctor_
+  commentId: Overload:SlugBase.DataTypes.ColorSlot.#ctor
+  fullName: SlugBase.DataTypes.ColorSlot.ColorSlot
+  nameWithType: ColorSlot.ColorSlot
+- uid: SlugBase.DataTypes.ColorSlot.Default
+  name: Default
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Default
+  commentId: P:SlugBase.DataTypes.ColorSlot.Default
+  fullName: SlugBase.DataTypes.ColorSlot.Default
+  nameWithType: ColorSlot.Default
+- uid: SlugBase.DataTypes.ColorSlot.Default*
+  name: Default
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Default_
+  commentId: Overload:SlugBase.DataTypes.ColorSlot.Default
+  fullName: SlugBase.DataTypes.ColorSlot.Default
+  nameWithType: ColorSlot.Default
+- uid: SlugBase.DataTypes.ColorSlot.GetColor(PlayerGraphics)
+  name: GetColor(PlayerGraphics)
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_GetColor_PlayerGraphics_
+  commentId: M:SlugBase.DataTypes.ColorSlot.GetColor(PlayerGraphics)
+  fullName: SlugBase.DataTypes.ColorSlot.GetColor(PlayerGraphics)
+  nameWithType: ColorSlot.GetColor(PlayerGraphics)
+- uid: SlugBase.DataTypes.ColorSlot.GetColor(System.Int32)
+  name: GetColor(Int32)
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_GetColor_System_Int32_
+  commentId: M:SlugBase.DataTypes.ColorSlot.GetColor(System.Int32)
+  fullName: SlugBase.DataTypes.ColorSlot.GetColor(System.Int32)
+  nameWithType: ColorSlot.GetColor(Int32)
+- uid: SlugBase.DataTypes.ColorSlot.GetColor*
+  name: GetColor
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_GetColor_
+  commentId: Overload:SlugBase.DataTypes.ColorSlot.GetColor
+  fullName: SlugBase.DataTypes.ColorSlot.GetColor
+  nameWithType: ColorSlot.GetColor
+- uid: SlugBase.DataTypes.ColorSlot.Index
+  name: Index
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Index
+  commentId: P:SlugBase.DataTypes.ColorSlot.Index
+  fullName: SlugBase.DataTypes.ColorSlot.Index
+  nameWithType: ColorSlot.Index
+- uid: SlugBase.DataTypes.ColorSlot.Index*
+  name: Index
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Index_
+  commentId: Overload:SlugBase.DataTypes.ColorSlot.Index
+  fullName: SlugBase.DataTypes.ColorSlot.Index
+  nameWithType: ColorSlot.Index
+- uid: SlugBase.DataTypes.ColorSlot.Name
+  name: Name
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Name
+  commentId: P:SlugBase.DataTypes.ColorSlot.Name
+  fullName: SlugBase.DataTypes.ColorSlot.Name
+  nameWithType: ColorSlot.Name
+- uid: SlugBase.DataTypes.ColorSlot.Name*
+  name: Name
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Name_
+  commentId: Overload:SlugBase.DataTypes.ColorSlot.Name
+  fullName: SlugBase.DataTypes.ColorSlot.Name
+  nameWithType: ColorSlot.Name
+- uid: SlugBase.DataTypes.ColorSlot.Variants
+  name: Variants
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Variants
+  commentId: P:SlugBase.DataTypes.ColorSlot.Variants
+  fullName: SlugBase.DataTypes.ColorSlot.Variants
+  nameWithType: ColorSlot.Variants
+- uid: SlugBase.DataTypes.ColorSlot.Variants*
+  name: Variants
+  href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Variants_
+  commentId: Overload:SlugBase.DataTypes.ColorSlot.Variants
+  fullName: SlugBase.DataTypes.ColorSlot.Variants
+  nameWithType: ColorSlot.Variants
+- uid: SlugBase.DataTypes.Diet
+  name: Diet
+  href: api/SlugBase.DataTypes.Diet.html
+  commentId: T:SlugBase.DataTypes.Diet
+  fullName: SlugBase.DataTypes.Diet
+  nameWithType: Diet
+- uid: SlugBase.DataTypes.Diet.#ctor(SlugBase.JsonAny)
+  name: Diet(JsonAny)
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet__ctor_SlugBase_JsonAny_
+  commentId: M:SlugBase.DataTypes.Diet.#ctor(SlugBase.JsonAny)
+  fullName: SlugBase.DataTypes.Diet.Diet(SlugBase.JsonAny)
+  nameWithType: Diet.Diet(JsonAny)
+- uid: SlugBase.DataTypes.Diet.#ctor*
+  name: Diet
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet__ctor_
+  commentId: Overload:SlugBase.DataTypes.Diet.#ctor
+  fullName: SlugBase.DataTypes.Diet.Diet
+  nameWithType: Diet.Diet
+- uid: SlugBase.DataTypes.Diet.Corpses
+  name: Corpses
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_Corpses
+  commentId: P:SlugBase.DataTypes.Diet.Corpses
+  fullName: SlugBase.DataTypes.Diet.Corpses
+  nameWithType: Diet.Corpses
+- uid: SlugBase.DataTypes.Diet.Corpses*
+  name: Corpses
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_Corpses_
+  commentId: Overload:SlugBase.DataTypes.Diet.Corpses
+  fullName: SlugBase.DataTypes.Diet.Corpses
+  nameWithType: Diet.Corpses
+- uid: SlugBase.DataTypes.Diet.CreatureOverrides
+  name: CreatureOverrides
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_CreatureOverrides
+  commentId: P:SlugBase.DataTypes.Diet.CreatureOverrides
+  fullName: SlugBase.DataTypes.Diet.CreatureOverrides
+  nameWithType: Diet.CreatureOverrides
+- uid: SlugBase.DataTypes.Diet.CreatureOverrides*
+  name: CreatureOverrides
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_CreatureOverrides_
+  commentId: Overload:SlugBase.DataTypes.Diet.CreatureOverrides
+  fullName: SlugBase.DataTypes.Diet.CreatureOverrides
+  nameWithType: Diet.CreatureOverrides
+- uid: SlugBase.DataTypes.Diet.GetFoodMultiplier(PhysicalObject)
+  name: GetFoodMultiplier(PhysicalObject)
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_GetFoodMultiplier_PhysicalObject_
+  commentId: M:SlugBase.DataTypes.Diet.GetFoodMultiplier(PhysicalObject)
+  fullName: SlugBase.DataTypes.Diet.GetFoodMultiplier(PhysicalObject)
+  nameWithType: Diet.GetFoodMultiplier(PhysicalObject)
+- uid: SlugBase.DataTypes.Diet.GetFoodMultiplier*
+  name: GetFoodMultiplier
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_GetFoodMultiplier_
+  commentId: Overload:SlugBase.DataTypes.Diet.GetFoodMultiplier
+  fullName: SlugBase.DataTypes.Diet.GetFoodMultiplier
+  nameWithType: Diet.GetFoodMultiplier
+- uid: SlugBase.DataTypes.Diet.GetMeatMultiplier(Player,Creature)
+  name: GetMeatMultiplier(Player, Creature)
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_GetMeatMultiplier_Player_Creature_
+  commentId: M:SlugBase.DataTypes.Diet.GetMeatMultiplier(Player,Creature)
+  fullName: SlugBase.DataTypes.Diet.GetMeatMultiplier(Player, Creature)
+  nameWithType: Diet.GetMeatMultiplier(Player, Creature)
+- uid: SlugBase.DataTypes.Diet.GetMeatMultiplier*
+  name: GetMeatMultiplier
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_GetMeatMultiplier_
+  commentId: Overload:SlugBase.DataTypes.Diet.GetMeatMultiplier
+  fullName: SlugBase.DataTypes.Diet.GetMeatMultiplier
+  nameWithType: Diet.GetMeatMultiplier
+- uid: SlugBase.DataTypes.Diet.Meat
+  name: Meat
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_Meat
+  commentId: P:SlugBase.DataTypes.Diet.Meat
+  fullName: SlugBase.DataTypes.Diet.Meat
+  nameWithType: Diet.Meat
+- uid: SlugBase.DataTypes.Diet.Meat*
+  name: Meat
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_Meat_
+  commentId: Overload:SlugBase.DataTypes.Diet.Meat
+  fullName: SlugBase.DataTypes.Diet.Meat
+  nameWithType: Diet.Meat
+- uid: SlugBase.DataTypes.Diet.ObjectOverrides
+  name: ObjectOverrides
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_ObjectOverrides
+  commentId: P:SlugBase.DataTypes.Diet.ObjectOverrides
+  fullName: SlugBase.DataTypes.Diet.ObjectOverrides
+  nameWithType: Diet.ObjectOverrides
+- uid: SlugBase.DataTypes.Diet.ObjectOverrides*
+  name: ObjectOverrides
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_ObjectOverrides_
+  commentId: Overload:SlugBase.DataTypes.Diet.ObjectOverrides
+  fullName: SlugBase.DataTypes.Diet.ObjectOverrides
+  nameWithType: Diet.ObjectOverrides
+- uid: SlugBase.DataTypes.Diet.Plants
+  name: Plants
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_Plants
+  commentId: P:SlugBase.DataTypes.Diet.Plants
+  fullName: SlugBase.DataTypes.Diet.Plants
+  nameWithType: Diet.Plants
+- uid: SlugBase.DataTypes.Diet.Plants*
+  name: Plants
+  href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_Plants_
+  commentId: Overload:SlugBase.DataTypes.Diet.Plants
+  fullName: SlugBase.DataTypes.Diet.Plants
+  nameWithType: Diet.Plants
+- uid: SlugBase.DataTypes.PlayerColor
+  name: PlayerColor
+  href: api/SlugBase.DataTypes.PlayerColor.html
+  commentId: T:SlugBase.DataTypes.PlayerColor
+  fullName: SlugBase.DataTypes.PlayerColor
+  nameWithType: PlayerColor
+- uid: SlugBase.DataTypes.PlayerColor.#ctor(SlugBase.JsonAny)
+  name: PlayerColor(JsonAny)
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_SlugBase_JsonAny_
+  commentId: M:SlugBase.DataTypes.PlayerColor.#ctor(SlugBase.JsonAny)
+  fullName: SlugBase.DataTypes.PlayerColor.PlayerColor(SlugBase.JsonAny)
+  nameWithType: PlayerColor.PlayerColor(JsonAny)
+- uid: SlugBase.DataTypes.PlayerColor.#ctor(System.String)
+  name: PlayerColor(String)
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_System_String_
+  commentId: M:SlugBase.DataTypes.PlayerColor.#ctor(System.String)
+  fullName: SlugBase.DataTypes.PlayerColor.PlayerColor(System.String)
+  nameWithType: PlayerColor.PlayerColor(String)
+- uid: SlugBase.DataTypes.PlayerColor.#ctor(UnityEngine.Color)
+  name: PlayerColor(Color)
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_UnityEngine_Color_
+  commentId: M:SlugBase.DataTypes.PlayerColor.#ctor(UnityEngine.Color)
+  fullName: SlugBase.DataTypes.PlayerColor.PlayerColor(UnityEngine.Color)
+  nameWithType: PlayerColor.PlayerColor(Color)
+- uid: SlugBase.DataTypes.PlayerColor.#ctor*
+  name: PlayerColor
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_
+  commentId: Overload:SlugBase.DataTypes.PlayerColor.#ctor
+  fullName: SlugBase.DataTypes.PlayerColor.PlayerColor
+  nameWithType: PlayerColor.PlayerColor
+- uid: SlugBase.DataTypes.PlayerColor.Body
+  name: Body
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_Body
+  commentId: F:SlugBase.DataTypes.PlayerColor.Body
+  fullName: SlugBase.DataTypes.PlayerColor.Body
+  nameWithType: PlayerColor.Body
+- uid: SlugBase.DataTypes.PlayerColor.Eyes
+  name: Eyes
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_Eyes
+  commentId: F:SlugBase.DataTypes.PlayerColor.Eyes
+  fullName: SlugBase.DataTypes.PlayerColor.Eyes
+  nameWithType: PlayerColor.Eyes
+- uid: SlugBase.DataTypes.PlayerColor.GetColor(PlayerGraphics)
+  name: GetColor(PlayerGraphics)
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_GetColor_PlayerGraphics_
+  commentId: M:SlugBase.DataTypes.PlayerColor.GetColor(PlayerGraphics)
+  fullName: SlugBase.DataTypes.PlayerColor.GetColor(PlayerGraphics)
+  nameWithType: PlayerColor.GetColor(PlayerGraphics)
+- uid: SlugBase.DataTypes.PlayerColor.GetColor*
+  name: GetColor
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_GetColor_
+  commentId: Overload:SlugBase.DataTypes.PlayerColor.GetColor
+  fullName: SlugBase.DataTypes.PlayerColor.GetColor
+  nameWithType: PlayerColor.GetColor
+- uid: SlugBase.DataTypes.RepOverride
+  name: RepOverride
+  href: api/SlugBase.DataTypes.RepOverride.html
+  commentId: T:SlugBase.DataTypes.RepOverride
+  fullName: SlugBase.DataTypes.RepOverride
+  nameWithType: RepOverride
+- uid: SlugBase.DataTypes.RepOverride.#ctor(SlugBase.JsonAny)
+  name: RepOverride(JsonAny)
+  href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride__ctor_SlugBase_JsonAny_
+  commentId: M:SlugBase.DataTypes.RepOverride.#ctor(SlugBase.JsonAny)
+  fullName: SlugBase.DataTypes.RepOverride.RepOverride(SlugBase.JsonAny)
+  nameWithType: RepOverride.RepOverride(JsonAny)
+- uid: SlugBase.DataTypes.RepOverride.#ctor(System.Single,System.Single,System.Boolean)
+  name: RepOverride(Single, Single, Boolean)
+  href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride__ctor_System_Single_System_Single_System_Boolean_
+  commentId: M:SlugBase.DataTypes.RepOverride.#ctor(System.Single,System.Single,System.Boolean)
+  fullName: SlugBase.DataTypes.RepOverride.RepOverride(System.Single, System.Single, System.Boolean)
+  nameWithType: RepOverride.RepOverride(Single, Single, Boolean)
+- uid: SlugBase.DataTypes.RepOverride.#ctor*
+  name: RepOverride
+  href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride__ctor_
+  commentId: Overload:SlugBase.DataTypes.RepOverride.#ctor
+  fullName: SlugBase.DataTypes.RepOverride.RepOverride
+  nameWithType: RepOverride.RepOverride
+- uid: SlugBase.DataTypes.RepOverride.Locked
+  name: Locked
+  href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride_Locked
+  commentId: F:SlugBase.DataTypes.RepOverride.Locked
+  fullName: SlugBase.DataTypes.RepOverride.Locked
+  nameWithType: RepOverride.Locked
+- uid: SlugBase.DataTypes.RepOverride.Strength
+  name: Strength
+  href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride_Strength
+  commentId: F:SlugBase.DataTypes.RepOverride.Strength
+  fullName: SlugBase.DataTypes.RepOverride.Strength
+  nameWithType: RepOverride.Strength
+- uid: SlugBase.DataTypes.RepOverride.Target
+  name: Target
+  href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride_Target
+  commentId: F:SlugBase.DataTypes.RepOverride.Target
+  fullName: SlugBase.DataTypes.RepOverride.Target
+  nameWithType: RepOverride.Target
+- uid: SlugBase.Features
+  name: SlugBase.Features
+  href: api/SlugBase.Features.html
+  commentId: N:SlugBase.Features
+  fullName: SlugBase.Features
+  nameWithType: SlugBase.Features
+- uid: SlugBase.Features.Data
+  name: Data
+  href: api/SlugBase.Features.Data.html
+  commentId: T:SlugBase.Features.Data
+  fullName: SlugBase.Features.Data
+  nameWithType: Data
+- uid: SlugBase.Features.Data.#ctor(SlugBase.Features.Feature)
+  name: Data(Feature)
+  href: api/SlugBase.Features.Data.html#SlugBase_Features_Data__ctor_SlugBase_Features_Feature_
+  commentId: M:SlugBase.Features.Data.#ctor(SlugBase.Features.Feature)
+  fullName: SlugBase.Features.Data.Data(SlugBase.Features.Feature)
+  nameWithType: Data.Data(Feature)
+- uid: SlugBase.Features.Data.#ctor*
+  name: Data
+  href: api/SlugBase.Features.Data.html#SlugBase_Features_Data__ctor_
+  commentId: Overload:SlugBase.Features.Data.#ctor
+  fullName: SlugBase.Features.Data.Data
+  nameWithType: Data.Data
+- uid: SlugBase.Features.Data.RequiredFeature
+  name: RequiredFeature
+  href: api/SlugBase.Features.Data.html#SlugBase_Features_Data_RequiredFeature
+  commentId: P:SlugBase.Features.Data.RequiredFeature
+  fullName: SlugBase.Features.Data.RequiredFeature
+  nameWithType: Data.RequiredFeature
+- uid: SlugBase.Features.Data.RequiredFeature*
+  name: RequiredFeature
+  href: api/SlugBase.Features.Data.html#SlugBase_Features_Data_RequiredFeature_
+  commentId: Overload:SlugBase.Features.Data.RequiredFeature
+  fullName: SlugBase.Features.Data.RequiredFeature
+  nameWithType: Data.RequiredFeature
+- uid: SlugBase.Features.Data.TryUnbox*
+  name: TryUnbox
+  href: api/SlugBase.Features.Data.html#SlugBase_Features_Data_TryUnbox_
+  commentId: Overload:SlugBase.Features.Data.TryUnbox
+  fullName: SlugBase.Features.Data.TryUnbox
+  nameWithType: Data.TryUnbox
+- uid: SlugBase.Features.Data.TryUnbox``1(System.Runtime.CompilerServices.StrongBox{``0},``0@)
+  name: TryUnbox<T>(StrongBox<T>, out T)
+  href: api/SlugBase.Features.Data.html#SlugBase_Features_Data_TryUnbox__1_System_Runtime_CompilerServices_StrongBox___0____0__
+  commentId: M:SlugBase.Features.Data.TryUnbox``1(System.Runtime.CompilerServices.StrongBox{``0},``0@)
+  name.vb: TryUnbox(Of T)(StrongBox(Of T), ByRef T)
+  fullName: SlugBase.Features.Data.TryUnbox<T>(System.Runtime.CompilerServices.StrongBox<T>, out T)
+  fullName.vb: SlugBase.Features.Data.TryUnbox(Of T)(System.Runtime.CompilerServices.StrongBox(Of T), ByRef T)
+  nameWithType: Data.TryUnbox<T>(StrongBox<T>, out T)
+  nameWithType.vb: Data.TryUnbox(Of T)(StrongBox(Of T), ByRef T)
+- uid: SlugBase.Features.Data`2
+  name: Data<THolder, TValue>
+  href: api/SlugBase.Features.Data-2.html
+  commentId: T:SlugBase.Features.Data`2
+  name.vb: Data(Of THolder, TValue)
+  fullName: SlugBase.Features.Data<THolder, TValue>
+  fullName.vb: SlugBase.Features.Data(Of THolder, TValue)
+  nameWithType: Data<THolder, TValue>
+  nameWithType.vb: Data(Of THolder, TValue)
+- uid: SlugBase.Features.Data`2.#ctor(SlugBase.Features.Feature)
+  name: Data(Feature)
+  href: api/SlugBase.Features.Data-2.html#SlugBase_Features_Data_2__ctor_SlugBase_Features_Feature_
+  commentId: M:SlugBase.Features.Data`2.#ctor(SlugBase.Features.Feature)
+  fullName: SlugBase.Features.Data<THolder, TValue>.Data(SlugBase.Features.Feature)
+  fullName.vb: SlugBase.Features.Data(Of THolder, TValue).Data(SlugBase.Features.Feature)
+  nameWithType: Data<THolder, TValue>.Data(Feature)
+  nameWithType.vb: Data(Of THolder, TValue).Data(Feature)
+- uid: SlugBase.Features.Data`2.#ctor*
+  name: Data
+  href: api/SlugBase.Features.Data-2.html#SlugBase_Features_Data_2__ctor_
+  commentId: Overload:SlugBase.Features.Data`2.#ctor
+  fullName: SlugBase.Features.Data<THolder, TValue>.Data
+  fullName.vb: SlugBase.Features.Data(Of THolder, TValue).Data
+  nameWithType: Data<THolder, TValue>.Data
+  nameWithType.vb: Data(Of THolder, TValue).Data
+- uid: SlugBase.Features.Data`2.Get(SlugBase.SlugBaseCharacter,`0)
+  name: Get(SlugBaseCharacter, THolder)
+  href: api/SlugBase.Features.Data-2.html#SlugBase_Features_Data_2_Get_SlugBase_SlugBaseCharacter__0_
+  commentId: M:SlugBase.Features.Data`2.Get(SlugBase.SlugBaseCharacter,`0)
+  fullName: SlugBase.Features.Data<THolder, TValue>.Get(SlugBase.SlugBaseCharacter, THolder)
+  fullName.vb: SlugBase.Features.Data(Of THolder, TValue).Get(SlugBase.SlugBaseCharacter, THolder)
+  nameWithType: Data<THolder, TValue>.Get(SlugBaseCharacter, THolder)
+  nameWithType.vb: Data(Of THolder, TValue).Get(SlugBaseCharacter, THolder)
+- uid: SlugBase.Features.Data`2.Get*
+  name: Get
+  href: api/SlugBase.Features.Data-2.html#SlugBase_Features_Data_2_Get_
+  commentId: Overload:SlugBase.Features.Data`2.Get
+  fullName: SlugBase.Features.Data<THolder, TValue>.Get
+  fullName.vb: SlugBase.Features.Data(Of THolder, TValue).Get
+  nameWithType: Data<THolder, TValue>.Get
+  nameWithType.vb: Data(Of THolder, TValue).Get
+- uid: SlugBase.Features.Feature
+  name: Feature
+  href: api/SlugBase.Features.Feature.html
+  commentId: T:SlugBase.Features.Feature
+  fullName: SlugBase.Features.Feature
+  nameWithType: Feature
+- uid: SlugBase.Features.Feature.#ctor(System.String)
+  name: Feature(String)
+  href: api/SlugBase.Features.Feature.html#SlugBase_Features_Feature__ctor_System_String_
+  commentId: M:SlugBase.Features.Feature.#ctor(System.String)
+  fullName: SlugBase.Features.Feature.Feature(System.String)
+  nameWithType: Feature.Feature(String)
+- uid: SlugBase.Features.Feature.#ctor*
+  name: Feature
+  href: api/SlugBase.Features.Feature.html#SlugBase_Features_Feature__ctor_
+  commentId: Overload:SlugBase.Features.Feature.#ctor
+  fullName: SlugBase.Features.Feature.Feature
+  nameWithType: Feature.Feature
+- uid: SlugBase.Features.Feature.ID
+  name: ID
+  href: api/SlugBase.Features.Feature.html#SlugBase_Features_Feature_ID
+  commentId: P:SlugBase.Features.Feature.ID
+  fullName: SlugBase.Features.Feature.ID
+  nameWithType: Feature.ID
+- uid: SlugBase.Features.Feature.ID*
+  name: ID
+  href: api/SlugBase.Features.Feature.html#SlugBase_Features_Feature_ID_
+  commentId: Overload:SlugBase.Features.Feature.ID
+  fullName: SlugBase.Features.Feature.ID
+  nameWithType: Feature.ID
+- uid: SlugBase.Features.Feature`1
+  name: Feature<T>
+  href: api/SlugBase.Features.Feature-1.html
+  commentId: T:SlugBase.Features.Feature`1
+  name.vb: Feature(Of T)
+  fullName: SlugBase.Features.Feature<T>
+  fullName.vb: SlugBase.Features.Feature(Of T)
+  nameWithType: Feature<T>
+  nameWithType.vb: Feature(Of T)
+- uid: SlugBase.Features.Feature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
+  name: Feature(String, Func<JsonAny, T>)
+  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1__ctor_System_String_System_Func_SlugBase_JsonAny__0__
+  commentId: M:SlugBase.Features.Feature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
+  name.vb: Feature(String, Func(Of JsonAny, T))
+  fullName: SlugBase.Features.Feature<T>.Feature(System.String, System.Func<SlugBase.JsonAny, T>)
+  fullName.vb: SlugBase.Features.Feature(Of T).Feature(System.String, System.Func(Of SlugBase.JsonAny, T))
+  nameWithType: Feature<T>.Feature(String, Func<JsonAny, T>)
+  nameWithType.vb: Feature(Of T).Feature(String, Func(Of JsonAny, T))
+- uid: SlugBase.Features.Feature`1.#ctor*
+  name: Feature
+  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1__ctor_
+  commentId: Overload:SlugBase.Features.Feature`1.#ctor
+  fullName: SlugBase.Features.Feature<T>.Feature
+  fullName.vb: SlugBase.Features.Feature(Of T).Feature
+  nameWithType: Feature<T>.Feature
+  nameWithType.vb: Feature(Of T).Feature
+- uid: SlugBase.Features.Feature`1.TryGet(SlugBase.SlugBaseCharacter,`0@)
+  name: TryGet(SlugBaseCharacter, out T)
+  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1_TryGet_SlugBase_SlugBaseCharacter__0__
+  commentId: M:SlugBase.Features.Feature`1.TryGet(SlugBase.SlugBaseCharacter,`0@)
+  name.vb: TryGet(SlugBaseCharacter, ByRef T)
+  fullName: SlugBase.Features.Feature<T>.TryGet(SlugBase.SlugBaseCharacter, out T)
+  fullName.vb: SlugBase.Features.Feature(Of T).TryGet(SlugBase.SlugBaseCharacter, ByRef T)
+  nameWithType: Feature<T>.TryGet(SlugBaseCharacter, out T)
+  nameWithType.vb: Feature(Of T).TryGet(SlugBaseCharacter, ByRef T)
+- uid: SlugBase.Features.Feature`1.TryGet*
+  name: TryGet
+  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1_TryGet_
+  commentId: Overload:SlugBase.Features.Feature`1.TryGet
+  fullName: SlugBase.Features.Feature<T>.TryGet
+  fullName.vb: SlugBase.Features.Feature(Of T).TryGet
+  nameWithType: Feature<T>.TryGet
+  nameWithType.vb: Feature(Of T).TryGet
+- uid: SlugBase.Features.FeatureTypes
+  name: FeatureTypes
+  href: api/SlugBase.Features.FeatureTypes.html
+  commentId: T:SlugBase.Features.FeatureTypes
+  fullName: SlugBase.Features.FeatureTypes
+  nameWithType: FeatureTypes
+- uid: SlugBase.Features.FeatureTypes.GameBool(System.String)
+  name: GameBool(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameBool_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameBool(System.String)
+  fullName: SlugBase.Features.FeatureTypes.GameBool(System.String)
+  nameWithType: FeatureTypes.GameBool(String)
+- uid: SlugBase.Features.FeatureTypes.GameBool*
+  name: GameBool
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameBool_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameBool
+  fullName: SlugBase.Features.FeatureTypes.GameBool
+  nameWithType: FeatureTypes.GameBool
+- uid: SlugBase.Features.FeatureTypes.GameColor(System.String)
+  name: GameColor(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameColor_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameColor(System.String)
+  fullName: SlugBase.Features.FeatureTypes.GameColor(System.String)
+  nameWithType: FeatureTypes.GameColor(String)
+- uid: SlugBase.Features.FeatureTypes.GameColor*
+  name: GameColor
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameColor_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameColor
+  fullName: SlugBase.Features.FeatureTypes.GameColor
+  nameWithType: FeatureTypes.GameColor
+- uid: SlugBase.Features.FeatureTypes.GameCustomColor(System.String)
+  name: GameCustomColor(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameCustomColor_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameCustomColor(System.String)
+  fullName: SlugBase.Features.FeatureTypes.GameCustomColor(System.String)
+  nameWithType: FeatureTypes.GameCustomColor(String)
+- uid: SlugBase.Features.FeatureTypes.GameCustomColor*
+  name: GameCustomColor
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameCustomColor_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameCustomColor
+  fullName: SlugBase.Features.FeatureTypes.GameCustomColor
+  nameWithType: FeatureTypes.GameCustomColor
+- uid: SlugBase.Features.FeatureTypes.GameDouble(System.String)
+  name: GameDouble(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameDouble_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameDouble(System.String)
+  fullName: SlugBase.Features.FeatureTypes.GameDouble(System.String)
+  nameWithType: FeatureTypes.GameDouble(String)
+- uid: SlugBase.Features.FeatureTypes.GameDouble*
+  name: GameDouble
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameDouble_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameDouble
+  fullName: SlugBase.Features.FeatureTypes.GameDouble
+  nameWithType: FeatureTypes.GameDouble
+- uid: SlugBase.Features.FeatureTypes.GameDoubles(System.String,System.Int32,System.Int32)
+  name: GameDoubles(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameDoubles_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.GameDoubles(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.GameDoubles(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.GameDoubles(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.GameDoubles*
+  name: GameDoubles
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameDoubles_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameDoubles
+  fullName: SlugBase.Features.FeatureTypes.GameDoubles
+  nameWithType: FeatureTypes.GameDoubles
+- uid: SlugBase.Features.FeatureTypes.GameEnum*
+  name: GameEnum
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameEnum_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameEnum
+  fullName: SlugBase.Features.FeatureTypes.GameEnum
+  nameWithType: FeatureTypes.GameEnum
+- uid: SlugBase.Features.FeatureTypes.GameEnum``1(System.String)
+  name: GameEnum<T>(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameEnum__1_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameEnum``1(System.String)
+  name.vb: GameEnum(Of T)(String)
+  fullName: SlugBase.Features.FeatureTypes.GameEnum<T>(System.String)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameEnum(Of T)(System.String)
+  nameWithType: FeatureTypes.GameEnum<T>(String)
+  nameWithType.vb: FeatureTypes.GameEnum(Of T)(String)
+- uid: SlugBase.Features.FeatureTypes.GameExtEnum*
+  name: GameExtEnum
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameExtEnum_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameExtEnum
+  fullName: SlugBase.Features.FeatureTypes.GameExtEnum
+  nameWithType: FeatureTypes.GameExtEnum
+- uid: SlugBase.Features.FeatureTypes.GameExtEnum``1(System.String)
+  name: GameExtEnum<T>(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameExtEnum__1_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameExtEnum``1(System.String)
+  name.vb: GameExtEnum(Of T)(String)
+  fullName: SlugBase.Features.FeatureTypes.GameExtEnum<T>(System.String)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameExtEnum(Of T)(System.String)
+  nameWithType: FeatureTypes.GameExtEnum<T>(String)
+  nameWithType.vb: FeatureTypes.GameExtEnum(Of T)(String)
+- uid: SlugBase.Features.FeatureTypes.GameFloat(System.String)
+  name: GameFloat(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameFloat_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameFloat(System.String)
+  fullName: SlugBase.Features.FeatureTypes.GameFloat(System.String)
+  nameWithType: FeatureTypes.GameFloat(String)
+- uid: SlugBase.Features.FeatureTypes.GameFloat*
+  name: GameFloat
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameFloat_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameFloat
+  fullName: SlugBase.Features.FeatureTypes.GameFloat
+  nameWithType: FeatureTypes.GameFloat
+- uid: SlugBase.Features.FeatureTypes.GameFloats(System.String,System.Int32,System.Int32)
+  name: GameFloats(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameFloats_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.GameFloats(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.GameFloats(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.GameFloats(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.GameFloats*
+  name: GameFloats
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameFloats_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameFloats
+  fullName: SlugBase.Features.FeatureTypes.GameFloats
+  nameWithType: FeatureTypes.GameFloats
+- uid: SlugBase.Features.FeatureTypes.GameInt(System.String)
+  name: GameInt(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameInt_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameInt(System.String)
+  fullName: SlugBase.Features.FeatureTypes.GameInt(System.String)
+  nameWithType: FeatureTypes.GameInt(String)
+- uid: SlugBase.Features.FeatureTypes.GameInt*
+  name: GameInt
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameInt_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameInt
+  fullName: SlugBase.Features.FeatureTypes.GameInt
+  nameWithType: FeatureTypes.GameInt
+- uid: SlugBase.Features.FeatureTypes.GameInts(System.String,System.Int32,System.Int32)
+  name: GameInts(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameInts_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.GameInts(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.GameInts(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.GameInts(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.GameInts*
+  name: GameInts
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameInts_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameInts
+  fullName: SlugBase.Features.FeatureTypes.GameInts
+  nameWithType: FeatureTypes.GameInts
+- uid: SlugBase.Features.FeatureTypes.GameLong(System.String)
+  name: GameLong(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameLong_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameLong(System.String)
+  fullName: SlugBase.Features.FeatureTypes.GameLong(System.String)
+  nameWithType: FeatureTypes.GameLong(String)
+- uid: SlugBase.Features.FeatureTypes.GameLong*
+  name: GameLong
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameLong_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameLong
+  fullName: SlugBase.Features.FeatureTypes.GameLong
+  nameWithType: FeatureTypes.GameLong
+- uid: SlugBase.Features.FeatureTypes.GameLongs(System.String,System.Int32,System.Int32)
+  name: GameLongs(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameLongs_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.GameLongs(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.GameLongs(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.GameLongs(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.GameLongs*
+  name: GameLongs
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameLongs_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameLongs
+  fullName: SlugBase.Features.FeatureTypes.GameLongs
+  nameWithType: FeatureTypes.GameLongs
+- uid: SlugBase.Features.FeatureTypes.GameString(System.String)
+  name: GameString(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameString_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.GameString(System.String)
+  fullName: SlugBase.Features.FeatureTypes.GameString(System.String)
+  nameWithType: FeatureTypes.GameString(String)
+- uid: SlugBase.Features.FeatureTypes.GameString*
+  name: GameString
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameString_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameString
+  fullName: SlugBase.Features.FeatureTypes.GameString
+  nameWithType: FeatureTypes.GameString
+- uid: SlugBase.Features.FeatureTypes.GameStrings(System.String,System.Int32,System.Int32)
+  name: GameStrings(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameStrings_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.GameStrings(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.GameStrings(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.GameStrings(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.GameStrings*
+  name: GameStrings
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameStrings_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameStrings
+  fullName: SlugBase.Features.FeatureTypes.GameStrings
+  nameWithType: FeatureTypes.GameStrings
+- uid: SlugBase.Features.FeatureTypes.PlayerBool(System.String)
+  name: PlayerBool(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerBool_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerBool(System.String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerBool(System.String)
+  nameWithType: FeatureTypes.PlayerBool(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerBool*
+  name: PlayerBool
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerBool_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerBool
+  fullName: SlugBase.Features.FeatureTypes.PlayerBool
+  nameWithType: FeatureTypes.PlayerBool
+- uid: SlugBase.Features.FeatureTypes.PlayerColor(System.String)
+  name: PlayerColor(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerColor_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerColor(System.String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerColor(System.String)
+  nameWithType: FeatureTypes.PlayerColor(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerColor*
+  name: PlayerColor
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerColor_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerColor
+  fullName: SlugBase.Features.FeatureTypes.PlayerColor
+  nameWithType: FeatureTypes.PlayerColor
+- uid: SlugBase.Features.FeatureTypes.PlayerCustomColor(System.String)
+  name: PlayerCustomColor(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerCustomColor_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerCustomColor(System.String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerCustomColor(System.String)
+  nameWithType: FeatureTypes.PlayerCustomColor(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerCustomColor*
+  name: PlayerCustomColor
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerCustomColor_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerCustomColor
+  fullName: SlugBase.Features.FeatureTypes.PlayerCustomColor
+  nameWithType: FeatureTypes.PlayerCustomColor
+- uid: SlugBase.Features.FeatureTypes.PlayerDouble(System.String)
+  name: PlayerDouble(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerDouble_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerDouble(System.String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerDouble(System.String)
+  nameWithType: FeatureTypes.PlayerDouble(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerDouble*
+  name: PlayerDouble
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerDouble_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerDouble
+  fullName: SlugBase.Features.FeatureTypes.PlayerDouble
+  nameWithType: FeatureTypes.PlayerDouble
+- uid: SlugBase.Features.FeatureTypes.PlayerDoubles(System.String,System.Int32,System.Int32)
+  name: PlayerDoubles(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerDoubles_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerDoubles(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.PlayerDoubles(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.PlayerDoubles(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.PlayerDoubles*
+  name: PlayerDoubles
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerDoubles_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerDoubles
+  fullName: SlugBase.Features.FeatureTypes.PlayerDoubles
+  nameWithType: FeatureTypes.PlayerDoubles
+- uid: SlugBase.Features.FeatureTypes.PlayerEnum*
+  name: PlayerEnum
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerEnum_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerEnum
+  fullName: SlugBase.Features.FeatureTypes.PlayerEnum
+  nameWithType: FeatureTypes.PlayerEnum
+- uid: SlugBase.Features.FeatureTypes.PlayerEnum``1(System.String)
+  name: PlayerEnum<T>(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerEnum__1_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerEnum``1(System.String)
+  name.vb: PlayerEnum(Of T)(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerEnum<T>(System.String)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerEnum(Of T)(System.String)
+  nameWithType: FeatureTypes.PlayerEnum<T>(String)
+  nameWithType.vb: FeatureTypes.PlayerEnum(Of T)(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerExtEnum*
+  name: PlayerExtEnum
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerExtEnum_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerExtEnum
+  fullName: SlugBase.Features.FeatureTypes.PlayerExtEnum
+  nameWithType: FeatureTypes.PlayerExtEnum
+- uid: SlugBase.Features.FeatureTypes.PlayerExtEnum``1(System.String)
+  name: PlayerExtEnum<T>(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerExtEnum__1_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerExtEnum``1(System.String)
+  name.vb: PlayerExtEnum(Of T)(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerExtEnum<T>(System.String)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerExtEnum(Of T)(System.String)
+  nameWithType: FeatureTypes.PlayerExtEnum<T>(String)
+  nameWithType.vb: FeatureTypes.PlayerExtEnum(Of T)(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerFloat(System.String)
+  name: PlayerFloat(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerFloat_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerFloat(System.String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerFloat(System.String)
+  nameWithType: FeatureTypes.PlayerFloat(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerFloat*
+  name: PlayerFloat
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerFloat_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerFloat
+  fullName: SlugBase.Features.FeatureTypes.PlayerFloat
+  nameWithType: FeatureTypes.PlayerFloat
+- uid: SlugBase.Features.FeatureTypes.PlayerFloats(System.String,System.Int32,System.Int32)
+  name: PlayerFloats(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerFloats_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerFloats(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.PlayerFloats(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.PlayerFloats(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.PlayerFloats*
+  name: PlayerFloats
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerFloats_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerFloats
+  fullName: SlugBase.Features.FeatureTypes.PlayerFloats
+  nameWithType: FeatureTypes.PlayerFloats
+- uid: SlugBase.Features.FeatureTypes.PlayerInt(System.String)
+  name: PlayerInt(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerInt_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerInt(System.String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerInt(System.String)
+  nameWithType: FeatureTypes.PlayerInt(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerInt*
+  name: PlayerInt
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerInt_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerInt
+  fullName: SlugBase.Features.FeatureTypes.PlayerInt
+  nameWithType: FeatureTypes.PlayerInt
+- uid: SlugBase.Features.FeatureTypes.PlayerInts(System.String,System.Int32,System.Int32)
+  name: PlayerInts(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerInts_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerInts(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.PlayerInts(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.PlayerInts(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.PlayerInts*
+  name: PlayerInts
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerInts_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerInts
+  fullName: SlugBase.Features.FeatureTypes.PlayerInts
+  nameWithType: FeatureTypes.PlayerInts
+- uid: SlugBase.Features.FeatureTypes.PlayerLong(System.String)
+  name: PlayerLong(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerLong_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerLong(System.String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerLong(System.String)
+  nameWithType: FeatureTypes.PlayerLong(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerLong*
+  name: PlayerLong
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerLong_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerLong
+  fullName: SlugBase.Features.FeatureTypes.PlayerLong
+  nameWithType: FeatureTypes.PlayerLong
+- uid: SlugBase.Features.FeatureTypes.PlayerLongs(System.String,System.Int32,System.Int32)
+  name: PlayerLongs(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerLongs_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerLongs(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.PlayerLongs(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.PlayerLongs(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.PlayerLongs*
+  name: PlayerLongs
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerLongs_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerLongs
+  fullName: SlugBase.Features.FeatureTypes.PlayerLongs
+  nameWithType: FeatureTypes.PlayerLongs
+- uid: SlugBase.Features.FeatureTypes.PlayerString(System.String)
+  name: PlayerString(String)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerString_System_String_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerString(System.String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerString(System.String)
+  nameWithType: FeatureTypes.PlayerString(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerString*
+  name: PlayerString
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerString_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerString
+  fullName: SlugBase.Features.FeatureTypes.PlayerString
+  nameWithType: FeatureTypes.PlayerString
+- uid: SlugBase.Features.FeatureTypes.PlayerStrings(System.String,System.Int32,System.Int32)
+  name: PlayerStrings(String, Int32, Int32)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerStrings_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerStrings(System.String,System.Int32,System.Int32)
+  fullName: SlugBase.Features.FeatureTypes.PlayerStrings(System.String, System.Int32, System.Int32)
+  nameWithType: FeatureTypes.PlayerStrings(String, Int32, Int32)
+- uid: SlugBase.Features.FeatureTypes.PlayerStrings*
+  name: PlayerStrings
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerStrings_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerStrings
+  fullName: SlugBase.Features.FeatureTypes.PlayerStrings
+  nameWithType: FeatureTypes.PlayerStrings
+- uid: SlugBase.Features.GameData`1
+  name: GameData<TValue>
+  href: api/SlugBase.Features.GameData-1.html
+  commentId: T:SlugBase.Features.GameData`1
+  name.vb: GameData(Of TValue)
+  fullName: SlugBase.Features.GameData<TValue>
+  fullName.vb: SlugBase.Features.GameData(Of TValue)
+  nameWithType: GameData<TValue>
+  nameWithType.vb: GameData(Of TValue)
+- uid: SlugBase.Features.GameData`1.#ctor(SlugBase.Features.Feature)
+  name: GameData(Feature)
+  href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1__ctor_SlugBase_Features_Feature_
+  commentId: M:SlugBase.Features.GameData`1.#ctor(SlugBase.Features.Feature)
+  fullName: SlugBase.Features.GameData<TValue>.GameData(SlugBase.Features.Feature)
+  fullName.vb: SlugBase.Features.GameData(Of TValue).GameData(SlugBase.Features.Feature)
+  nameWithType: GameData<TValue>.GameData(Feature)
+  nameWithType.vb: GameData(Of TValue).GameData(Feature)
+- uid: SlugBase.Features.GameData`1.#ctor*
+  name: GameData
+  href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1__ctor_
+  commentId: Overload:SlugBase.Features.GameData`1.#ctor
+  fullName: SlugBase.Features.GameData<TValue>.GameData
+  fullName.vb: SlugBase.Features.GameData(Of TValue).GameData
+  nameWithType: GameData<TValue>.GameData
+  nameWithType.vb: GameData(Of TValue).GameData
+- uid: SlugBase.Features.GameData`1.Get(RainWorldGame)
+  name: Get(RainWorldGame)
+  href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1_Get_RainWorldGame_
+  commentId: M:SlugBase.Features.GameData`1.Get(RainWorldGame)
+  fullName: SlugBase.Features.GameData<TValue>.Get(RainWorldGame)
+  fullName.vb: SlugBase.Features.GameData(Of TValue).Get(RainWorldGame)
+  nameWithType: GameData<TValue>.Get(RainWorldGame)
+  nameWithType.vb: GameData(Of TValue).Get(RainWorldGame)
+- uid: SlugBase.Features.GameData`1.Get*
+  name: Get
+  href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1_Get_
+  commentId: Overload:SlugBase.Features.GameData`1.Get
+  fullName: SlugBase.Features.GameData<TValue>.Get
+  fullName.vb: SlugBase.Features.GameData(Of TValue).Get
+  nameWithType: GameData<TValue>.Get
+  nameWithType.vb: GameData(Of TValue).Get
+- uid: SlugBase.Features.GameData`1.TryGet(RainWorldGame,`0@)
+  name: TryGet(RainWorldGame, out TValue)
+  href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1_TryGet_RainWorldGame__0__
+  commentId: M:SlugBase.Features.GameData`1.TryGet(RainWorldGame,`0@)
+  name.vb: TryGet(RainWorldGame, ByRef TValue)
+  fullName: SlugBase.Features.GameData<TValue>.TryGet(RainWorldGame, out TValue)
+  fullName.vb: SlugBase.Features.GameData(Of TValue).TryGet(RainWorldGame, ByRef TValue)
+  nameWithType: GameData<TValue>.TryGet(RainWorldGame, out TValue)
+  nameWithType.vb: GameData(Of TValue).TryGet(RainWorldGame, ByRef TValue)
+- uid: SlugBase.Features.GameData`1.TryGet*
+  name: TryGet
+  href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1_TryGet_
+  commentId: Overload:SlugBase.Features.GameData`1.TryGet
+  fullName: SlugBase.Features.GameData<TValue>.TryGet
+  fullName.vb: SlugBase.Features.GameData(Of TValue).TryGet
+  nameWithType: GameData<TValue>.TryGet
+  nameWithType.vb: GameData(Of TValue).TryGet
+- uid: SlugBase.Features.GameFeature`1
+  name: GameFeature<T>
+  href: api/SlugBase.Features.GameFeature-1.html
+  commentId: T:SlugBase.Features.GameFeature`1
+  name.vb: GameFeature(Of T)
+  fullName: SlugBase.Features.GameFeature<T>
+  fullName.vb: SlugBase.Features.GameFeature(Of T)
+  nameWithType: GameFeature<T>
+  nameWithType.vb: GameFeature(Of T)
+- uid: SlugBase.Features.GameFeature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
+  name: GameFeature(String, Func<JsonAny, T>)
+  href: api/SlugBase.Features.GameFeature-1.html#SlugBase_Features_GameFeature_1__ctor_System_String_System_Func_SlugBase_JsonAny__0__
+  commentId: M:SlugBase.Features.GameFeature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
+  name.vb: GameFeature(String, Func(Of JsonAny, T))
+  fullName: SlugBase.Features.GameFeature<T>.GameFeature(System.String, System.Func<SlugBase.JsonAny, T>)
+  fullName.vb: SlugBase.Features.GameFeature(Of T).GameFeature(System.String, System.Func(Of SlugBase.JsonAny, T))
+  nameWithType: GameFeature<T>.GameFeature(String, Func<JsonAny, T>)
+  nameWithType.vb: GameFeature(Of T).GameFeature(String, Func(Of JsonAny, T))
+- uid: SlugBase.Features.GameFeature`1.#ctor*
+  name: GameFeature
+  href: api/SlugBase.Features.GameFeature-1.html#SlugBase_Features_GameFeature_1__ctor_
+  commentId: Overload:SlugBase.Features.GameFeature`1.#ctor
+  fullName: SlugBase.Features.GameFeature<T>.GameFeature
+  fullName.vb: SlugBase.Features.GameFeature(Of T).GameFeature
+  nameWithType: GameFeature<T>.GameFeature
+  nameWithType.vb: GameFeature(Of T).GameFeature
+- uid: SlugBase.Features.GameFeature`1.TryGet(RainWorldGame,`0@)
+  name: TryGet(RainWorldGame, out T)
+  href: api/SlugBase.Features.GameFeature-1.html#SlugBase_Features_GameFeature_1_TryGet_RainWorldGame__0__
+  commentId: M:SlugBase.Features.GameFeature`1.TryGet(RainWorldGame,`0@)
+  name.vb: TryGet(RainWorldGame, ByRef T)
+  fullName: SlugBase.Features.GameFeature<T>.TryGet(RainWorldGame, out T)
+  fullName.vb: SlugBase.Features.GameFeature(Of T).TryGet(RainWorldGame, ByRef T)
+  nameWithType: GameFeature<T>.TryGet(RainWorldGame, out T)
+  nameWithType.vb: GameFeature(Of T).TryGet(RainWorldGame, ByRef T)
+- uid: SlugBase.Features.GameFeature`1.TryGet*
+  name: TryGet
+  href: api/SlugBase.Features.GameFeature-1.html#SlugBase_Features_GameFeature_1_TryGet_
+  commentId: Overload:SlugBase.Features.GameFeature`1.TryGet
+  fullName: SlugBase.Features.GameFeature<T>.TryGet
+  fullName.vb: SlugBase.Features.GameFeature(Of T).TryGet
+  nameWithType: GameFeature<T>.TryGet
+  nameWithType.vb: GameFeature(Of T).TryGet
+- uid: SlugBase.Features.GameFeatures
+  name: GameFeatures
+  href: api/SlugBase.Features.GameFeatures.html
+  commentId: T:SlugBase.Features.GameFeatures
+  fullName: SlugBase.Features.GameFeatures
+  nameWithType: GameFeatures
+- uid: SlugBase.Features.GameFeatures.CycleLengthMax
+  name: CycleLengthMax
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_CycleLengthMax
+  commentId: F:SlugBase.Features.GameFeatures.CycleLengthMax
+  fullName: SlugBase.Features.GameFeatures.CycleLengthMax
+  nameWithType: GameFeatures.CycleLengthMax
+- uid: SlugBase.Features.GameFeatures.CycleLengthMin
+  name: CycleLengthMin
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_CycleLengthMin
+  commentId: F:SlugBase.Features.GameFeatures.CycleLengthMin
+  fullName: SlugBase.Features.GameFeatures.CycleLengthMin
+  nameWithType: GameFeatures.CycleLengthMin
+- uid: SlugBase.Features.GameFeatures.FoodMax
+  name: FoodMax
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_FoodMax
+  commentId: F:SlugBase.Features.GameFeatures.FoodMax
+  fullName: SlugBase.Features.GameFeatures.FoodMax
+  nameWithType: GameFeatures.FoodMax
+- uid: SlugBase.Features.GameFeatures.FoodMin
+  name: FoodMin
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_FoodMin
+  commentId: F:SlugBase.Features.GameFeatures.FoodMin
+  fullName: SlugBase.Features.GameFeatures.FoodMin
+  nameWithType: GameFeatures.FoodMin
+- uid: SlugBase.Features.GameFeatures.GuideOverseer
+  name: GuideOverseer
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_GuideOverseer
+  commentId: F:SlugBase.Features.GameFeatures.GuideOverseer
+  fullName: SlugBase.Features.GameFeatures.GuideOverseer
+  nameWithType: GameFeatures.GuideOverseer
+- uid: SlugBase.Features.GameFeatures.HasDreams
+  name: HasDreams
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_HasDreams
+  commentId: F:SlugBase.Features.GameFeatures.HasDreams
+  fullName: SlugBase.Features.GameFeatures.HasDreams
+  nameWithType: GameFeatures.HasDreams
+- uid: SlugBase.Features.GameFeatures.Karma
+  name: Karma
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_Karma
+  commentId: F:SlugBase.Features.GameFeatures.Karma
+  fullName: SlugBase.Features.GameFeatures.Karma
+  nameWithType: GameFeatures.Karma
+- uid: SlugBase.Features.GameFeatures.KarmaCap
+  name: KarmaCap
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_KarmaCap
+  commentId: F:SlugBase.Features.GameFeatures.KarmaCap
+  fullName: SlugBase.Features.GameFeatures.KarmaCap
+  nameWithType: GameFeatures.KarmaCap
+- uid: SlugBase.Features.GameFeatures.PermaUnlockGates
+  name: PermaUnlockGates
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_PermaUnlockGates
+  commentId: F:SlugBase.Features.GameFeatures.PermaUnlockGates
+  fullName: SlugBase.Features.GameFeatures.PermaUnlockGates
+  nameWithType: GameFeatures.PermaUnlockGates
+- uid: SlugBase.Features.GameFeatures.SelectMenuScene
+  name: SelectMenuScene
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_SelectMenuScene
+  commentId: F:SlugBase.Features.GameFeatures.SelectMenuScene
+  fullName: SlugBase.Features.GameFeatures.SelectMenuScene
+  nameWithType: GameFeatures.SelectMenuScene
+- uid: SlugBase.Features.GameFeatures.SelectMenuSceneAscended
+  name: SelectMenuSceneAscended
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_SelectMenuSceneAscended
+  commentId: F:SlugBase.Features.GameFeatures.SelectMenuSceneAscended
+  fullName: SlugBase.Features.GameFeatures.SelectMenuSceneAscended
+  nameWithType: GameFeatures.SelectMenuSceneAscended
+- uid: SlugBase.Features.GameFeatures.StartRoom
+  name: StartRoom
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_StartRoom
+  commentId: F:SlugBase.Features.GameFeatures.StartRoom
+  fullName: SlugBase.Features.GameFeatures.StartRoom
+  nameWithType: GameFeatures.StartRoom
+- uid: SlugBase.Features.GameFeatures.WorldState
+  name: WorldState
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_WorldState
+  commentId: F:SlugBase.Features.GameFeatures.WorldState
+  fullName: SlugBase.Features.GameFeatures.WorldState
+  nameWithType: GameFeatures.WorldState
+- uid: SlugBase.Features.PlayerData`1
+  name: PlayerData<TValue>
+  href: api/SlugBase.Features.PlayerData-1.html
+  commentId: T:SlugBase.Features.PlayerData`1
+  name.vb: PlayerData(Of TValue)
+  fullName: SlugBase.Features.PlayerData<TValue>
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue)
+  nameWithType: PlayerData<TValue>
+  nameWithType.vb: PlayerData(Of TValue)
+- uid: SlugBase.Features.PlayerData`1.#ctor(SlugBase.Features.Feature)
+  name: PlayerData(Feature)
+  href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1__ctor_SlugBase_Features_Feature_
+  commentId: M:SlugBase.Features.PlayerData`1.#ctor(SlugBase.Features.Feature)
+  fullName: SlugBase.Features.PlayerData<TValue>.PlayerData(SlugBase.Features.Feature)
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).PlayerData(SlugBase.Features.Feature)
+  nameWithType: PlayerData<TValue>.PlayerData(Feature)
+  nameWithType.vb: PlayerData(Of TValue).PlayerData(Feature)
+- uid: SlugBase.Features.PlayerData`1.#ctor*
+  name: PlayerData
+  href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1__ctor_
+  commentId: Overload:SlugBase.Features.PlayerData`1.#ctor
+  fullName: SlugBase.Features.PlayerData<TValue>.PlayerData
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).PlayerData
+  nameWithType: PlayerData<TValue>.PlayerData
+  nameWithType.vb: PlayerData(Of TValue).PlayerData
+- uid: SlugBase.Features.PlayerData`1.Get(Player)
+  name: Get(Player)
+  href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_Get_Player_
+  commentId: M:SlugBase.Features.PlayerData`1.Get(Player)
+  fullName: SlugBase.Features.PlayerData<TValue>.Get(Player)
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).Get(Player)
+  nameWithType: PlayerData<TValue>.Get(Player)
+  nameWithType.vb: PlayerData(Of TValue).Get(Player)
+- uid: SlugBase.Features.PlayerData`1.Get(PlayerState)
+  name: Get(PlayerState)
+  href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_Get_PlayerState_
+  commentId: M:SlugBase.Features.PlayerData`1.Get(PlayerState)
+  fullName: SlugBase.Features.PlayerData<TValue>.Get(PlayerState)
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).Get(PlayerState)
+  nameWithType: PlayerData<TValue>.Get(PlayerState)
+  nameWithType.vb: PlayerData(Of TValue).Get(PlayerState)
+- uid: SlugBase.Features.PlayerData`1.Get*
+  name: Get
+  href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_Get_
+  commentId: Overload:SlugBase.Features.PlayerData`1.Get
+  fullName: SlugBase.Features.PlayerData<TValue>.Get
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).Get
+  nameWithType: PlayerData<TValue>.Get
+  nameWithType.vb: PlayerData(Of TValue).Get
+- uid: SlugBase.Features.PlayerData`1.TryGet(Player,`0@)
+  name: TryGet(Player, out TValue)
+  href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_TryGet_Player__0__
+  commentId: M:SlugBase.Features.PlayerData`1.TryGet(Player,`0@)
+  name.vb: TryGet(Player, ByRef TValue)
+  fullName: SlugBase.Features.PlayerData<TValue>.TryGet(Player, out TValue)
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).TryGet(Player, ByRef TValue)
+  nameWithType: PlayerData<TValue>.TryGet(Player, out TValue)
+  nameWithType.vb: PlayerData(Of TValue).TryGet(Player, ByRef TValue)
+- uid: SlugBase.Features.PlayerData`1.TryGet(PlayerState,`0@)
+  name: TryGet(PlayerState, out TValue)
+  href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_TryGet_PlayerState__0__
+  commentId: M:SlugBase.Features.PlayerData`1.TryGet(PlayerState,`0@)
+  name.vb: TryGet(PlayerState, ByRef TValue)
+  fullName: SlugBase.Features.PlayerData<TValue>.TryGet(PlayerState, out TValue)
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).TryGet(PlayerState, ByRef TValue)
+  nameWithType: PlayerData<TValue>.TryGet(PlayerState, out TValue)
+  nameWithType.vb: PlayerData(Of TValue).TryGet(PlayerState, ByRef TValue)
+- uid: SlugBase.Features.PlayerData`1.TryGet*
+  name: TryGet
+  href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_TryGet_
+  commentId: Overload:SlugBase.Features.PlayerData`1.TryGet
+  fullName: SlugBase.Features.PlayerData<TValue>.TryGet
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).TryGet
+  nameWithType: PlayerData<TValue>.TryGet
+  nameWithType.vb: PlayerData(Of TValue).TryGet
+- uid: SlugBase.Features.PlayerFeature`1
+  name: PlayerFeature<T>
+  href: api/SlugBase.Features.PlayerFeature-1.html
+  commentId: T:SlugBase.Features.PlayerFeature`1
+  name.vb: PlayerFeature(Of T)
+  fullName: SlugBase.Features.PlayerFeature<T>
+  fullName.vb: SlugBase.Features.PlayerFeature(Of T)
+  nameWithType: PlayerFeature<T>
+  nameWithType.vb: PlayerFeature(Of T)
+- uid: SlugBase.Features.PlayerFeature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
+  name: PlayerFeature(String, Func<JsonAny, T>)
+  href: api/SlugBase.Features.PlayerFeature-1.html#SlugBase_Features_PlayerFeature_1__ctor_System_String_System_Func_SlugBase_JsonAny__0__
+  commentId: M:SlugBase.Features.PlayerFeature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
+  name.vb: PlayerFeature(String, Func(Of JsonAny, T))
+  fullName: SlugBase.Features.PlayerFeature<T>.PlayerFeature(System.String, System.Func<SlugBase.JsonAny, T>)
+  fullName.vb: SlugBase.Features.PlayerFeature(Of T).PlayerFeature(System.String, System.Func(Of SlugBase.JsonAny, T))
+  nameWithType: PlayerFeature<T>.PlayerFeature(String, Func<JsonAny, T>)
+  nameWithType.vb: PlayerFeature(Of T).PlayerFeature(String, Func(Of JsonAny, T))
+- uid: SlugBase.Features.PlayerFeature`1.#ctor*
+  name: PlayerFeature
+  href: api/SlugBase.Features.PlayerFeature-1.html#SlugBase_Features_PlayerFeature_1__ctor_
+  commentId: Overload:SlugBase.Features.PlayerFeature`1.#ctor
+  fullName: SlugBase.Features.PlayerFeature<T>.PlayerFeature
+  fullName.vb: SlugBase.Features.PlayerFeature(Of T).PlayerFeature
+  nameWithType: PlayerFeature<T>.PlayerFeature
+  nameWithType.vb: PlayerFeature(Of T).PlayerFeature
+- uid: SlugBase.Features.PlayerFeature`1.TryGet(Player,`0@)
+  name: TryGet(Player, out T)
+  href: api/SlugBase.Features.PlayerFeature-1.html#SlugBase_Features_PlayerFeature_1_TryGet_Player__0__
+  commentId: M:SlugBase.Features.PlayerFeature`1.TryGet(Player,`0@)
+  name.vb: TryGet(Player, ByRef T)
+  fullName: SlugBase.Features.PlayerFeature<T>.TryGet(Player, out T)
+  fullName.vb: SlugBase.Features.PlayerFeature(Of T).TryGet(Player, ByRef T)
+  nameWithType: PlayerFeature<T>.TryGet(Player, out T)
+  nameWithType.vb: PlayerFeature(Of T).TryGet(Player, ByRef T)
+- uid: SlugBase.Features.PlayerFeature`1.TryGet*
+  name: TryGet
+  href: api/SlugBase.Features.PlayerFeature-1.html#SlugBase_Features_PlayerFeature_1_TryGet_
+  commentId: Overload:SlugBase.Features.PlayerFeature`1.TryGet
+  fullName: SlugBase.Features.PlayerFeature<T>.TryGet
+  fullName.vb: SlugBase.Features.PlayerFeature(Of T).TryGet
+  nameWithType: PlayerFeature<T>.TryGet
+  nameWithType.vb: PlayerFeature(Of T).TryGet
+- uid: SlugBase.Features.PlayerFeatures
+  name: PlayerFeatures
+  href: api/SlugBase.Features.PlayerFeatures.html
+  commentId: T:SlugBase.Features.PlayerFeatures
+  fullName: SlugBase.Features.PlayerFeatures
+  nameWithType: PlayerFeatures
+- uid: SlugBase.Features.PlayerFeatures.AutoGrabFlies
+  name: AutoGrabFlies
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_AutoGrabFlies
+  commentId: F:SlugBase.Features.PlayerFeatures.AutoGrabFlies
+  fullName: SlugBase.Features.PlayerFeatures.AutoGrabFlies
+  nameWithType: PlayerFeatures.AutoGrabFlies
+- uid: SlugBase.Features.PlayerFeatures.ClimbSpeedMul
+  name: ClimbSpeedMul
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_ClimbSpeedMul
+  commentId: F:SlugBase.Features.PlayerFeatures.ClimbSpeedMul
+  fullName: SlugBase.Features.PlayerFeatures.ClimbSpeedMul
+  nameWithType: PlayerFeatures.ClimbSpeedMul
+- uid: SlugBase.Features.PlayerFeatures.CommunityAlignments
+  name: CommunityAlignments
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_CommunityAlignments
+  commentId: F:SlugBase.Features.PlayerFeatures.CommunityAlignments
+  fullName: SlugBase.Features.PlayerFeatures.CommunityAlignments
+  nameWithType: PlayerFeatures.CommunityAlignments
+- uid: SlugBase.Features.PlayerFeatures.CrouchStealth
+  name: CrouchStealth
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_CrouchStealth
+  commentId: F:SlugBase.Features.PlayerFeatures.CrouchStealth
+  fullName: SlugBase.Features.PlayerFeatures.CrouchStealth
+  nameWithType: PlayerFeatures.CrouchStealth
+- uid: SlugBase.Features.PlayerFeatures.CustomColors
+  name: CustomColors
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_CustomColors
+  commentId: F:SlugBase.Features.PlayerFeatures.CustomColors
+  fullName: SlugBase.Features.PlayerFeatures.CustomColors
+  nameWithType: PlayerFeatures.CustomColors
+- uid: SlugBase.Features.PlayerFeatures.Diet
+  name: Diet
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_Diet
+  commentId: F:SlugBase.Features.PlayerFeatures.Diet
+  fullName: SlugBase.Features.PlayerFeatures.Diet
+  nameWithType: PlayerFeatures.Diet
+- uid: SlugBase.Features.PlayerFeatures.LoudnessMul
+  name: LoudnessMul
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_LoudnessMul
+  commentId: F:SlugBase.Features.PlayerFeatures.LoudnessMul
+  fullName: SlugBase.Features.PlayerFeatures.LoudnessMul
+  nameWithType: PlayerFeatures.LoudnessMul
+- uid: SlugBase.Features.PlayerFeatures.LungsCapacityMul
+  name: LungsCapacityMul
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_LungsCapacityMul
+  commentId: F:SlugBase.Features.PlayerFeatures.LungsCapacityMul
+  fullName: SlugBase.Features.PlayerFeatures.LungsCapacityMul
+  nameWithType: PlayerFeatures.LungsCapacityMul
+- uid: SlugBase.Features.PlayerFeatures.SlugcatColor
+  name: SlugcatColor
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_SlugcatColor
+  commentId: F:SlugBase.Features.PlayerFeatures.SlugcatColor
+  fullName: SlugBase.Features.PlayerFeatures.SlugcatColor
+  nameWithType: PlayerFeatures.SlugcatColor
+- uid: SlugBase.Features.PlayerFeatures.ThrowSkill
+  name: ThrowSkill
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_ThrowSkill
+  commentId: F:SlugBase.Features.PlayerFeatures.ThrowSkill
+  fullName: SlugBase.Features.PlayerFeatures.ThrowSkill
+  nameWithType: PlayerFeatures.ThrowSkill
+- uid: SlugBase.Features.PlayerFeatures.TunnelSpeedMul
+  name: TunnelSpeedMul
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_TunnelSpeedMul
+  commentId: F:SlugBase.Features.PlayerFeatures.TunnelSpeedMul
+  fullName: SlugBase.Features.PlayerFeatures.TunnelSpeedMul
+  nameWithType: PlayerFeatures.TunnelSpeedMul
+- uid: SlugBase.Features.PlayerFeatures.WalkSpeedMul
+  name: WalkSpeedMul
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_WalkSpeedMul
+  commentId: F:SlugBase.Features.PlayerFeatures.WalkSpeedMul
+  fullName: SlugBase.Features.PlayerFeatures.WalkSpeedMul
+  nameWithType: PlayerFeatures.WalkSpeedMul
+- uid: SlugBase.Features.PlayerFeatures.WeightMul
+  name: WeightMul
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_WeightMul
+  commentId: F:SlugBase.Features.PlayerFeatures.WeightMul
+  fullName: SlugBase.Features.PlayerFeatures.WeightMul
+  nameWithType: PlayerFeatures.WeightMul
+- uid: SlugBase.JsonAny
+  name: JsonAny
+  href: api/SlugBase.JsonAny.html
+  commentId: T:SlugBase.JsonAny
+  fullName: SlugBase.JsonAny
+  nameWithType: JsonAny
+- uid: SlugBase.JsonAny.AsBool
+  name: AsBool()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsBool
+  commentId: M:SlugBase.JsonAny.AsBool
+  fullName: SlugBase.JsonAny.AsBool()
+  nameWithType: JsonAny.AsBool()
+- uid: SlugBase.JsonAny.AsBool(SlugBase.JsonAny)
+  name: AsBool(JsonAny)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsBool_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonAny.AsBool(SlugBase.JsonAny)
+  fullName: SlugBase.JsonAny.AsBool(SlugBase.JsonAny)
+  nameWithType: JsonAny.AsBool(JsonAny)
+- uid: SlugBase.JsonAny.AsBool*
+  name: AsBool
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsBool_
+  commentId: Overload:SlugBase.JsonAny.AsBool
+  fullName: SlugBase.JsonAny.AsBool
+  nameWithType: JsonAny.AsBool
+- uid: SlugBase.JsonAny.AsDouble
+  name: AsDouble()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsDouble
+  commentId: M:SlugBase.JsonAny.AsDouble
+  fullName: SlugBase.JsonAny.AsDouble()
+  nameWithType: JsonAny.AsDouble()
+- uid: SlugBase.JsonAny.AsDouble(SlugBase.JsonAny)
+  name: AsDouble(JsonAny)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsDouble_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonAny.AsDouble(SlugBase.JsonAny)
+  fullName: SlugBase.JsonAny.AsDouble(SlugBase.JsonAny)
+  nameWithType: JsonAny.AsDouble(JsonAny)
+- uid: SlugBase.JsonAny.AsDouble*
+  name: AsDouble
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsDouble_
+  commentId: Overload:SlugBase.JsonAny.AsDouble
+  fullName: SlugBase.JsonAny.AsDouble
+  nameWithType: JsonAny.AsDouble
+- uid: SlugBase.JsonAny.AsFloat
+  name: AsFloat()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsFloat
+  commentId: M:SlugBase.JsonAny.AsFloat
+  fullName: SlugBase.JsonAny.AsFloat()
+  nameWithType: JsonAny.AsFloat()
+- uid: SlugBase.JsonAny.AsFloat(SlugBase.JsonAny)
+  name: AsFloat(JsonAny)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsFloat_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonAny.AsFloat(SlugBase.JsonAny)
+  fullName: SlugBase.JsonAny.AsFloat(SlugBase.JsonAny)
+  nameWithType: JsonAny.AsFloat(JsonAny)
+- uid: SlugBase.JsonAny.AsFloat*
+  name: AsFloat
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsFloat_
+  commentId: Overload:SlugBase.JsonAny.AsFloat
+  fullName: SlugBase.JsonAny.AsFloat
+  nameWithType: JsonAny.AsFloat
+- uid: SlugBase.JsonAny.AsInt
+  name: AsInt()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsInt
+  commentId: M:SlugBase.JsonAny.AsInt
+  fullName: SlugBase.JsonAny.AsInt()
+  nameWithType: JsonAny.AsInt()
+- uid: SlugBase.JsonAny.AsInt(SlugBase.JsonAny)
+  name: AsInt(JsonAny)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsInt_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonAny.AsInt(SlugBase.JsonAny)
+  fullName: SlugBase.JsonAny.AsInt(SlugBase.JsonAny)
+  nameWithType: JsonAny.AsInt(JsonAny)
+- uid: SlugBase.JsonAny.AsInt*
+  name: AsInt
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsInt_
+  commentId: Overload:SlugBase.JsonAny.AsInt
+  fullName: SlugBase.JsonAny.AsInt
+  nameWithType: JsonAny.AsInt
+- uid: SlugBase.JsonAny.AsList
+  name: AsList()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsList
+  commentId: M:SlugBase.JsonAny.AsList
+  fullName: SlugBase.JsonAny.AsList()
+  nameWithType: JsonAny.AsList()
+- uid: SlugBase.JsonAny.AsList(SlugBase.JsonAny)
+  name: AsList(JsonAny)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsList_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonAny.AsList(SlugBase.JsonAny)
+  fullName: SlugBase.JsonAny.AsList(SlugBase.JsonAny)
+  nameWithType: JsonAny.AsList(JsonAny)
+- uid: SlugBase.JsonAny.AsList*
+  name: AsList
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsList_
+  commentId: Overload:SlugBase.JsonAny.AsList
+  fullName: SlugBase.JsonAny.AsList
+  nameWithType: JsonAny.AsList
+- uid: SlugBase.JsonAny.AsLong
+  name: AsLong()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsLong
+  commentId: M:SlugBase.JsonAny.AsLong
+  fullName: SlugBase.JsonAny.AsLong()
+  nameWithType: JsonAny.AsLong()
+- uid: SlugBase.JsonAny.AsLong(SlugBase.JsonAny)
+  name: AsLong(JsonAny)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsLong_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonAny.AsLong(SlugBase.JsonAny)
+  fullName: SlugBase.JsonAny.AsLong(SlugBase.JsonAny)
+  nameWithType: JsonAny.AsLong(JsonAny)
+- uid: SlugBase.JsonAny.AsLong*
+  name: AsLong
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsLong_
+  commentId: Overload:SlugBase.JsonAny.AsLong
+  fullName: SlugBase.JsonAny.AsLong
+  nameWithType: JsonAny.AsLong
+- uid: SlugBase.JsonAny.AsObject
+  name: AsObject()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsObject
+  commentId: M:SlugBase.JsonAny.AsObject
+  fullName: SlugBase.JsonAny.AsObject()
+  nameWithType: JsonAny.AsObject()
+- uid: SlugBase.JsonAny.AsObject(SlugBase.JsonAny)
+  name: AsObject(JsonAny)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsObject_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonAny.AsObject(SlugBase.JsonAny)
+  fullName: SlugBase.JsonAny.AsObject(SlugBase.JsonAny)
+  nameWithType: JsonAny.AsObject(JsonAny)
+- uid: SlugBase.JsonAny.AsObject*
+  name: AsObject
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsObject_
+  commentId: Overload:SlugBase.JsonAny.AsObject
+  fullName: SlugBase.JsonAny.AsObject
+  nameWithType: JsonAny.AsObject
+- uid: SlugBase.JsonAny.AsString
+  name: AsString()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsString
+  commentId: M:SlugBase.JsonAny.AsString
+  fullName: SlugBase.JsonAny.AsString()
+  nameWithType: JsonAny.AsString()
+- uid: SlugBase.JsonAny.AsString(SlugBase.JsonAny)
+  name: AsString(JsonAny)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsString_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonAny.AsString(SlugBase.JsonAny)
+  fullName: SlugBase.JsonAny.AsString(SlugBase.JsonAny)
+  nameWithType: JsonAny.AsString(JsonAny)
+- uid: SlugBase.JsonAny.AsString*
+  name: AsString
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_AsString_
+  commentId: Overload:SlugBase.JsonAny.AsString
+  fullName: SlugBase.JsonAny.AsString
+  nameWithType: JsonAny.AsString
+- uid: SlugBase.JsonAny.Element
+  name: JsonAny.Element
+  href: api/SlugBase.JsonAny.Element.html
+  commentId: T:SlugBase.JsonAny.Element
+  fullName: SlugBase.JsonAny.Element
+  nameWithType: JsonAny.Element
+- uid: SlugBase.JsonAny.Element.Bool
+  name: Bool
+  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Bool
+  commentId: F:SlugBase.JsonAny.Element.Bool
+  fullName: SlugBase.JsonAny.Element.Bool
+  nameWithType: JsonAny.Element.Bool
+- uid: SlugBase.JsonAny.Element.Float
+  name: Float
+  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Float
+  commentId: F:SlugBase.JsonAny.Element.Float
+  fullName: SlugBase.JsonAny.Element.Float
+  nameWithType: JsonAny.Element.Float
+- uid: SlugBase.JsonAny.Element.Integer
+  name: Integer
+  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Integer
+  commentId: F:SlugBase.JsonAny.Element.Integer
+  fullName: SlugBase.JsonAny.Element.Integer
+  nameWithType: JsonAny.Element.Integer
+- uid: SlugBase.JsonAny.Element.Invalid
+  name: Invalid
+  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Invalid
+  commentId: F:SlugBase.JsonAny.Element.Invalid
+  fullName: SlugBase.JsonAny.Element.Invalid
+  nameWithType: JsonAny.Element.Invalid
+- uid: SlugBase.JsonAny.Element.List
+  name: List
+  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_List
+  commentId: F:SlugBase.JsonAny.Element.List
+  fullName: SlugBase.JsonAny.Element.List
+  nameWithType: JsonAny.Element.List
+- uid: SlugBase.JsonAny.Element.Object
+  name: Object
+  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Object
+  commentId: F:SlugBase.JsonAny.Element.Object
+  fullName: SlugBase.JsonAny.Element.Object
+  nameWithType: JsonAny.Element.Object
+- uid: SlugBase.JsonAny.Element.String
+  name: String
+  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_String
+  commentId: F:SlugBase.JsonAny.Element.String
+  fullName: SlugBase.JsonAny.Element.String
+  nameWithType: JsonAny.Element.String
+- uid: SlugBase.JsonAny.Parse(System.String)
+  name: Parse(String)
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_Parse_System_String_
+  commentId: M:SlugBase.JsonAny.Parse(System.String)
+  fullName: SlugBase.JsonAny.Parse(System.String)
+  nameWithType: JsonAny.Parse(String)
+- uid: SlugBase.JsonAny.Parse*
+  name: Parse
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_Parse_
+  commentId: Overload:SlugBase.JsonAny.Parse
+  fullName: SlugBase.JsonAny.Parse
+  nameWithType: JsonAny.Parse
+- uid: SlugBase.JsonAny.TryBool
+  name: TryBool()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryBool
+  commentId: M:SlugBase.JsonAny.TryBool
+  fullName: SlugBase.JsonAny.TryBool()
+  nameWithType: JsonAny.TryBool()
+- uid: SlugBase.JsonAny.TryBool*
+  name: TryBool
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryBool_
+  commentId: Overload:SlugBase.JsonAny.TryBool
+  fullName: SlugBase.JsonAny.TryBool
+  nameWithType: JsonAny.TryBool
+- uid: SlugBase.JsonAny.TryDouble
+  name: TryDouble()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryDouble
+  commentId: M:SlugBase.JsonAny.TryDouble
+  fullName: SlugBase.JsonAny.TryDouble()
+  nameWithType: JsonAny.TryDouble()
+- uid: SlugBase.JsonAny.TryDouble*
+  name: TryDouble
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryDouble_
+  commentId: Overload:SlugBase.JsonAny.TryDouble
+  fullName: SlugBase.JsonAny.TryDouble
+  nameWithType: JsonAny.TryDouble
+- uid: SlugBase.JsonAny.TryFloat
+  name: TryFloat()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryFloat
+  commentId: M:SlugBase.JsonAny.TryFloat
+  fullName: SlugBase.JsonAny.TryFloat()
+  nameWithType: JsonAny.TryFloat()
+- uid: SlugBase.JsonAny.TryFloat*
+  name: TryFloat
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryFloat_
+  commentId: Overload:SlugBase.JsonAny.TryFloat
+  fullName: SlugBase.JsonAny.TryFloat
+  nameWithType: JsonAny.TryFloat
+- uid: SlugBase.JsonAny.TryInt
+  name: TryInt()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryInt
+  commentId: M:SlugBase.JsonAny.TryInt
+  fullName: SlugBase.JsonAny.TryInt()
+  nameWithType: JsonAny.TryInt()
+- uid: SlugBase.JsonAny.TryInt*
+  name: TryInt
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryInt_
+  commentId: Overload:SlugBase.JsonAny.TryInt
+  fullName: SlugBase.JsonAny.TryInt
+  nameWithType: JsonAny.TryInt
+- uid: SlugBase.JsonAny.TryList
+  name: TryList()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryList
+  commentId: M:SlugBase.JsonAny.TryList
+  fullName: SlugBase.JsonAny.TryList()
+  nameWithType: JsonAny.TryList()
+- uid: SlugBase.JsonAny.TryList*
+  name: TryList
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryList_
+  commentId: Overload:SlugBase.JsonAny.TryList
+  fullName: SlugBase.JsonAny.TryList
+  nameWithType: JsonAny.TryList
+- uid: SlugBase.JsonAny.TryLong
+  name: TryLong()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryLong
+  commentId: M:SlugBase.JsonAny.TryLong
+  fullName: SlugBase.JsonAny.TryLong()
+  nameWithType: JsonAny.TryLong()
+- uid: SlugBase.JsonAny.TryLong*
+  name: TryLong
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryLong_
+  commentId: Overload:SlugBase.JsonAny.TryLong
+  fullName: SlugBase.JsonAny.TryLong
+  nameWithType: JsonAny.TryLong
+- uid: SlugBase.JsonAny.TryObject
+  name: TryObject()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryObject
+  commentId: M:SlugBase.JsonAny.TryObject
+  fullName: SlugBase.JsonAny.TryObject()
+  nameWithType: JsonAny.TryObject()
+- uid: SlugBase.JsonAny.TryObject*
+  name: TryObject
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryObject_
+  commentId: Overload:SlugBase.JsonAny.TryObject
+  fullName: SlugBase.JsonAny.TryObject
+  nameWithType: JsonAny.TryObject
+- uid: SlugBase.JsonAny.TryString
+  name: TryString()
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryString
+  commentId: M:SlugBase.JsonAny.TryString
+  fullName: SlugBase.JsonAny.TryString()
+  nameWithType: JsonAny.TryString()
+- uid: SlugBase.JsonAny.TryString*
+  name: TryString
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_TryString_
+  commentId: Overload:SlugBase.JsonAny.TryString
+  fullName: SlugBase.JsonAny.TryString
+  nameWithType: JsonAny.TryString
+- uid: SlugBase.JsonAny.Type
+  name: Type
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_Type
+  commentId: P:SlugBase.JsonAny.Type
+  fullName: SlugBase.JsonAny.Type
+  nameWithType: JsonAny.Type
+- uid: SlugBase.JsonAny.Type*
+  name: Type
+  href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_Type_
+  commentId: Overload:SlugBase.JsonAny.Type
+  fullName: SlugBase.JsonAny.Type
+  nameWithType: JsonAny.Type
+- uid: SlugBase.JsonException
+  name: JsonException
+  href: api/SlugBase.JsonException.html
+  commentId: T:SlugBase.JsonException
+  fullName: SlugBase.JsonException
+  nameWithType: JsonException
+- uid: SlugBase.JsonException.#ctor
+  name: JsonException()
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor
+  commentId: M:SlugBase.JsonException.#ctor
+  fullName: SlugBase.JsonException.JsonException()
+  nameWithType: JsonException.JsonException()
+- uid: SlugBase.JsonException.#ctor(SlugBase.JsonAny)
+  name: JsonException(JsonAny)
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonException.#ctor(SlugBase.JsonAny)
+  fullName: SlugBase.JsonException.JsonException(SlugBase.JsonAny)
+  nameWithType: JsonException.JsonException(JsonAny)
+- uid: SlugBase.JsonException.#ctor(System.String,SlugBase.JsonAny)
+  name: JsonException(String, JsonAny)
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_System_String_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonException.#ctor(System.String,SlugBase.JsonAny)
+  fullName: SlugBase.JsonException.JsonException(System.String, SlugBase.JsonAny)
+  nameWithType: JsonException.JsonException(String, JsonAny)
+- uid: SlugBase.JsonException.#ctor(System.String,System.Exception,SlugBase.JsonAny)
+  name: JsonException(String, Exception, JsonAny)
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_System_String_System_Exception_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonException.#ctor(System.String,System.Exception,SlugBase.JsonAny)
+  fullName: SlugBase.JsonException.JsonException(System.String, System.Exception, SlugBase.JsonAny)
+  nameWithType: JsonException.JsonException(String, Exception, JsonAny)
+- uid: SlugBase.JsonException.#ctor(System.String,System.Exception)
+  name: JsonException(String, Exception)
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_System_String_System_Exception_
+  commentId: M:SlugBase.JsonException.#ctor(System.String,System.Exception)
+  fullName: SlugBase.JsonException.JsonException(System.String, System.Exception)
+  nameWithType: JsonException.JsonException(String, Exception)
+- uid: SlugBase.JsonException.#ctor(System.String)
+  name: JsonException(String)
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_System_String_
+  commentId: M:SlugBase.JsonException.#ctor(System.String)
+  fullName: SlugBase.JsonException.JsonException(System.String)
+  nameWithType: JsonException.JsonException(String)
+- uid: SlugBase.JsonException.#ctor*
+  name: JsonException
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_
+  commentId: Overload:SlugBase.JsonException.#ctor
+  fullName: SlugBase.JsonException.JsonException
+  nameWithType: JsonException.JsonException
+- uid: SlugBase.JsonException.JsonPath
+  name: JsonPath
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException_JsonPath
+  commentId: P:SlugBase.JsonException.JsonPath
+  fullName: SlugBase.JsonException.JsonPath
+  nameWithType: JsonException.JsonPath
+- uid: SlugBase.JsonException.JsonPath*
+  name: JsonPath
+  href: api/SlugBase.JsonException.html#SlugBase_JsonException_JsonPath_
+  commentId: Overload:SlugBase.JsonException.JsonPath
+  fullName: SlugBase.JsonException.JsonPath
+  nameWithType: JsonException.JsonPath
+- uid: SlugBase.JsonList
+  name: JsonList
+  href: api/SlugBase.JsonList.html
+  commentId: T:SlugBase.JsonList
+  fullName: SlugBase.JsonList
+  nameWithType: JsonList
+- uid: SlugBase.JsonList.Count
+  name: Count
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_Count
+  commentId: P:SlugBase.JsonList.Count
+  fullName: SlugBase.JsonList.Count
+  nameWithType: JsonList.Count
+- uid: SlugBase.JsonList.Count*
+  name: Count
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_Count_
+  commentId: Overload:SlugBase.JsonList.Count
+  fullName: SlugBase.JsonList.Count
+  nameWithType: JsonList.Count
+- uid: SlugBase.JsonList.Get(System.Int32)
+  name: Get(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_Get_System_Int32_
+  commentId: M:SlugBase.JsonList.Get(System.Int32)
+  fullName: SlugBase.JsonList.Get(System.Int32)
+  nameWithType: JsonList.Get(Int32)
+- uid: SlugBase.JsonList.Get*
+  name: Get
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_Get_
+  commentId: Overload:SlugBase.JsonList.Get
+  fullName: SlugBase.JsonList.Get
+  nameWithType: JsonList.Get
+- uid: SlugBase.JsonList.GetBool(System.Int32)
+  name: GetBool(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetBool_System_Int32_
+  commentId: M:SlugBase.JsonList.GetBool(System.Int32)
+  fullName: SlugBase.JsonList.GetBool(System.Int32)
+  nameWithType: JsonList.GetBool(Int32)
+- uid: SlugBase.JsonList.GetBool*
+  name: GetBool
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetBool_
+  commentId: Overload:SlugBase.JsonList.GetBool
+  fullName: SlugBase.JsonList.GetBool
+  nameWithType: JsonList.GetBool
+- uid: SlugBase.JsonList.GetDouble(System.Int32)
+  name: GetDouble(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetDouble_System_Int32_
+  commentId: M:SlugBase.JsonList.GetDouble(System.Int32)
+  fullName: SlugBase.JsonList.GetDouble(System.Int32)
+  nameWithType: JsonList.GetDouble(Int32)
+- uid: SlugBase.JsonList.GetDouble*
+  name: GetDouble
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetDouble_
+  commentId: Overload:SlugBase.JsonList.GetDouble
+  fullName: SlugBase.JsonList.GetDouble
+  nameWithType: JsonList.GetDouble
+- uid: SlugBase.JsonList.GetEnumerator
+  name: GetEnumerator()
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetEnumerator
+  commentId: M:SlugBase.JsonList.GetEnumerator
+  fullName: SlugBase.JsonList.GetEnumerator()
+  nameWithType: JsonList.GetEnumerator()
+- uid: SlugBase.JsonList.GetEnumerator*
+  name: GetEnumerator
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetEnumerator_
+  commentId: Overload:SlugBase.JsonList.GetEnumerator
+  fullName: SlugBase.JsonList.GetEnumerator
+  nameWithType: JsonList.GetEnumerator
+- uid: SlugBase.JsonList.GetFloat(System.Int32)
+  name: GetFloat(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetFloat_System_Int32_
+  commentId: M:SlugBase.JsonList.GetFloat(System.Int32)
+  fullName: SlugBase.JsonList.GetFloat(System.Int32)
+  nameWithType: JsonList.GetFloat(Int32)
+- uid: SlugBase.JsonList.GetFloat*
+  name: GetFloat
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetFloat_
+  commentId: Overload:SlugBase.JsonList.GetFloat
+  fullName: SlugBase.JsonList.GetFloat
+  nameWithType: JsonList.GetFloat
+- uid: SlugBase.JsonList.GetInt(System.Int32)
+  name: GetInt(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetInt_System_Int32_
+  commentId: M:SlugBase.JsonList.GetInt(System.Int32)
+  fullName: SlugBase.JsonList.GetInt(System.Int32)
+  nameWithType: JsonList.GetInt(Int32)
+- uid: SlugBase.JsonList.GetInt*
+  name: GetInt
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetInt_
+  commentId: Overload:SlugBase.JsonList.GetInt
+  fullName: SlugBase.JsonList.GetInt
+  nameWithType: JsonList.GetInt
+- uid: SlugBase.JsonList.GetList(System.Int32)
+  name: GetList(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetList_System_Int32_
+  commentId: M:SlugBase.JsonList.GetList(System.Int32)
+  fullName: SlugBase.JsonList.GetList(System.Int32)
+  nameWithType: JsonList.GetList(Int32)
+- uid: SlugBase.JsonList.GetList*
+  name: GetList
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetList_
+  commentId: Overload:SlugBase.JsonList.GetList
+  fullName: SlugBase.JsonList.GetList
+  nameWithType: JsonList.GetList
+- uid: SlugBase.JsonList.GetLong(System.Int32)
+  name: GetLong(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetLong_System_Int32_
+  commentId: M:SlugBase.JsonList.GetLong(System.Int32)
+  fullName: SlugBase.JsonList.GetLong(System.Int32)
+  nameWithType: JsonList.GetLong(Int32)
+- uid: SlugBase.JsonList.GetLong*
+  name: GetLong
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetLong_
+  commentId: Overload:SlugBase.JsonList.GetLong
+  fullName: SlugBase.JsonList.GetLong
+  nameWithType: JsonList.GetLong
+- uid: SlugBase.JsonList.GetObject(System.Int32)
+  name: GetObject(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetObject_System_Int32_
+  commentId: M:SlugBase.JsonList.GetObject(System.Int32)
+  fullName: SlugBase.JsonList.GetObject(System.Int32)
+  nameWithType: JsonList.GetObject(Int32)
+- uid: SlugBase.JsonList.GetObject*
+  name: GetObject
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetObject_
+  commentId: Overload:SlugBase.JsonList.GetObject
+  fullName: SlugBase.JsonList.GetObject
+  nameWithType: JsonList.GetObject
+- uid: SlugBase.JsonList.GetString(System.Int32)
+  name: GetString(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetString_System_Int32_
+  commentId: M:SlugBase.JsonList.GetString(System.Int32)
+  fullName: SlugBase.JsonList.GetString(System.Int32)
+  nameWithType: JsonList.GetString(Int32)
+- uid: SlugBase.JsonList.GetString*
+  name: GetString
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetString_
+  commentId: Overload:SlugBase.JsonList.GetString
+  fullName: SlugBase.JsonList.GetString
+  nameWithType: JsonList.GetString
+- uid: SlugBase.JsonList.Item(System.Int32)
+  name: Item[Int32]
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_Item_System_Int32_
+  commentId: P:SlugBase.JsonList.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: SlugBase.JsonList.Item[System.Int32]
+  fullName.vb: SlugBase.JsonList.Item(System.Int32)
+  nameWithType: JsonList.Item[Int32]
+  nameWithType.vb: JsonList.Item(Int32)
+- uid: SlugBase.JsonList.Item*
+  name: Item
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_Item_
+  commentId: Overload:SlugBase.JsonList.Item
+  fullName: SlugBase.JsonList.Item
+  nameWithType: JsonList.Item
+- uid: SlugBase.JsonList.op_Implicit(SlugBase.JsonList)~SlugBase.JsonAny
+  name: Implicit(JsonList to JsonAny)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_op_Implicit_SlugBase_JsonList__SlugBase_JsonAny
+  commentId: M:SlugBase.JsonList.op_Implicit(SlugBase.JsonList)~SlugBase.JsonAny
+  name.vb: Widening(JsonList to JsonAny)
+  fullName: SlugBase.JsonList.Implicit(SlugBase.JsonList to SlugBase.JsonAny)
+  fullName.vb: SlugBase.JsonList.Widening(SlugBase.JsonList to SlugBase.JsonAny)
+  nameWithType: JsonList.Implicit(JsonList to JsonAny)
+  nameWithType.vb: JsonList.Widening(JsonList to JsonAny)
+- uid: SlugBase.JsonList.op_Implicit*
+  name: Implicit
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_op_Implicit_
+  commentId: Overload:SlugBase.JsonList.op_Implicit
+  name.vb: Widening
+  fullName: SlugBase.JsonList.Implicit
+  fullName.vb: SlugBase.JsonList.Widening
+  nameWithType: JsonList.Implicit
+  nameWithType.vb: JsonList.Widening
+- uid: SlugBase.JsonList.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:SlugBase.JsonList.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: SlugBase.JsonList.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: JsonList.IEnumerable.GetEnumerator()
+  nameWithType.vb: JsonList.System.Collections.IEnumerable.GetEnumerator()
+- uid: SlugBase.JsonList.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:SlugBase.JsonList.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: SlugBase.JsonList.System.Collections.IEnumerable.GetEnumerator
+  nameWithType: JsonList.IEnumerable.GetEnumerator
+  nameWithType.vb: JsonList.System.Collections.IEnumerable.GetEnumerator
+- uid: SlugBase.JsonList.TryGet(System.Int32)
+  name: TryGet(Int32)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_TryGet_System_Int32_
+  commentId: M:SlugBase.JsonList.TryGet(System.Int32)
+  fullName: SlugBase.JsonList.TryGet(System.Int32)
+  nameWithType: JsonList.TryGet(Int32)
+- uid: SlugBase.JsonList.TryGet*
+  name: TryGet
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_TryGet_
+  commentId: Overload:SlugBase.JsonList.TryGet
+  fullName: SlugBase.JsonList.TryGet
+  nameWithType: JsonList.TryGet
+- uid: SlugBase.JsonObject
+  name: JsonObject
+  href: api/SlugBase.JsonObject.html
+  commentId: T:SlugBase.JsonObject
+  fullName: SlugBase.JsonObject
+  nameWithType: JsonObject
+- uid: SlugBase.JsonObject.Get(System.String)
+  name: Get(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_Get_System_String_
+  commentId: M:SlugBase.JsonObject.Get(System.String)
+  fullName: SlugBase.JsonObject.Get(System.String)
+  nameWithType: JsonObject.Get(String)
+- uid: SlugBase.JsonObject.Get*
+  name: Get
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_Get_
+  commentId: Overload:SlugBase.JsonObject.Get
+  fullName: SlugBase.JsonObject.Get
+  nameWithType: JsonObject.Get
+- uid: SlugBase.JsonObject.GetBool(System.String)
+  name: GetBool(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetBool_System_String_
+  commentId: M:SlugBase.JsonObject.GetBool(System.String)
+  fullName: SlugBase.JsonObject.GetBool(System.String)
+  nameWithType: JsonObject.GetBool(String)
+- uid: SlugBase.JsonObject.GetBool*
+  name: GetBool
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetBool_
+  commentId: Overload:SlugBase.JsonObject.GetBool
+  fullName: SlugBase.JsonObject.GetBool
+  nameWithType: JsonObject.GetBool
+- uid: SlugBase.JsonObject.GetDouble(System.String)
+  name: GetDouble(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetDouble_System_String_
+  commentId: M:SlugBase.JsonObject.GetDouble(System.String)
+  fullName: SlugBase.JsonObject.GetDouble(System.String)
+  nameWithType: JsonObject.GetDouble(String)
+- uid: SlugBase.JsonObject.GetDouble*
+  name: GetDouble
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetDouble_
+  commentId: Overload:SlugBase.JsonObject.GetDouble
+  fullName: SlugBase.JsonObject.GetDouble
+  nameWithType: JsonObject.GetDouble
+- uid: SlugBase.JsonObject.GetEnumerator
+  name: GetEnumerator()
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetEnumerator
+  commentId: M:SlugBase.JsonObject.GetEnumerator
+  fullName: SlugBase.JsonObject.GetEnumerator()
+  nameWithType: JsonObject.GetEnumerator()
+- uid: SlugBase.JsonObject.GetEnumerator*
+  name: GetEnumerator
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetEnumerator_
+  commentId: Overload:SlugBase.JsonObject.GetEnumerator
+  fullName: SlugBase.JsonObject.GetEnumerator
+  nameWithType: JsonObject.GetEnumerator
+- uid: SlugBase.JsonObject.GetFloat(System.String)
+  name: GetFloat(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetFloat_System_String_
+  commentId: M:SlugBase.JsonObject.GetFloat(System.String)
+  fullName: SlugBase.JsonObject.GetFloat(System.String)
+  nameWithType: JsonObject.GetFloat(String)
+- uid: SlugBase.JsonObject.GetFloat*
+  name: GetFloat
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetFloat_
+  commentId: Overload:SlugBase.JsonObject.GetFloat
+  fullName: SlugBase.JsonObject.GetFloat
+  nameWithType: JsonObject.GetFloat
+- uid: SlugBase.JsonObject.GetInt(System.String)
+  name: GetInt(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetInt_System_String_
+  commentId: M:SlugBase.JsonObject.GetInt(System.String)
+  fullName: SlugBase.JsonObject.GetInt(System.String)
+  nameWithType: JsonObject.GetInt(String)
+- uid: SlugBase.JsonObject.GetInt*
+  name: GetInt
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetInt_
+  commentId: Overload:SlugBase.JsonObject.GetInt
+  fullName: SlugBase.JsonObject.GetInt
+  nameWithType: JsonObject.GetInt
+- uid: SlugBase.JsonObject.GetList(System.String)
+  name: GetList(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetList_System_String_
+  commentId: M:SlugBase.JsonObject.GetList(System.String)
+  fullName: SlugBase.JsonObject.GetList(System.String)
+  nameWithType: JsonObject.GetList(String)
+- uid: SlugBase.JsonObject.GetList*
+  name: GetList
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetList_
+  commentId: Overload:SlugBase.JsonObject.GetList
+  fullName: SlugBase.JsonObject.GetList
+  nameWithType: JsonObject.GetList
+- uid: SlugBase.JsonObject.GetLong(System.String)
+  name: GetLong(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetLong_System_String_
+  commentId: M:SlugBase.JsonObject.GetLong(System.String)
+  fullName: SlugBase.JsonObject.GetLong(System.String)
+  nameWithType: JsonObject.GetLong(String)
+- uid: SlugBase.JsonObject.GetLong*
+  name: GetLong
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetLong_
+  commentId: Overload:SlugBase.JsonObject.GetLong
+  fullName: SlugBase.JsonObject.GetLong
+  nameWithType: JsonObject.GetLong
+- uid: SlugBase.JsonObject.GetObject(System.String)
+  name: GetObject(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetObject_System_String_
+  commentId: M:SlugBase.JsonObject.GetObject(System.String)
+  fullName: SlugBase.JsonObject.GetObject(System.String)
+  nameWithType: JsonObject.GetObject(String)
+- uid: SlugBase.JsonObject.GetObject*
+  name: GetObject
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetObject_
+  commentId: Overload:SlugBase.JsonObject.GetObject
+  fullName: SlugBase.JsonObject.GetObject
+  nameWithType: JsonObject.GetObject
+- uid: SlugBase.JsonObject.GetString(System.String)
+  name: GetString(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetString_System_String_
+  commentId: M:SlugBase.JsonObject.GetString(System.String)
+  fullName: SlugBase.JsonObject.GetString(System.String)
+  nameWithType: JsonObject.GetString(String)
+- uid: SlugBase.JsonObject.GetString*
+  name: GetString
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetString_
+  commentId: Overload:SlugBase.JsonObject.GetString
+  fullName: SlugBase.JsonObject.GetString
+  nameWithType: JsonObject.GetString
+- uid: SlugBase.JsonObject.Item(System.String)
+  name: Item[String]
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_Item_System_String_
+  commentId: P:SlugBase.JsonObject.Item(System.String)
+  name.vb: Item(String)
+  fullName: SlugBase.JsonObject.Item[System.String]
+  fullName.vb: SlugBase.JsonObject.Item(System.String)
+  nameWithType: JsonObject.Item[String]
+  nameWithType.vb: JsonObject.Item(String)
+- uid: SlugBase.JsonObject.Item*
+  name: Item
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_Item_
+  commentId: Overload:SlugBase.JsonObject.Item
+  fullName: SlugBase.JsonObject.Item
+  nameWithType: JsonObject.Item
+- uid: SlugBase.JsonObject.op_Implicit(SlugBase.JsonObject)~SlugBase.JsonAny
+  name: Implicit(JsonObject to JsonAny)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_op_Implicit_SlugBase_JsonObject__SlugBase_JsonAny
+  commentId: M:SlugBase.JsonObject.op_Implicit(SlugBase.JsonObject)~SlugBase.JsonAny
+  name.vb: Widening(JsonObject to JsonAny)
+  fullName: SlugBase.JsonObject.Implicit(SlugBase.JsonObject to SlugBase.JsonAny)
+  fullName.vb: SlugBase.JsonObject.Widening(SlugBase.JsonObject to SlugBase.JsonAny)
+  nameWithType: JsonObject.Implicit(JsonObject to JsonAny)
+  nameWithType.vb: JsonObject.Widening(JsonObject to JsonAny)
+- uid: SlugBase.JsonObject.op_Implicit*
+  name: Implicit
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_op_Implicit_
+  commentId: Overload:SlugBase.JsonObject.op_Implicit
+  name.vb: Widening
+  fullName: SlugBase.JsonObject.Implicit
+  fullName.vb: SlugBase.JsonObject.Widening
+  nameWithType: JsonObject.Implicit
+  nameWithType.vb: JsonObject.Widening
+- uid: SlugBase.JsonObject.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:SlugBase.JsonObject.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: SlugBase.JsonObject.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: JsonObject.IEnumerable.GetEnumerator()
+  nameWithType.vb: JsonObject.System.Collections.IEnumerable.GetEnumerator()
+- uid: SlugBase.JsonObject.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:SlugBase.JsonObject.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: SlugBase.JsonObject.System.Collections.IEnumerable.GetEnumerator
+  nameWithType: JsonObject.IEnumerable.GetEnumerator
+  nameWithType.vb: JsonObject.System.Collections.IEnumerable.GetEnumerator
+- uid: SlugBase.JsonObject.TryGet(System.String)
+  name: TryGet(String)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_TryGet_System_String_
+  commentId: M:SlugBase.JsonObject.TryGet(System.String)
+  fullName: SlugBase.JsonObject.TryGet(System.String)
+  nameWithType: JsonObject.TryGet(String)
+- uid: SlugBase.JsonObject.TryGet*
+  name: TryGet
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_TryGet_
+  commentId: Overload:SlugBase.JsonObject.TryGet
+  fullName: SlugBase.JsonObject.TryGet
+  nameWithType: JsonObject.TryGet
+- uid: SlugBase.JsonRegistry`2
+  name: JsonRegistry<TKey, TValue>
+  href: api/SlugBase.JsonRegistry-2.html
+  commentId: T:SlugBase.JsonRegistry`2
+  name.vb: JsonRegistry(Of TKey, TValue)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue)
+  nameWithType: JsonRegistry<TKey, TValue>
+  nameWithType.vb: JsonRegistry(Of TKey, TValue)
+- uid: SlugBase.JsonRegistry`2.#ctor(System.Func{`0,SlugBase.JsonObject,`1})
+  name: JsonRegistry(Func<TKey, JsonObject, TValue>)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2__ctor_System_Func__0_SlugBase_JsonObject__1__
+  commentId: M:SlugBase.JsonRegistry`2.#ctor(System.Func{`0,SlugBase.JsonObject,`1})
+  name.vb: JsonRegistry(Func(Of TKey, JsonObject, TValue))
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.JsonRegistry(System.Func<TKey, SlugBase.JsonObject, TValue>)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).JsonRegistry(System.Func(Of TKey, SlugBase.JsonObject, TValue))
+  nameWithType: JsonRegistry<TKey, TValue>.JsonRegistry(Func<TKey, JsonObject, TValue>)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).JsonRegistry(Func(Of TKey, JsonObject, TValue))
+- uid: SlugBase.JsonRegistry`2.#ctor*
+  name: JsonRegistry
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2__ctor_
+  commentId: Overload:SlugBase.JsonRegistry`2.#ctor
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.JsonRegistry
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).JsonRegistry
+  nameWithType: JsonRegistry<TKey, TValue>.JsonRegistry
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).JsonRegistry
+- uid: SlugBase.JsonRegistry`2.Add(SlugBase.JsonObject)
+  name: Add(JsonObject)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Add_SlugBase_JsonObject_
+  commentId: M:SlugBase.JsonRegistry`2.Add(SlugBase.JsonObject)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.Add(SlugBase.JsonObject)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Add(SlugBase.JsonObject)
+  nameWithType: JsonRegistry<TKey, TValue>.Add(JsonObject)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).Add(JsonObject)
+- uid: SlugBase.JsonRegistry`2.Add*
+  name: Add
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Add_
+  commentId: Overload:SlugBase.JsonRegistry`2.Add
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.Add
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Add
+  nameWithType: JsonRegistry<TKey, TValue>.Add
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).Add
+- uid: SlugBase.JsonRegistry`2.AddFromFile(System.String)
+  name: AddFromFile(String)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_AddFromFile_System_String_
+  commentId: M:SlugBase.JsonRegistry`2.AddFromFile(System.String)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.AddFromFile(System.String)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).AddFromFile(System.String)
+  nameWithType: JsonRegistry<TKey, TValue>.AddFromFile(String)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).AddFromFile(String)
+- uid: SlugBase.JsonRegistry`2.AddFromFile*
+  name: AddFromFile
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_AddFromFile_
+  commentId: Overload:SlugBase.JsonRegistry`2.AddFromFile
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.AddFromFile
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).AddFromFile
+  nameWithType: JsonRegistry<TKey, TValue>.AddFromFile
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).AddFromFile
+- uid: SlugBase.JsonRegistry`2.EntryReloaded
+  name: EntryReloaded
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_EntryReloaded
+  commentId: E:SlugBase.JsonRegistry`2.EntryReloaded
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.EntryReloaded
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).EntryReloaded
+  nameWithType: JsonRegistry<TKey, TValue>.EntryReloaded
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).EntryReloaded
+- uid: SlugBase.JsonRegistry`2.GetOrDefault(`0)
+  name: GetOrDefault(TKey)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_GetOrDefault__0_
+  commentId: M:SlugBase.JsonRegistry`2.GetOrDefault(`0)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.GetOrDefault(TKey)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).GetOrDefault(TKey)
+  nameWithType: JsonRegistry<TKey, TValue>.GetOrDefault(TKey)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).GetOrDefault(TKey)
+- uid: SlugBase.JsonRegistry`2.GetOrDefault*
+  name: GetOrDefault
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_GetOrDefault_
+  commentId: Overload:SlugBase.JsonRegistry`2.GetOrDefault
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.GetOrDefault
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).GetOrDefault
+  nameWithType: JsonRegistry<TKey, TValue>.GetOrDefault
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).GetOrDefault
+- uid: SlugBase.JsonRegistry`2.Keys
+  name: Keys
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Keys
+  commentId: P:SlugBase.JsonRegistry`2.Keys
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.Keys
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Keys
+  nameWithType: JsonRegistry<TKey, TValue>.Keys
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).Keys
+- uid: SlugBase.JsonRegistry`2.Keys*
+  name: Keys
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Keys_
+  commentId: Overload:SlugBase.JsonRegistry`2.Keys
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.Keys
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Keys
+  nameWithType: JsonRegistry<TKey, TValue>.Keys
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).Keys
+- uid: SlugBase.JsonRegistry`2.ReloadChangedFiles
+  name: ReloadChangedFiles()
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_ReloadChangedFiles
+  commentId: M:SlugBase.JsonRegistry`2.ReloadChangedFiles
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ReloadChangedFiles()
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ReloadChangedFiles()
+  nameWithType: JsonRegistry<TKey, TValue>.ReloadChangedFiles()
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ReloadChangedFiles()
+- uid: SlugBase.JsonRegistry`2.ReloadChangedFiles*
+  name: ReloadChangedFiles
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_ReloadChangedFiles_
+  commentId: Overload:SlugBase.JsonRegistry`2.ReloadChangedFiles
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ReloadChangedFiles
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ReloadChangedFiles
+  nameWithType: JsonRegistry<TKey, TValue>.ReloadChangedFiles
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ReloadChangedFiles
+- uid: SlugBase.JsonRegistry`2.ReloadedEventArgs
+  name: JsonRegistry<TKey, TValue>.ReloadedEventArgs
+  href: api/SlugBase.JsonRegistry-2.ReloadedEventArgs.html
+  commentId: T:SlugBase.JsonRegistry`2.ReloadedEventArgs
+  name.vb: JsonRegistry(Of TKey, TValue).ReloadedEventArgs
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ReloadedEventArgs
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ReloadedEventArgs
+  nameWithType: JsonRegistry<TKey, TValue>.ReloadedEventArgs
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ReloadedEventArgs
+- uid: SlugBase.JsonRegistry`2.ReloadedEventArgs.Key
+  name: Key
+  href: api/SlugBase.JsonRegistry-2.ReloadedEventArgs.html#SlugBase_JsonRegistry_2_ReloadedEventArgs_Key
+  commentId: P:SlugBase.JsonRegistry`2.ReloadedEventArgs.Key
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ReloadedEventArgs.Key
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ReloadedEventArgs.Key
+  nameWithType: JsonRegistry<TKey, TValue>.ReloadedEventArgs.Key
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ReloadedEventArgs.Key
+- uid: SlugBase.JsonRegistry`2.ReloadedEventArgs.Key*
+  name: Key
+  href: api/SlugBase.JsonRegistry-2.ReloadedEventArgs.html#SlugBase_JsonRegistry_2_ReloadedEventArgs_Key_
+  commentId: Overload:SlugBase.JsonRegistry`2.ReloadedEventArgs.Key
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ReloadedEventArgs.Key
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ReloadedEventArgs.Key
+  nameWithType: JsonRegistry<TKey, TValue>.ReloadedEventArgs.Key
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ReloadedEventArgs.Key
+- uid: SlugBase.JsonRegistry`2.ReloadedEventArgs.Value
+  name: Value
+  href: api/SlugBase.JsonRegistry-2.ReloadedEventArgs.html#SlugBase_JsonRegistry_2_ReloadedEventArgs_Value
+  commentId: P:SlugBase.JsonRegistry`2.ReloadedEventArgs.Value
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ReloadedEventArgs.Value
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ReloadedEventArgs.Value
+  nameWithType: JsonRegistry<TKey, TValue>.ReloadedEventArgs.Value
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ReloadedEventArgs.Value
+- uid: SlugBase.JsonRegistry`2.ReloadedEventArgs.Value*
+  name: Value
+  href: api/SlugBase.JsonRegistry-2.ReloadedEventArgs.html#SlugBase_JsonRegistry_2_ReloadedEventArgs_Value_
+  commentId: Overload:SlugBase.JsonRegistry`2.ReloadedEventArgs.Value
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ReloadedEventArgs.Value
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ReloadedEventArgs.Value
+  nameWithType: JsonRegistry<TKey, TValue>.ReloadedEventArgs.Value
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ReloadedEventArgs.Value
+- uid: SlugBase.JsonRegistry`2.Remove(`0)
+  name: Remove(TKey)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Remove__0_
+  commentId: M:SlugBase.JsonRegistry`2.Remove(`0)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.Remove(TKey)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Remove(TKey)
+  nameWithType: JsonRegistry<TKey, TValue>.Remove(TKey)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).Remove(TKey)
+- uid: SlugBase.JsonRegistry`2.Remove*
+  name: Remove
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Remove_
+  commentId: Overload:SlugBase.JsonRegistry`2.Remove
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.Remove
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Remove
+  nameWithType: JsonRegistry<TKey, TValue>.Remove
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).Remove
+- uid: SlugBase.JsonRegistry`2.ScanDirectory(System.String)
+  name: ScanDirectory(String)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_ScanDirectory_System_String_
+  commentId: M:SlugBase.JsonRegistry`2.ScanDirectory(System.String)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ScanDirectory(System.String)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ScanDirectory(System.String)
+  nameWithType: JsonRegistry<TKey, TValue>.ScanDirectory(String)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ScanDirectory(String)
+- uid: SlugBase.JsonRegistry`2.ScanDirectory*
+  name: ScanDirectory
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_ScanDirectory_
+  commentId: Overload:SlugBase.JsonRegistry`2.ScanDirectory
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ScanDirectory
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ScanDirectory
+  nameWithType: JsonRegistry<TKey, TValue>.ScanDirectory
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).ScanDirectory
+- uid: SlugBase.JsonRegistry`2.TryGet(`0,`1@)
+  name: TryGet(TKey, out TValue)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGet__0__1__
+  commentId: M:SlugBase.JsonRegistry`2.TryGet(`0,`1@)
+  name.vb: TryGet(TKey, ByRef TValue)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryGet(TKey, out TValue)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryGet(TKey, ByRef TValue)
+  nameWithType: JsonRegistry<TKey, TValue>.TryGet(TKey, out TValue)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGet(TKey, ByRef TValue)
+- uid: SlugBase.JsonRegistry`2.TryGet*
+  name: TryGet
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGet_
+  commentId: Overload:SlugBase.JsonRegistry`2.TryGet
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryGet
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryGet
+  nameWithType: JsonRegistry<TKey, TValue>.TryGet
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGet
+- uid: SlugBase.JsonRegistry`2.TryGetPath(`0,System.String@)
+  name: TryGetPath(TKey, out String)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGetPath__0_System_String__
+  commentId: M:SlugBase.JsonRegistry`2.TryGetPath(`0,System.String@)
+  name.vb: TryGetPath(TKey, ByRef String)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryGetPath(TKey, out System.String)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryGetPath(TKey, ByRef System.String)
+  nameWithType: JsonRegistry<TKey, TValue>.TryGetPath(TKey, out String)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGetPath(TKey, ByRef String)
+- uid: SlugBase.JsonRegistry`2.TryGetPath*
+  name: TryGetPath
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGetPath_
+  commentId: Overload:SlugBase.JsonRegistry`2.TryGetPath
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryGetPath
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryGetPath
+  nameWithType: JsonRegistry<TKey, TValue>.TryGetPath
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGetPath
+- uid: SlugBase.JsonRegistry`2.Values
+  name: Values
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Values
+  commentId: P:SlugBase.JsonRegistry`2.Values
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.Values
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Values
+  nameWithType: JsonRegistry<TKey, TValue>.Values
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).Values
+- uid: SlugBase.JsonRegistry`2.Values*
+  name: Values
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Values_
+  commentId: Overload:SlugBase.JsonRegistry`2.Values
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.Values
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Values
+  nameWithType: JsonRegistry<TKey, TValue>.Values
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).Values
+- uid: SlugBase.JsonRegistry`2.WatchForChanges
+  name: WatchForChanges
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_WatchForChanges
+  commentId: P:SlugBase.JsonRegistry`2.WatchForChanges
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.WatchForChanges
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).WatchForChanges
+  nameWithType: JsonRegistry<TKey, TValue>.WatchForChanges
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).WatchForChanges
+- uid: SlugBase.JsonRegistry`2.WatchForChanges*
+  name: WatchForChanges
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_WatchForChanges_
+  commentId: Overload:SlugBase.JsonRegistry`2.WatchForChanges
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.WatchForChanges
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).WatchForChanges
+  nameWithType: JsonRegistry<TKey, TValue>.WatchForChanges
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).WatchForChanges
+- uid: SlugBase.JsonUtils
+  name: JsonUtils
+  href: api/SlugBase.JsonUtils.html
+  commentId: T:SlugBase.JsonUtils
+  fullName: SlugBase.JsonUtils
+  nameWithType: JsonUtils
+- uid: SlugBase.JsonUtils.ToBool(SlugBase.JsonAny)
+  name: ToBool(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToBool_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToBool(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToBool(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToBool(JsonAny)
+- uid: SlugBase.JsonUtils.ToBool*
+  name: ToBool
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToBool_
+  commentId: Overload:SlugBase.JsonUtils.ToBool
+  fullName: SlugBase.JsonUtils.ToBool
+  nameWithType: JsonUtils.ToBool
+- uid: SlugBase.JsonUtils.ToColor(SlugBase.JsonAny)
+  name: ToColor(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToColor_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToColor(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToColor(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToColor(JsonAny)
+- uid: SlugBase.JsonUtils.ToColor*
+  name: ToColor
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToColor_
+  commentId: Overload:SlugBase.JsonUtils.ToColor
+  fullName: SlugBase.JsonUtils.ToColor
+  nameWithType: JsonUtils.ToColor
+- uid: SlugBase.JsonUtils.ToDouble(SlugBase.JsonAny)
+  name: ToDouble(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToDouble_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToDouble(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToDouble(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToDouble(JsonAny)
+- uid: SlugBase.JsonUtils.ToDouble*
+  name: ToDouble
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToDouble_
+  commentId: Overload:SlugBase.JsonUtils.ToDouble
+  fullName: SlugBase.JsonUtils.ToDouble
+  nameWithType: JsonUtils.ToDouble
+- uid: SlugBase.JsonUtils.ToDoubles(SlugBase.JsonAny)
+  name: ToDoubles(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToDoubles_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToDoubles(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToDoubles(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToDoubles(JsonAny)
+- uid: SlugBase.JsonUtils.ToDoubles*
+  name: ToDoubles
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToDoubles_
+  commentId: Overload:SlugBase.JsonUtils.ToDoubles
+  fullName: SlugBase.JsonUtils.ToDoubles
+  nameWithType: JsonUtils.ToDoubles
+- uid: SlugBase.JsonUtils.ToEnum*
+  name: ToEnum
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToEnum_
+  commentId: Overload:SlugBase.JsonUtils.ToEnum
+  fullName: SlugBase.JsonUtils.ToEnum
+  nameWithType: JsonUtils.ToEnum
+- uid: SlugBase.JsonUtils.ToEnum``1(SlugBase.JsonAny)
+  name: ToEnum<T>(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToEnum__1_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToEnum``1(SlugBase.JsonAny)
+  name.vb: ToEnum(Of T)(JsonAny)
+  fullName: SlugBase.JsonUtils.ToEnum<T>(SlugBase.JsonAny)
+  fullName.vb: SlugBase.JsonUtils.ToEnum(Of T)(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToEnum<T>(JsonAny)
+  nameWithType.vb: JsonUtils.ToEnum(Of T)(JsonAny)
+- uid: SlugBase.JsonUtils.ToExtEnum*
+  name: ToExtEnum
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToExtEnum_
+  commentId: Overload:SlugBase.JsonUtils.ToExtEnum
+  fullName: SlugBase.JsonUtils.ToExtEnum
+  nameWithType: JsonUtils.ToExtEnum
+- uid: SlugBase.JsonUtils.ToExtEnum``1(SlugBase.JsonAny)
+  name: ToExtEnum<T>(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToExtEnum__1_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToExtEnum``1(SlugBase.JsonAny)
+  name.vb: ToExtEnum(Of T)(JsonAny)
+  fullName: SlugBase.JsonUtils.ToExtEnum<T>(SlugBase.JsonAny)
+  fullName.vb: SlugBase.JsonUtils.ToExtEnum(Of T)(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToExtEnum<T>(JsonAny)
+  nameWithType.vb: JsonUtils.ToExtEnum(Of T)(JsonAny)
+- uid: SlugBase.JsonUtils.ToFloat(SlugBase.JsonAny)
+  name: ToFloat(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToFloat_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToFloat(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToFloat(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToFloat(JsonAny)
+- uid: SlugBase.JsonUtils.ToFloat*
+  name: ToFloat
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToFloat_
+  commentId: Overload:SlugBase.JsonUtils.ToFloat
+  fullName: SlugBase.JsonUtils.ToFloat
+  nameWithType: JsonUtils.ToFloat
+- uid: SlugBase.JsonUtils.ToFloats(SlugBase.JsonAny)
+  name: ToFloats(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToFloats_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToFloats(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToFloats(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToFloats(JsonAny)
+- uid: SlugBase.JsonUtils.ToFloats*
+  name: ToFloats
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToFloats_
+  commentId: Overload:SlugBase.JsonUtils.ToFloats
+  fullName: SlugBase.JsonUtils.ToFloats
+  nameWithType: JsonUtils.ToFloats
+- uid: SlugBase.JsonUtils.ToInt(SlugBase.JsonAny)
+  name: ToInt(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToInt_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToInt(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToInt(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToInt(JsonAny)
+- uid: SlugBase.JsonUtils.ToInt*
+  name: ToInt
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToInt_
+  commentId: Overload:SlugBase.JsonUtils.ToInt
+  fullName: SlugBase.JsonUtils.ToInt
+  nameWithType: JsonUtils.ToInt
+- uid: SlugBase.JsonUtils.ToInts(SlugBase.JsonAny)
+  name: ToInts(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToInts_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToInts(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToInts(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToInts(JsonAny)
+- uid: SlugBase.JsonUtils.ToInts*
+  name: ToInts
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToInts_
+  commentId: Overload:SlugBase.JsonUtils.ToInts
+  fullName: SlugBase.JsonUtils.ToInts
+  nameWithType: JsonUtils.ToInts
+- uid: SlugBase.JsonUtils.ToLong(SlugBase.JsonAny)
+  name: ToLong(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToLong_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToLong(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToLong(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToLong(JsonAny)
+- uid: SlugBase.JsonUtils.ToLong*
+  name: ToLong
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToLong_
+  commentId: Overload:SlugBase.JsonUtils.ToLong
+  fullName: SlugBase.JsonUtils.ToLong
+  nameWithType: JsonUtils.ToLong
+- uid: SlugBase.JsonUtils.ToLongs(SlugBase.JsonAny)
+  name: ToLongs(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToLongs_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToLongs(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToLongs(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToLongs(JsonAny)
+- uid: SlugBase.JsonUtils.ToLongs*
+  name: ToLongs
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToLongs_
+  commentId: Overload:SlugBase.JsonUtils.ToLongs
+  fullName: SlugBase.JsonUtils.ToLongs
+  nameWithType: JsonUtils.ToLongs
+- uid: SlugBase.JsonUtils.ToPlayerColor(SlugBase.JsonAny)
+  name: ToPlayerColor(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToPlayerColor_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToPlayerColor(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToPlayerColor(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToPlayerColor(JsonAny)
+- uid: SlugBase.JsonUtils.ToPlayerColor*
+  name: ToPlayerColor
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToPlayerColor_
+  commentId: Overload:SlugBase.JsonUtils.ToPlayerColor
+  fullName: SlugBase.JsonUtils.ToPlayerColor
+  nameWithType: JsonUtils.ToPlayerColor
+- uid: SlugBase.JsonUtils.ToString(SlugBase.JsonAny)
+  name: ToString(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToString_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToString(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToString(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToString(JsonAny)
+- uid: SlugBase.JsonUtils.ToString*
+  name: ToString
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToString_
+  commentId: Overload:SlugBase.JsonUtils.ToString
+  fullName: SlugBase.JsonUtils.ToString
+  nameWithType: JsonUtils.ToString
+- uid: SlugBase.JsonUtils.ToStrings(SlugBase.JsonAny)
+  name: ToStrings(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToStrings_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToStrings(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToStrings(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToStrings(JsonAny)
+- uid: SlugBase.JsonUtils.ToStrings*
+  name: ToStrings
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToStrings_
+  commentId: Overload:SlugBase.JsonUtils.ToStrings
+  fullName: SlugBase.JsonUtils.ToStrings
+  nameWithType: JsonUtils.ToStrings
+- uid: SlugBase.JsonUtils.ToVector2(SlugBase.JsonAny)
+  name: ToVector2(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToVector2_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToVector2(SlugBase.JsonAny)
+  fullName: SlugBase.JsonUtils.ToVector2(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToVector2(JsonAny)
+- uid: SlugBase.JsonUtils.ToVector2*
+  name: ToVector2
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToVector2_
+  commentId: Overload:SlugBase.JsonUtils.ToVector2
+  fullName: SlugBase.JsonUtils.ToVector2
+  nameWithType: JsonUtils.ToVector2
+- uid: SlugBase.SlugBaseCharacter
+  name: SlugBaseCharacter
+  href: api/SlugBase.SlugBaseCharacter.html
+  commentId: T:SlugBase.SlugBaseCharacter
+  fullName: SlugBase.SlugBaseCharacter
+  nameWithType: SlugBaseCharacter
+- uid: SlugBase.SlugBaseCharacter.Description
+  name: Description
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Description
+  commentId: P:SlugBase.SlugBaseCharacter.Description
+  fullName: SlugBase.SlugBaseCharacter.Description
+  nameWithType: SlugBaseCharacter.Description
+- uid: SlugBase.SlugBaseCharacter.Description*
+  name: Description
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Description_
+  commentId: Overload:SlugBase.SlugBaseCharacter.Description
+  fullName: SlugBase.SlugBaseCharacter.Description
+  nameWithType: SlugBaseCharacter.Description
+- uid: SlugBase.SlugBaseCharacter.DisplayName
+  name: DisplayName
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_DisplayName
+  commentId: P:SlugBase.SlugBaseCharacter.DisplayName
+  fullName: SlugBase.SlugBaseCharacter.DisplayName
+  nameWithType: SlugBaseCharacter.DisplayName
+- uid: SlugBase.SlugBaseCharacter.DisplayName*
+  name: DisplayName
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_DisplayName_
+  commentId: Overload:SlugBase.SlugBaseCharacter.DisplayName
+  fullName: SlugBase.SlugBaseCharacter.DisplayName
+  nameWithType: SlugBaseCharacter.DisplayName
+- uid: SlugBase.SlugBaseCharacter.FeatureList
+  name: SlugBaseCharacter.FeatureList
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html
+  commentId: T:SlugBase.SlugBaseCharacter.FeatureList
+  fullName: SlugBase.SlugBaseCharacter.FeatureList
+  nameWithType: SlugBaseCharacter.FeatureList
+- uid: SlugBase.SlugBaseCharacter.FeatureList.#ctor
+  name: FeatureList()
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList__ctor
+  commentId: M:SlugBase.SlugBaseCharacter.FeatureList.#ctor
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.FeatureList()
+  nameWithType: SlugBaseCharacter.FeatureList.FeatureList()
+- uid: SlugBase.SlugBaseCharacter.FeatureList.#ctor*
+  name: FeatureList
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList__ctor_
+  commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.#ctor
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.FeatureList
+  nameWithType: SlugBaseCharacter.FeatureList.FeatureList
+- uid: SlugBase.SlugBaseCharacter.FeatureList.Contains(SlugBase.Features.Feature)
+  name: Contains(Feature)
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_Contains_SlugBase_Features_Feature_
+  commentId: M:SlugBase.SlugBaseCharacter.FeatureList.Contains(SlugBase.Features.Feature)
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.Contains(SlugBase.Features.Feature)
+  nameWithType: SlugBaseCharacter.FeatureList.Contains(Feature)
+- uid: SlugBase.SlugBaseCharacter.FeatureList.Contains*
+  name: Contains
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_Contains_
+  commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.Contains
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.Contains
+  nameWithType: SlugBaseCharacter.FeatureList.Contains
+- uid: SlugBase.SlugBaseCharacter.FeatureList.TryGet*
+  name: TryGet
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_TryGet_
+  commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.TryGet
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.TryGet
+  nameWithType: SlugBaseCharacter.FeatureList.TryGet
+- uid: SlugBase.SlugBaseCharacter.FeatureList.TryGet``1(SlugBase.Features.Feature{``0},``0@)
+  name: TryGet<T>(Feature<T>, out T)
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_TryGet__1_SlugBase_Features_Feature___0____0__
+  commentId: M:SlugBase.SlugBaseCharacter.FeatureList.TryGet``1(SlugBase.Features.Feature{``0},``0@)
+  name.vb: TryGet(Of T)(Feature(Of T), ByRef T)
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.TryGet<T>(SlugBase.Features.Feature<T>, out T)
+  fullName.vb: SlugBase.SlugBaseCharacter.FeatureList.TryGet(Of T)(SlugBase.Features.Feature(Of T), ByRef T)
+  nameWithType: SlugBaseCharacter.FeatureList.TryGet<T>(Feature<T>, out T)
+  nameWithType.vb: SlugBaseCharacter.FeatureList.TryGet(Of T)(Feature(Of T), ByRef T)
+- uid: SlugBase.SlugBaseCharacter.Features
+  name: Features
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Features
+  commentId: P:SlugBase.SlugBaseCharacter.Features
+  fullName: SlugBase.SlugBaseCharacter.Features
+  nameWithType: SlugBaseCharacter.Features
+- uid: SlugBase.SlugBaseCharacter.Features*
+  name: Features
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Features_
+  commentId: Overload:SlugBase.SlugBaseCharacter.Features
+  fullName: SlugBase.SlugBaseCharacter.Features
+  nameWithType: SlugBaseCharacter.Features
+- uid: SlugBase.SlugBaseCharacter.Get(SlugcatStats.Name)
+  name: Get(SlugcatStats.Name)
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Get_SlugcatStats_Name_
+  commentId: M:SlugBase.SlugBaseCharacter.Get(SlugcatStats.Name)
+  fullName: SlugBase.SlugBaseCharacter.Get(SlugcatStats.Name)
+  nameWithType: SlugBaseCharacter.Get(SlugcatStats.Name)
+- uid: SlugBase.SlugBaseCharacter.Get*
+  name: Get
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Get_
+  commentId: Overload:SlugBase.SlugBaseCharacter.Get
+  fullName: SlugBase.SlugBaseCharacter.Get
+  nameWithType: SlugBaseCharacter.Get
+- uid: SlugBase.SlugBaseCharacter.Name
+  name: Name
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Name
+  commentId: P:SlugBase.SlugBaseCharacter.Name
+  fullName: SlugBase.SlugBaseCharacter.Name
+  nameWithType: SlugBaseCharacter.Name
+- uid: SlugBase.SlugBaseCharacter.Name*
+  name: Name
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Name_
+  commentId: Overload:SlugBase.SlugBaseCharacter.Name
+  fullName: SlugBase.SlugBaseCharacter.Name
+  nameWithType: SlugBaseCharacter.Name
+- uid: SlugBase.SlugBaseCharacter.Refreshed
+  name: Refreshed
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Refreshed
+  commentId: E:SlugBase.SlugBaseCharacter.Refreshed
+  fullName: SlugBase.SlugBaseCharacter.Refreshed
+  nameWithType: SlugBaseCharacter.Refreshed
+- uid: SlugBase.SlugBaseCharacter.RefreshEventArgs
+  name: SlugBaseCharacter.RefreshEventArgs
+  href: api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html
+  commentId: T:SlugBase.SlugBaseCharacter.RefreshEventArgs
+  fullName: SlugBase.SlugBaseCharacter.RefreshEventArgs
+  nameWithType: SlugBaseCharacter.RefreshEventArgs
+- uid: SlugBase.SlugBaseCharacter.RefreshEventArgs.Character
+  name: Character
+  href: api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html#SlugBase_SlugBaseCharacter_RefreshEventArgs_Character
+  commentId: P:SlugBase.SlugBaseCharacter.RefreshEventArgs.Character
+  fullName: SlugBase.SlugBaseCharacter.RefreshEventArgs.Character
+  nameWithType: SlugBaseCharacter.RefreshEventArgs.Character
+- uid: SlugBase.SlugBaseCharacter.RefreshEventArgs.Character*
+  name: Character
+  href: api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html#SlugBase_SlugBaseCharacter_RefreshEventArgs_Character_
+  commentId: Overload:SlugBase.SlugBaseCharacter.RefreshEventArgs.Character
+  fullName: SlugBase.SlugBaseCharacter.RefreshEventArgs.Character
+  nameWithType: SlugBaseCharacter.RefreshEventArgs.Character
+- uid: SlugBase.SlugBaseCharacter.RefreshEventArgs.Game
+  name: Game
+  href: api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html#SlugBase_SlugBaseCharacter_RefreshEventArgs_Game
+  commentId: P:SlugBase.SlugBaseCharacter.RefreshEventArgs.Game
+  fullName: SlugBase.SlugBaseCharacter.RefreshEventArgs.Game
+  nameWithType: SlugBaseCharacter.RefreshEventArgs.Game
+- uid: SlugBase.SlugBaseCharacter.RefreshEventArgs.Game*
+  name: Game
+  href: api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html#SlugBase_SlugBaseCharacter_RefreshEventArgs_Game_
+  commentId: Overload:SlugBase.SlugBaseCharacter.RefreshEventArgs.Game
+  fullName: SlugBase.SlugBaseCharacter.RefreshEventArgs.Game
+  nameWithType: SlugBaseCharacter.RefreshEventArgs.Game
+- uid: SlugBase.SlugBaseCharacter.RefreshEventArgs.ID
+  name: ID
+  href: api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html#SlugBase_SlugBaseCharacter_RefreshEventArgs_ID
+  commentId: P:SlugBase.SlugBaseCharacter.RefreshEventArgs.ID
+  fullName: SlugBase.SlugBaseCharacter.RefreshEventArgs.ID
+  nameWithType: SlugBaseCharacter.RefreshEventArgs.ID
+- uid: SlugBase.SlugBaseCharacter.RefreshEventArgs.ID*
+  name: ID
+  href: api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html#SlugBase_SlugBaseCharacter_RefreshEventArgs_ID_
+  commentId: Overload:SlugBase.SlugBaseCharacter.RefreshEventArgs.ID
+  fullName: SlugBase.SlugBaseCharacter.RefreshEventArgs.ID
+  nameWithType: SlugBaseCharacter.RefreshEventArgs.ID
+- uid: SlugBase.SlugBaseCharacter.Registry
+  name: Registry
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Registry
+  commentId: P:SlugBase.SlugBaseCharacter.Registry
+  fullName: SlugBase.SlugBaseCharacter.Registry
+  nameWithType: SlugBaseCharacter.Registry
+- uid: SlugBase.SlugBaseCharacter.Registry*
+  name: Registry
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Registry_
+  commentId: Overload:SlugBase.SlugBaseCharacter.Registry
+  fullName: SlugBase.SlugBaseCharacter.Registry
+  nameWithType: SlugBaseCharacter.Registry
+- uid: SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name,SlugBase.SlugBaseCharacter@)
+  name: TryGet(SlugcatStats.Name, out SlugBaseCharacter)
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_TryGet_SlugcatStats_Name_SlugBase_SlugBaseCharacter__
+  commentId: M:SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name,SlugBase.SlugBaseCharacter@)
+  name.vb: TryGet(SlugcatStats.Name, ByRef SlugBaseCharacter)
+  fullName: SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name, out SlugBase.SlugBaseCharacter)
+  fullName.vb: SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name, ByRef SlugBase.SlugBaseCharacter)
+  nameWithType: SlugBaseCharacter.TryGet(SlugcatStats.Name, out SlugBaseCharacter)
+  nameWithType.vb: SlugBaseCharacter.TryGet(SlugcatStats.Name, ByRef SlugBaseCharacter)
+- uid: SlugBase.SlugBaseCharacter.TryGet*
+  name: TryGet
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_TryGet_
+  commentId: Overload:SlugBase.SlugBaseCharacter.TryGet
+  fullName: SlugBase.SlugBaseCharacter.TryGet
+  nameWithType: SlugBaseCharacter.TryGet
