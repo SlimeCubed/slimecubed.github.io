@@ -80,6 +80,7 @@
 <h1 id="writing-custom-features">Writing Custom Features!</h1>
 
 <h2 id="basics">Basics</h2>
+<p>Before writing any custom features, you'll need to make a BepInEx plugin that references SlugBase. You can download those binaries from the <a href="https://github.com/SlimeCubed/SlugBaseRemix/releases/latest">Releases</a> page on GitHub.</p>
 <p>At its core, defining a feature just requires you to instantiate <a href="../api/SlugBase.Features.Feature-1.html"><code>Feature&lt;T&gt;</code></a>. The constructor takes a string ID (the same one that you must specify in your character's JSON) and a delegate that converts a <a href="../api/SlugBase.JsonAny.html"><code>JsonAny</code></a> into <code>T</code>. Accessing your feature requires a <a href="../api/SlugBase.SlugBaseCharacter.html"><code>SlugBaseCharacter</code></a> instance, which you can find via <a href="../api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_TryGet_"><code>SlugBaseCharacter.TryGet</code></a>.</p>
 <p>In most cases, neither parsing your own data nor getting the <a href="../api/SlugBase.SlugBaseCharacter.html"><code>SlugBaseCharacter</code></a> will be necessary.</p>
 <h2 id="simple-features">Simple Features</h2>
