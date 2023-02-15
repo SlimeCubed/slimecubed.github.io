@@ -90,22 +90,22 @@
 [BepInPlugin(&quot;mycoolplugin&quot;, &quot;My Cool Plugin&quot;, &quot;1.2.3&quot;)]
 class MyCoolPlugin : BaseUnityPlugin
 {
-  static readonly PlayerFeature&lt;float&gt; SuperJump = PlayerFloat(&quot;super_jump&quot;);
+    static readonly PlayerFeature&lt;float&gt; SuperJump = PlayerFloat(&quot;super_jump&quot;);
 }
 </code></pre>
 <p>Then, you implement it with hooks:</p>
 <pre><code class="lang-cs">void Awake()
 {
-  On.Player.Jump += Player_Jump;
+    On.Player.Jump += Player_Jump;
 }
 
 void Player_Jump(On.Player.orig_Jump orig, Player self)
 {
-  orig(self);
-  if(SuperJump.TryGet(self, out var superJump))
-  {
-    self.jumpBoost *= 1f + superJump;
-  }
+    orig(self);
+    if(SuperJump.TryGet(self, out var superJump))
+    {
+        self.jumpBoost *= 1f + superJump;
+    }
 }
 </code></pre>
 <p>SlugBase provides two types of features: <a href="../api/SlugBase.Features.PlayerFeature-1.html"><code>PlayerFeature&lt;T&gt;</code></a> and <a href="../api/SlugBase.Features.GameFeature-1.html"><code>GameFeature&lt;T&gt;</code></a>. These allow you to get the feature's data by <code>Player</code> or <code>RainWorldGame</code> instance. If you've hooked a method that doesn't have access to either of those, getting by <a href="../api/SlugBase.SlugBaseCharacter.html"><code>SlugBaseCharacter</code></a> still works.</p>
