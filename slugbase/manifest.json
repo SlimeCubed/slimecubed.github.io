@@ -444,7 +444,7 @@
           "hash": "j6qm9GrypdRpSHsg8iWQcp13ekFpeppEFWxxa2zn6OY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/template.html",
-          "hash": "+YzaQhnAIdUXyGDrkdDMdtPCv88N1hlHVgh9zFEG9vE="
+          "hash": "89lRImyjb70e1pooXkSOitIm6aQVf+RQAFVVnUNl3tA="
         }
       },
       "is_incremental": false,

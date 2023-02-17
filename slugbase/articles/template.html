@@ -90,21 +90,21 @@
 </ul>
 <h2 id="setting-up">Setting Up</h2>
 <p>First things first, you'll need the code. Open <a href="https://github.com/SlimeCubed/SlugTemplate">the template repo</a> in a web browser, click the Code button, and download the repo as a ZIP file.</p>
-<img src="/images/template/download.png">
+<img src="../images/template/download.png">
 <p>It isn't important where you unzip this, but avoid putting it in the game's folder.</p>
 <p>Once the contents are extracted, double-click <code>src\SlugTemplate.csproj</code> to open it with Visual Studio. You can try build it with Ctrl+B to verify that everything works. On success, the output window will state &quot;1 succeeded&quot;.</p>
 <h2 id="renaming">Renaming</h2>
 <p>This will produce a perfectly functional mod as is, but if more than one person tries to upload it they'll run into a problem: the mod ID they use is already taken! There are a few things you'll want to rename to stop this from happening.</p>
 <p>1: In the Solution Explorer, right click on both the solution and project and select Rename. Enter a new name for your project. These do not need to be the same.</p>
-<img src="/images/template/rename-sln.png">
+<img src="../images/template/rename-sln.png">
 <p>2: Open <code>Plugin.cs</code> in Visual Studio. Rename the mod name and ID to something unique. Update the prefixes on the custom feature names, as well. These fields are unrelated, but should be similar enough that you can identify them as being from your mod.</p>
-<img src="/images/template/rename-plugin.png">
+<img src="../images/template/rename-plugin.png">
 <p>3: Open <code>mod\modinfo.json</code> in any text editor. Visual Studio works for this, and will notify you if your JSON formatting is invalid. The &quot;id&quot;, &quot;name&quot;, and &quot;version&quot; properties should match with what you've specified in <code>Plugin.cs</code>.</p>
-<img src="/images/template/update-modinfo.png">
+<img src="../images/template/update-modinfo.png">
 <p>4: Edit <code>mod\slugbase\the_prototype.json</code> to your new slugcat's name and change its properties to match. Note that the file name here isn't important, but should generally match the slugcat ID so you know where to look if something goes wrong. You'll need to update the scene names in the next step, so also change their IDs in this file.</p>
-<img src="/images/template/update-character.png">
+<img src="../images/template/update-character.png">
 <p>5: Edit <code>mod\slugbase\scenes\slugcat_prototype.json</code> and <code>ghost_prototype.json</code> to change the &quot;id&quot; properties to the same ones that you specified in your slugcat's json file. Change the &quot;scene_folder&quot; property to a new, unique path and rename the corresponding folders in <code>mod\scenes</code> accordingly. It isn't technically necessary to rename the JSON files themselves, but you still should to alleviate any confusion.</p>
-<img src="/images/template/update-scenes.png">
+<img src="../images/template/update-scenes.png">
 <h2 id="building-and-playing-your-mod">Building and Playing Your Mod</h2>
 <p>Open up your project, then build via the Build menu or by entering Ctrl+B. This will generate a dll from your C# code and place it in <code>mod\plugins\</code>. With that, it's ready to try out!</p>
 <p>Take the <code>mod</code> folder and copy it into the game's <code>mods</code> folder. If you're using Steam's default installation location, that's in <code>C:\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\StreamingAssets\mods</code>. I recommend renaming it after copying the files over. Open up the game, go into the Remix menu, and you should see your mod there: enable it and restart. If everything worked, then there will be a new slugcat added to the story mode menu!</p>
@@ -114,7 +114,7 @@
 <pre><code class="lang-cmd">mklink /J mymod &quot;C:\...\MyModFolder\mod&quot;
 </code></pre>
 <p>Make sure to replace &quot;mymod&quot; with your mod name, and the path on the right with the <code>mod</code> folder that contains <code>modinfo.json</code>.</p>
-<img src="/images/template/make-junction.png">
+<img src="../images/template/make-junction.png">
 <h2 id="moving-on">Moving On</h2>
 <p>Now, this new slugcat that explodes when it dies, is hated by every lizard, and can leap tall buildings with a single bound is cool, but likely not what you had in mind for your custom slugcat. If what you're thinking is something simple, such as diet or stats changes, then it might be built into SlugBase as one of the <a href="features.html">Built-In Features</a>. More complex or unique features will need <a href="custom-features.html">Custom Features</a>. Some changes aren't within the scope of SlugBase, such as adding new levels—for those you can reference <a href="https://rainworldmodding.miraheze.org/wiki/Downpour_Reference/Modification_Files">The Modding Wiki</a>.</p>
 </article>
