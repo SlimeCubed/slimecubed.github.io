@@ -2297,6 +2297,71 @@ references:
   fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).Keys
   nameWithType: JsonRegistry<TKey, TValue>.Keys
   nameWithType.vb: JsonRegistry(Of TKey, TValue).Keys
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs
+  name: JsonRegistry<TKey, TValue>.LoadErrorEventArgs
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html
+  commentId: T:SlugBase.JsonRegistry`2.LoadErrorEventArgs
+  name.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.ErrorMessage
+  name: ErrorMessage
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_ErrorMessage
+  commentId: P:SlugBase.JsonRegistry`2.LoadErrorEventArgs.ErrorMessage
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.ErrorMessage
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.ErrorMessage
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.ErrorMessage
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.ErrorMessage
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.ErrorMessage*
+  name: ErrorMessage
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_ErrorMessage_
+  commentId: Overload:SlugBase.JsonRegistry`2.LoadErrorEventArgs.ErrorMessage
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.ErrorMessage
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.ErrorMessage
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.ErrorMessage
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.ErrorMessage
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.Exception
+  name: Exception
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_Exception
+  commentId: P:SlugBase.JsonRegistry`2.LoadErrorEventArgs.Exception
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Exception
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Exception
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Exception
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Exception
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.Exception*
+  name: Exception
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_Exception_
+  commentId: Overload:SlugBase.JsonRegistry`2.LoadErrorEventArgs.Exception
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Exception
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Exception
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Exception
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Exception
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.Key
+  name: Key
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_Key
+  commentId: P:SlugBase.JsonRegistry`2.LoadErrorEventArgs.Key
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Key
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Key
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Key
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Key
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.Key*
+  name: Key
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_Key_
+  commentId: Overload:SlugBase.JsonRegistry`2.LoadErrorEventArgs.Key
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Key
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Key
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Key
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Key
+- uid: SlugBase.JsonRegistry`2.LoadFailed
+  name: LoadFailed
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_LoadFailed
+  commentId: E:SlugBase.JsonRegistry`2.LoadFailed
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadFailed
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadFailed
+  nameWithType: JsonRegistry<TKey, TValue>.LoadFailed
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadFailed
 - uid: SlugBase.JsonRegistry`2.ReloadChangedFiles
   name: ReloadChangedFiles()
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_ReloadChangedFiles

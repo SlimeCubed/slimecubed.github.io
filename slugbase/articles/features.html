@@ -107,16 +107,21 @@
 <p>Player normal and starving speed multiplier when walking. If unspecified, the starving value is automatically calculated.</p>
 <h3 id="crouch_stealth">&quot;crouch_stealth&quot;</h3>
 <p><code>float[1..2]</code></p>
-<p>Player normal and starving multiplier for visual stealth when down on all fours. If unspecified, the starving value is automatically calculated.</p>
+<p>Player normal and starving multiplier for visual stealth when down on all fours. If unspecified, the starving value matches the normal value.</p>
 <h3 id="throw_skill">&quot;throw_skill&quot;</h3>
 <p><code>integer[1..2]</code></p>
-<p>Player normal and starving body mass. If unspecified, the starving value is automatically calculated.</p>
+<p>Player normal and starving spear throwing damage and distance. If unspecified, the starving value is 0.</p>
+<ul>
+<li><code>0</code>: 0.6 to 0.9 damage, matching Monk</li>
+<li><code>1</code>: 1.0 damage, matching Survivor</li>
+<li><code>2</code>: 1.25 damage, matching Hunter</li>
+</ul>
 <h3 id="lung_capacity">&quot;lung_capacity&quot;</h3>
 <p><code>float[1..2]</code></p>
-<p>Player normal and starving multiplier for lung capacity. If unspecified, the starving value is automatically calculated.</p>
+<p>Player normal and starving multiplier for lung capacity. If unspecified, the starving value matches the normal value.</p>
 <h3 id="loudness">&quot;loudness&quot;</h3>
 <p><code>float[1..2]</code></p>
-<p>Player normal and starving multiplier for loudness in regards to drawing creature attention. If unspecified, the starving value is automatically calculated.</p>
+<p>Player normal and starving multiplier for loudness in regards to drawing creature attention. If unspecified, the starving value matches the normal value.</p>
 <h3 id="alignments">&quot;alignments&quot;</h3>
 <pre><code>{
   &quot;&lt;CreatureCommunities.CommunityID&gt;&quot;: { &quot;like&quot;: float, &quot;strength&quot;: float = 1.0, &quot;locked&quot;: boolean = false },

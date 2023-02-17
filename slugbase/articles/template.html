@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>SlugTemplate Walkthrough </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="SlugTemplate Walkthrough ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../logo.svg" alt="" class="logomark">
+              <span class="brand-title"></span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../logo.svg" alt="" class="logomark">
+                          <span class="brand-title"></span>
+                        </a>                      </div>
+
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  
+  <strong><a href='https://dotnet.github.io/docfx/'>DocFX</a> + <a href='https://www.singulink.com'>Singulink</a> = ♥</strong>
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="slugtemplate-walkthrough">SlugTemplate Walkthrough</h1>
+
+<p>This article takes you through the process of making a custom slugcat from a template project. If you already have a project set up, see <a href="gettingstarted.html">Getting Started</a>.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you start, you'll need a few things:</p>
+<ul>
+<li><a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio</a> with the &quot;.NET desktop development&quot; workload to compile C# code into dlls.</li>
+<li><a href="https://github.com/SlimeCubed/SlugTemplate">SlugTemplate</a>, either by creating a new GitHub repo with the template or downloading the source as a ZIP file.</li>
+<li><a href="https://github.com/dnSpy/dnSpy/releases/latest">dnSpy</a> to decompile and inspect the game's code.</li>
+<li>Some knowledge of C#.</li>
+</ul>
+<h2 id="setting-up">Setting Up</h2>
+<p>First things first, you'll need the code. Open <a href="https://github.com/SlimeCubed/SlugTemplate">the template repo</a> in a web browser, click the Code button, and download the repo as a ZIP file.</p>
+<img src="/images/template/download.png">
+<p>It isn't important where you unzip this, but avoid putting it in the game's folder.</p>
+<p>Once the contents are extracted, double-click <code>src\SlugTemplate.csproj</code> to open it with Visual Studio. You can try build it with Ctrl+B to verify that everything works. On success, the output window will state &quot;1 succeeded&quot;.</p>
+<h2 id="renaming">Renaming</h2>
+<p>This will produce a perfectly functional mod as is, but if more than one person tries to upload it they'll run into a problem: the mod ID they use is already taken! There are a few things you'll want to rename to stop this from happening.</p>
+<p>1: In the Solution Explorer, right click on both the solution and project and select Rename. Enter a new name for your project. These do not need to be the same.</p>
+<img src="/images/template/rename-sln.png">
+<p>2: Open <code>Plugin.cs</code> in Visual Studio. Rename the mod name and ID to something unique. Update the prefixes on the custom feature names, as well. These fields are unrelated, but should be similar enough that you can identify them as being from your mod.</p>
+<img src="/images/template/rename-plugin.png">
+<p>3: Open <code>mod\modinfo.json</code> in any text editor. Visual Studio works for this, and will notify you if your JSON formatting is invalid. The &quot;id&quot;, &quot;name&quot;, and &quot;version&quot; properties should match with what you've specified in <code>Plugin.cs</code>.</p>
+<img src="/images/template/update-modinfo.png">
+<p>4: Edit <code>mod\slugbase\the_prototype.json</code> to your new slugcat's name and change its properties to match. Note that the file name here isn't important, but should generally match the slugcat ID so you know where to look if something goes wrong. You'll need to update the scene names in the next step, so also change their IDs in this file.</p>
+<img src="/images/template/update-character.png">
+<p>5: Edit <code>mod\slugbase\scenes\slugcat_prototype.json</code> and <code>ghost_prototype.json</code> to change the &quot;id&quot; properties to the same ones that you specified in your slugcat's json file. Change the &quot;scene_folder&quot; property to a new, unique path and rename the corresponding folders in <code>mod\scenes</code> accordingly. It isn't technically necessary to rename the JSON files themselves, but you still should to alleviate any confusion.</p>
+<img src="/images/template/update-scenes.png">
+<h2 id="building-and-playing-your-mod">Building and Playing Your Mod</h2>
+<p>Open up your project, then build via the Build menu or by entering Ctrl+B. This will generate a dll from your C# code and place it in <code>mod\plugins\</code>. With that, it's ready to try out!</p>
+<p>Take the <code>mod</code> folder and copy it into the game's <code>mods</code> folder. If you're using Steam's default installation location, that's in <code>C:\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\StreamingAssets\mods</code>. I recommend renaming it after copying the files over. Open up the game, go into the Remix menu, and you should see your mod there: enable it and restart. If everything worked, then there will be a new slugcat added to the story mode menu!</p>
+<h2 id="setting-up-a-symbolic-link-optional">Setting Up a Symbolic Link (optional)</h2>
+<p>If you don't want to copy the mod folder over each time you build it, you can use a symbolic link instead. This is essentially putting the same folder in two places at once. Edits made to one side will be reflected in the other. Not only will your plugins automatically be updated, but any edits you make to the slugcat JSON while the game is running will automatically be saved!</p>
+<p>In file explorer, navigate to the game's <code>mods</code> folder. Type &quot;cmd&quot; into the command bar and hit enter. To create the link, enter the following command:</p>
+<pre><code class="lang-cmd">mklink /J mymod &quot;C:\...\MyModFolder\mod&quot;
+</code></pre>
+<p>Make sure to replace &quot;mymod&quot; with your mod name, and the path on the right with the <code>mod</code> folder that contains <code>modinfo.json</code>.</p>
+<img src="/images/template/make-junction.png">
+<h2 id="moving-on">Moving On</h2>
+<p>Now, this new slugcat that explodes when it dies, is hated by every lizard, and can leap tall buildings with a single bound is cool, but likely not what you had in mind for your custom slugcat. If what you're thinking is something simple, such as diet or stats changes, then it might be built into SlugBase as one of the <a href="features.html">Built-In Features</a>. More complex or unique features will need <a href="custom-features.html">Custom Features</a>. Some changes aren't within the scope of SlugBase, such as adding new levels—for those you can reference <a href="https://rainworldmodding.miraheze.org/wiki/Downpour_Reference/Modification_Files">The Modding Wiki</a>.</p>
+</article>
+                </div>
+
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+</html>
