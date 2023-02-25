@@ -1167,6 +1167,12 @@ references:
   commentId: F:SlugBase.Features.GameFeatures.CycleLengthMin
   fullName: SlugBase.Features.GameFeatures.CycleLengthMin
   nameWithType: GameFeatures.CycleLengthMin
+- uid: SlugBase.Features.GameFeatures.DeathScene
+  name: DeathScene
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_DeathScene
+  commentId: F:SlugBase.Features.GameFeatures.DeathScene
+  fullName: SlugBase.Features.GameFeatures.DeathScene
+  nameWithType: GameFeatures.DeathScene
 - uid: SlugBase.Features.GameFeatures.FoodMax
   name: FoodMax
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_FoodMax
@@ -1221,12 +1227,24 @@ references:
   commentId: F:SlugBase.Features.GameFeatures.SelectMenuSceneAscended
   fullName: SlugBase.Features.GameFeatures.SelectMenuSceneAscended
   nameWithType: GameFeatures.SelectMenuSceneAscended
+- uid: SlugBase.Features.GameFeatures.SleepScene
+  name: SleepScene
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_SleepScene
+  commentId: F:SlugBase.Features.GameFeatures.SleepScene
+  fullName: SlugBase.Features.GameFeatures.SleepScene
+  nameWithType: GameFeatures.SleepScene
 - uid: SlugBase.Features.GameFeatures.StartRoom
   name: StartRoom
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_StartRoom
   commentId: F:SlugBase.Features.GameFeatures.StartRoom
   fullName: SlugBase.Features.GameFeatures.StartRoom
   nameWithType: GameFeatures.StartRoom
+- uid: SlugBase.Features.GameFeatures.StarveScene
+  name: StarveScene
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_StarveScene
+  commentId: F:SlugBase.Features.GameFeatures.StarveScene
+  fullName: SlugBase.Features.GameFeatures.StarveScene
+  nameWithType: GameFeatures.StarveScene
 - uid: SlugBase.Features.GameFeatures.WorldState
   name: WorldState
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_WorldState
@@ -1363,6 +1381,12 @@ references:
   commentId: F:SlugBase.Features.PlayerFeatures.AutoGrabFlies
   fullName: SlugBase.Features.PlayerFeatures.AutoGrabFlies
   nameWithType: PlayerFeatures.AutoGrabFlies
+- uid: SlugBase.Features.PlayerFeatures.BackSpear
+  name: BackSpear
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_BackSpear
+  commentId: F:SlugBase.Features.PlayerFeatures.BackSpear
+  fullName: SlugBase.Features.PlayerFeatures.BackSpear
+  nameWithType: PlayerFeatures.BackSpear
 - uid: SlugBase.Features.PlayerFeatures.ClimbSpeedMul
   name: ClimbSpeedMul
   href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_ClimbSpeedMul
@@ -1597,18 +1621,6 @@ references:
   commentId: F:SlugBase.JsonAny.Element.Bool
   fullName: SlugBase.JsonAny.Element.Bool
   nameWithType: JsonAny.Element.Bool
-- uid: SlugBase.JsonAny.Element.Float
-  name: Float
-  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Float
-  commentId: F:SlugBase.JsonAny.Element.Float
-  fullName: SlugBase.JsonAny.Element.Float
-  nameWithType: JsonAny.Element.Float
-- uid: SlugBase.JsonAny.Element.Integer
-  name: Integer
-  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Integer
-  commentId: F:SlugBase.JsonAny.Element.Integer
-  fullName: SlugBase.JsonAny.Element.Integer
-  nameWithType: JsonAny.Element.Integer
 - uid: SlugBase.JsonAny.Element.Invalid
   name: Invalid
   href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Invalid
@@ -1621,6 +1633,12 @@ references:
   commentId: F:SlugBase.JsonAny.Element.List
   fullName: SlugBase.JsonAny.Element.List
   nameWithType: JsonAny.Element.List
+- uid: SlugBase.JsonAny.Element.Number
+  name: Number
+  href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Number
+  commentId: F:SlugBase.JsonAny.Element.Number
+  fullName: SlugBase.JsonAny.Element.Number
+  nameWithType: JsonAny.Element.Number
 - uid: SlugBase.JsonAny.Element.Object
   name: Object
   href: api/SlugBase.JsonAny.Element.html#SlugBase_JsonAny_Element_Object
@@ -1759,12 +1777,6 @@ references:
   commentId: T:SlugBase.JsonException
   fullName: SlugBase.JsonException
   nameWithType: JsonException
-- uid: SlugBase.JsonException.#ctor
-  name: JsonException()
-  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor
-  commentId: M:SlugBase.JsonException.#ctor
-  fullName: SlugBase.JsonException.JsonException()
-  nameWithType: JsonException.JsonException()
 - uid: SlugBase.JsonException.#ctor(SlugBase.JsonAny)
   name: JsonException(JsonAny)
   href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_SlugBase_JsonAny_
@@ -1783,18 +1795,6 @@ references:
   commentId: M:SlugBase.JsonException.#ctor(System.String,System.Exception,SlugBase.JsonAny)
   fullName: SlugBase.JsonException.JsonException(System.String, System.Exception, SlugBase.JsonAny)
   nameWithType: JsonException.JsonException(String, Exception, JsonAny)
-- uid: SlugBase.JsonException.#ctor(System.String,System.Exception)
-  name: JsonException(String, Exception)
-  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_System_String_System_Exception_
-  commentId: M:SlugBase.JsonException.#ctor(System.String,System.Exception)
-  fullName: SlugBase.JsonException.JsonException(System.String, System.Exception)
-  nameWithType: JsonException.JsonException(String, Exception)
-- uid: SlugBase.JsonException.#ctor(System.String)
-  name: JsonException(String)
-  href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_System_String_
-  commentId: M:SlugBase.JsonException.#ctor(System.String)
-  fullName: SlugBase.JsonException.JsonException(System.String)
-  nameWithType: JsonException.JsonException(String)
 - uid: SlugBase.JsonException.#ctor*
   name: JsonException
   href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_
@@ -2199,6 +2199,36 @@ references:
   commentId: Overload:SlugBase.JsonObject.TryGet
   fullName: SlugBase.JsonObject.TryGet
   nameWithType: JsonObject.TryGet
+- uid: SlugBase.JsonParseException
+  name: JsonParseException
+  href: api/SlugBase.JsonParseException.html
+  commentId: T:SlugBase.JsonParseException
+  fullName: SlugBase.JsonParseException
+  nameWithType: JsonParseException
+- uid: SlugBase.JsonParseException.CharIndex
+  name: CharIndex
+  href: api/SlugBase.JsonParseException.html#SlugBase_JsonParseException_CharIndex
+  commentId: P:SlugBase.JsonParseException.CharIndex
+  fullName: SlugBase.JsonParseException.CharIndex
+  nameWithType: JsonParseException.CharIndex
+- uid: SlugBase.JsonParseException.CharIndex*
+  name: CharIndex
+  href: api/SlugBase.JsonParseException.html#SlugBase_JsonParseException_CharIndex_
+  commentId: Overload:SlugBase.JsonParseException.CharIndex
+  fullName: SlugBase.JsonParseException.CharIndex
+  nameWithType: JsonParseException.CharIndex
+- uid: SlugBase.JsonParseException.Line
+  name: Line
+  href: api/SlugBase.JsonParseException.html#SlugBase_JsonParseException_Line
+  commentId: P:SlugBase.JsonParseException.Line
+  fullName: SlugBase.JsonParseException.Line
+  nameWithType: JsonParseException.Line
+- uid: SlugBase.JsonParseException.Line*
+  name: Line
+  href: api/SlugBase.JsonParseException.html#SlugBase_JsonParseException_Line_
+  commentId: Overload:SlugBase.JsonParseException.Line
+  fullName: SlugBase.JsonParseException.Line
+  nameWithType: JsonParseException.Line
 - uid: SlugBase.JsonRegistry`2
   name: JsonRegistry<TKey, TValue>
   href: api/SlugBase.JsonRegistry-2.html
@@ -2338,22 +2368,22 @@ references:
   fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Exception
   nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Exception
   nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Exception
-- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.Key
-  name: Key
-  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_Key
-  commentId: P:SlugBase.JsonRegistry`2.LoadErrorEventArgs.Key
-  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Key
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Key
-  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Key
-  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Key
-- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.Key*
-  name: Key
-  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_Key_
-  commentId: Overload:SlugBase.JsonRegistry`2.LoadErrorEventArgs.Key
-  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Key
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Key
-  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Key
-  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Key
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.Path
+  name: Path
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_Path
+  commentId: P:SlugBase.JsonRegistry`2.LoadErrorEventArgs.Path
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Path
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Path
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Path
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Path
+- uid: SlugBase.JsonRegistry`2.LoadErrorEventArgs.Path*
+  name: Path
+  href: api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html#SlugBase_JsonRegistry_2_LoadErrorEventArgs_Path_
+  commentId: Overload:SlugBase.JsonRegistry`2.LoadErrorEventArgs.Path
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Path
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Path
+  nameWithType: JsonRegistry<TKey, TValue>.LoadErrorEventArgs.Path
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).LoadErrorEventArgs.Path
 - uid: SlugBase.JsonRegistry`2.LoadFailed
   name: LoadFailed
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_LoadFailed
@@ -2451,6 +2481,22 @@ references:
   fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ScanDirectory
   nameWithType: JsonRegistry<TKey, TValue>.ScanDirectory
   nameWithType.vb: JsonRegistry(Of TKey, TValue).ScanDirectory
+- uid: SlugBase.JsonRegistry`2.TryAddFromFile(System.String)
+  name: TryAddFromFile(String)
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryAddFromFile_System_String_
+  commentId: M:SlugBase.JsonRegistry`2.TryAddFromFile(System.String)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryAddFromFile(System.String)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryAddFromFile(System.String)
+  nameWithType: JsonRegistry<TKey, TValue>.TryAddFromFile(String)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryAddFromFile(String)
+- uid: SlugBase.JsonRegistry`2.TryAddFromFile*
+  name: TryAddFromFile
+  href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryAddFromFile_
+  commentId: Overload:SlugBase.JsonRegistry`2.TryAddFromFile
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryAddFromFile
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryAddFromFile
+  nameWithType: JsonRegistry<TKey, TValue>.TryAddFromFile
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryAddFromFile
 - uid: SlugBase.JsonRegistry`2.TryGet(`0,`1@)
   name: TryGet(TKey, out TValue)
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGet__0__1__
@@ -2781,6 +2827,34 @@ references:
   commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.Contains
   fullName: SlugBase.SlugBaseCharacter.FeatureList.Contains
   nameWithType: SlugBaseCharacter.FeatureList.Contains
+- uid: SlugBase.SlugBaseCharacter.FeatureList.GetEnumerator
+  name: GetEnumerator()
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_GetEnumerator
+  commentId: M:SlugBase.SlugBaseCharacter.FeatureList.GetEnumerator
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.GetEnumerator()
+  nameWithType: SlugBaseCharacter.FeatureList.GetEnumerator()
+- uid: SlugBase.SlugBaseCharacter.FeatureList.GetEnumerator*
+  name: GetEnumerator
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_GetEnumerator_
+  commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.GetEnumerator
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.GetEnumerator
+  nameWithType: SlugBaseCharacter.FeatureList.GetEnumerator
+- uid: SlugBase.SlugBaseCharacter.FeatureList.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:SlugBase.SlugBaseCharacter.FeatureList.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: SlugBaseCharacter.FeatureList.IEnumerable.GetEnumerator()
+  nameWithType.vb: SlugBaseCharacter.FeatureList.System.Collections.IEnumerable.GetEnumerator()
+- uid: SlugBase.SlugBaseCharacter.FeatureList.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: SlugBase.SlugBaseCharacter.FeatureList.System.Collections.IEnumerable.GetEnumerator
+  nameWithType: SlugBaseCharacter.FeatureList.IEnumerable.GetEnumerator
+  nameWithType.vb: SlugBaseCharacter.FeatureList.System.Collections.IEnumerable.GetEnumerator
 - uid: SlugBase.SlugBaseCharacter.FeatureList.TryGet*
   name: TryGet
   href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_TryGet_

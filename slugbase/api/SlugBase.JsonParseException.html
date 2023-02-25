@@ -5,10 +5,10 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class JsonException
+      <title>Class JsonParseException
  </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class JsonException
+      <meta name="title" content="Class JsonParseException
  ">
       <meta name="generator" content="docfx ">
   
@@ -78,19 +78,19 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="SlugBase.JsonException">
+                    <article class="content wrap" id="_content" data-uid="SlugBase.JsonParseException">
 
 
-  <h1 id="SlugBase_JsonException" data-uid="SlugBase.JsonException" class="text-break">Class JsonException
+  <h1 id="SlugBase_JsonParseException" data-uid="SlugBase.JsonParseException" class="text-break">Class JsonParseException
 </h1>
-  <div class="markdown level0 summary"><p>Represents errors that occur when accessing JSON data.</p>
+  <div class="markdown level0 summary"><p>Represents errors that occur when parsing JSON data.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">System.Exception</span></div>
-    <div class="level2"><span class="xref">JsonException</span></div>
+    <div class="level2"><span class="xref">JsonParseException</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -156,125 +156,22 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SlugBase.html">SlugBase</a></h6>
   <h6><strong>Assembly</strong>: SlugBase.dll</h6>
-  <h5 id="SlugBase_JsonException_syntax">Syntax</h5>
+  <h5 id="SlugBase_JsonParseException_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JsonException : Exception, ISerializable, _Exception</code></pre>
+    <pre><code class="lang-csharp hljs">public class JsonParseException : Exception, ISerializable, _Exception</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-</h3>
-
-
-  <a id="SlugBase_JsonException__ctor_" data-uid="SlugBase.JsonException.#ctor*"></a>
-  <h4 id="SlugBase_JsonException__ctor_SlugBase_JsonAny_" data-uid="SlugBase.JsonException.#ctor(SlugBase.JsonAny)">JsonException(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SlugBase.JsonException.html">JsonException</a> class with a path to the invalid element.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonException(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonException__ctor_" data-uid="SlugBase.JsonException.#ctor*"></a>
-  <h4 id="SlugBase_JsonException__ctor_System_String_SlugBase_JsonAny_" data-uid="SlugBase.JsonException.#ctor(System.String,SlugBase.JsonAny)">JsonException(String, JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SlugBase.JsonException.html">JsonException</a> class with a specified error message
-and a path to the invalid element.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonException(string message, JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonException__ctor_" data-uid="SlugBase.JsonException.#ctor*"></a>
-  <h4 id="SlugBase_JsonException__ctor_System_String_System_Exception_SlugBase_JsonAny_" data-uid="SlugBase.JsonException.#ctor(System.String,System.Exception,SlugBase.JsonAny)">JsonException(String, Exception, JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SlugBase.JsonException.html">JsonException</a> class with a specified error message,
-a reference to the inner exception that is the cause of this exception, and a path to the invalid element.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonException(string message, Exception inner, JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">inner</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
 </h3>
 
 
-  <a id="SlugBase_JsonException_JsonPath_" data-uid="SlugBase.JsonException.JsonPath*"></a>
-  <h4 id="SlugBase_JsonException_JsonPath" data-uid="SlugBase.JsonException.JsonPath">JsonPath</h4>
-  <div class="markdown level1 summary"><p>The path to the element that failed to parse, starting from the root object.</p>
+  <a id="SlugBase_JsonParseException_CharIndex_" data-uid="SlugBase.JsonParseException.CharIndex*"></a>
+  <h4 id="SlugBase_JsonParseException_CharIndex" data-uid="SlugBase.JsonParseException.CharIndex">CharIndex</h4>
+  <div class="markdown level1 summary"><p>The offset in the input string that the error occurred at.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string JsonPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int CharIndex { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -286,7 +183,33 @@ a reference to the inner exception that is the cause of this exception, and a pa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_JsonParseException_Line_" data-uid="SlugBase.JsonParseException.Line*"></a>
+  <h4 id="SlugBase_JsonParseException_Line" data-uid="SlugBase.JsonParseException.Line">Line</h4>
+  <div class="markdown level1 summary"><p>The line in the input string that the error occurred at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Line { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
