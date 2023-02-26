@@ -1387,6 +1387,12 @@ references:
   commentId: F:SlugBase.Features.PlayerFeatures.BackSpear
   fullName: SlugBase.Features.PlayerFeatures.BackSpear
   nameWithType: PlayerFeatures.BackSpear
+- uid: SlugBase.Features.PlayerFeatures.CanMaul
+  name: CanMaul
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_CanMaul
+  commentId: F:SlugBase.Features.PlayerFeatures.CanMaul
+  fullName: SlugBase.Features.PlayerFeatures.CanMaul
+  nameWithType: PlayerFeatures.CanMaul
 - uid: SlugBase.Features.PlayerFeatures.ClimbSpeedMul
   name: ClimbSpeedMul
   href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_ClimbSpeedMul
@@ -1429,6 +1435,18 @@ references:
   commentId: F:SlugBase.Features.PlayerFeatures.LungsCapacityMul
   fullName: SlugBase.Features.PlayerFeatures.LungsCapacityMul
   nameWithType: PlayerFeatures.LungsCapacityMul
+- uid: SlugBase.Features.PlayerFeatures.MaulBlacklist
+  name: MaulBlacklist
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_MaulBlacklist
+  commentId: F:SlugBase.Features.PlayerFeatures.MaulBlacklist
+  fullName: SlugBase.Features.PlayerFeatures.MaulBlacklist
+  nameWithType: PlayerFeatures.MaulBlacklist
+- uid: SlugBase.Features.PlayerFeatures.MaulDamage
+  name: MaulDamage
+  href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_MaulDamage
+  commentId: F:SlugBase.Features.PlayerFeatures.MaulDamage
+  fullName: SlugBase.Features.PlayerFeatures.MaulDamage
+  nameWithType: PlayerFeatures.MaulDamage
 - uid: SlugBase.Features.PlayerFeatures.SlugcatColor
   name: SlugcatColor
   href: api/SlugBase.Features.PlayerFeatures.html#SlugBase_Features_PlayerFeatures_SlugcatColor
