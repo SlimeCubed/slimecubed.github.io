@@ -84,6 +84,7 @@
 <p>Before you start, you'll need a few things:</p>
 <ul>
 <li><a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio</a> with the &quot;.NET desktop development&quot; workload to compile C# code into dlls.</li>
+<li><a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks">.NET 7 SDK</a> or above to let you use C# 11.</li>
 <li><a href="https://github.com/SlimeCubed/SlugTemplate">SlugTemplate</a>, either by creating a new GitHub repo with the template or downloading the source as a ZIP file.</li>
 <li><a href="https://github.com/dnSpy/dnSpy/releases/latest">dnSpy</a> to decompile and inspect the game's code.</li>
 <li>Some knowledge of C#.</li>
@@ -97,7 +98,7 @@
 <p>This will produce a perfectly functional mod as is, but if more than one person tries to upload it they'll run into a problem: the mod ID they use is already taken! There are a few things you'll want to rename to stop this from happening.</p>
 <p>1: In the Solution Explorer, right click on both the solution and project and select Rename. Enter a new name for your project. These do not need to be the same.</p>
 <img src="../images/template/rename-sln.png">
-<p>2: Open <code>Plugin.cs</code> in Visual Studio. Rename the mod name and ID to something unique. Update the prefixes on the custom feature names, as well. These fields are unrelated, but should be similar enough that you can identify them as being from your mod.</p>
+<p>2: Open <code>Plugin.cs</code> in Visual Studio. Rename the mod name and ID to something unique. Update the prefixes on the custom feature names, as well. These fields are unrelated, but should be similar enough that you can identify them as being from your mod. The features here are just for demonstration purposes, so you'll probably want to remove them before publishing your mod.</p>
 <img src="../images/template/rename-plugin.png">
 <p>3: Open <code>mod\modinfo.json</code> in any text editor. Visual Studio works for this, and will notify you if your JSON formatting is invalid. The &quot;id&quot;, &quot;name&quot;, and &quot;version&quot; properties should match with what you've specified in <code>Plugin.cs</code>.</p>
 <img src="../images/template/update-modinfo.png">

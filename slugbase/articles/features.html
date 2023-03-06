@@ -126,28 +126,36 @@
 <p>Some values will not be present if More Slugcats is not installed. Other mods may add values to these. Features that take enums will often ignore invalid values.</p>
 <h2 id="player-features">Player Features</h2>
 <h3 id="color">&quot;color&quot;</h3>
-<p><code>color</code></p>
+<p><code>color</code><br>
+Ex: <code>&quot;color&quot;: &quot;6B12FF&quot;</code></p>
 <p>Default color for body and UI elements.</p>
 <h3 id="auto_grab_batflies">&quot;auto_grab_batflies&quot;</h3>
-<p><code>boolean</code></p>
+<p><code>boolean</code><br>
+Ex: <code>&quot;auto_grab_batflies&quot;: false</code></p>
 <p>Grab batflies on collision.</p>
 <h3 id="weight">&quot;weight&quot;</h3>
-<p><code>float[1..2]</code></p>
+<p><code>float[1..2]</code><br>
+Ex: <code>&quot;weight&quot;: 1.2</code>, <code>&quot;weight&quot;: [0.9, 0.7]</code></p>
 <p>Player normal and starving body mass. If unspecified, the starving value is automatically calculated.</p>
 <h3 id="tunnel_speed">&quot;tunnel_speed&quot;</h3>
-<p><code>float[1..2]</code></p>
+<p><code>float[1..2]</code><br>
+Ex: <code>&quot;tunnel_speed&quot;: 1.2</code>, <code>&quot;tunnel_speed&quot;: [0.9, 0.7]</code></p>
 <p>Player normal and starving speed multiplier in crawlspaces. If unspecified, the starving value is automatically calculated.</p>
 <h3 id="climb_speed">&quot;climb_speed&quot;</h3>
-<p><code>float[1..2]</code></p>
+<p><code>float[1..2]</code><br>
+Ex: <code>&quot;climb_speed&quot;: 1.2</code>, <code>&quot;climb_speed&quot;: [0.9, 0.7]</code></p>
 <p>Player normal and starving speed multiplier on poles. If unspecified, the starving value is automatically calculated.</p>
 <h3 id="walk_speed">&quot;walk_speed&quot;</h3>
-<p><code>float[1..2]</code></p>
+<p><code>float[1..2]</code><br>
+Ex: <code>&quot;walk_speed&quot;: 1.2</code>, <code>&quot;walk_speed&quot;: [0.9, 0.7]</code></p>
 <p>Player normal and starving speed multiplier when walking. If unspecified, the starving value is automatically calculated.</p>
 <h3 id="crouch_stealth">&quot;crouch_stealth&quot;</h3>
-<p><code>float[1..2]</code></p>
+<p><code>float[1..2]</code><br>
+Ex: <code>&quot;crouch_stealth&quot;: 1.2</code>, <code>&quot;crouch_stealth&quot;: [0.9, 0.7]</code></p>
 <p>Player normal and starving multiplier for visual stealth when down on all fours. If unspecified, the starving value matches the normal value.</p>
 <h3 id="throw_skill">&quot;throw_skill&quot;</h3>
-<p><code>integer[1..2]</code></p>
+<p><code>integer[1..2]</code><br>
+Ex: <code>&quot;throw_skill&quot;: 2</code>, <code>&quot;throw_skill&quot;: [2, 1]</code></p>
 <p>Player normal and starving spear throwing damage and distance. If unspecified, the starving value is 0.</p>
 <ul>
 <li><code>0</code>: 0.6 to 0.9 damage, matching Monk</li>
@@ -155,15 +163,23 @@
 <li><code>2</code>: 1.25 damage, matching Hunter</li>
 </ul>
 <h3 id="lung_capacity">&quot;lung_capacity&quot;</h3>
-<p><code>float[1..2]</code></p>
+<p><code>float[1..2]</code><br>
+Ex: <code>&quot;lung_capacity&quot;: 1.2</code>, <code>&quot;lung_capacity&quot;: [0.9, 0.7]</code></p>
 <p>Player normal and starving multiplier for lung capacity. If unspecified, the starving value matches the normal value.</p>
 <h3 id="loudness">&quot;loudness&quot;</h3>
-<p><code>float[1..2]</code></p>
+<p><code>float[1..2]</code><br>
+Ex: <code>&quot;loudness&quot;: 1.2</code>, <code>&quot;loudness&quot;: [0.9, 0.7]</code></p>
 <p>Player normal and starving multiplier for loudness in regards to drawing creature attention. If unspecified, the starving value matches the normal value.</p>
 <h3 id="alignments">&quot;alignments&quot;</h3>
 <pre><code>{
   &quot;&lt;CreatureCommunities.CommunityID&gt;&quot;: { &quot;like&quot;: float, &quot;strength&quot;: float = 1.0, &quot;locked&quot;: boolean = false },
   ...
+}
+</code></pre>
+<p>Ex:</p>
+<pre><code>&quot;alignments&quot;: {
+  &quot;Lizards&quot;: { &quot;like&quot;: 1.0, &quot;strength&quot;: 0.2 },
+  &quot;Scavengers&quot;: { &quot;like&quot;: -0.5, &quot;locked&quot;: true }
 }
 </code></pre>
 <p>Default reputation values that creature communities have towards the player. When a save is started, each community's reputation is moved towards <code>&quot;like&quot;</code> by the fraction <code>&quot;strength&quot;</code>. If <code>&quot;locked&quot;</code>, then the reputation will always be <code>&quot;like&quot;</code>.</p>
@@ -181,6 +197,17 @@
   }
 }
 </code></pre>
+<p>Ex:</p>
+<pre><code>&quot;diet&quot;: {
+  &quot;base&quot;: &quot;White&quot;,
+  &quot;corpses&quot;: 0.5,
+  &quot;plants&quot;: 0.5,
+  &quot;overrides&quot;: {
+    &quot;Scavenger&quot;: 1.25,
+    &quot;DangleFruit&quot;: 0.5
+  }
+}
+</code></pre>
 <p>Edibility and nourishment of foods. Values are rounded to the nearest fourth. 0 indicates inedibility and -1 indicates that eating stuns the player. <code>&quot;corpses&quot;</code> multiplies food from eating large, non-centipede bodies. <code>&quot;meat&quot;</code> multiplies food from eating small creatures, centipedes, and meat-like objects (i.e., eggbug eggs and jellyfish). <code>&quot;plants&quot;</code> multiplies food from eating non-meat objects. <code>&quot;overrides&quot;</code> sets multipliers for individual creatures and objects.</p>
 <p>If <code>&quot;base&quot;</code> is specified, it must refer to a <code>SlugcatStats.Name</code> that is from the base game or More Slugcats. When present, other diet properties are optional and default to the values for this character. Otherwise, these properties are required.</p>
 <h3 id="custom_colors">&quot;custom_colors&quot;</h3>
@@ -191,31 +218,46 @@
   ...
 ]
 </code></pre>
+<p>Ex:</p>
+<pre><code>&quot;custom_colors&quot;: [
+  { &quot;name&quot;: &quot;Body&quot;, &quot;story&quot;: &quot;10200C&quot; },
+  { &quot;name&quot;: &quot;Eyes&quot;, &quot;story&quot;: &quot;FFFFFF&quot;, &quot;arena&quot;: [ &quot;FFFFFF&quot;, &quot;FF8080&quot;, &quot;80FF80&quot;, &quot;8080FF&quot; ] },
+  { &quot;name&quot;: &quot;Gills&quot;, &quot;story&quot;: &quot;454560&quot; }
+]
+</code></pre>
 <p>Configurable colors for this character. Colors are referenced by <code>&quot;name&quot;</code>, and will appear as such in the color customization menu. The color defaults to <code>&quot;story&quot;</code> in story mode, and is overridden by <code>&quot;arena&quot;</code> when in arena mode. If an insufficient number of colors are specified in <code>&quot;arena&quot;</code> or the property is omitted, then some players in arena mode will use <code>&quot;story&quot;</code> colors.</p>
 <h3 id="back_spear">&quot;back_spear&quot;</h3>
-<p><code>boolean</code></p>
+<p><code>boolean</code><br>
+Ex: <code>&quot;back_spear&quot;: true</code></p>
 <p>Ability to store a spear on the player's back.</p>
 <h3 id="can_maul">&quot;can_maul&quot;</h3>
-<p><code>boolean</code></p>
+<p><code>boolean</code><br>
+Ex: <code>&quot;can_maul&quot;: true</code></p>
 <p>Ability to deal damage to stunned creatures by holding grab.</p>
 <h3 id="maul_blacklist">&quot;maul_blacklist&quot;</h3>
-<p><code>string[]</code></p>
-<p>Creature types that may not be mauled by this character. These refer to <code>CreatureTemplate.Type</code> values, such as &quot;Scavenger&quot; and &quot;GreenLizard&quot;.</p>
+<p><code>string[]</code><br>
+Ex: <code>&quot;maul_blacklist&quot;: [ &quot;Scavenger&quot;, &quot;PinkLizard&quot; ]</code></p>
+<p>Creature types that may not be mauled by this character. These refer to <code>CreatureTemplate.Type</code> values.</p>
 <h3 id="maul_damage">&quot;maul_damage&quot;</h3>
-<p><code>float</code></p>
+<p><code>float</code><br>
+Ex: <code>&quot;maul_damage&quot;: 1.5</code></p>
 <p>Damage dealt when mauling. This defaults to 1.</p>
 <h2 id="game-features">Game Features</h2>
 <h3 id="karma">&quot;karma&quot;</h3>
-<p><code>integer</code></p>
+<p><code>integer</code><br>
+Ex: <code>&quot;karma&quot;: 3</code></p>
 <p>Initial karma level from 0 to 9.</p>
 <h3 id="karma_cap">&quot;karma_cap&quot;</h3>
-<p><code>integer</code></p>
+<p><code>integer</code><br>
+Ex: <code>&quot;karma_cap&quot;: 7</code></p>
 <p>Initial karma cap from 0 to 9.</p>
 <h3 id="start_room">&quot;start_room&quot;</h3>
-<p><code>string[]</code></p>
+<p><code>string[]</code><br>
+Ex: <code>&quot;start_room&quot;: &quot;LF_H01&quot;</code>, <code>&quot;start_room&quot;: [ &quot;DS_RIVSTART&quot;, &quot;LF_H01&quot; ]</code></p>
 <p>Names of potential starting rooms. If the first room does not exist, then the second will be tried and so on.</p>
 <h3 id="guide_overseer">&quot;guide_overseer&quot;</h3>
-<p><code>integer</code></p>
+<p><code>integer</code><br>
+Ex: <code>&quot;guide_overseer&quot;: 1</code></p>
 <p>Color index of the player guide. If unspecified, then the guide overseer will not spawn.</p>
 <ul>
 <li><code>1</code>: Yellow</li>
@@ -226,41 +268,53 @@
 </ul>
 <p>Colors besides yellow may not work as expected if MSC is not enabled.</p>
 <h3 id="has_dreams">&quot;has_dreams&quot;</h3>
-<p><code>boolean</code></p>
+<p><code>boolean</code><br>
+Ex: <code>&quot;has_dreams&quot;: true</code></p>
 <p>Whether this character has a dream state.</p>
 <h3 id="cycle_length_min">&quot;cycle_length_min&quot;</h3>
-<p><code>float</code></p>
+<p><code>float</code><br>
+Ex: <code>&quot;cycle_length_min&quot;: 5.5</code></p>
 <p>Minimum cycle length in minutes.</p>
 <h3 id="cycle_length_max">&quot;cycle_length_max&quot;</h3>
-<p><code>float</code></p>
+<p><code>float</code><br>
+Ex: <code>&quot;cycle_length_max&quot;: 8.25</code></p>
 <p>Maximum cycle length in minutes.</p>
 <h3 id="perma_unlock_gates">&quot;perma_unlock_gates&quot;</h3>
-<p><code>boolean</code></p>
+<p><code>boolean</code><br>
+Ex: <code>&quot;perma_unlock_gates&quot;: true</code></p>
 <p>Whether this character unlocks gates permanently when passing through.</p>
 <h3 id="food_min">&quot;food_min&quot;</h3>
-<p><code>integer</code></p>
+<p><code>integer</code><br>
+Ex: <code>&quot;food_min&quot;: 7</code></p>
 <p>Food required to hibernate.</p>
 <h3 id="food_max">&quot;food_max&quot;</h3>
-<p><code>integer</code></p>
+<p><code>integer</code><br>
+Ex: <code>&quot;food_max&quot;: 10</code></p>
 <p>Max food stored at any time.</p>
 <h3 id="select_menu_scene">&quot;select_menu_scene&quot;</h3>
-<p><code>string</code></p>
+<p><code>string</code><br>
+Ex: <code>&quot;select_menu_scene&quot;: &quot;MySlugcatSelect&quot;</code></p>
 <p>Scene ID for character select menu.</p>
 <h3 id="select_menu_scene_ascended">&quot;select_menu_scene_ascended&quot;</h3>
-<p><code>string</code></p>
+<p><code>string</code><br>
+Ex: <code>&quot;select_menu_scene_ascended&quot;: &quot;MySlugcatAscended&quot;</code></p>
 <p>Scene ID for character select menu after ascension.</p>
 <h3 id="sleep_scene">&quot;sleep_scene&quot;</h3>
-<p><code>string</code></p>
+<p><code>string</code><br>
+Ex: <code>&quot;sleep_scene&quot;: &quot;MySlugcatSleep&quot;</code></p>
 <p>Scene ID for hibernation.</p>
 <h3 id="starve_scene">&quot;starve_scene&quot;</h3>
-<p><code>string</code></p>
+<p><code>string</code><br>
+Ex: <code>&quot;starve_scene&quot;: &quot;MySlugcatStarve&quot;</code></p>
 <p>Scene ID for death screen after starvation.</p>
 <h3 id="death_scene">&quot;death_scene&quot;</h3>
-<p><code>string</code></p>
+<p><code>string</code><br>
+Ex: <code>&quot;death_scene&quot;: &quot;MySlugcatDeath&quot;</code></p>
 <p>Scene ID for non-starvation deaths.</p>
 <h3 id="world_state">&quot;world_state&quot;</h3>
-<p><code>string</code></p>
-<p>A <code>SlugcatStats.Name</code> value to copy world state from. This includes spawns and room connections. Specifying an MSC slugcat will fail if MSC is not installed.</p>
+<p><code>string[]</code><br>
+Ex: <code>&quot;world_state&quot;: &quot;Red&quot;</code>, <code>&quot;world_state&quot;: [ &quot;Spear&quot;, &quot;Red&quot; ]</code></p>
+<p><code>SlugcatStats.Name</code> values to copy world state from. This includes spawns and room connections. If the first name does not exist, then the second will be tried and so on.</p>
 </article>
                 </div>
 
