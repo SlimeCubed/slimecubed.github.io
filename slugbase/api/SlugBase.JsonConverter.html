@@ -5,10 +5,10 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class JsonUtils
+      <title>Class JsonConverter
  </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class JsonUtils
+      <meta name="title" content="Class JsonConverter
  ">
       <meta name="generator" content="docfx ">
   
@@ -78,18 +78,18 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="SlugBase.JsonUtils">
+                    <article class="content wrap" id="_content" data-uid="SlugBase.JsonConverter">
 
 
-  <h1 id="SlugBase_JsonUtils" data-uid="SlugBase.JsonUtils" class="text-break">Class JsonUtils
+  <h1 id="SlugBase_JsonConverter" data-uid="SlugBase.JsonConverter" class="text-break">Class JsonConverter
 </h1>
-  <div class="markdown level0 summary"><p>Converts <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> to other types.</p>
+  <div class="markdown level0 summary"><p>Converts to and from JSON values.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">JsonUtils</span></div>
+    <div class="level1"><span class="xref">JsonConverter</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -117,22 +117,22 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SlugBase.html">SlugBase</a></h6>
   <h6><strong>Assembly</strong>: SlugBase.dll</h6>
-  <h5 id="SlugBase_JsonUtils_syntax">Syntax</h5>
+  <h5 id="SlugBase_JsonConverter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class JsonUtils</code></pre>
+    <pre><code class="lang-csharp hljs">public static class JsonConverter</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
 
 
-  <a id="SlugBase_JsonUtils_ToBool_" data-uid="SlugBase.JsonUtils.ToBool*"></a>
-  <h4 id="SlugBase_JsonUtils_ToBool_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToBool(SlugBase.JsonAny)">ToBool(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">System.Boolean</span>.</p>
+  <a id="SlugBase_JsonConverter_ToDictionary_" data-uid="SlugBase.JsonConverter.ToDictionary*"></a>
+  <h4 id="SlugBase_JsonConverter_ToDictionary_SlugBase_JsonObject_" data-uid="SlugBase.JsonConverter.ToDictionary(SlugBase.JsonObject)">ToDictionary(JsonObject)</h4>
+  <div class="markdown level1 summary"><p>Create a mutable copy of a <a class="xref" href="SlugBase.JsonObject.html">JsonObject</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ToBool(JsonAny json)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, object&gt; ToDictionary(JsonObject value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,9 +145,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
+        <td><a class="xref" href="SlugBase.JsonObject.html">JsonObject</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="SlugBase.JsonObject.html">JsonObject</a> to copy.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -156,40 +157,41 @@
     <thead>
       <tr>
         <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><p>A copy of <code data-dev-comment-type="paramref" class="paramref">value</code> as a <span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_Boolean_" data-uid="SlugBase.JsonConverter.ToJson(System.Boolean)">ToJson(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.Boolean</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToColor_" data-uid="SlugBase.JsonUtils.ToColor*"></a>
-  <h4 id="SlugBase_JsonUtils_ToColor_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToColor(SlugBase.JsonAny)">ToColor(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">UnityEngine.Color</span>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color ToColor(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -204,24 +206,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="SlugBase_JsonUtils_ToColor_SlugBase_JsonAny__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This may be a hex string or equivalent integer; list of components; or object with &quot;r&quot;, &quot;g&quot;, &quot;b&quot;, and possibly &quot;a&quot; properties.</p>
-</div>
 
 
-  <a id="SlugBase_JsonUtils_ToDouble_" data-uid="SlugBase.JsonUtils.ToDouble*"></a>
-  <h4 id="SlugBase_JsonUtils_ToDouble_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToDouble(SlugBase.JsonAny)">ToDouble(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">System.Double</span>.</p>
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_Collections_Generic_Dictionary_System_String_System_Object__" data-uid="SlugBase.JsonConverter.ToJson(System.Collections.Generic.Dictionary{System.String,System.Object})">ToJson(Dictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a read-only <a class="xref" href="SlugBase.JsonObject.html">JsonObject</a> from a copy of <code data-dev-comment-type="paramref" class="paramref">obj</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double ToDouble(JsonAny json)</code></pre>
+    <pre><code class="lang-csharp hljs">public static JsonObject ToJson(Dictionary&lt;string, object&gt; obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,8 +233,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -245,40 +244,131 @@
     <thead>
       <tr>
         <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonObject.html">JsonObject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SlugBase_JsonConverter_ToJson_System_Collections_Generic_Dictionary_System_String_System_Object___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <code>null</code> values are valid, use <a class="xref" href="SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJsonAny_System_Object_">ToJsonAny(Object)</a> instead.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>An object in <code data-dev-comment-type="paramref" class="paramref">obj</code> could not be converted to JSON.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">obj</code> was <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_Collections_Generic_List_System_Object__" data-uid="SlugBase.JsonConverter.ToJson(System.Collections.Generic.List{System.Object})">ToJson(List&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a read-only <a class="xref" href="SlugBase.JsonList.html">JsonList</a> from a copy of <code data-dev-comment-type="paramref" class="paramref">list</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JsonList ToJson(List&lt;object&gt; list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonList.html">JsonList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SlugBase_JsonConverter_ToJson_System_Collections_Generic_List_System_Object___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <code>null</code> values are valid, use <a class="xref" href="SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJsonAny_System_Object_">ToJsonAny(Object)</a> instead.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>An object in <code data-dev-comment-type="paramref" class="paramref">list</code> could not be converted to JSON.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">list</code> was <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_Double_" data-uid="SlugBase.JsonConverter.ToJson(System.Double)">ToJson(Double)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.Double</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToDoubles_" data-uid="SlugBase.JsonUtils.ToDoubles*"></a>
-  <h4 id="SlugBase_JsonUtils_ToDoubles_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToDoubles(SlugBase.JsonAny)">ToDoubles(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert list to <span class="xref">System.Double</span>[].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double[] ToDoubles(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -293,22 +383,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span>[]</td>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="SlugBase_JsonUtils_ToEnum_" data-uid="SlugBase.JsonUtils.ToEnum*"></a>
-  <h4 id="SlugBase_JsonUtils_ToEnum__1_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToEnum``1(SlugBase.JsonAny)">ToEnum&lt;T&gt;(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">System.Enum</span> value.</p>
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_Int16_" data-uid="SlugBase.JsonConverter.ToJson(System.Int16)">ToJson(Int16)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.Int16</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T ToEnum&lt;T&gt;(JsonAny json)
-    where T : struct</code></pre>
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(short value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -321,8 +410,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -337,37 +426,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="SlugBase_JsonUtils_ToExtEnum_" data-uid="SlugBase.JsonUtils.ToExtEnum*"></a>
-  <h4 id="SlugBase_JsonUtils_ToExtEnum__1_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToExtEnum``1(SlugBase.JsonAny)">ToExtEnum&lt;T&gt;(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">ExtEnum`1</span> value.</p>
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_Int32_" data-uid="SlugBase.JsonConverter.ToJson(System.Int32)">ToJson(Int32)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.Int32</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T ToExtEnum&lt;T&gt;(JsonAny json)
-    where T : ExtEnum&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(int value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -375,203 +448,13 @@
       <tr>
         <th>Type</th>
         <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SlugBase_JsonUtils_ToExtEnum__1_SlugBase_JsonAny__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p><span class="xref">ExtEnumBase.Index</span> will be -1 for values that could not be parsed.</p>
-</div>
-
-
-  <a id="SlugBase_JsonUtils_ToFloat_" data-uid="SlugBase.JsonUtils.ToFloat*"></a>
-  <h4 id="SlugBase_JsonUtils_ToFloat_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToFloat(SlugBase.JsonAny)">ToFloat(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">System.Single</span>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float ToFloat(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToFloats_" data-uid="SlugBase.JsonUtils.ToFloats*"></a>
-  <h4 id="SlugBase_JsonUtils_ToFloats_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToFloats(SlugBase.JsonAny)">ToFloats(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert list to <span class="xref">System.Single</span>[].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float[] ToFloats(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToInt_" data-uid="SlugBase.JsonUtils.ToInt*"></a>
-  <h4 id="SlugBase_JsonUtils_ToInt_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToInt(SlugBase.JsonAny)">ToInt(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">System.Int32</span>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int ToInt(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToInts_" data-uid="SlugBase.JsonUtils.ToInts*"></a>
-  <h4 id="SlugBase_JsonUtils_ToInts_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToInts(SlugBase.JsonAny)">ToInts(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert list to <span class="xref">System.Int32</span>[].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int[] ToInts(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -586,21 +469,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span>[]</td>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="SlugBase_JsonUtils_ToLong_" data-uid="SlugBase.JsonUtils.ToLong*"></a>
-  <h4 id="SlugBase_JsonUtils_ToLong_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToLong(SlugBase.JsonAny)">ToLong(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">System.Int64</span>.</p>
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_Int64_" data-uid="SlugBase.JsonConverter.ToJson(System.Int64)">ToJson(Int64)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.Int64</span>. <code data-dev-comment-type="paramref" class="paramref">value</code> is converted to a <span class="xref">System.Double</span>, so very large numbers may lose precision.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static long ToLong(JsonAny json)</code></pre>
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(long value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -608,56 +491,13 @@
       <tr>
         <th>Type</th>
         <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToLongs_" data-uid="SlugBase.JsonUtils.ToLongs*"></a>
-  <h4 id="SlugBase_JsonUtils_ToLongs_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToLongs(SlugBase.JsonAny)">ToLongs(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert list to <span class="xref">System.Int64</span>[].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static long[] ToLongs(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -672,21 +512,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span>[]</td>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="SlugBase_JsonUtils_ToPlayerColor_" data-uid="SlugBase.JsonUtils.ToPlayerColor*"></a>
-  <h4 id="SlugBase_JsonUtils_ToPlayerColor_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToPlayerColor(SlugBase.JsonAny)">ToPlayerColor(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <a class="xref" href="SlugBase.DataTypes.PlayerColor.html">PlayerColor</a> via <a class="xref" href="SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_SlugBase_JsonAny_">PlayerColor(JsonAny)</a>.</p>
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_Single_" data-uid="SlugBase.JsonConverter.ToJson(System.Single)">ToJson(Single)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.Single</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PlayerColor ToPlayerColor(JsonAny json)</code></pre>
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(float value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -699,8 +539,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -715,21 +555,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SlugBase.DataTypes.PlayerColor.html">PlayerColor</a></td>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="SlugBase_JsonUtils_ToSlugcatName_" data-uid="SlugBase.JsonUtils.ToSlugcatName*"></a>
-  <h4 id="SlugBase_JsonUtils_ToSlugcatName_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToSlugcatName(SlugBase.JsonAny)">ToSlugcatName(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">SlugcatStats.Name</span>.</p>
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_String_" data-uid="SlugBase.JsonConverter.ToJson(System.String)">ToJson(String)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.String</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SlugcatStats.Name ToSlugcatName(JsonAny json)</code></pre>
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(string value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -737,142 +577,13 @@
       <tr>
         <th>Type</th>
         <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SlugcatStats.Name</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToSlugcatNames_" data-uid="SlugBase.JsonUtils.ToSlugcatNames*"></a>
-  <h4 id="SlugBase_JsonUtils_ToSlugcatNames_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToSlugcatNames(SlugBase.JsonAny)">ToSlugcatNames(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert list to <span class="xref">SlugcatStats.Name</span>[].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SlugcatStats.Name[] ToSlugcatNames(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SlugcatStats.Name</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToString_" data-uid="SlugBase.JsonUtils.ToString*"></a>
-  <h4 id="SlugBase_JsonUtils_ToString_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToString(SlugBase.JsonAny)">ToString(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">System.String</span>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToString(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="SlugBase_JsonUtils_ToStrings_" data-uid="SlugBase.JsonUtils.ToStrings*"></a>
-  <h4 id="SlugBase_JsonUtils_ToStrings_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToStrings(SlugBase.JsonAny)">ToStrings(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert list to <span class="xref">System.String</span>[].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string[] ToStrings(JsonAny json)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -887,21 +598,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span>[]</td>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="SlugBase_JsonUtils_ToVector2_" data-uid="SlugBase.JsonUtils.ToVector2*"></a>
-  <h4 id="SlugBase_JsonUtils_ToVector2_SlugBase_JsonAny_" data-uid="SlugBase.JsonUtils.ToVector2(SlugBase.JsonAny)">ToVector2(JsonAny)</h4>
-  <div class="markdown level1 summary"><p>Convert to <span class="xref">UnityEngine.Vector2</span></p>
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_UInt16_" data-uid="SlugBase.JsonConverter.ToJson(System.UInt16)">ToJson(UInt16)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.UInt16</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector2 ToVector2(JsonAny json)</code></pre>
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(ushort value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -914,8 +625,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -930,14 +641,246 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="SlugBase_JsonUtils_ToVector2_SlugBase_JsonAny__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This may be a list of components or an object with &quot;x&quot; and &quot;y&quot; properties.</p>
+
+
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_UInt32_" data-uid="SlugBase.JsonConverter.ToJson(System.UInt32)">ToJson(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.UInt32</span>.</p>
 </div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(uint value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_JsonConverter_ToJson_" data-uid="SlugBase.JsonConverter.ToJson*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJson_System_UInt64_" data-uid="SlugBase.JsonConverter.ToJson(System.UInt64)">ToJson(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a single <span class="xref">System.UInt64</span>. <code data-dev-comment-type="paramref" class="paramref">value</code> is converted to a <span class="xref">System.Double</span>, so very large numbers may lose precision.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJson(ulong value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_JsonConverter_ToJsonAny_" data-uid="SlugBase.JsonConverter.ToJsonAny*"></a>
+  <h4 id="SlugBase_JsonConverter_ToJsonAny_System_Object_" data-uid="SlugBase.JsonConverter.ToJsonAny(System.Object)">ToJsonAny(Object)</h4>
+  <div class="markdown level1 summary"><p>Create a read-only <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> from a copy of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JsonAny ToJsonAny(object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>An object in the list or dictionary could not be converted to JSON.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_JsonConverter_ToList_" data-uid="SlugBase.JsonConverter.ToList*"></a>
+  <h4 id="SlugBase_JsonConverter_ToList_SlugBase_JsonList_" data-uid="SlugBase.JsonConverter.ToList(SlugBase.JsonList)">ToList(JsonList)</h4>
+  <div class="markdown level1 summary"><p>Create a mutable copy of a <a class="xref" href="SlugBase.JsonList.html">JsonList</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;object&gt; ToList(JsonList value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonList.html">JsonList</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="SlugBase.JsonList.html">JsonList</a> to copy.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><p>A copy of <code data-dev-comment-type="paramref" class="paramref">value</code> as a <span class="xref">System.Collections.Generic.List&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_JsonConverter_ToObject_" data-uid="SlugBase.JsonConverter.ToObject*"></a>
+  <h4 id="SlugBase_JsonConverter_ToObject_SlugBase_JsonAny_" data-uid="SlugBase.JsonConverter.ToObject(SlugBase.JsonAny)">ToObject(JsonAny)</h4>
+  <div class="markdown level1 summary"><p>Create a mutable copy of a <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object ToObject(JsonAny value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="SlugBase.JsonAny.html">JsonAny</a> to copy.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>A copy of <code data-dev-comment-type="paramref" class="paramref">value</code> as a <span class="xref">System.Collections.Generic.List&lt;T&gt;</span>, <span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span>, <span class="xref">System.String</span>, <span class="xref">System.Boolean</span>, <span class="xref">System.Double</span>, or <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
                 </div>
 

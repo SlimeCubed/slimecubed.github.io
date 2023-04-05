@@ -214,6 +214,110 @@
   </table>
 
 
+  <a id="SlugBase_SlugBaseCharacter_FeatureList_Remove_" data-uid="SlugBase.SlugBaseCharacter.FeatureList.Remove*"></a>
+  <h4 id="SlugBase_SlugBaseCharacter_FeatureList_Remove_SlugBase_Features_Feature_" data-uid="SlugBase.SlugBaseCharacter.FeatureList.Remove(SlugBase.Features.Feature)">Remove(Feature)</h4>
+  <div class="markdown level1 summary"><p>Remove a <a class="xref" href="SlugBase.Features.Feature.html">Feature</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(Feature feature)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.Features.Feature.html">Feature</a></td>
+        <td><span class="parametername">feature</span></td>
+        <td><p>The feature to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the feature was present, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SlugBase_SlugBaseCharacter_FeatureList_Remove_SlugBase_Features_Feature__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Some features are only read occasionally, such as when starting a game or entering a room.
+Instead of modifying features during gameplay, consider defining a custom <a class="xref" href="SlugBase.Features.Feature-1.html">Feature&lt;T&gt;</a> and corresponding <a class="xref" href="SlugBase.Features.Data-2.html">Data&lt;THolder, TValue&gt;</a>.</p>
+</div>
+
+
+  <a id="SlugBase_SlugBaseCharacter_FeatureList_Set_" data-uid="SlugBase.SlugBaseCharacter.FeatureList.Set*"></a>
+  <h4 id="SlugBase_SlugBaseCharacter_FeatureList_Set_SlugBase_Features_Feature_SlugBase_JsonAny_" data-uid="SlugBase.SlugBaseCharacter.FeatureList.Set(SlugBase.Features.Feature,SlugBase.JsonAny)">Set(Feature, JsonAny)</h4>
+  <div class="markdown level1 summary"><p>Add a <a class="xref" href="SlugBase.Features.Feature.html">Feature</a> or replace an existing <a class="xref" href="SlugBase.Features.Feature.html">Feature</a>'s value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(Feature feature, JsonAny value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.Features.Feature.html">Feature</a></td>
+        <td><span class="parametername">feature</span></td>
+        <td><p>The feature to add or replace.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonAny.html">JsonAny</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The feature's new value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SlugBase_SlugBaseCharacter_FeatureList_Set_SlugBase_Features_Feature_SlugBase_JsonAny__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Some features are only read occasionally, such as when starting a game or entering a room.
+Instead of modifying features during gameplay, consider defining a custom <a class="xref" href="SlugBase.Features.Feature-1.html">Feature&lt;T&gt;</a> and corresponding <a class="xref" href="SlugBase.Features.Data-2.html">Data&lt;THolder, TValue&gt;</a>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SlugBase.JsonException.html">JsonException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">value</code> was not a valid value for <code data-dev-comment-type="paramref" class="paramref">feature</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="SlugBase_SlugBaseCharacter_FeatureList_TryGet_" data-uid="SlugBase.SlugBaseCharacter.FeatureList.TryGet*"></a>
   <h4 id="SlugBase_SlugBaseCharacter_FeatureList_TryGet__1_SlugBase_Features_Feature___0____0__" data-uid="SlugBase.SlugBaseCharacter.FeatureList.TryGet``1(SlugBase.Features.Feature{``0},``0@)">TryGet&lt;T&gt;(Feature&lt;T&gt;, out T)</h4>
   <div class="markdown level1 summary"><p>Get the value of a <a class="xref" href="SlugBase.Features.Feature-1.html">Feature&lt;T&gt;</a>.</p>

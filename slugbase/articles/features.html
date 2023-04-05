@@ -251,6 +251,14 @@ Ex: <code>&quot;karma&quot;: 3</code></p>
 <p><code>integer</code><br>
 Ex: <code>&quot;karma_cap&quot;: 7</code></p>
 <p>Initial karma cap from 0 to 9.</p>
+<h3 id="the_mark">&quot;the_mark&quot;</h3>
+<p><code>boolean</code><br>
+Ex: <code>&quot;the_mark&quot;: true</code></p>
+<p>Whether this character starts with the mark of communication.</p>
+<h3 id="the_glow">&quot;the_glow&quot;</h3>
+<p><code>boolean</code><br>
+Ex: <code>&quot;the_glow&quot;: true</code></p>
+<p>Whether this character starts with the neuron glow.</p>
 <h3 id="start_room">&quot;start_room&quot;</h3>
 <p><code>string[]</code><br>
 Ex: <code>&quot;start_room&quot;: &quot;LF_H01&quot;</code>, <code>&quot;start_room&quot;: [ &quot;DS_RIVSTART&quot;, &quot;LF_H01&quot; ]</code></p>
@@ -315,6 +323,14 @@ Ex: <code>&quot;death_scene&quot;: &quot;MySlugcatDeath&quot;</code></p>
 <p><code>string[]</code><br>
 Ex: <code>&quot;world_state&quot;: &quot;Red&quot;</code>, <code>&quot;world_state&quot;: [ &quot;Spear&quot;, &quot;Red&quot; ]</code></p>
 <p><code>SlugcatStats.Name</code> values to copy world state from. This includes spawns and room connections. If the first name does not exist, then the second will be tried and so on.</p>
+<h3 id="timeline_before">&quot;timeline_before&quot;</h3>
+<p><code>string[]</code><br>
+Ex: <code>&quot;timeline_before&quot;: &quot;Red&quot;</code>, <code>&quot;timeline_after&quot;: [ &quot;Artificer&quot;, &quot;Red&quot; ]</code></p>
+<p><code>SlugcatStats.Name</code> values to position this character before in the timeline. If the first name does not exist or is not on the timeline, then the second will be tried and so on. This takes precedence over <code>&quot;timeline_after&quot;</code>.</p>
+<h3 id="timeline_after">&quot;timeline_after&quot;</h3>
+<p><code>string[]</code><br>
+Ex: <code>&quot;timeline_after&quot;: &quot;Yellow&quot;</code>, <code>&quot;timeline_after&quot;: [ &quot;Rivulet&quot;, &quot;Yellow&quot; ]</code></p>
+<p><code>SlugcatStats.Name</code> values to position this character after in the timeline. If the first name does not exist or is not on the timeline, then the second will be tried and so on. <code>&quot;timeline_before&quot;</code> takes precedence over this.</p>
 </article>
                 </div>
 
