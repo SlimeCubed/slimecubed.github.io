@@ -1317,6 +1317,12 @@ references:
   commentId: F:SlugBase.Features.GameFeatures.TimelineBefore
   fullName: SlugBase.Features.GameFeatures.TimelineBefore
   nameWithType: GameFeatures.TimelineBefore
+- uid: SlugBase.Features.GameFeatures.TitleCard
+  name: TitleCard
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_TitleCard
+  commentId: F:SlugBase.Features.GameFeatures.TitleCard
+  fullName: SlugBase.Features.GameFeatures.TitleCard
+  nameWithType: GameFeatures.TitleCard
 - uid: SlugBase.Features.GameFeatures.WorldState
   name: WorldState
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_WorldState
