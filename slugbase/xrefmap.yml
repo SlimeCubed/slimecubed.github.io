@@ -1221,6 +1221,18 @@ references:
   commentId: F:SlugBase.Features.GameFeatures.DeathScene
   fullName: SlugBase.Features.GameFeatures.DeathScene
   nameWithType: GameFeatures.DeathScene
+- uid: SlugBase.Features.GameFeatures.ExpeditionDescription
+  name: ExpeditionDescription
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_ExpeditionDescription
+  commentId: F:SlugBase.Features.GameFeatures.ExpeditionDescription
+  fullName: SlugBase.Features.GameFeatures.ExpeditionDescription
+  nameWithType: GameFeatures.ExpeditionDescription
+- uid: SlugBase.Features.GameFeatures.ExpeditionEnabled
+  name: ExpeditionEnabled
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_ExpeditionEnabled
+  commentId: F:SlugBase.Features.GameFeatures.ExpeditionEnabled
+  fullName: SlugBase.Features.GameFeatures.ExpeditionEnabled
+  nameWithType: GameFeatures.ExpeditionEnabled
 - uid: SlugBase.Features.GameFeatures.FoodMax
   name: FoodMax
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_FoodMax
