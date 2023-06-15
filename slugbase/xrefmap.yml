@@ -1305,6 +1305,12 @@ references:
   commentId: F:SlugBase.Features.GameFeatures.StarveScene
   fullName: SlugBase.Features.GameFeatures.StarveScene
   nameWithType: GameFeatures.StarveScene
+- uid: SlugBase.Features.GameFeatures.StoryRegions
+  name: StoryRegions
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_StoryRegions
+  commentId: F:SlugBase.Features.GameFeatures.StoryRegions
+  fullName: SlugBase.Features.GameFeatures.StoryRegions
+  nameWithType: GameFeatures.StoryRegions
 - uid: SlugBase.Features.GameFeatures.TheGlow
   name: TheGlow
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_TheGlow
