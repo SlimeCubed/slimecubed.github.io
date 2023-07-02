@@ -3055,6 +3055,78 @@ references:
   commentId: Overload:SlugBase.JsonUtils.ToVector2
   fullName: SlugBase.JsonUtils.ToVector2
   nameWithType: JsonUtils.ToVector2
+- uid: SlugBase.SaveData
+  name: SlugBase.SaveData
+  href: api/SlugBase.SaveData.html
+  commentId: N:SlugBase.SaveData
+  fullName: SlugBase.SaveData
+  nameWithType: SlugBase.SaveData
+- uid: SlugBase.SaveData.SaveDataExtension
+  name: SaveDataExtension
+  href: api/SlugBase.SaveData.SaveDataExtension.html
+  commentId: T:SlugBase.SaveData.SaveDataExtension
+  fullName: SlugBase.SaveData.SaveDataExtension
+  nameWithType: SaveDataExtension
+- uid: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(DeathPersistentSaveData)
+  name: GetSlugBaseData(DeathPersistentSaveData)
+  href: api/SlugBase.SaveData.SaveDataExtension.html#SlugBase_SaveData_SaveDataExtension_GetSlugBaseData_DeathPersistentSaveData_
+  commentId: M:SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(DeathPersistentSaveData)
+  fullName: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(DeathPersistentSaveData)
+  nameWithType: SaveDataExtension.GetSlugBaseData(DeathPersistentSaveData)
+- uid: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(MiscWorldSaveData)
+  name: GetSlugBaseData(MiscWorldSaveData)
+  href: api/SlugBase.SaveData.SaveDataExtension.html#SlugBase_SaveData_SaveDataExtension_GetSlugBaseData_MiscWorldSaveData_
+  commentId: M:SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(MiscWorldSaveData)
+  fullName: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(MiscWorldSaveData)
+  nameWithType: SaveDataExtension.GetSlugBaseData(MiscWorldSaveData)
+- uid: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(PlayerProgression.MiscProgressionData)
+  name: GetSlugBaseData(PlayerProgression.MiscProgressionData)
+  href: api/SlugBase.SaveData.SaveDataExtension.html#SlugBase_SaveData_SaveDataExtension_GetSlugBaseData_PlayerProgression_MiscProgressionData_
+  commentId: M:SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(PlayerProgression.MiscProgressionData)
+  fullName: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(PlayerProgression.MiscProgressionData)
+  nameWithType: SaveDataExtension.GetSlugBaseData(PlayerProgression.MiscProgressionData)
+- uid: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData*
+  name: GetSlugBaseData
+  href: api/SlugBase.SaveData.SaveDataExtension.html#SlugBase_SaveData_SaveDataExtension_GetSlugBaseData_
+  commentId: Overload:SlugBase.SaveData.SaveDataExtension.GetSlugBaseData
+  fullName: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData
+  nameWithType: SaveDataExtension.GetSlugBaseData
+- uid: SlugBase.SaveData.SlugBaseSaveData
+  name: SlugBaseSaveData
+  href: api/SlugBase.SaveData.SlugBaseSaveData.html
+  commentId: T:SlugBase.SaveData.SlugBaseSaveData
+  fullName: SlugBase.SaveData.SlugBaseSaveData
+  nameWithType: SlugBaseSaveData
+- uid: SlugBase.SaveData.SlugBaseSaveData.Set*
+  name: Set
+  href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_Set_
+  commentId: Overload:SlugBase.SaveData.SlugBaseSaveData.Set
+  fullName: SlugBase.SaveData.SlugBaseSaveData.Set
+  nameWithType: SlugBaseSaveData.Set
+- uid: SlugBase.SaveData.SlugBaseSaveData.Set``1(System.String,``0)
+  name: Set<T>(String, T)
+  href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_Set__1_System_String___0_
+  commentId: M:SlugBase.SaveData.SlugBaseSaveData.Set``1(System.String,``0)
+  name.vb: Set(Of T)(String, T)
+  fullName: SlugBase.SaveData.SlugBaseSaveData.Set<T>(System.String, T)
+  fullName.vb: SlugBase.SaveData.SlugBaseSaveData.Set(Of T)(System.String, T)
+  nameWithType: SlugBaseSaveData.Set<T>(String, T)
+  nameWithType.vb: SlugBaseSaveData.Set(Of T)(String, T)
+- uid: SlugBase.SaveData.SlugBaseSaveData.TryGet*
+  name: TryGet
+  href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_TryGet_
+  commentId: Overload:SlugBase.SaveData.SlugBaseSaveData.TryGet
+  fullName: SlugBase.SaveData.SlugBaseSaveData.TryGet
+  nameWithType: SlugBaseSaveData.TryGet
+- uid: SlugBase.SaveData.SlugBaseSaveData.TryGet``1(System.String,``0@)
+  name: TryGet<T>(String, out T)
+  href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_TryGet__1_System_String___0__
+  commentId: M:SlugBase.SaveData.SlugBaseSaveData.TryGet``1(System.String,``0@)
+  name.vb: TryGet(Of T)(String, ByRef T)
+  fullName: SlugBase.SaveData.SlugBaseSaveData.TryGet<T>(System.String, out T)
+  fullName.vb: SlugBase.SaveData.SlugBaseSaveData.TryGet(Of T)(System.String, ByRef T)
+  nameWithType: SlugBaseSaveData.TryGet<T>(String, out T)
+  nameWithType.vb: SlugBaseSaveData.TryGet(Of T)(String, ByRef T)
 - uid: SlugBase.SlugBaseCharacter
   name: SlugBaseCharacter
   href: api/SlugBase.SlugBaseCharacter.html
