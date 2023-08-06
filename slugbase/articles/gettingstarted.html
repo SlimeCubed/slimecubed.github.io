@@ -136,8 +136,8 @@
 <li><strong>&quot;scene_folder&quot;</strong>: An optional path to the folder containing scene images. This is relative to <code>StreamingAssets</code> or your mod's folder, and defaults to <code>illustrations</code>.</li>
 <li><strong>&quot;images&quot;</strong>: A list of image objects that make up this scene.
 <ul>
-<li><strong>&quot;name&quot;</strong>: A file name to append to &quot;scene_folder&quot; when loading this image.</li>
-<li><strong>&quot;pos&quot;</strong>: The position of this image's bottom left corner relative to the bottom left of the screen.</li>
+<li><strong>&quot;name&quot;</strong>: A file name to append to &quot;scene_folder&quot; when loading this image, excluding the file extension.</li>
+<li><strong>&quot;pos&quot;</strong>: The position of this image's bottom left corner relative to the bottom left of the screen. For an image of size <code>1366x768</code> this should be <code>[0,0]</code> to display in the center of the screen.</li>
 <li><strong>&quot;depth&quot;</strong>: The depth of this object in the scene. This only determines how it will be blurred and how parallax will be applied. Layering follows the order specified, with earlier images being layered below later ones.</li>
 <li><strong>&quot;shader&quot;</strong>: The shader to use when drawing this image. This may be &quot;Normal&quot;, &quot;Lighten&quot;, &quot;LightEdges&quot;, &quot;Rain&quot;, &quot;Overlay&quot;, &quot;Basic&quot;, &quot;SoftLight&quot;, or &quot;Multiply&quot;.</li>
 </ul>
@@ -150,7 +150,75 @@
 <li><strong>&quot;mark_pos&quot;</strong>: The position of the mark's center. This is typically above the character's head.</li>
 <li><strong>&quot;select_menu_pos&quot;</strong>: The offset of this scene when displayed in the select menu.</li>
 <li><strong>&quot;slugcat_depth&quot;</strong>: The depth of the slugcat image in this scene. This is used to apply parallax to the mark and glow.</li>
+<li><strong>&quot;dream_override&quot;</strong>: If this scene is used as a dream, should it override Moon and Pebble dreams being set.</li>
 </ul>
+<p>Hmmm, but wouldn't it be cool if we could also have an intro slideshow like Survivor or Gourmand...</p>
+<h2 id="custom-slideshows">Custom Slideshows</h2>
+<p>Much the same way you created your Character Select Menu, create a file called <code>slugbase\slideshows\slugecat_scholar.json</code>. The file name also does not need to be unique. The JSON object needs at least the &quot;id&quot;, &quot;next_process&quot;, &quot;scenes&quot; properties. Each entry in the &quot;scenes&quot; property requires &quot;name&quot; and &quot;images&quot;, and functions identically to the above custom scene object:</p>
+<pre><code class="lang-json">{
+  &quot;id&quot;: &quot;Scholar_Intro&quot;,
+  &quot;slideshow_folder&quot;: &quot;slugbase/slideshows/scholar_intro&quot;,
+  &quot;next_process&quot;: &quot;Game&quot;,
+  &quot;music&quot;: {
+    &quot;name&quot;: &quot;RW_Intro_Theme&quot;,
+    &quot;fade_in&quot;: 40
+  },
+  &quot;scenes&quot;: [
+    {
+      &quot;name&quot;: &quot;scene1&quot;,
+      &quot;fade_in_start&quot;: 0,
+      &quot;fade_out_start&quot;: 7.1,
+      &quot;images&quot;: [
+        {&quot;name&quot;: &quot;background1&quot;, &quot;pos&quot;: [0,0], &quot;depth&quot;: -1, &quot;shader&quot;: &quot;Basic&quot;},
+        {&quot;name&quot;: &quot;scholar1&quot;,    &quot;pos&quot;: [0,0], &quot;depth&quot;: 1.5}
+      ],
+      &quot;camera_path&quot;: [ [10, 15, 0], [8.7, 5, 0.5] ]
+    },
+    {
+      &quot;name&quot;: &quot;scene2&quot;,
+      &quot;fade_in_start&quot;: 8.1,
+      &quot;fade_in_end&quot;: 11.25,
+      &quot;fade_out_start&quot;: 17,
+      &quot;images&quot;: [
+        {&quot;name&quot;: &quot;background2&quot;, &quot;pos&quot;: [0,   0], &quot;depth&quot;: -1,    &quot;shader&quot;: &quot;Basic&quot;},
+        {&quot;name&quot;: &quot;background3&quot;, &quot;pos&quot;: [100,65], &quot;depth&quot;: 4.15, &quot;shader&quot;: &quot;Basic&quot;},
+        {&quot;name&quot;: &quot;scholar2&quot;,    &quot;pos&quot;: [10, 10], &quot;depth&quot;: 1,    &quot;shader&quot;: &quot;Basic&quot;}
+      ],
+      &quot;movements&quot;: [ [-10,-25], [-2.5,4], [-3,7] ]
+    }
+  ]
+}
+</code></pre>
+<ul>
+<li><strong>&quot;id&quot;</strong>: A unique ID. Your slideshow may fail to load if another slideshow has this ID!</li>
+<li><strong>&quot;slideshow_folder&quot;</strong>: An optional path to the folder containing slideshow images. This is relative to <code>StreamingAssets</code> or your mod's folder, and defaults to <code>illustrations</code>.</li>
+<li><strong>&quot;next_process&quot;</strong>: The process to go to when this slideshow is done playing. Common options will be <code>Game</code> for intro slideshows, and <code>Credits</code> or <code>Statistics</code> for outros.</li>
+<li><strong>&quot;music&quot;</strong>: Play some music during your slideshow! If unspecified this defaults to silence.
+<ul>
+<li><strong>&quot;name&quot;</strong>: The name of the music to play. This should exactly match the name of one of the mp3 files in <code>StreamingAssets\music\songs</code>, excluding the file extension. Custom songs can be added by placing the mp3 file in <code>mymod\music\songs\</code>.</li>
+<li><strong>&quot;fade_in&quot;</strong>: The time in seconds that the music takes to fully fade in. If unspecified this defaults to <code>40</code>.</li>
+</ul>
+</li>
+<li><strong>&quot;scenes&quot;</strong>: Groups of images to display and when to display them.
+<ul>
+<li><strong>&quot;name&quot;</strong>: The scene's ID. This only needs to be unique in relation to other scenes in this slideshow's JSON.</li>
+<li><strong>&quot;scene_folder&quot;</strong>: An optional path to the folder containing scene images. This is relative to <code>StreamingAssets</code> or your mod's folder, defaults to <code>illustrations</code>, and takes precedence over &quot;slideshow_folder&quot;.</li>
+<li><strong>&quot;fade_in_start&quot;</strong>: The time in seconds for the scene's images to start fading in.</li>
+<li><strong>&quot;fade_in_end&quot;</strong>: The time in seconds when the scene's images finish their fade in animation. If unspecified this defaults to 1 second after the fade starts.</li>
+<li><strong>&quot;fade_out_start&quot;</strong>: The time in seconds when the scene's images begin to fade out.</li>
+<li><strong>&quot;images&quot;</strong>: The images to use in this scene, all displayed at once, with those in the list first being placed behind those later in the list.
+<ul>
+<li><strong>&quot;name&quot;</strong>: A file name to append to &quot;scene_folder&quot; or &quot;slideshow_folder&quot; when loading this image, excluding the file extension.</li>
+<li><strong>&quot;pos&quot;</strong>: The position of this image's bottom left corner relative to the bottom left of the screen. For an image of size <code>1366x768</code> this should be <code>[0,0]</code> to display in the center of the screen.</li>
+<li><strong>&quot;depth&quot;</strong>: The depth of this object in the scene. This only determines how it will be blurred and how parallax will be applied. Layering follows the order specified, with earlier images being layered below later ones.</li>
+<li><strong>&quot;shader&quot;</strong>: The shader to use when drawing this image. This may be &quot;Normal&quot;, &quot;Lighten&quot;, &quot;LightEdges&quot;, &quot;Rain&quot;, &quot;Overlay&quot;, &quot;Basic&quot;, &quot;SoftLight&quot;, or &quot;Multiply&quot;.</li>
+</ul>
+</li>
+<li><strong>&quot;camera_path&quot;</strong>: An optional list of points for the camera to move along when displaying this scene. The first two elements of each point represent the camera position, and the optional third element represents the focal depth between 0 and 1.</li>
+</ul>
+</li>
+</ul>
+<p>Slideshows can be used for intros via the &quot;intro_slideshow&quot; feature, and outros when finishing the game via the &quot;outro_slideshow&quot; feature. You can start a slideshow manually by setting <code>processManager.nextSlideshow</code> and calling <code>processManager.RequestMainProcessSwitch(ProcessManager.ProcessID.SlideShow)</code>.</p>
 </article>
                 </div>
 

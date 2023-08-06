@@ -13,6 +13,36 @@ references:
   commentId: N:SlugBase.Assets
   fullName: SlugBase.Assets
   nameWithType: SlugBase.Assets
+- uid: SlugBase.Assets.CustomDreams
+  name: CustomDreams
+  href: api/SlugBase.Assets.CustomDreams.html
+  commentId: T:SlugBase.Assets.CustomDreams
+  fullName: SlugBase.Assets.CustomDreams
+  nameWithType: CustomDreams
+- uid: SlugBase.Assets.CustomDreams.QueueDream(StoryGameSession,DreamsState.DreamID)
+  name: QueueDream(StoryGameSession, DreamsState.DreamID)
+  href: api/SlugBase.Assets.CustomDreams.html#SlugBase_Assets_CustomDreams_QueueDream_StoryGameSession_DreamsState_DreamID_
+  commentId: M:SlugBase.Assets.CustomDreams.QueueDream(StoryGameSession,DreamsState.DreamID)
+  fullName: SlugBase.Assets.CustomDreams.QueueDream(StoryGameSession, DreamsState.DreamID)
+  nameWithType: CustomDreams.QueueDream(StoryGameSession, DreamsState.DreamID)
+- uid: SlugBase.Assets.CustomDreams.QueueDream*
+  name: QueueDream
+  href: api/SlugBase.Assets.CustomDreams.html#SlugBase_Assets_CustomDreams_QueueDream_
+  commentId: Overload:SlugBase.Assets.CustomDreams.QueueDream
+  fullName: SlugBase.Assets.CustomDreams.QueueDream
+  nameWithType: CustomDreams.QueueDream
+- uid: SlugBase.Assets.CustomDreams.SetDreamScene(DreamsState.DreamID,Menu.MenuScene.SceneID)
+  name: SetDreamScene(DreamsState.DreamID, MenuScene.SceneID)
+  href: api/SlugBase.Assets.CustomDreams.html#SlugBase_Assets_CustomDreams_SetDreamScene_DreamsState_DreamID_Menu_MenuScene_SceneID_
+  commentId: M:SlugBase.Assets.CustomDreams.SetDreamScene(DreamsState.DreamID,Menu.MenuScene.SceneID)
+  fullName: SlugBase.Assets.CustomDreams.SetDreamScene(DreamsState.DreamID, Menu.MenuScene.SceneID)
+  nameWithType: CustomDreams.SetDreamScene(DreamsState.DreamID, MenuScene.SceneID)
+- uid: SlugBase.Assets.CustomDreams.SetDreamScene*
+  name: SetDreamScene
+  href: api/SlugBase.Assets.CustomDreams.html#SlugBase_Assets_CustomDreams_SetDreamScene_
+  commentId: Overload:SlugBase.Assets.CustomDreams.SetDreamScene
+  fullName: SlugBase.Assets.CustomDreams.SetDreamScene
+  nameWithType: CustomDreams.SetDreamScene
 - uid: SlugBase.Assets.CustomScene
   name: CustomScene
   href: api/SlugBase.Assets.CustomScene.html
@@ -163,6 +193,18 @@ references:
   commentId: Overload:SlugBase.Assets.CustomScene.MarkPos
   fullName: SlugBase.Assets.CustomScene.MarkPos
   nameWithType: CustomScene.MarkPos
+- uid: SlugBase.Assets.CustomScene.OverrideDream
+  name: OverrideDream
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_OverrideDream
+  commentId: P:SlugBase.Assets.CustomScene.OverrideDream
+  fullName: SlugBase.Assets.CustomScene.OverrideDream
+  nameWithType: CustomScene.OverrideDream
+- uid: SlugBase.Assets.CustomScene.OverrideDream*
+  name: OverrideDream
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_OverrideDream_
+  commentId: Overload:SlugBase.Assets.CustomScene.OverrideDream
+  fullName: SlugBase.Assets.CustomScene.OverrideDream
+  nameWithType: CustomScene.OverrideDream
 - uid: SlugBase.Assets.CustomScene.Registry
   name: Registry
   href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_Registry
@@ -199,6 +241,18 @@ references:
   commentId: Overload:SlugBase.Assets.CustomScene.SelectMenuOffset
   fullName: SlugBase.Assets.CustomScene.SelectMenuOffset
   nameWithType: CustomScene.SelectMenuOffset
+- uid: SlugBase.Assets.CustomScene.SetSelectMenuScene(SaveState,Menu.MenuScene.SceneID)
+  name: SetSelectMenuScene(SaveState, MenuScene.SceneID)
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SetSelectMenuScene_SaveState_Menu_MenuScene_SceneID_
+  commentId: M:SlugBase.Assets.CustomScene.SetSelectMenuScene(SaveState,Menu.MenuScene.SceneID)
+  fullName: SlugBase.Assets.CustomScene.SetSelectMenuScene(SaveState, Menu.MenuScene.SceneID)
+  nameWithType: CustomScene.SetSelectMenuScene(SaveState, MenuScene.SceneID)
+- uid: SlugBase.Assets.CustomScene.SetSelectMenuScene*
+  name: SetSelectMenuScene
+  href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SetSelectMenuScene_
+  commentId: Overload:SlugBase.Assets.CustomScene.SetSelectMenuScene
+  fullName: SlugBase.Assets.CustomScene.SetSelectMenuScene
+  nameWithType: CustomScene.SetSelectMenuScene
 - uid: SlugBase.Assets.CustomScene.SlugcatDepth
   name: SlugcatDepth
   href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SlugcatDepth
@@ -211,6 +265,192 @@ references:
   commentId: Overload:SlugBase.Assets.CustomScene.SlugcatDepth
   fullName: SlugBase.Assets.CustomScene.SlugcatDepth
   nameWithType: CustomScene.SlugcatDepth
+- uid: SlugBase.Assets.CustomSlideshow
+  name: CustomSlideshow
+  href: api/SlugBase.Assets.CustomSlideshow.html
+  commentId: T:SlugBase.Assets.CustomSlideshow
+  fullName: SlugBase.Assets.CustomSlideshow
+  nameWithType: CustomSlideshow
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene
+  name: CustomSlideshow.CustomSlideshowScene
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html
+  commentId: T:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene
+  nameWithType: CustomSlideshow.CustomSlideshowScene
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor(SlugBase.JsonObject)
+  name: CustomSlideshowScene(JsonObject)
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene__ctor_SlugBase_JsonObject_
+  commentId: M:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor(SlugBase.JsonObject)
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CustomSlideshowScene(SlugBase.JsonObject)
+  nameWithType: CustomSlideshow.CustomSlideshowScene.CustomSlideshowScene(JsonObject)
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor*
+  name: CustomSlideshowScene
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene__ctor_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CustomSlideshowScene
+  nameWithType: CustomSlideshow.CustomSlideshowScene.CustomSlideshowScene
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement
+  name: CameraMovement
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_CameraMovement
+  commentId: P:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement
+  nameWithType: CustomSlideshow.CustomSlideshowScene.CameraMovement
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement*
+  name: CameraMovement
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_CameraMovement_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement
+  nameWithType: CustomSlideshow.CustomSlideshowScene.CameraMovement
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeInDoneAt
+  name: FadeInDoneAt
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_FadeInDoneAt
+  commentId: P:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeInDoneAt
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeInDoneAt
+  nameWithType: CustomSlideshow.CustomSlideshowScene.FadeInDoneAt
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeInDoneAt*
+  name: FadeInDoneAt
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_FadeInDoneAt_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeInDoneAt
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeInDoneAt
+  nameWithType: CustomSlideshow.CustomSlideshowScene.FadeInDoneAt
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeOutStartAt
+  name: FadeOutStartAt
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_FadeOutStartAt
+  commentId: P:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeOutStartAt
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeOutStartAt
+  nameWithType: CustomSlideshow.CustomSlideshowScene.FadeOutStartAt
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeOutStartAt*
+  name: FadeOutStartAt
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_FadeOutStartAt_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeOutStartAt
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeOutStartAt
+  nameWithType: CustomSlideshow.CustomSlideshowScene.FadeOutStartAt
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.StartAt
+  name: StartAt
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_StartAt
+  commentId: P:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.StartAt
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.StartAt
+  nameWithType: CustomSlideshow.CustomSlideshowScene.StartAt
+- uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.StartAt*
+  name: StartAt
+  href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_StartAt_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.StartAt
+  fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.StartAt
+  nameWithType: CustomSlideshow.CustomSlideshowScene.StartAt
+- uid: SlugBase.Assets.CustomSlideshow.ID
+  name: ID
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_ID
+  commentId: P:SlugBase.Assets.CustomSlideshow.ID
+  fullName: SlugBase.Assets.CustomSlideshow.ID
+  nameWithType: CustomSlideshow.ID
+- uid: SlugBase.Assets.CustomSlideshow.ID*
+  name: ID
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_ID_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.ID
+  fullName: SlugBase.Assets.CustomSlideshow.ID
+  nameWithType: CustomSlideshow.ID
+- uid: SlugBase.Assets.CustomSlideshow.Music
+  name: Music
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_Music
+  commentId: P:SlugBase.Assets.CustomSlideshow.Music
+  fullName: SlugBase.Assets.CustomSlideshow.Music
+  nameWithType: CustomSlideshow.Music
+- uid: SlugBase.Assets.CustomSlideshow.Music*
+  name: Music
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_Music_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.Music
+  fullName: SlugBase.Assets.CustomSlideshow.Music
+  nameWithType: CustomSlideshow.Music
+- uid: SlugBase.Assets.CustomSlideshow.Process
+  name: Process
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_Process
+  commentId: P:SlugBase.Assets.CustomSlideshow.Process
+  fullName: SlugBase.Assets.CustomSlideshow.Process
+  nameWithType: CustomSlideshow.Process
+- uid: SlugBase.Assets.CustomSlideshow.Process*
+  name: Process
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_Process_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.Process
+  fullName: SlugBase.Assets.CustomSlideshow.Process
+  nameWithType: CustomSlideshow.Process
+- uid: SlugBase.Assets.CustomSlideshow.Registry
+  name: Registry
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_Registry
+  commentId: P:SlugBase.Assets.CustomSlideshow.Registry
+  fullName: SlugBase.Assets.CustomSlideshow.Registry
+  nameWithType: CustomSlideshow.Registry
+- uid: SlugBase.Assets.CustomSlideshow.Registry*
+  name: Registry
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_Registry_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.Registry
+  fullName: SlugBase.Assets.CustomSlideshow.Registry
+  nameWithType: CustomSlideshow.Registry
+- uid: SlugBase.Assets.CustomSlideshow.Scenes
+  name: Scenes
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_Scenes
+  commentId: P:SlugBase.Assets.CustomSlideshow.Scenes
+  fullName: SlugBase.Assets.CustomSlideshow.Scenes
+  nameWithType: CustomSlideshow.Scenes
+- uid: SlugBase.Assets.CustomSlideshow.Scenes*
+  name: Scenes
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_Scenes_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.Scenes
+  fullName: SlugBase.Assets.CustomSlideshow.Scenes
+  nameWithType: CustomSlideshow.Scenes
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowFolder
+  name: SlideshowFolder
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_SlideshowFolder
+  commentId: P:SlugBase.Assets.CustomSlideshow.SlideshowFolder
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowFolder
+  nameWithType: CustomSlideshow.SlideshowFolder
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowFolder*
+  name: SlideshowFolder
+  href: api/SlugBase.Assets.CustomSlideshow.html#SlugBase_Assets_CustomSlideshow_SlideshowFolder_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.SlideshowFolder
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowFolder
+  nameWithType: CustomSlideshow.SlideshowFolder
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic
+  name: CustomSlideshow.SlideshowMusic
+  href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html
+  commentId: T:SlugBase.Assets.CustomSlideshow.SlideshowMusic
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic
+  nameWithType: CustomSlideshow.SlideshowMusic
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor(SlugBase.JsonObject)
+  name: SlideshowMusic(JsonObject)
+  href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic__ctor_SlugBase_JsonObject_
+  commentId: M:SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor(SlugBase.JsonObject)
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.SlideshowMusic(SlugBase.JsonObject)
+  nameWithType: CustomSlideshow.SlideshowMusic.SlideshowMusic(JsonObject)
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor*
+  name: SlideshowMusic
+  href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic__ctor_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.SlideshowMusic
+  nameWithType: CustomSlideshow.SlideshowMusic.SlideshowMusic
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn
+  name: FadeIn
+  href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic_FadeIn
+  commentId: P:SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn
+  nameWithType: CustomSlideshow.SlideshowMusic.FadeIn
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn*
+  name: FadeIn
+  href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic_FadeIn_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn
+  nameWithType: CustomSlideshow.SlideshowMusic.FadeIn
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name
+  name: Name
+  href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic_Name
+  commentId: P:SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name
+  nameWithType: CustomSlideshow.SlideshowMusic.Name
+- uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name*
+  name: Name
+  href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic_Name_
+  commentId: Overload:SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name
+  fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name
+  nameWithType: CustomSlideshow.SlideshowMusic.Name
 - uid: SlugBase.DataTypes
   name: SlugBase.DataTypes
   href: api/SlugBase.DataTypes.html
@@ -463,6 +703,24 @@ references:
   commentId: Overload:SlugBase.DataTypes.PlayerColor.GetColor
   fullName: SlugBase.DataTypes.PlayerColor.GetColor
   nameWithType: PlayerColor.GetColor
+- uid: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics,System.Int32)
+  name: GetCustomColor(PlayerGraphics, Int32)
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_GetCustomColor_PlayerGraphics_System_Int32_
+  commentId: M:SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics,System.Int32)
+  fullName: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics, System.Int32)
+  nameWithType: PlayerColor.GetCustomColor(PlayerGraphics, Int32)
+- uid: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics,System.String)
+  name: GetCustomColor(PlayerGraphics, String)
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_GetCustomColor_PlayerGraphics_System_String_
+  commentId: M:SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics,System.String)
+  fullName: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics, System.String)
+  nameWithType: PlayerColor.GetCustomColor(PlayerGraphics, String)
+- uid: SlugBase.DataTypes.PlayerColor.GetCustomColor*
+  name: GetCustomColor
+  href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_GetCustomColor_
+  commentId: Overload:SlugBase.DataTypes.PlayerColor.GetCustomColor
+  fullName: SlugBase.DataTypes.PlayerColor.GetCustomColor
+  nameWithType: PlayerColor.GetCustomColor
 - uid: SlugBase.DataTypes.RepOverride
   name: RepOverride
   href: api/SlugBase.DataTypes.RepOverride.html
@@ -1257,6 +1515,12 @@ references:
   commentId: F:SlugBase.Features.GameFeatures.HasDreams
   fullName: SlugBase.Features.GameFeatures.HasDreams
   nameWithType: GameFeatures.HasDreams
+- uid: SlugBase.Features.GameFeatures.IntroScene
+  name: IntroScene
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_IntroScene
+  commentId: F:SlugBase.Features.GameFeatures.IntroScene
+  fullName: SlugBase.Features.GameFeatures.IntroScene
+  nameWithType: GameFeatures.IntroScene
 - uid: SlugBase.Features.GameFeatures.Karma
   name: Karma
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_Karma
@@ -1269,6 +1533,12 @@ references:
   commentId: F:SlugBase.Features.GameFeatures.KarmaCap
   fullName: SlugBase.Features.GameFeatures.KarmaCap
   nameWithType: GameFeatures.KarmaCap
+- uid: SlugBase.Features.GameFeatures.OutroScene
+  name: OutroScene
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_OutroScene
+  commentId: F:SlugBase.Features.GameFeatures.OutroScene
+  fullName: SlugBase.Features.GameFeatures.OutroScene
+  nameWithType: GameFeatures.OutroScene
 - uid: SlugBase.Features.GameFeatures.PermaUnlockGates
   name: PermaUnlockGates
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_PermaUnlockGates
@@ -1341,6 +1611,12 @@ references:
   commentId: F:SlugBase.Features.GameFeatures.TitleCard
   fullName: SlugBase.Features.GameFeatures.TitleCard
   nameWithType: GameFeatures.TitleCard
+- uid: SlugBase.Features.GameFeatures.UseDefaultDreams
+  name: UseDefaultDreams
+  href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_UseDefaultDreams
+  commentId: F:SlugBase.Features.GameFeatures.UseDefaultDreams
+  fullName: SlugBase.Features.GameFeatures.UseDefaultDreams
+  nameWithType: GameFeatures.UseDefaultDreams
 - uid: SlugBase.Features.GameFeatures.WorldState
   name: WorldState
   href: api/SlugBase.Features.GameFeatures.html#SlugBase_Features_GameFeatures_WorldState
@@ -3097,6 +3373,18 @@ references:
   commentId: T:SlugBase.SaveData.SlugBaseSaveData
   fullName: SlugBase.SaveData.SlugBaseSaveData
   nameWithType: SlugBaseSaveData
+- uid: SlugBase.SaveData.SlugBaseSaveData.Remove(System.String)
+  name: Remove(String)
+  href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_Remove_System_String_
+  commentId: M:SlugBase.SaveData.SlugBaseSaveData.Remove(System.String)
+  fullName: SlugBase.SaveData.SlugBaseSaveData.Remove(System.String)
+  nameWithType: SlugBaseSaveData.Remove(String)
+- uid: SlugBase.SaveData.SlugBaseSaveData.Remove*
+  name: Remove
+  href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_Remove_
+  commentId: Overload:SlugBase.SaveData.SlugBaseSaveData.Remove
+  fullName: SlugBase.SaveData.SlugBaseSaveData.Remove
+  nameWithType: SlugBaseSaveData.Remove
 - uid: SlugBase.SaveData.SlugBaseSaveData.Set*
   name: Set
   href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_Set_

@@ -5,6 +5,18 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SlugBase.Assets.CustomDreams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SlugBase.Assets.CustomDreams.html",
+          "hash": "Zredssi2C1FmSiDdpXNl1jmXi2cLTUJXiuzyetY6SzI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Assets.CustomScene.Image.yml",
       "output": {
         ".html": {
@@ -21,7 +33,43 @@
       "output": {
         ".html": {
           "relative_path": "api/SlugBase.Assets.CustomScene.html",
-          "hash": "c+sx8xzpTOA/WL6RZIfrHGf5nZLRoRfnU8hLzxJK194="
+          "hash": "ClCkFShVkasMboWbztmUbIcvLH+7CqcsT5vErBWfjWo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html",
+          "hash": "2JVjG+F21ifeu8wmiUyQ99nadGHBVqg5T3TpCbFTEVM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html",
+          "hash": "Uo7G/zUrDm5uqix8yUWuL/fwpTH85QcIqMx+Ty3SOJw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SlugBase.Assets.CustomSlideshow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SlugBase.Assets.CustomSlideshow.html",
+          "hash": "NTHKeU4EByJObYItLvWtF+w/Z/iMcaPE1Vmf0PJc0Ds="
         }
       },
       "is_incremental": false,
@@ -33,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SlugBase.Assets.html",
-          "hash": "r30yZLRcRuraZv15s3WWw5+h8ZOeaTNBy8flKJ5JkN4="
+          "hash": "LUrFoZCzzN0zUDPI6qIuGT/ahEguhi9kpwdrecTY6q0="
         }
       },
       "is_incremental": false,
@@ -69,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SlugBase.DataTypes.PlayerColor.html",
-          "hash": "TFzRvL66w3x56A95d0xPpu4sKQcZEwzBPUwtre2CekY="
+          "hash": "l3s/aZVNPyZ69Ob0cQYCdTro3Kn5aFBGBKbspCzVg2A="
         }
       },
       "is_incremental": false,
@@ -189,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SlugBase.Features.GameFeatures.html",
-          "hash": "o3jTugS/R/+UQk72ng7Nx0stKitwXwKqyOP+xYWrp2w="
+          "hash": "EqSQ8+Dc1E1xSTCl/e6HOyv0vVHgOSutxDTGHm4EFL4="
         }
       },
       "is_incremental": false,
@@ -393,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SlugBase.SaveData.SlugBaseSaveData.html",
-          "hash": "Z//Z734QeA84PtFH9qeNKfXLIb8xC1TfuNm+c+DydaA="
+          "hash": "c0qN8sPGcm0EHujXLQaSk0gFnP/KSsjmbj6u9swsaCI="
         }
       },
       "is_incremental": false,
@@ -477,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "a74GVsu1t+UXF5Q0+/YevoX+21pb5dfu5j8V4B+fiSw="
+          "hash": "yckEf9rzhgr5FKpuo1bKkk0CQ3AgcrX7Ooqcf0pHRbA="
         }
       },
       "is_incremental": false,
@@ -501,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/features.html",
-          "hash": "naSDL/L6xGgR9tgKI3w4BOPoYVzjQSbW5c+hIZjrXmk="
+          "hash": "vRKQPSDmAt8tWdJFLjl+AjoRffFAb9XriVEWUjpxIWc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/gettingstarted.html",
-          "hash": "HuUAGCXZLj5JUzccXDo0MGfk6d1iukmCUgHXV3zCBOM="
+          "hash": "TOgXET3qzXUKP1jFQWQ+wM8PL+Tk5tBeCijE7UnhR2o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -528,7 +576,7 @@
           "hash": "b67NYkPDCmLeOy7G6R9ShsT6JYfeho67lJ8JvqWEAvg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -652,7 +700,7 @@
           "hash": "b1t9Q29ZmekAu+RSdjR4+WrEW62zekgJFfqDk4N/gcs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -692,13 +740,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 7
+          "skipped_file_count": 5
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 38,
-          "skipped_file_count": 18
+          "total_file_count": 42,
+          "skipped_file_count": 16
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

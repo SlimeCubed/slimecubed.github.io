@@ -5,10 +5,10 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class SlugBaseSaveData
+      <title>Class CustomSlideshow.SlideshowMusic
  </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class SlugBaseSaveData
+      <meta name="title" content="Class CustomSlideshow.SlideshowMusic
  ">
       <meta name="generator" content="docfx ">
   
@@ -78,18 +78,18 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="SlugBase.SaveData.SlugBaseSaveData">
+                    <article class="content wrap" id="_content" data-uid="SlugBase.Assets.CustomSlideshow.SlideshowMusic">
 
 
-  <h1 id="SlugBase_SaveData_SlugBaseSaveData" data-uid="SlugBase.SaveData.SlugBaseSaveData" class="text-break">Class SlugBaseSaveData
+  <h1 id="SlugBase_Assets_CustomSlideshow_SlideshowMusic" data-uid="SlugBase.Assets.CustomSlideshow.SlideshowMusic" class="text-break">Class CustomSlideshow.SlideshowMusic
 </h1>
-  <div class="markdown level0 summary"><p>A helper for interacting with the game's save data.</p>
+  <div class="markdown level0 summary"><p>Data about a song from a <a class="xref" href="SlugBase.Assets.CustomSlideshow.html">CustomSlideshow</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SlugBaseSaveData</span></div>
+    <div class="level1"><span class="xref">CustomSlideshow.SlideshowMusic</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -115,24 +115,24 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SlugBase.SaveData.html">SlugBase.SaveData</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SlugBase.Assets.html">SlugBase.Assets</a></h6>
   <h6><strong>Assembly</strong>: SlugBase.dll</h6>
-  <h5 id="SlugBase_SaveData_SlugBaseSaveData_syntax">Syntax</h5>
+  <h5 id="SlugBase_Assets_CustomSlideshow_SlideshowMusic_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SlugBaseSaveData</code></pre>
+    <pre><code class="lang-csharp hljs">public class SlideshowMusic</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
 </h3>
 
 
-  <a id="SlugBase_SaveData_SlugBaseSaveData_Remove_" data-uid="SlugBase.SaveData.SlugBaseSaveData.Remove*"></a>
-  <h4 id="SlugBase_SaveData_SlugBaseSaveData_Remove_System_String_" data-uid="SlugBase.SaveData.SlugBaseSaveData.Remove(System.String)">Remove(String)</h4>
-  <div class="markdown level1 summary"><p>Removes a value from the save data.</p>
+  <a id="SlugBase_Assets_CustomSlideshow_SlideshowMusic__ctor_" data-uid="SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor*"></a>
+  <h4 id="SlugBase_Assets_CustomSlideshow_SlideshowMusic__ctor_SlugBase_JsonObject_" data-uid="SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor(SlugBase.JsonObject)">SlideshowMusic(JsonObject)</h4>
+  <div class="markdown level1 summary"><p>Load information about a slideshow song from JSON data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Remove(string key)</code></pre>
+    <pre><code class="lang-csharp hljs">public SlideshowMusic(JsonObject json)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,144 +145,64 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key for removing the value.</p>
+        <td><a class="xref" href="SlugBase.JsonObject.html">JsonObject</a></td>
+        <td><span class="parametername">json</span></td>
+        <td><p>The JSON data to load from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><span class="xref">true</span> if the key was found and removed, <span class="xref">false</span> otherwise.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h3 id="properties">Properties
+</h3>
 
 
-  <a id="SlugBase_SaveData_SlugBaseSaveData_Set_" data-uid="SlugBase.SaveData.SlugBaseSaveData.Set*"></a>
-  <h4 id="SlugBase_SaveData_SlugBaseSaveData_Set__1_System_String___0_" data-uid="SlugBase.SaveData.SlugBaseSaveData.Set``1(System.String,``0)">Set&lt;T&gt;(String, T)</h4>
-  <div class="markdown level1 summary"><p>Sets or adds a value to the save data.</p>
+  <a id="SlugBase_Assets_CustomSlideshow_SlideshowMusic_FadeIn_" data-uid="SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn*"></a>
+  <h4 id="SlugBase_Assets_CustomSlideshow_SlideshowMusic_FadeIn" data-uid="SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn">FadeIn</h4>
+  <div class="markdown level1 summary"><p>The duration of the song's fade in, in seconds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Set&lt;T&gt;(string key, T value)</code></pre>
+    <pre><code class="lang-csharp hljs">public float FadeIn { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key for storing the value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value to be stored.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The value's type.</p>
-</td>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="SlugBase_SaveData_SlugBaseSaveData_TryGet_" data-uid="SlugBase.SaveData.SlugBaseSaveData.TryGet*"></a>
-  <h4 id="SlugBase_SaveData_SlugBaseSaveData_TryGet__1_System_String___0__" data-uid="SlugBase.SaveData.SlugBaseSaveData.TryGet``1(System.String,``0@)">TryGet&lt;T&gt;(String, out T)</h4>
-  <div class="markdown level1 summary"><p>Gets a value from the save data.</p>
+  <a id="SlugBase_Assets_CustomSlideshow_SlideshowMusic_Name_" data-uid="SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name*"></a>
+  <h4 id="SlugBase_Assets_CustomSlideshow_SlideshowMusic_Name" data-uid="SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The file name of the sound to use. This comes from the <code>StreamingAssets/music/songs</code> folder.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool TryGet&lt;T&gt;(string key, out T value)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key for retrieving the value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The stored value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if a stored value was found, <code>false</code> otherwise.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The value's type.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

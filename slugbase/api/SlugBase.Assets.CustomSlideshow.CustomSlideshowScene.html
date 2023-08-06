@@ -5,10 +5,10 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class SlugBaseSaveData
+      <title>Class CustomSlideshow.CustomSlideshowScene
  </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class SlugBaseSaveData
+      <meta name="title" content="Class CustomSlideshow.CustomSlideshowScene
  ">
       <meta name="generator" content="docfx ">
   
@@ -78,21 +78,55 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="SlugBase.SaveData.SlugBaseSaveData">
+                    <article class="content wrap" id="_content" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene">
 
 
-  <h1 id="SlugBase_SaveData_SlugBaseSaveData" data-uid="SlugBase.SaveData.SlugBaseSaveData" class="text-break">Class SlugBaseSaveData
+  <h1 id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene" class="text-break">Class CustomSlideshow.CustomSlideshowScene
 </h1>
-  <div class="markdown level0 summary"><p>A helper for interacting with the game's save data.</p>
+  <div class="markdown level0 summary"><p>A scene from a <a class="xref" href="SlugBase.Assets.CustomSlideshow.html">CustomSlideshow</a> that holds data about when to appear and what images to use for what amount of time.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SlugBaseSaveData</span></div>
+    <div class="level1"><a class="xref" href="SlugBase.Assets.CustomScene.html">CustomScene</a></div>
+    <div class="level2"><span class="xref">CustomSlideshow.CustomSlideshowScene</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SetSelectMenuScene_SaveState_Menu_MenuScene_SceneID_">CustomScene.SetSelectMenuScene(SaveState, MenuScene.SceneID)</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_Registry">CustomScene.Registry</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_ID">CustomScene.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_Images">CustomScene.Images</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_IdleDepths">CustomScene.IdleDepths</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SceneFolder">CustomScene.SceneFolder</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_GlowPos">CustomScene.GlowPos</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_MarkPos">CustomScene.MarkPos</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SelectMenuOffset">CustomScene.SelectMenuOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SlugcatDepth">CustomScene.SlugcatDepth</a>
+    </div>
+    <div>
+      <a class="xref" href="SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_OverrideDream">CustomScene.OverrideDream</a>
+    </div>
     <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
@@ -115,24 +149,24 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SlugBase.SaveData.html">SlugBase.SaveData</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SlugBase.Assets.html">SlugBase.Assets</a></h6>
   <h6><strong>Assembly</strong>: SlugBase.dll</h6>
-  <h5 id="SlugBase_SaveData_SlugBaseSaveData_syntax">Syntax</h5>
+  <h5 id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SlugBaseSaveData</code></pre>
+    <pre><code class="lang-csharp hljs">public class CustomSlideshowScene : CustomScene</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
 </h3>
 
 
-  <a id="SlugBase_SaveData_SlugBaseSaveData_Remove_" data-uid="SlugBase.SaveData.SlugBaseSaveData.Remove*"></a>
-  <h4 id="SlugBase_SaveData_SlugBaseSaveData_Remove_System_String_" data-uid="SlugBase.SaveData.SlugBaseSaveData.Remove(System.String)">Remove(String)</h4>
-  <div class="markdown level1 summary"><p>Removes a value from the save data.</p>
+  <a id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene__ctor_" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor*"></a>
+  <h4 id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene__ctor_SlugBase_JsonObject_" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor(SlugBase.JsonObject)">CustomSlideshowScene(JsonObject)</h4>
+  <div class="markdown level1 summary"><p>Creates a new Scene from JSON.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Remove(string key)</code></pre>
+    <pre><code class="lang-csharp hljs">public CustomSlideshowScene(JsonObject json)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,116 +179,56 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key for removing the value.</p>
+        <td><a class="xref" href="SlugBase.JsonObject.html">JsonObject</a></td>
+        <td><span class="parametername">json</span></td>
+        <td><p>The JSON data to load from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><span class="xref">true</span> if the key was found and removed, <span class="xref">false</span> otherwise.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h3 id="properties">Properties
+</h3>
 
 
-  <a id="SlugBase_SaveData_SlugBaseSaveData_Set_" data-uid="SlugBase.SaveData.SlugBaseSaveData.Set*"></a>
-  <h4 id="SlugBase_SaveData_SlugBaseSaveData_Set__1_System_String___0_" data-uid="SlugBase.SaveData.SlugBaseSaveData.Set``1(System.String,``0)">Set&lt;T&gt;(String, T)</h4>
-  <div class="markdown level1 summary"><p>Sets or adds a value to the save data.</p>
+  <a id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_CameraMovement_" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement*"></a>
+  <h4 id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_CameraMovement" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement">CameraMovement</h4>
+  <div class="markdown level1 summary"><p>The positions that the camera will focus on when playing this scene.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Set&lt;T&gt;(string key, T value)</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3[] CameraMovement { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key for storing the value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value to be stored.</p>
-</td>
+        <td><span class="xref">UnityEngine.Vector3</span>[]</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The value's type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_CameraMovement_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>X and Y represent the pixel position of the camera, while Z represents the focus depth.</p>
+</div>
 
 
-  <a id="SlugBase_SaveData_SlugBaseSaveData_TryGet_" data-uid="SlugBase.SaveData.SlugBaseSaveData.TryGet*"></a>
-  <h4 id="SlugBase_SaveData_SlugBaseSaveData_TryGet__1_System_String___0__" data-uid="SlugBase.SaveData.SlugBaseSaveData.TryGet``1(System.String,``0@)">TryGet&lt;T&gt;(String, out T)</h4>
-  <div class="markdown level1 summary"><p>Gets a value from the save data.</p>
+  <a id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_FadeInDoneAt_" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeInDoneAt*"></a>
+  <h4 id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_FadeInDoneAt" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeInDoneAt">FadeInDoneAt</h4>
+  <div class="markdown level1 summary"><p>The time that this image will finish fading in, in seconds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool TryGet&lt;T&gt;(string key, out T value)</code></pre>
+    <pre><code class="lang-csharp hljs">public float FadeInDoneAt { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key for retrieving the value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The stored value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -264,25 +238,60 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if a stored value was found, <code>false</code> otherwise.</p>
-</td>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+
+
+  <a id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_FadeOutStartAt_" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeOutStartAt*"></a>
+  <h4 id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_FadeOutStartAt" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.FadeOutStartAt">FadeOutStartAt</h4>
+  <div class="markdown level1 summary"><p>The time that this image will start fading out at, in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FadeOutStartAt { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The value's type.</p>
-</td>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_StartAt_" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.StartAt*"></a>
+  <h4 id="SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_StartAt" data-uid="SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.StartAt">StartAt</h4>
+  <div class="markdown level1 summary"><p>The time that this scene will start fading in, in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StartAt { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
