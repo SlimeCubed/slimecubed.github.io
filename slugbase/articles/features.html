@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
 
@@ -12,10 +12,9 @@
   
       <link rel="shortcut icon" href="../favicon.ico">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
       <link rel="stylesheet" href="../styles/config.css">
-      <link rel="stylesheet" href="../styles/discord.css">
       <link rel="stylesheet" href="../styles/singulink.css">
       <link rel="stylesheet" href="../styles/main.css">
       <meta property="docfx:navrel" content="../toc.html">
@@ -25,6 +24,8 @@
   
     </head>
     <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
         <div class="top-navbar">
             <a class="burger-icon" onclick="toggleMenu()">
                 <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
@@ -66,6 +67,8 @@
 
             <main class="main-panel">
 
+ 
+
                 <div role="main" class="hide-when-search">
 
                         <div class="subnav navbar navbar-default">
@@ -75,6 +78,10 @@
                             </ul>
                           </div>
                         </div>
+
+                         <div id="contribution">
+                               <a href="https://github.com/SlimeCubed/SlugBaseRemix/blob/watcher/Docs/articles/features.md/#L1" class="contribution-link">Edit this page</a>
+                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
 <h1 id="built-in-features">Built-In Features</h1>
@@ -87,43 +94,55 @@
 <li><code>type[min..max]</code>: List of between <code>min</code> and <code>max</code> elements of <code>type</code>, or a single element of <code>type</code> not in a list</li>
 </ul>
 <p>Values specified in angle brackets refer to <code>ExtEnum</code>s in the game's code. Replace these with the values from the associated enum. For example, <code>&lt;SlugcatStats.Name&gt;</code> may be replaced with <code>White</code>. Default values for the enums used below are as follows:</p>
-<div class="tabGroup" id="tabgroup_bHGHmlrG6S">
+<div class="tabGroup" id="tabgroup_1">
 <ul role="tablist">
 <li role="presentation">
-<a href="#tabpanel_bHGHmlrG6S_slugcatname" role="tab" aria-controls="tabpanel_bHGHmlrG6S_slugcatname" data-tab="slugcatname" tabindex="0" aria-selected="true">SlugcatStats.Name</a>
+<a href="#tabpanel_1_slugcatname" role="tab" aria-controls="tabpanel_1_slugcatname" data-tab="slugcatname" tabindex="0" aria-selected="true">SlugcatStats.Name</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_bHGHmlrG6S_communityid" role="tab" aria-controls="tabpanel_bHGHmlrG6S_communityid" data-tab="communityid" tabindex="-1">CreatureCommunities.CommunityID</a>
+<a href="#tabpanel_1_timeline" role="tab" aria-controls="tabpanel_1_timeline" data-tab="timeline" tabindex="-1">SlugcatStats.Timeline</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_bHGHmlrG6S_creaturetype" role="tab" aria-controls="tabpanel_bHGHmlrG6S_creaturetype" data-tab="creaturetype" tabindex="-1">CreatureTemplate.Type</a>
+<a href="#tabpanel_1_communityid" role="tab" aria-controls="tabpanel_1_communityid" data-tab="communityid" tabindex="-1">CreatureCommunities.CommunityID</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_bHGHmlrG6S_objecttype" role="tab" aria-controls="tabpanel_bHGHmlrG6S_objecttype" data-tab="objecttype" tabindex="-1">AbstractPhysicalObject.Type</a>
+<a href="#tabpanel_1_creaturetype" role="tab" aria-controls="tabpanel_1_creaturetype" data-tab="creaturetype" tabindex="-1">CreatureTemplate.Type</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_objecttype" role="tab" aria-controls="tabpanel_1_objecttype" data-tab="objecttype" tabindex="-1">AbstractPhysicalObject.Type</a>
 </li>
 </ul>
-<section id="tabpanel_bHGHmlrG6S_slugcatname" role="tabpanel" data-tab="slugcatname">
+<section id="tabpanel_1_slugcatname" role="tabpanel" data-tab="slugcatname">
 
-<p><strong>Vanilla:</strong> <code>White</code>, <code>Yellow</code>, <code>Red</code></p>
+<p><strong>Vanilla:</strong> <code>White</code>, <code>Yellow</code>, <code>Red</code>, <code>Night</code></p>
 <p><strong>More Slugcats:</strong> <code>Rivulet</code>, <code>Artificer</code>, <code>Saint</code>, <code>Spear</code>, <code>Gourmand</code>, <code>Slugpup</code>, <code>Inv</code></p>
+<p><strong>Watcher:</strong> <code>Watcher</code></p>
 </section>
-<section id="tabpanel_bHGHmlrG6S_communityid" role="tabpanel" data-tab="communityid" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_1_timeline" role="tabpanel" data-tab="timeline" aria-hidden="true" hidden="hidden">
+
+<p><strong>Vanilla:</strong> <code>Spear</code>, <code>Artificer</code>, <code>Inv</code>, <code>Red</code>, <code>Gourmand</code>, <code>White</code>, <code>Yellow</code>, <code>Rivulet</code>, <code>Saint</code>, <code>Watcher</code></p>
+</section>
+<section id="tabpanel_1_communityid" role="tabpanel" data-tab="communityid" aria-hidden="true" hidden="hidden">
 
 <p><strong>Vanilla:</strong> <code>None</code>, <code>All</code>, <code>Scavengers</code>, <code>Lizards</code>, <code>Cicadas</code>, <code>GarbageWorms</code>, <code>Deer</code>, <code>Jetfish</code></p>
 </section>
-<section id="tabpanel_bHGHmlrG6S_creaturetype" role="tabpanel" data-tab="creaturetype" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_1_creaturetype" role="tabpanel" data-tab="creaturetype" aria-hidden="true" hidden="hidden">
 
 <p><strong>Vanilla:</strong> <code>StandardGroundCreature</code>, <code>Slugcat</code>, <code>LizardTemplate</code>, <code>PinkLizard</code>, <code>GreenLizard</code>, <code>BlueLizard</code>, <code>YellowLizard</code>, <code>WhiteLizard</code>, <code>RedLizard</code>, <code>BlackLizard</code>, <code>Salamander</code>, <code>CyanLizard</code>, <code>Fly</code>, <code>Leech</code>, <code>SeaLeech</code>, <code>Snail</code>, <code>Vulture</code>, <code>GarbageWorm</code>, <code>LanternMouse</code>, <code>CicadaA</code>, <code>CicadaB</code>, <code>Spider</code>, <code>JetFish</code>, <code>BigEel</code>, <code>Deer</code>, <code>TubeWorm</code>, <code>DaddyLongLegs</code>, <code>BrotherLongLegs</code>, <code>TentaclePlant</code>, <code>PoleMimic</code>, <code>MirosBird</code>, <code>TempleGuard</code>, <code>Centipede</code>, <code>RedCentipede</code>, <code>Centiwing</code>, <code>SmallCentipede</code>, <code>Scavenger</code>, <code>Overseer</code>, <code>VultureGrub</code>, <code>EggBug</code>, <code>BigSpider</code>, <code>SpitterSpider</code>, <code>SmallNeedleWorm</code>, <code>BigNeedleWorm</code>, <code>DropBug</code>, <code>KingVulture</code>, <code>Hazer</code></p>
-<p><strong>More Slugcats:</strong> <code>MirosVulture</code>, <code>SpitLizard</code>, <code>EelLizard</code>, <code>MotherSpider</code>, <code>TerrorLongLegs</code>, <code>AquaCenti</code>, <code>HunterDaddy</code>, <code>FireBug</code>, <code>StowawayBug</code>, <code>ScavengerElite</code>, <code>Inspector</code>, <code>Yeek</code>, <code>BigJelly</code>, <code>SlugNPC</code>, <code>JungleLeech</code>, <code>ZoopLizard</code>, <code>ScavengerKing</code>, <code>TrainLizard</code></p>
+<p><strong>More Slugcats:</strong> <code>HunterDaddy</code>, <code>FireBug</code>, <code>SlugNPC</code>, <code>ScavengerKing</code>, <code>TrainLizard</code></p>
+<p><strong>Watcher:</strong> <code>DrillCrab</code>, <code>Barnacle</code>, <code>SandGrub</code>, <code>BigSandGrub</code>, <code>BigMoth</code>, <code>SmallMoth</code>, <code>BoxWorm</code>, <code>FireSprite</code>, <code>Rattler</code>, <code>SkyWhale</code>, <code>ScavengerTemplar</code>, <code>ScavengerDisciple</code>, <code>Loach</code>, <code>RotLoach</code>, <code>BlizzardLizard</code>, <code>BasiliskLizard</code>, <code>IndigoLizard</code>, <code>Rat</code>, <code>Frog</code>, <code>Tardigrade</code></p>
+<p><strong>Any DLC:</strong> <code>MirosVulture</code>, <code>SpitLizard</code>, <code>EelLizard</code>, <code>MotherSpider</code>, <code>TerrorLongLegs</code>, <code>AquaCenti</code>, <code>StowawayBug</code>, <code>ScavengerElite</code>, <code>Inspector</code>, <code>Yeek</code>, <code>BigJelly</code>, <code>JungleLeech</code>, <code>ZoopLizard</code></p>
 </section>
-<section id="tabpanel_bHGHmlrG6S_objecttype" role="tabpanel" data-tab="objecttype" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_1_objecttype" role="tabpanel" data-tab="objecttype" aria-hidden="true" hidden="hidden">
 
-<p><strong>Vanilla:</strong> <code>Creature</code>, <code>Rock</code>, <code>Spear</code>, <code>FlareBomb</code>, <code>VultureMask</code>, <code>PuffBall</code>, <code>DangleFruit</code>, <code>Oracle</code>, <code>PebblesPearl</code>, <code>SLOracleSwarmer</code>, <code>SSOracleSwarmer</code>, <code>DataPearl</code>, <code>SeedCob</code>, <code>WaterNut</code>, <code>JellyFish</code>, <code>Lantern</code>, <code>KarmaFlower</code>, <code>Mushroom</code>, <code>VoidSpawn</code>, <code>FirecrackerPlant</code>, <code>SlimeMold</code>, <code>FlyLure</code>, <code>ScavengerBomb</code>, <code>SporePlant</code>, <code>AttachedBee</code>, <code>EggBugEgg</code>, <code>NeedleEgg</code>, <code>DartMaggot</code>, <code>BubbleGrass</code>, <code>NSHSwarmer</code>, <code>OverseerCarcass</code>, <code>CollisionField</code>, <code>BlinkingFlower</code>,</p>
-<p><strong>More Slugcats:</strong> <code>JokeRifle</code>, <code>Bullet</code>, <code>SingularityBomb</code>, <code>Spearmasterpearl</code>, <code>FireEgg</code>, <code>EnergyCell</code>, <code>Germinator</code>, <code>Seed</code>, <code>GooieDuck</code>, <code>LillyPuck</code>, <code>GlowWeed</code>, <code>MoonCloak</code>, <code>HalcyonPearl</code>, <code>DandelionPeach</code>, <code>HRGuard</code></p>
+<p><strong>Vanilla:</strong> <code>Creature</code>, <code>Rock</code>, <code>Spear</code>, <code>FlareBomb</code>, <code>VultureMask</code>, <code>PuffBall</code>, <code>DangleFruit</code>, <code>Oracle</code>, <code>PebblesPearl</code>, <code>SLOracleSwarmer</code>, <code>SSOracleSwarmer</code>, <code>DataPearl</code>, <code>SeedCob</code>, <code>WaterNut</code>, <code>JellyFish</code>, <code>Lantern</code>, <code>KarmaFlower</code>, <code>Mushroom</code>, <code>VoidSpawn</code>, <code>FirecrackerPlant</code>, <code>SlimeMold</code>, <code>FlyLure</code>, <code>ScavengerBomb</code>, <code>SporePlant</code>, <code>AttachedBee</code>, <code>EggBugEgg</code>, <code>NeedleEgg</code>, <code>DartMaggot</code>, <code>BubbleGrass</code>, <code>NSHSwarmer</code>, <code>OverseerCarcass</code>, <code>CollisionField</code>, <code>BlinkingFlower</code>, <code>Pomegranate</code>, <code>LobeTree</code></p>
+<p><strong>More Slugcats:</strong> <code>JokeRifle</code>, <code>Bullet</code>, <code>Spearmasterpearl</code>, <code>FireEgg</code>, <code>EnergyCell</code>, <code>Germinator</code>, <code>MoonCloak</code>, <code>HalcyonPearl</code>, <code>HRGuard</code></p>
+<p><strong>Watcher:</strong> <code>RippleSpawn</code>, <code>FireSpriteLarva</code>, <code>Boomerang</code>, <code>PrinceBulb</code>, <code>Prince</code>, <code>SpinToy</code>, <code>BallToy</code>, <code>SoftToy</code>, <code>WeirdToy</code></p>
+<p><strong>Any DLC:</strong> <code>SingularityBomb</code>, <code>Seed</code>, <code>GooieDuck</code>, <code>LillyPuck</code>, <code>GlowWeed</code>, <code>DandelionPeach</code></p>
 </section>
 </div>
 
-<p>Some values will not be present if More Slugcats is not installed. Other mods may add values to these. Features that take enums will often ignore invalid values.</p>
+<p>Some values will not be present if DLCs are not installed. Other mods may add values to these. Features that take enums will often ignore invalid values. DLC timelines, though always available for custom characters to use, will not work correctly in vanilla regions if the corresponding DLC is not installed.</p>
 <h2 id="player-features">Player Features</h2>
 <h3 id="color">&quot;color&quot;</h3>
 <p><code>color</code><br>
@@ -334,16 +353,28 @@ Ex: <code>&quot;outro_slideshow&quot;: &quot;Scholar_Outro&quot;</code></p>
 <h3 id="world_state">&quot;world_state&quot;</h3>
 <p><code>string[]</code><br>
 Ex: <code>&quot;world_state&quot;: &quot;Red&quot;</code>, <code>&quot;world_state&quot;: [ &quot;Spear&quot;, &quot;Red&quot; ]</code></p>
-<p><code>SlugcatStats.Name</code> values to copy world state from. This includes spawns and room connections. If the first name does not exist, then the second will be tried and so on.</p>
+<p><code>SlugcatStats.Timeline</code> values to copy world state from. This includes spawns and room connections. If the first timeline does not exist, then the second will be tried and so on.</p>
 <p>See <a href="world-state-tutorial.html">World State Tutorial</a> for more information.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If the first item in your world state is your character's name, a timeline point will be created automatically. Consider using <a href="gettingstarted.html#custom-timelines">Custom Timelines</a> for more flexibility.</p>
+</div>
 <h3 id="timeline_before">&quot;timeline_before&quot;</h3>
 <p><code>string[]</code><br>
 Ex: <code>&quot;timeline_before&quot;: &quot;Red&quot;</code>, <code>&quot;timeline_after&quot;: [ &quot;Artificer&quot;, &quot;Red&quot; ]</code></p>
-<p><code>SlugcatStats.Name</code> values to position this character before in the timeline. If the first name does not exist or is not on the timeline, then the second will be tried and so on. This takes precedence over <code>&quot;timeline_after&quot;</code>.</p>
+<p><code>SlugcatStats.Timeline</code> values to position this character's timeline point before in the timeline order. If the first timeline point does not exist or is not on the timeline, then the second will be tried and so on. This takes precedence over <code>&quot;timeline_after&quot;</code>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This only has an effect if <code>&quot;world_state&quot;</code> matches your character's name. Consider using <a href="gettingstarted.html#custom-timelines">Custom Timelines</a> instead.</p>
+</div>
 <h3 id="timeline_after">&quot;timeline_after&quot;</h3>
 <p><code>string[]</code><br>
 Ex: <code>&quot;timeline_after&quot;: &quot;Yellow&quot;</code>, <code>&quot;timeline_after&quot;: [ &quot;Rivulet&quot;, &quot;Yellow&quot; ]</code></p>
-<p><code>SlugcatStats.Name</code> values to position this character after in the timeline. If the first name does not exist or is not on the timeline, then the second will be tried and so on. <code>&quot;timeline_before&quot;</code> takes precedence over this.</p>
+<p><code>SlugcatStats.Timeline</code> values to position this character's timeline point after in the timeline order. If the first timeline point does not exist or is not on the timeline, then the second will be tried and so on. <code>&quot;timeline_before&quot;</code> takes precedence over this.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This only has an effect if <code>&quot;world_state&quot;</code> matches your character's name. Consider using <a href="gettingstarted.html#custom-timelines">Custom Timelines</a> instead.</p>
+</div>
 <h3 id="title_card">&quot;title_card&quot;</h3>
 <p><code>string</code><br>
 Ex: <code>&quot;title_card&quot;: &quot;Title_Card_MySlugcat&quot;</code></p>
@@ -356,6 +387,7 @@ Ex: <code>&quot;expedition_enabled&quot;: false</code></p>
 <p><code>string</code><br>
 Ex: <code>&quot;expedition_description&quot;: &quot;First line of description.&lt;LINE&gt;Second line of description.&quot;</code></p>
 <p>Description on Expedition mode's character select screen. If unspecified, this character's story mode description will be used.</p>
+
 </article>
                 </div>
 
@@ -363,14 +395,15 @@ Ex: <code>&quot;expedition_description&quot;: &quot;First line of description.&l
         </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
-        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
         <script type="text/javascript" src="../styles/url.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
         <script type="text/javascript" src="../styles/docfx.js"></script>
-        <script type="text/javascript" src="../styles/singulink.js"></script>
-        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
 </html>

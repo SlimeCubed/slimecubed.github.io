@@ -20,7 +20,7 @@ references:
   fullName: SlugBase.Assets.CustomDreams
   nameWithType: CustomDreams
 - uid: SlugBase.Assets.CustomDreams.QueueDream(StoryGameSession,DreamsState.DreamID)
-  name: QueueDream(StoryGameSession, DreamsState.DreamID)
+  name: QueueDream(StoryGameSession, DreamID)
   href: api/SlugBase.Assets.CustomDreams.html#SlugBase_Assets_CustomDreams_QueueDream_StoryGameSession_DreamsState_DreamID_
   commentId: M:SlugBase.Assets.CustomDreams.QueueDream(StoryGameSession,DreamsState.DreamID)
   fullName: SlugBase.Assets.CustomDreams.QueueDream(StoryGameSession, DreamsState.DreamID)
@@ -32,7 +32,7 @@ references:
   fullName: SlugBase.Assets.CustomDreams.QueueDream
   nameWithType: CustomDreams.QueueDream
 - uid: SlugBase.Assets.CustomDreams.SetDreamScene(DreamsState.DreamID,Menu.MenuScene.SceneID)
-  name: SetDreamScene(DreamsState.DreamID, MenuScene.SceneID)
+  name: SetDreamScene(DreamID, SceneID)
   href: api/SlugBase.Assets.CustomDreams.html#SlugBase_Assets_CustomDreams_SetDreamScene_DreamsState_DreamID_Menu_MenuScene_SceneID_
   commentId: M:SlugBase.Assets.CustomDreams.SetDreamScene(DreamsState.DreamID,Menu.MenuScene.SceneID)
   fullName: SlugBase.Assets.CustomDreams.SetDreamScene(DreamsState.DreamID, Menu.MenuScene.SceneID)
@@ -95,20 +95,29 @@ references:
   name: Image(JsonObject)
   href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image__ctor_SlugBase_JsonObject_
   commentId: M:SlugBase.Assets.CustomScene.Image.#ctor(SlugBase.JsonObject)
+  name.vb: New(JsonObject)
   fullName: SlugBase.Assets.CustomScene.Image.Image(SlugBase.JsonObject)
+  fullName.vb: SlugBase.Assets.CustomScene.Image.New(SlugBase.JsonObject)
   nameWithType: CustomScene.Image.Image(JsonObject)
+  nameWithType.vb: CustomScene.Image.New(JsonObject)
 - uid: SlugBase.Assets.CustomScene.Image.#ctor(System.String,UnityEngine.Vector2)
-  name: Image(String, Vector2)
+  name: Image(string, Vector2)
   href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image__ctor_System_String_UnityEngine_Vector2_
   commentId: M:SlugBase.Assets.CustomScene.Image.#ctor(System.String,UnityEngine.Vector2)
-  fullName: SlugBase.Assets.CustomScene.Image.Image(System.String, UnityEngine.Vector2)
-  nameWithType: CustomScene.Image.Image(String, Vector2)
+  name.vb: New(String, Vector2)
+  fullName: SlugBase.Assets.CustomScene.Image.Image(string, UnityEngine.Vector2)
+  fullName.vb: SlugBase.Assets.CustomScene.Image.New(String, UnityEngine.Vector2)
+  nameWithType: CustomScene.Image.Image(string, Vector2)
+  nameWithType.vb: CustomScene.Image.New(String, Vector2)
 - uid: SlugBase.Assets.CustomScene.Image.#ctor*
   name: Image
   href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image__ctor_
   commentId: Overload:SlugBase.Assets.CustomScene.Image.#ctor
+  name.vb: New
   fullName: SlugBase.Assets.CustomScene.Image.Image
+  fullName.vb: SlugBase.Assets.CustomScene.Image.New
   nameWithType: CustomScene.Image.Image
+  nameWithType.vb: CustomScene.Image.New
 - uid: SlugBase.Assets.CustomScene.Image.Depth
   name: Depth
   href: api/SlugBase.Assets.CustomScene.Image.html#SlugBase_Assets_CustomScene_Image_Depth
@@ -242,7 +251,7 @@ references:
   fullName: SlugBase.Assets.CustomScene.SelectMenuOffset
   nameWithType: CustomScene.SelectMenuOffset
 - uid: SlugBase.Assets.CustomScene.SetSelectMenuScene(SaveState,Menu.MenuScene.SceneID)
-  name: SetSelectMenuScene(SaveState, MenuScene.SceneID)
+  name: SetSelectMenuScene(SaveState, SceneID)
   href: api/SlugBase.Assets.CustomScene.html#SlugBase_Assets_CustomScene_SetSelectMenuScene_SaveState_Menu_MenuScene_SceneID_
   commentId: M:SlugBase.Assets.CustomScene.SetSelectMenuScene(SaveState,Menu.MenuScene.SceneID)
   fullName: SlugBase.Assets.CustomScene.SetSelectMenuScene(SaveState, Menu.MenuScene.SceneID)
@@ -281,14 +290,20 @@ references:
   name: CustomSlideshowScene(JsonObject)
   href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene__ctor_SlugBase_JsonObject_
   commentId: M:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor(SlugBase.JsonObject)
+  name.vb: New(JsonObject)
   fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CustomSlideshowScene(SlugBase.JsonObject)
+  fullName.vb: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.New(SlugBase.JsonObject)
   nameWithType: CustomSlideshow.CustomSlideshowScene.CustomSlideshowScene(JsonObject)
+  nameWithType.vb: CustomSlideshow.CustomSlideshowScene.New(JsonObject)
 - uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor*
   name: CustomSlideshowScene
   href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene__ctor_
   commentId: Overload:SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.#ctor
+  name.vb: New
   fullName: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CustomSlideshowScene
+  fullName.vb: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.New
   nameWithType: CustomSlideshow.CustomSlideshowScene.CustomSlideshowScene
+  nameWithType.vb: CustomSlideshow.CustomSlideshowScene.New
 - uid: SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.CameraMovement
   name: CameraMovement
   href: api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html#SlugBase_Assets_CustomSlideshow_CustomSlideshowScene_CameraMovement
@@ -419,14 +434,20 @@ references:
   name: SlideshowMusic(JsonObject)
   href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic__ctor_SlugBase_JsonObject_
   commentId: M:SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor(SlugBase.JsonObject)
+  name.vb: New(JsonObject)
   fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.SlideshowMusic(SlugBase.JsonObject)
+  fullName.vb: SlugBase.Assets.CustomSlideshow.SlideshowMusic.New(SlugBase.JsonObject)
   nameWithType: CustomSlideshow.SlideshowMusic.SlideshowMusic(JsonObject)
+  nameWithType.vb: CustomSlideshow.SlideshowMusic.New(JsonObject)
 - uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor*
   name: SlideshowMusic
   href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic__ctor_
   commentId: Overload:SlugBase.Assets.CustomSlideshow.SlideshowMusic.#ctor
+  name.vb: New
   fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.SlideshowMusic
+  fullName.vb: SlugBase.Assets.CustomSlideshow.SlideshowMusic.New
   nameWithType: CustomSlideshow.SlideshowMusic.SlideshowMusic
+  nameWithType.vb: CustomSlideshow.SlideshowMusic.New
 - uid: SlugBase.Assets.CustomSlideshow.SlideshowMusic.FadeIn
   name: FadeIn
   href: api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html#SlugBase_Assets_CustomSlideshow_SlideshowMusic_FadeIn
@@ -451,6 +472,84 @@ references:
   commentId: Overload:SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name
   fullName: SlugBase.Assets.CustomSlideshow.SlideshowMusic.Name
   nameWithType: CustomSlideshow.SlideshowMusic.Name
+- uid: SlugBase.CustomTimeline
+  name: CustomTimeline
+  href: api/SlugBase.CustomTimeline.html
+  commentId: T:SlugBase.CustomTimeline
+  fullName: SlugBase.CustomTimeline
+  nameWithType: CustomTimeline
+- uid: SlugBase.CustomTimeline.Base
+  name: Base
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_Base
+  commentId: P:SlugBase.CustomTimeline.Base
+  fullName: SlugBase.CustomTimeline.Base
+  nameWithType: CustomTimeline.Base
+- uid: SlugBase.CustomTimeline.Base*
+  name: Base
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_Base_
+  commentId: Overload:SlugBase.CustomTimeline.Base
+  fullName: SlugBase.CustomTimeline.Base
+  nameWithType: CustomTimeline.Base
+- uid: SlugBase.CustomTimeline.ID
+  name: ID
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_ID
+  commentId: P:SlugBase.CustomTimeline.ID
+  fullName: SlugBase.CustomTimeline.ID
+  nameWithType: CustomTimeline.ID
+- uid: SlugBase.CustomTimeline.ID*
+  name: ID
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_ID_
+  commentId: Overload:SlugBase.CustomTimeline.ID
+  fullName: SlugBase.CustomTimeline.ID
+  nameWithType: CustomTimeline.ID
+- uid: SlugBase.CustomTimeline.InheritsFrom(SlugcatStats.Timeline)
+  name: InheritsFrom(Timeline)
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_InheritsFrom_SlugcatStats_Timeline_
+  commentId: M:SlugBase.CustomTimeline.InheritsFrom(SlugcatStats.Timeline)
+  fullName: SlugBase.CustomTimeline.InheritsFrom(SlugcatStats.Timeline)
+  nameWithType: CustomTimeline.InheritsFrom(SlugcatStats.Timeline)
+- uid: SlugBase.CustomTimeline.InheritsFrom*
+  name: InheritsFrom
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_InheritsFrom_
+  commentId: Overload:SlugBase.CustomTimeline.InheritsFrom
+  fullName: SlugBase.CustomTimeline.InheritsFrom
+  nameWithType: CustomTimeline.InheritsFrom
+- uid: SlugBase.CustomTimeline.InsertAfter
+  name: InsertAfter
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_InsertAfter
+  commentId: P:SlugBase.CustomTimeline.InsertAfter
+  fullName: SlugBase.CustomTimeline.InsertAfter
+  nameWithType: CustomTimeline.InsertAfter
+- uid: SlugBase.CustomTimeline.InsertAfter*
+  name: InsertAfter
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_InsertAfter_
+  commentId: Overload:SlugBase.CustomTimeline.InsertAfter
+  fullName: SlugBase.CustomTimeline.InsertAfter
+  nameWithType: CustomTimeline.InsertAfter
+- uid: SlugBase.CustomTimeline.InsertBefore
+  name: InsertBefore
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_InsertBefore
+  commentId: P:SlugBase.CustomTimeline.InsertBefore
+  fullName: SlugBase.CustomTimeline.InsertBefore
+  nameWithType: CustomTimeline.InsertBefore
+- uid: SlugBase.CustomTimeline.InsertBefore*
+  name: InsertBefore
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_InsertBefore_
+  commentId: Overload:SlugBase.CustomTimeline.InsertBefore
+  fullName: SlugBase.CustomTimeline.InsertBefore
+  nameWithType: CustomTimeline.InsertBefore
+- uid: SlugBase.CustomTimeline.Registry
+  name: Registry
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_Registry
+  commentId: P:SlugBase.CustomTimeline.Registry
+  fullName: SlugBase.CustomTimeline.Registry
+  nameWithType: CustomTimeline.Registry
+- uid: SlugBase.CustomTimeline.Registry*
+  name: Registry
+  href: api/SlugBase.CustomTimeline.html#SlugBase_CustomTimeline_Registry_
+  commentId: Overload:SlugBase.CustomTimeline.Registry
+  fullName: SlugBase.CustomTimeline.Registry
+  nameWithType: CustomTimeline.Registry
 - uid: SlugBase.DataTypes
   name: SlugBase.DataTypes
   href: api/SlugBase.DataTypes.html
@@ -464,23 +563,32 @@ references:
   fullName: SlugBase.DataTypes.ColorSlot
   nameWithType: ColorSlot
 - uid: SlugBase.DataTypes.ColorSlot.#ctor(System.Int32,SlugBase.JsonAny)
-  name: ColorSlot(Int32, JsonAny)
+  name: ColorSlot(int, JsonAny)
   href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot__ctor_System_Int32_SlugBase_JsonAny_
   commentId: M:SlugBase.DataTypes.ColorSlot.#ctor(System.Int32,SlugBase.JsonAny)
-  fullName: SlugBase.DataTypes.ColorSlot.ColorSlot(System.Int32, SlugBase.JsonAny)
-  nameWithType: ColorSlot.ColorSlot(Int32, JsonAny)
+  name.vb: New(Integer, JsonAny)
+  fullName: SlugBase.DataTypes.ColorSlot.ColorSlot(int, SlugBase.JsonAny)
+  fullName.vb: SlugBase.DataTypes.ColorSlot.New(Integer, SlugBase.JsonAny)
+  nameWithType: ColorSlot.ColorSlot(int, JsonAny)
+  nameWithType.vb: ColorSlot.New(Integer, JsonAny)
 - uid: SlugBase.DataTypes.ColorSlot.#ctor(System.Int32,System.String)
-  name: ColorSlot(Int32, String)
+  name: ColorSlot(int, string)
   href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot__ctor_System_Int32_System_String_
   commentId: M:SlugBase.DataTypes.ColorSlot.#ctor(System.Int32,System.String)
-  fullName: SlugBase.DataTypes.ColorSlot.ColorSlot(System.Int32, System.String)
-  nameWithType: ColorSlot.ColorSlot(Int32, String)
+  name.vb: New(Integer, String)
+  fullName: SlugBase.DataTypes.ColorSlot.ColorSlot(int, string)
+  fullName.vb: SlugBase.DataTypes.ColorSlot.New(Integer, String)
+  nameWithType: ColorSlot.ColorSlot(int, string)
+  nameWithType.vb: ColorSlot.New(Integer, String)
 - uid: SlugBase.DataTypes.ColorSlot.#ctor*
   name: ColorSlot
   href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot__ctor_
   commentId: Overload:SlugBase.DataTypes.ColorSlot.#ctor
+  name.vb: New
   fullName: SlugBase.DataTypes.ColorSlot.ColorSlot
+  fullName.vb: SlugBase.DataTypes.ColorSlot.New
   nameWithType: ColorSlot.ColorSlot
+  nameWithType.vb: ColorSlot.New
 - uid: SlugBase.DataTypes.ColorSlot.Default
   name: Default
   href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_Default
@@ -500,11 +608,14 @@ references:
   fullName: SlugBase.DataTypes.ColorSlot.GetColor(PlayerGraphics)
   nameWithType: ColorSlot.GetColor(PlayerGraphics)
 - uid: SlugBase.DataTypes.ColorSlot.GetColor(System.Int32)
-  name: GetColor(Int32)
+  name: GetColor(int)
   href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_GetColor_System_Int32_
   commentId: M:SlugBase.DataTypes.ColorSlot.GetColor(System.Int32)
-  fullName: SlugBase.DataTypes.ColorSlot.GetColor(System.Int32)
-  nameWithType: ColorSlot.GetColor(Int32)
+  name.vb: GetColor(Integer)
+  fullName: SlugBase.DataTypes.ColorSlot.GetColor(int)
+  fullName.vb: SlugBase.DataTypes.ColorSlot.GetColor(Integer)
+  nameWithType: ColorSlot.GetColor(int)
+  nameWithType.vb: ColorSlot.GetColor(Integer)
 - uid: SlugBase.DataTypes.ColorSlot.GetColor*
   name: GetColor
   href: api/SlugBase.DataTypes.ColorSlot.html#SlugBase_DataTypes_ColorSlot_GetColor_
@@ -557,14 +668,20 @@ references:
   name: Diet(JsonAny)
   href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet__ctor_SlugBase_JsonAny_
   commentId: M:SlugBase.DataTypes.Diet.#ctor(SlugBase.JsonAny)
+  name.vb: New(JsonAny)
   fullName: SlugBase.DataTypes.Diet.Diet(SlugBase.JsonAny)
+  fullName.vb: SlugBase.DataTypes.Diet.New(SlugBase.JsonAny)
   nameWithType: Diet.Diet(JsonAny)
+  nameWithType.vb: Diet.New(JsonAny)
 - uid: SlugBase.DataTypes.Diet.#ctor*
   name: Diet
   href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet__ctor_
   commentId: Overload:SlugBase.DataTypes.Diet.#ctor
+  name.vb: New
   fullName: SlugBase.DataTypes.Diet.Diet
+  fullName.vb: SlugBase.DataTypes.Diet.New
   nameWithType: Diet.Diet
+  nameWithType.vb: Diet.New
 - uid: SlugBase.DataTypes.Diet.Corpses
   name: Corpses
   href: api/SlugBase.DataTypes.Diet.html#SlugBase_DataTypes_Diet_Corpses
@@ -659,26 +776,38 @@ references:
   name: PlayerColor(JsonAny)
   href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_SlugBase_JsonAny_
   commentId: M:SlugBase.DataTypes.PlayerColor.#ctor(SlugBase.JsonAny)
+  name.vb: New(JsonAny)
   fullName: SlugBase.DataTypes.PlayerColor.PlayerColor(SlugBase.JsonAny)
+  fullName.vb: SlugBase.DataTypes.PlayerColor.New(SlugBase.JsonAny)
   nameWithType: PlayerColor.PlayerColor(JsonAny)
+  nameWithType.vb: PlayerColor.New(JsonAny)
 - uid: SlugBase.DataTypes.PlayerColor.#ctor(System.String)
-  name: PlayerColor(String)
+  name: PlayerColor(string)
   href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_System_String_
   commentId: M:SlugBase.DataTypes.PlayerColor.#ctor(System.String)
-  fullName: SlugBase.DataTypes.PlayerColor.PlayerColor(System.String)
-  nameWithType: PlayerColor.PlayerColor(String)
+  name.vb: New(String)
+  fullName: SlugBase.DataTypes.PlayerColor.PlayerColor(string)
+  fullName.vb: SlugBase.DataTypes.PlayerColor.New(String)
+  nameWithType: PlayerColor.PlayerColor(string)
+  nameWithType.vb: PlayerColor.New(String)
 - uid: SlugBase.DataTypes.PlayerColor.#ctor(UnityEngine.Color)
   name: PlayerColor(Color)
   href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_UnityEngine_Color_
   commentId: M:SlugBase.DataTypes.PlayerColor.#ctor(UnityEngine.Color)
+  name.vb: New(Color)
   fullName: SlugBase.DataTypes.PlayerColor.PlayerColor(UnityEngine.Color)
+  fullName.vb: SlugBase.DataTypes.PlayerColor.New(UnityEngine.Color)
   nameWithType: PlayerColor.PlayerColor(Color)
+  nameWithType.vb: PlayerColor.New(Color)
 - uid: SlugBase.DataTypes.PlayerColor.#ctor*
   name: PlayerColor
   href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor__ctor_
   commentId: Overload:SlugBase.DataTypes.PlayerColor.#ctor
+  name.vb: New
   fullName: SlugBase.DataTypes.PlayerColor.PlayerColor
+  fullName.vb: SlugBase.DataTypes.PlayerColor.New
   nameWithType: PlayerColor.PlayerColor
+  nameWithType.vb: PlayerColor.New
 - uid: SlugBase.DataTypes.PlayerColor.Body
   name: Body
   href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_Body
@@ -704,17 +833,23 @@ references:
   fullName: SlugBase.DataTypes.PlayerColor.GetColor
   nameWithType: PlayerColor.GetColor
 - uid: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics,System.Int32)
-  name: GetCustomColor(PlayerGraphics, Int32)
+  name: GetCustomColor(PlayerGraphics, int)
   href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_GetCustomColor_PlayerGraphics_System_Int32_
   commentId: M:SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics,System.Int32)
-  fullName: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics, System.Int32)
-  nameWithType: PlayerColor.GetCustomColor(PlayerGraphics, Int32)
+  name.vb: GetCustomColor(PlayerGraphics, Integer)
+  fullName: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics, int)
+  fullName.vb: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics, Integer)
+  nameWithType: PlayerColor.GetCustomColor(PlayerGraphics, int)
+  nameWithType.vb: PlayerColor.GetCustomColor(PlayerGraphics, Integer)
 - uid: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics,System.String)
-  name: GetCustomColor(PlayerGraphics, String)
+  name: GetCustomColor(PlayerGraphics, string)
   href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_GetCustomColor_PlayerGraphics_System_String_
   commentId: M:SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics,System.String)
-  fullName: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics, System.String)
-  nameWithType: PlayerColor.GetCustomColor(PlayerGraphics, String)
+  name.vb: GetCustomColor(PlayerGraphics, String)
+  fullName: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics, string)
+  fullName.vb: SlugBase.DataTypes.PlayerColor.GetCustomColor(PlayerGraphics, String)
+  nameWithType: PlayerColor.GetCustomColor(PlayerGraphics, string)
+  nameWithType.vb: PlayerColor.GetCustomColor(PlayerGraphics, String)
 - uid: SlugBase.DataTypes.PlayerColor.GetCustomColor*
   name: GetCustomColor
   href: api/SlugBase.DataTypes.PlayerColor.html#SlugBase_DataTypes_PlayerColor_GetCustomColor_
@@ -731,20 +866,29 @@ references:
   name: RepOverride(JsonAny)
   href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride__ctor_SlugBase_JsonAny_
   commentId: M:SlugBase.DataTypes.RepOverride.#ctor(SlugBase.JsonAny)
+  name.vb: New(JsonAny)
   fullName: SlugBase.DataTypes.RepOverride.RepOverride(SlugBase.JsonAny)
+  fullName.vb: SlugBase.DataTypes.RepOverride.New(SlugBase.JsonAny)
   nameWithType: RepOverride.RepOverride(JsonAny)
+  nameWithType.vb: RepOverride.New(JsonAny)
 - uid: SlugBase.DataTypes.RepOverride.#ctor(System.Single,System.Single,System.Boolean)
-  name: RepOverride(Single, Single, Boolean)
+  name: RepOverride(float, float, bool)
   href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride__ctor_System_Single_System_Single_System_Boolean_
   commentId: M:SlugBase.DataTypes.RepOverride.#ctor(System.Single,System.Single,System.Boolean)
-  fullName: SlugBase.DataTypes.RepOverride.RepOverride(System.Single, System.Single, System.Boolean)
-  nameWithType: RepOverride.RepOverride(Single, Single, Boolean)
+  name.vb: New(Single, Single, Boolean)
+  fullName: SlugBase.DataTypes.RepOverride.RepOverride(float, float, bool)
+  fullName.vb: SlugBase.DataTypes.RepOverride.New(Single, Single, Boolean)
+  nameWithType: RepOverride.RepOverride(float, float, bool)
+  nameWithType.vb: RepOverride.New(Single, Single, Boolean)
 - uid: SlugBase.DataTypes.RepOverride.#ctor*
   name: RepOverride
   href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride__ctor_
   commentId: Overload:SlugBase.DataTypes.RepOverride.#ctor
+  name.vb: New
   fullName: SlugBase.DataTypes.RepOverride.RepOverride
+  fullName.vb: SlugBase.DataTypes.RepOverride.New
   nameWithType: RepOverride.RepOverride
+  nameWithType.vb: RepOverride.New
 - uid: SlugBase.DataTypes.RepOverride.Locked
   name: Locked
   href: api/SlugBase.DataTypes.RepOverride.html#SlugBase_DataTypes_RepOverride_Locked
@@ -779,14 +923,20 @@ references:
   name: Data(Feature)
   href: api/SlugBase.Features.Data.html#SlugBase_Features_Data__ctor_SlugBase_Features_Feature_
   commentId: M:SlugBase.Features.Data.#ctor(SlugBase.Features.Feature)
+  name.vb: New(Feature)
   fullName: SlugBase.Features.Data.Data(SlugBase.Features.Feature)
+  fullName.vb: SlugBase.Features.Data.New(SlugBase.Features.Feature)
   nameWithType: Data.Data(Feature)
+  nameWithType.vb: Data.New(Feature)
 - uid: SlugBase.Features.Data.#ctor*
   name: Data
   href: api/SlugBase.Features.Data.html#SlugBase_Features_Data__ctor_
   commentId: Overload:SlugBase.Features.Data.#ctor
+  name.vb: New
   fullName: SlugBase.Features.Data.Data
+  fullName.vb: SlugBase.Features.Data.New
   nameWithType: Data.Data
+  nameWithType.vb: Data.New
 - uid: SlugBase.Features.Data.RequiredFeature
   name: RequiredFeature
   href: api/SlugBase.Features.Data.html#SlugBase_Features_Data_RequiredFeature
@@ -809,11 +959,11 @@ references:
   name: TryUnbox<T>(StrongBox<T>, out T)
   href: api/SlugBase.Features.Data.html#SlugBase_Features_Data_TryUnbox__1_System_Runtime_CompilerServices_StrongBox___0____0__
   commentId: M:SlugBase.Features.Data.TryUnbox``1(System.Runtime.CompilerServices.StrongBox{``0},``0@)
-  name.vb: TryUnbox(Of T)(StrongBox(Of T), ByRef T)
+  name.vb: TryUnbox(Of T)(StrongBox(Of T), T)
   fullName: SlugBase.Features.Data.TryUnbox<T>(System.Runtime.CompilerServices.StrongBox<T>, out T)
-  fullName.vb: SlugBase.Features.Data.TryUnbox(Of T)(System.Runtime.CompilerServices.StrongBox(Of T), ByRef T)
+  fullName.vb: SlugBase.Features.Data.TryUnbox(Of T)(System.Runtime.CompilerServices.StrongBox(Of T), T)
   nameWithType: Data.TryUnbox<T>(StrongBox<T>, out T)
-  nameWithType.vb: Data.TryUnbox(Of T)(StrongBox(Of T), ByRef T)
+  nameWithType.vb: Data.TryUnbox(Of T)(StrongBox(Of T), T)
 - uid: SlugBase.Features.Data`2
   name: Data<THolder, TValue>
   href: api/SlugBase.Features.Data-2.html
@@ -827,18 +977,20 @@ references:
   name: Data(Feature)
   href: api/SlugBase.Features.Data-2.html#SlugBase_Features_Data_2__ctor_SlugBase_Features_Feature_
   commentId: M:SlugBase.Features.Data`2.#ctor(SlugBase.Features.Feature)
+  name.vb: New(Feature)
   fullName: SlugBase.Features.Data<THolder, TValue>.Data(SlugBase.Features.Feature)
-  fullName.vb: SlugBase.Features.Data(Of THolder, TValue).Data(SlugBase.Features.Feature)
+  fullName.vb: SlugBase.Features.Data(Of THolder, TValue).New(SlugBase.Features.Feature)
   nameWithType: Data<THolder, TValue>.Data(Feature)
-  nameWithType.vb: Data(Of THolder, TValue).Data(Feature)
+  nameWithType.vb: Data(Of THolder, TValue).New(Feature)
 - uid: SlugBase.Features.Data`2.#ctor*
   name: Data
   href: api/SlugBase.Features.Data-2.html#SlugBase_Features_Data_2__ctor_
   commentId: Overload:SlugBase.Features.Data`2.#ctor
+  name.vb: New
   fullName: SlugBase.Features.Data<THolder, TValue>.Data
-  fullName.vb: SlugBase.Features.Data(Of THolder, TValue).Data
+  fullName.vb: SlugBase.Features.Data(Of THolder, TValue).New
   nameWithType: Data<THolder, TValue>.Data
-  nameWithType.vb: Data(Of THolder, TValue).Data
+  nameWithType.vb: Data(Of THolder, TValue).New
 - uid: SlugBase.Features.Data`2.Get(SlugBase.SlugBaseCharacter,`0)
   name: Get(SlugBaseCharacter, THolder)
   href: api/SlugBase.Features.Data-2.html#SlugBase_Features_Data_2_Get_SlugBase_SlugBaseCharacter__0_
@@ -862,17 +1014,23 @@ references:
   fullName: SlugBase.Features.Feature
   nameWithType: Feature
 - uid: SlugBase.Features.Feature.#ctor(System.String)
-  name: Feature(String)
+  name: Feature(string)
   href: api/SlugBase.Features.Feature.html#SlugBase_Features_Feature__ctor_System_String_
   commentId: M:SlugBase.Features.Feature.#ctor(System.String)
-  fullName: SlugBase.Features.Feature.Feature(System.String)
-  nameWithType: Feature.Feature(String)
+  name.vb: New(String)
+  fullName: SlugBase.Features.Feature.Feature(string)
+  fullName.vb: SlugBase.Features.Feature.New(String)
+  nameWithType: Feature.Feature(string)
+  nameWithType.vb: Feature.New(String)
 - uid: SlugBase.Features.Feature.#ctor*
   name: Feature
   href: api/SlugBase.Features.Feature.html#SlugBase_Features_Feature__ctor_
   commentId: Overload:SlugBase.Features.Feature.#ctor
+  name.vb: New
   fullName: SlugBase.Features.Feature.Feature
+  fullName.vb: SlugBase.Features.Feature.New
   nameWithType: Feature.Feature
+  nameWithType.vb: Feature.New
 - uid: SlugBase.Features.Feature.ID
   name: ID
   href: api/SlugBase.Features.Feature.html#SlugBase_Features_Feature_ID
@@ -885,49 +1043,6 @@ references:
   commentId: Overload:SlugBase.Features.Feature.ID
   fullName: SlugBase.Features.Feature.ID
   nameWithType: Feature.ID
-- uid: SlugBase.Features.Feature`1
-  name: Feature<T>
-  href: api/SlugBase.Features.Feature-1.html
-  commentId: T:SlugBase.Features.Feature`1
-  name.vb: Feature(Of T)
-  fullName: SlugBase.Features.Feature<T>
-  fullName.vb: SlugBase.Features.Feature(Of T)
-  nameWithType: Feature<T>
-  nameWithType.vb: Feature(Of T)
-- uid: SlugBase.Features.Feature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
-  name: Feature(String, Func<JsonAny, T>)
-  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1__ctor_System_String_System_Func_SlugBase_JsonAny__0__
-  commentId: M:SlugBase.Features.Feature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
-  name.vb: Feature(String, Func(Of JsonAny, T))
-  fullName: SlugBase.Features.Feature<T>.Feature(System.String, System.Func<SlugBase.JsonAny, T>)
-  fullName.vb: SlugBase.Features.Feature(Of T).Feature(System.String, System.Func(Of SlugBase.JsonAny, T))
-  nameWithType: Feature<T>.Feature(String, Func<JsonAny, T>)
-  nameWithType.vb: Feature(Of T).Feature(String, Func(Of JsonAny, T))
-- uid: SlugBase.Features.Feature`1.#ctor*
-  name: Feature
-  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1__ctor_
-  commentId: Overload:SlugBase.Features.Feature`1.#ctor
-  fullName: SlugBase.Features.Feature<T>.Feature
-  fullName.vb: SlugBase.Features.Feature(Of T).Feature
-  nameWithType: Feature<T>.Feature
-  nameWithType.vb: Feature(Of T).Feature
-- uid: SlugBase.Features.Feature`1.TryGet(SlugBase.SlugBaseCharacter,`0@)
-  name: TryGet(SlugBaseCharacter, out T)
-  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1_TryGet_SlugBase_SlugBaseCharacter__0__
-  commentId: M:SlugBase.Features.Feature`1.TryGet(SlugBase.SlugBaseCharacter,`0@)
-  name.vb: TryGet(SlugBaseCharacter, ByRef T)
-  fullName: SlugBase.Features.Feature<T>.TryGet(SlugBase.SlugBaseCharacter, out T)
-  fullName.vb: SlugBase.Features.Feature(Of T).TryGet(SlugBase.SlugBaseCharacter, ByRef T)
-  nameWithType: Feature<T>.TryGet(SlugBaseCharacter, out T)
-  nameWithType.vb: Feature(Of T).TryGet(SlugBaseCharacter, ByRef T)
-- uid: SlugBase.Features.Feature`1.TryGet*
-  name: TryGet
-  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1_TryGet_
-  commentId: Overload:SlugBase.Features.Feature`1.TryGet
-  fullName: SlugBase.Features.Feature<T>.TryGet
-  fullName.vb: SlugBase.Features.Feature(Of T).TryGet
-  nameWithType: Feature<T>.TryGet
-  nameWithType.vb: Feature(Of T).TryGet
 - uid: SlugBase.Features.FeatureTypes
   name: FeatureTypes
   href: api/SlugBase.Features.FeatureTypes.html
@@ -935,11 +1050,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes
   nameWithType: FeatureTypes
 - uid: SlugBase.Features.FeatureTypes.GameBool(System.String)
-  name: GameBool(String)
+  name: GameBool(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameBool_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameBool(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameBool(System.String)
-  nameWithType: FeatureTypes.GameBool(String)
+  name.vb: GameBool(String)
+  fullName: SlugBase.Features.FeatureTypes.GameBool(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameBool(String)
+  nameWithType: FeatureTypes.GameBool(string)
+  nameWithType.vb: FeatureTypes.GameBool(String)
 - uid: SlugBase.Features.FeatureTypes.GameBool*
   name: GameBool
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameBool_
@@ -947,11 +1065,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameBool
   nameWithType: FeatureTypes.GameBool
 - uid: SlugBase.Features.FeatureTypes.GameColor(System.String)
-  name: GameColor(String)
+  name: GameColor(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameColor_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameColor(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameColor(System.String)
-  nameWithType: FeatureTypes.GameColor(String)
+  name.vb: GameColor(String)
+  fullName: SlugBase.Features.FeatureTypes.GameColor(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameColor(String)
+  nameWithType: FeatureTypes.GameColor(string)
+  nameWithType.vb: FeatureTypes.GameColor(String)
 - uid: SlugBase.Features.FeatureTypes.GameColor*
   name: GameColor
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameColor_
@@ -959,11 +1080,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameColor
   nameWithType: FeatureTypes.GameColor
 - uid: SlugBase.Features.FeatureTypes.GameCustomColor(System.String)
-  name: GameCustomColor(String)
+  name: GameCustomColor(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameCustomColor_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameCustomColor(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameCustomColor(System.String)
-  nameWithType: FeatureTypes.GameCustomColor(String)
+  name.vb: GameCustomColor(String)
+  fullName: SlugBase.Features.FeatureTypes.GameCustomColor(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameCustomColor(String)
+  nameWithType: FeatureTypes.GameCustomColor(string)
+  nameWithType.vb: FeatureTypes.GameCustomColor(String)
 - uid: SlugBase.Features.FeatureTypes.GameCustomColor*
   name: GameCustomColor
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameCustomColor_
@@ -971,11 +1095,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameCustomColor
   nameWithType: FeatureTypes.GameCustomColor
 - uid: SlugBase.Features.FeatureTypes.GameDouble(System.String)
-  name: GameDouble(String)
+  name: GameDouble(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameDouble_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameDouble(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameDouble(System.String)
-  nameWithType: FeatureTypes.GameDouble(String)
+  name.vb: GameDouble(String)
+  fullName: SlugBase.Features.FeatureTypes.GameDouble(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameDouble(String)
+  nameWithType: FeatureTypes.GameDouble(string)
+  nameWithType.vb: FeatureTypes.GameDouble(String)
 - uid: SlugBase.Features.FeatureTypes.GameDouble*
   name: GameDouble
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameDouble_
@@ -983,11 +1110,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameDouble
   nameWithType: FeatureTypes.GameDouble
 - uid: SlugBase.Features.FeatureTypes.GameDoubles(System.String,System.Int32,System.Int32)
-  name: GameDoubles(String, Int32, Int32)
+  name: GameDoubles(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameDoubles_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.GameDoubles(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.GameDoubles(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.GameDoubles(String, Int32, Int32)
+  name.vb: GameDoubles(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.GameDoubles(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameDoubles(String, Integer, Integer)
+  nameWithType: FeatureTypes.GameDoubles(string, int, int)
+  nameWithType.vb: FeatureTypes.GameDoubles(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.GameDoubles*
   name: GameDoubles
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameDoubles_
@@ -1001,13 +1131,13 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameEnum
   nameWithType: FeatureTypes.GameEnum
 - uid: SlugBase.Features.FeatureTypes.GameEnum``1(System.String)
-  name: GameEnum<T>(String)
+  name: GameEnum<T>(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameEnum__1_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameEnum``1(System.String)
   name.vb: GameEnum(Of T)(String)
-  fullName: SlugBase.Features.FeatureTypes.GameEnum<T>(System.String)
-  fullName.vb: SlugBase.Features.FeatureTypes.GameEnum(Of T)(System.String)
-  nameWithType: FeatureTypes.GameEnum<T>(String)
+  fullName: SlugBase.Features.FeatureTypes.GameEnum<T>(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameEnum(Of T)(String)
+  nameWithType: FeatureTypes.GameEnum<T>(string)
   nameWithType.vb: FeatureTypes.GameEnum(Of T)(String)
 - uid: SlugBase.Features.FeatureTypes.GameExtEnum*
   name: GameExtEnum
@@ -1016,20 +1146,38 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameExtEnum
   nameWithType: FeatureTypes.GameExtEnum
 - uid: SlugBase.Features.FeatureTypes.GameExtEnum``1(System.String)
-  name: GameExtEnum<T>(String)
+  name: GameExtEnum<T>(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameExtEnum__1_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameExtEnum``1(System.String)
   name.vb: GameExtEnum(Of T)(String)
-  fullName: SlugBase.Features.FeatureTypes.GameExtEnum<T>(System.String)
-  fullName.vb: SlugBase.Features.FeatureTypes.GameExtEnum(Of T)(System.String)
-  nameWithType: FeatureTypes.GameExtEnum<T>(String)
+  fullName: SlugBase.Features.FeatureTypes.GameExtEnum<T>(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameExtEnum(Of T)(String)
+  nameWithType: FeatureTypes.GameExtEnum<T>(string)
   nameWithType.vb: FeatureTypes.GameExtEnum(Of T)(String)
+- uid: SlugBase.Features.FeatureTypes.GameExtEnums*
+  name: GameExtEnums
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameExtEnums_
+  commentId: Overload:SlugBase.Features.FeatureTypes.GameExtEnums
+  fullName: SlugBase.Features.FeatureTypes.GameExtEnums
+  nameWithType: FeatureTypes.GameExtEnums
+- uid: SlugBase.Features.FeatureTypes.GameExtEnums``1(System.String,System.Int32,System.Int32)
+  name: GameExtEnums<T>(string, int, int)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameExtEnums__1_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.GameExtEnums``1(System.String,System.Int32,System.Int32)
+  name.vb: GameExtEnums(Of T)(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.GameExtEnums<T>(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameExtEnums(Of T)(String, Integer, Integer)
+  nameWithType: FeatureTypes.GameExtEnums<T>(string, int, int)
+  nameWithType.vb: FeatureTypes.GameExtEnums(Of T)(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.GameFloat(System.String)
-  name: GameFloat(String)
+  name: GameFloat(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameFloat_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameFloat(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameFloat(System.String)
-  nameWithType: FeatureTypes.GameFloat(String)
+  name.vb: GameFloat(String)
+  fullName: SlugBase.Features.FeatureTypes.GameFloat(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameFloat(String)
+  nameWithType: FeatureTypes.GameFloat(string)
+  nameWithType.vb: FeatureTypes.GameFloat(String)
 - uid: SlugBase.Features.FeatureTypes.GameFloat*
   name: GameFloat
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameFloat_
@@ -1037,11 +1185,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameFloat
   nameWithType: FeatureTypes.GameFloat
 - uid: SlugBase.Features.FeatureTypes.GameFloats(System.String,System.Int32,System.Int32)
-  name: GameFloats(String, Int32, Int32)
+  name: GameFloats(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameFloats_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.GameFloats(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.GameFloats(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.GameFloats(String, Int32, Int32)
+  name.vb: GameFloats(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.GameFloats(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameFloats(String, Integer, Integer)
+  nameWithType: FeatureTypes.GameFloats(string, int, int)
+  nameWithType.vb: FeatureTypes.GameFloats(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.GameFloats*
   name: GameFloats
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameFloats_
@@ -1049,11 +1200,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameFloats
   nameWithType: FeatureTypes.GameFloats
 - uid: SlugBase.Features.FeatureTypes.GameInt(System.String)
-  name: GameInt(String)
+  name: GameInt(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameInt_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameInt(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameInt(System.String)
-  nameWithType: FeatureTypes.GameInt(String)
+  name.vb: GameInt(String)
+  fullName: SlugBase.Features.FeatureTypes.GameInt(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameInt(String)
+  nameWithType: FeatureTypes.GameInt(string)
+  nameWithType.vb: FeatureTypes.GameInt(String)
 - uid: SlugBase.Features.FeatureTypes.GameInt*
   name: GameInt
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameInt_
@@ -1061,11 +1215,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameInt
   nameWithType: FeatureTypes.GameInt
 - uid: SlugBase.Features.FeatureTypes.GameInts(System.String,System.Int32,System.Int32)
-  name: GameInts(String, Int32, Int32)
+  name: GameInts(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameInts_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.GameInts(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.GameInts(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.GameInts(String, Int32, Int32)
+  name.vb: GameInts(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.GameInts(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameInts(String, Integer, Integer)
+  nameWithType: FeatureTypes.GameInts(string, int, int)
+  nameWithType.vb: FeatureTypes.GameInts(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.GameInts*
   name: GameInts
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameInts_
@@ -1073,11 +1230,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameInts
   nameWithType: FeatureTypes.GameInts
 - uid: SlugBase.Features.FeatureTypes.GameLong(System.String)
-  name: GameLong(String)
+  name: GameLong(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameLong_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameLong(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameLong(System.String)
-  nameWithType: FeatureTypes.GameLong(String)
+  name.vb: GameLong(String)
+  fullName: SlugBase.Features.FeatureTypes.GameLong(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameLong(String)
+  nameWithType: FeatureTypes.GameLong(string)
+  nameWithType.vb: FeatureTypes.GameLong(String)
 - uid: SlugBase.Features.FeatureTypes.GameLong*
   name: GameLong
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameLong_
@@ -1085,11 +1245,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameLong
   nameWithType: FeatureTypes.GameLong
 - uid: SlugBase.Features.FeatureTypes.GameLongs(System.String,System.Int32,System.Int32)
-  name: GameLongs(String, Int32, Int32)
+  name: GameLongs(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameLongs_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.GameLongs(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.GameLongs(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.GameLongs(String, Int32, Int32)
+  name.vb: GameLongs(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.GameLongs(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameLongs(String, Integer, Integer)
+  nameWithType: FeatureTypes.GameLongs(string, int, int)
+  nameWithType.vb: FeatureTypes.GameLongs(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.GameLongs*
   name: GameLongs
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameLongs_
@@ -1097,11 +1260,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameLongs
   nameWithType: FeatureTypes.GameLongs
 - uid: SlugBase.Features.FeatureTypes.GameSlugcatName(System.String)
-  name: GameSlugcatName(String)
+  name: GameSlugcatName(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameSlugcatName_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameSlugcatName(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameSlugcatName(System.String)
-  nameWithType: FeatureTypes.GameSlugcatName(String)
+  name.vb: GameSlugcatName(String)
+  fullName: SlugBase.Features.FeatureTypes.GameSlugcatName(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameSlugcatName(String)
+  nameWithType: FeatureTypes.GameSlugcatName(string)
+  nameWithType.vb: FeatureTypes.GameSlugcatName(String)
 - uid: SlugBase.Features.FeatureTypes.GameSlugcatName*
   name: GameSlugcatName
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameSlugcatName_
@@ -1109,11 +1275,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameSlugcatName
   nameWithType: FeatureTypes.GameSlugcatName
 - uid: SlugBase.Features.FeatureTypes.GameSlugcatNames(System.String,System.Int32,System.Int32)
-  name: GameSlugcatNames(String, Int32, Int32)
+  name: GameSlugcatNames(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameSlugcatNames_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.GameSlugcatNames(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.GameSlugcatNames(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.GameSlugcatNames(String, Int32, Int32)
+  name.vb: GameSlugcatNames(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.GameSlugcatNames(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameSlugcatNames(String, Integer, Integer)
+  nameWithType: FeatureTypes.GameSlugcatNames(string, int, int)
+  nameWithType.vb: FeatureTypes.GameSlugcatNames(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.GameSlugcatNames*
   name: GameSlugcatNames
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameSlugcatNames_
@@ -1121,11 +1290,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameSlugcatNames
   nameWithType: FeatureTypes.GameSlugcatNames
 - uid: SlugBase.Features.FeatureTypes.GameString(System.String)
-  name: GameString(String)
+  name: GameString(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameString_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.GameString(System.String)
-  fullName: SlugBase.Features.FeatureTypes.GameString(System.String)
-  nameWithType: FeatureTypes.GameString(String)
+  name.vb: GameString(String)
+  fullName: SlugBase.Features.FeatureTypes.GameString(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameString(String)
+  nameWithType: FeatureTypes.GameString(string)
+  nameWithType.vb: FeatureTypes.GameString(String)
 - uid: SlugBase.Features.FeatureTypes.GameString*
   name: GameString
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameString_
@@ -1133,11 +1305,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameString
   nameWithType: FeatureTypes.GameString
 - uid: SlugBase.Features.FeatureTypes.GameStrings(System.String,System.Int32,System.Int32)
-  name: GameStrings(String, Int32, Int32)
+  name: GameStrings(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameStrings_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.GameStrings(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.GameStrings(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.GameStrings(String, Int32, Int32)
+  name.vb: GameStrings(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.GameStrings(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.GameStrings(String, Integer, Integer)
+  nameWithType: FeatureTypes.GameStrings(string, int, int)
+  nameWithType.vb: FeatureTypes.GameStrings(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.GameStrings*
   name: GameStrings
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_GameStrings_
@@ -1145,11 +1320,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.GameStrings
   nameWithType: FeatureTypes.GameStrings
 - uid: SlugBase.Features.FeatureTypes.PlayerBool(System.String)
-  name: PlayerBool(String)
+  name: PlayerBool(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerBool_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerBool(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerBool(System.String)
-  nameWithType: FeatureTypes.PlayerBool(String)
+  name.vb: PlayerBool(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerBool(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerBool(String)
+  nameWithType: FeatureTypes.PlayerBool(string)
+  nameWithType.vb: FeatureTypes.PlayerBool(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerBool*
   name: PlayerBool
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerBool_
@@ -1157,11 +1335,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerBool
   nameWithType: FeatureTypes.PlayerBool
 - uid: SlugBase.Features.FeatureTypes.PlayerColor(System.String)
-  name: PlayerColor(String)
+  name: PlayerColor(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerColor_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerColor(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerColor(System.String)
-  nameWithType: FeatureTypes.PlayerColor(String)
+  name.vb: PlayerColor(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerColor(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerColor(String)
+  nameWithType: FeatureTypes.PlayerColor(string)
+  nameWithType.vb: FeatureTypes.PlayerColor(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerColor*
   name: PlayerColor
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerColor_
@@ -1169,11 +1350,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerColor
   nameWithType: FeatureTypes.PlayerColor
 - uid: SlugBase.Features.FeatureTypes.PlayerCustomColor(System.String)
-  name: PlayerCustomColor(String)
+  name: PlayerCustomColor(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerCustomColor_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerCustomColor(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerCustomColor(System.String)
-  nameWithType: FeatureTypes.PlayerCustomColor(String)
+  name.vb: PlayerCustomColor(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerCustomColor(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerCustomColor(String)
+  nameWithType: FeatureTypes.PlayerCustomColor(string)
+  nameWithType.vb: FeatureTypes.PlayerCustomColor(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerCustomColor*
   name: PlayerCustomColor
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerCustomColor_
@@ -1181,11 +1365,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerCustomColor
   nameWithType: FeatureTypes.PlayerCustomColor
 - uid: SlugBase.Features.FeatureTypes.PlayerDouble(System.String)
-  name: PlayerDouble(String)
+  name: PlayerDouble(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerDouble_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerDouble(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerDouble(System.String)
-  nameWithType: FeatureTypes.PlayerDouble(String)
+  name.vb: PlayerDouble(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerDouble(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerDouble(String)
+  nameWithType: FeatureTypes.PlayerDouble(string)
+  nameWithType.vb: FeatureTypes.PlayerDouble(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerDouble*
   name: PlayerDouble
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerDouble_
@@ -1193,11 +1380,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerDouble
   nameWithType: FeatureTypes.PlayerDouble
 - uid: SlugBase.Features.FeatureTypes.PlayerDoubles(System.String,System.Int32,System.Int32)
-  name: PlayerDoubles(String, Int32, Int32)
+  name: PlayerDoubles(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerDoubles_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerDoubles(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.PlayerDoubles(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.PlayerDoubles(String, Int32, Int32)
+  name.vb: PlayerDoubles(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.PlayerDoubles(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerDoubles(String, Integer, Integer)
+  nameWithType: FeatureTypes.PlayerDoubles(string, int, int)
+  nameWithType.vb: FeatureTypes.PlayerDoubles(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.PlayerDoubles*
   name: PlayerDoubles
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerDoubles_
@@ -1211,13 +1401,13 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerEnum
   nameWithType: FeatureTypes.PlayerEnum
 - uid: SlugBase.Features.FeatureTypes.PlayerEnum``1(System.String)
-  name: PlayerEnum<T>(String)
+  name: PlayerEnum<T>(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerEnum__1_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerEnum``1(System.String)
   name.vb: PlayerEnum(Of T)(String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerEnum<T>(System.String)
-  fullName.vb: SlugBase.Features.FeatureTypes.PlayerEnum(Of T)(System.String)
-  nameWithType: FeatureTypes.PlayerEnum<T>(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerEnum<T>(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerEnum(Of T)(String)
+  nameWithType: FeatureTypes.PlayerEnum<T>(string)
   nameWithType.vb: FeatureTypes.PlayerEnum(Of T)(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerExtEnum*
   name: PlayerExtEnum
@@ -1226,20 +1416,38 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerExtEnum
   nameWithType: FeatureTypes.PlayerExtEnum
 - uid: SlugBase.Features.FeatureTypes.PlayerExtEnum``1(System.String)
-  name: PlayerExtEnum<T>(String)
+  name: PlayerExtEnum<T>(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerExtEnum__1_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerExtEnum``1(System.String)
   name.vb: PlayerExtEnum(Of T)(String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerExtEnum<T>(System.String)
-  fullName.vb: SlugBase.Features.FeatureTypes.PlayerExtEnum(Of T)(System.String)
-  nameWithType: FeatureTypes.PlayerExtEnum<T>(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerExtEnum<T>(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerExtEnum(Of T)(String)
+  nameWithType: FeatureTypes.PlayerExtEnum<T>(string)
   nameWithType.vb: FeatureTypes.PlayerExtEnum(Of T)(String)
+- uid: SlugBase.Features.FeatureTypes.PlayerExtEnums*
+  name: PlayerExtEnums
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerExtEnums_
+  commentId: Overload:SlugBase.Features.FeatureTypes.PlayerExtEnums
+  fullName: SlugBase.Features.FeatureTypes.PlayerExtEnums
+  nameWithType: FeatureTypes.PlayerExtEnums
+- uid: SlugBase.Features.FeatureTypes.PlayerExtEnums``1(System.String,System.Int32,System.Int32)
+  name: PlayerExtEnums<T>(string, int, int)
+  href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerExtEnums__1_System_String_System_Int32_System_Int32_
+  commentId: M:SlugBase.Features.FeatureTypes.PlayerExtEnums``1(System.String,System.Int32,System.Int32)
+  name.vb: PlayerExtEnums(Of T)(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.PlayerExtEnums<T>(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerExtEnums(Of T)(String, Integer, Integer)
+  nameWithType: FeatureTypes.PlayerExtEnums<T>(string, int, int)
+  nameWithType.vb: FeatureTypes.PlayerExtEnums(Of T)(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.PlayerFloat(System.String)
-  name: PlayerFloat(String)
+  name: PlayerFloat(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerFloat_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerFloat(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerFloat(System.String)
-  nameWithType: FeatureTypes.PlayerFloat(String)
+  name.vb: PlayerFloat(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerFloat(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerFloat(String)
+  nameWithType: FeatureTypes.PlayerFloat(string)
+  nameWithType.vb: FeatureTypes.PlayerFloat(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerFloat*
   name: PlayerFloat
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerFloat_
@@ -1247,11 +1455,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerFloat
   nameWithType: FeatureTypes.PlayerFloat
 - uid: SlugBase.Features.FeatureTypes.PlayerFloats(System.String,System.Int32,System.Int32)
-  name: PlayerFloats(String, Int32, Int32)
+  name: PlayerFloats(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerFloats_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerFloats(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.PlayerFloats(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.PlayerFloats(String, Int32, Int32)
+  name.vb: PlayerFloats(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.PlayerFloats(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerFloats(String, Integer, Integer)
+  nameWithType: FeatureTypes.PlayerFloats(string, int, int)
+  nameWithType.vb: FeatureTypes.PlayerFloats(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.PlayerFloats*
   name: PlayerFloats
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerFloats_
@@ -1259,11 +1470,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerFloats
   nameWithType: FeatureTypes.PlayerFloats
 - uid: SlugBase.Features.FeatureTypes.PlayerInt(System.String)
-  name: PlayerInt(String)
+  name: PlayerInt(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerInt_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerInt(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerInt(System.String)
-  nameWithType: FeatureTypes.PlayerInt(String)
+  name.vb: PlayerInt(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerInt(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerInt(String)
+  nameWithType: FeatureTypes.PlayerInt(string)
+  nameWithType.vb: FeatureTypes.PlayerInt(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerInt*
   name: PlayerInt
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerInt_
@@ -1271,11 +1485,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerInt
   nameWithType: FeatureTypes.PlayerInt
 - uid: SlugBase.Features.FeatureTypes.PlayerInts(System.String,System.Int32,System.Int32)
-  name: PlayerInts(String, Int32, Int32)
+  name: PlayerInts(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerInts_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerInts(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.PlayerInts(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.PlayerInts(String, Int32, Int32)
+  name.vb: PlayerInts(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.PlayerInts(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerInts(String, Integer, Integer)
+  nameWithType: FeatureTypes.PlayerInts(string, int, int)
+  nameWithType.vb: FeatureTypes.PlayerInts(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.PlayerInts*
   name: PlayerInts
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerInts_
@@ -1283,11 +1500,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerInts
   nameWithType: FeatureTypes.PlayerInts
 - uid: SlugBase.Features.FeatureTypes.PlayerLong(System.String)
-  name: PlayerLong(String)
+  name: PlayerLong(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerLong_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerLong(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerLong(System.String)
-  nameWithType: FeatureTypes.PlayerLong(String)
+  name.vb: PlayerLong(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerLong(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerLong(String)
+  nameWithType: FeatureTypes.PlayerLong(string)
+  nameWithType.vb: FeatureTypes.PlayerLong(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerLong*
   name: PlayerLong
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerLong_
@@ -1295,11 +1515,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerLong
   nameWithType: FeatureTypes.PlayerLong
 - uid: SlugBase.Features.FeatureTypes.PlayerLongs(System.String,System.Int32,System.Int32)
-  name: PlayerLongs(String, Int32, Int32)
+  name: PlayerLongs(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerLongs_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerLongs(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.PlayerLongs(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.PlayerLongs(String, Int32, Int32)
+  name.vb: PlayerLongs(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.PlayerLongs(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerLongs(String, Integer, Integer)
+  nameWithType: FeatureTypes.PlayerLongs(string, int, int)
+  nameWithType.vb: FeatureTypes.PlayerLongs(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.PlayerLongs*
   name: PlayerLongs
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerLongs_
@@ -1307,11 +1530,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerLongs
   nameWithType: FeatureTypes.PlayerLongs
 - uid: SlugBase.Features.FeatureTypes.PlayerSlugcatName(System.String)
-  name: PlayerSlugcatName(String)
+  name: PlayerSlugcatName(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerSlugcatName_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerSlugcatName(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerSlugcatName(System.String)
-  nameWithType: FeatureTypes.PlayerSlugcatName(String)
+  name.vb: PlayerSlugcatName(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerSlugcatName(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerSlugcatName(String)
+  nameWithType: FeatureTypes.PlayerSlugcatName(string)
+  nameWithType.vb: FeatureTypes.PlayerSlugcatName(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerSlugcatName*
   name: PlayerSlugcatName
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerSlugcatName_
@@ -1319,11 +1545,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerSlugcatName
   nameWithType: FeatureTypes.PlayerSlugcatName
 - uid: SlugBase.Features.FeatureTypes.PlayerSlugcatNames(System.String,System.Int32,System.Int32)
-  name: PlayerSlugcatNames(String, Int32, Int32)
+  name: PlayerSlugcatNames(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerSlugcatNames_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerSlugcatNames(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.PlayerSlugcatNames(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.PlayerSlugcatNames(String, Int32, Int32)
+  name.vb: PlayerSlugcatNames(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.PlayerSlugcatNames(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerSlugcatNames(String, Integer, Integer)
+  nameWithType: FeatureTypes.PlayerSlugcatNames(string, int, int)
+  nameWithType.vb: FeatureTypes.PlayerSlugcatNames(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.PlayerSlugcatNames*
   name: PlayerSlugcatNames
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerSlugcatNames_
@@ -1331,11 +1560,14 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerSlugcatNames
   nameWithType: FeatureTypes.PlayerSlugcatNames
 - uid: SlugBase.Features.FeatureTypes.PlayerString(System.String)
-  name: PlayerString(String)
+  name: PlayerString(string)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerString_System_String_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerString(System.String)
-  fullName: SlugBase.Features.FeatureTypes.PlayerString(System.String)
-  nameWithType: FeatureTypes.PlayerString(String)
+  name.vb: PlayerString(String)
+  fullName: SlugBase.Features.FeatureTypes.PlayerString(string)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerString(String)
+  nameWithType: FeatureTypes.PlayerString(string)
+  nameWithType.vb: FeatureTypes.PlayerString(String)
 - uid: SlugBase.Features.FeatureTypes.PlayerString*
   name: PlayerString
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerString_
@@ -1343,17 +1575,64 @@ references:
   fullName: SlugBase.Features.FeatureTypes.PlayerString
   nameWithType: FeatureTypes.PlayerString
 - uid: SlugBase.Features.FeatureTypes.PlayerStrings(System.String,System.Int32,System.Int32)
-  name: PlayerStrings(String, Int32, Int32)
+  name: PlayerStrings(string, int, int)
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerStrings_System_String_System_Int32_System_Int32_
   commentId: M:SlugBase.Features.FeatureTypes.PlayerStrings(System.String,System.Int32,System.Int32)
-  fullName: SlugBase.Features.FeatureTypes.PlayerStrings(System.String, System.Int32, System.Int32)
-  nameWithType: FeatureTypes.PlayerStrings(String, Int32, Int32)
+  name.vb: PlayerStrings(String, Integer, Integer)
+  fullName: SlugBase.Features.FeatureTypes.PlayerStrings(string, int, int)
+  fullName.vb: SlugBase.Features.FeatureTypes.PlayerStrings(String, Integer, Integer)
+  nameWithType: FeatureTypes.PlayerStrings(string, int, int)
+  nameWithType.vb: FeatureTypes.PlayerStrings(String, Integer, Integer)
 - uid: SlugBase.Features.FeatureTypes.PlayerStrings*
   name: PlayerStrings
   href: api/SlugBase.Features.FeatureTypes.html#SlugBase_Features_FeatureTypes_PlayerStrings_
   commentId: Overload:SlugBase.Features.FeatureTypes.PlayerStrings
   fullName: SlugBase.Features.FeatureTypes.PlayerStrings
   nameWithType: FeatureTypes.PlayerStrings
+- uid: SlugBase.Features.Feature`1
+  name: Feature<T>
+  href: api/SlugBase.Features.Feature-1.html
+  commentId: T:SlugBase.Features.Feature`1
+  name.vb: Feature(Of T)
+  fullName: SlugBase.Features.Feature<T>
+  fullName.vb: SlugBase.Features.Feature(Of T)
+  nameWithType: Feature<T>
+  nameWithType.vb: Feature(Of T)
+- uid: SlugBase.Features.Feature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
+  name: Feature(string, Func<JsonAny, T>)
+  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1__ctor_System_String_System_Func_SlugBase_JsonAny__0__
+  commentId: M:SlugBase.Features.Feature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
+  name.vb: New(String, Func(Of JsonAny, T))
+  fullName: SlugBase.Features.Feature<T>.Feature(string, System.Func<SlugBase.JsonAny, T>)
+  fullName.vb: SlugBase.Features.Feature(Of T).New(String, System.Func(Of SlugBase.JsonAny, T))
+  nameWithType: Feature<T>.Feature(string, Func<JsonAny, T>)
+  nameWithType.vb: Feature(Of T).New(String, Func(Of JsonAny, T))
+- uid: SlugBase.Features.Feature`1.#ctor*
+  name: Feature
+  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1__ctor_
+  commentId: Overload:SlugBase.Features.Feature`1.#ctor
+  name.vb: New
+  fullName: SlugBase.Features.Feature<T>.Feature
+  fullName.vb: SlugBase.Features.Feature(Of T).New
+  nameWithType: Feature<T>.Feature
+  nameWithType.vb: Feature(Of T).New
+- uid: SlugBase.Features.Feature`1.TryGet(SlugBase.SlugBaseCharacter,`0@)
+  name: TryGet(SlugBaseCharacter, out T)
+  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1_TryGet_SlugBase_SlugBaseCharacter__0__
+  commentId: M:SlugBase.Features.Feature`1.TryGet(SlugBase.SlugBaseCharacter,`0@)
+  name.vb: TryGet(SlugBaseCharacter, T)
+  fullName: SlugBase.Features.Feature<T>.TryGet(SlugBase.SlugBaseCharacter, out T)
+  fullName.vb: SlugBase.Features.Feature(Of T).TryGet(SlugBase.SlugBaseCharacter, T)
+  nameWithType: Feature<T>.TryGet(SlugBaseCharacter, out T)
+  nameWithType.vb: Feature(Of T).TryGet(SlugBaseCharacter, T)
+- uid: SlugBase.Features.Feature`1.TryGet*
+  name: TryGet
+  href: api/SlugBase.Features.Feature-1.html#SlugBase_Features_Feature_1_TryGet_
+  commentId: Overload:SlugBase.Features.Feature`1.TryGet
+  fullName: SlugBase.Features.Feature<T>.TryGet
+  fullName.vb: SlugBase.Features.Feature(Of T).TryGet
+  nameWithType: Feature<T>.TryGet
+  nameWithType.vb: Feature(Of T).TryGet
 - uid: SlugBase.Features.GameData`1
   name: GameData<TValue>
   href: api/SlugBase.Features.GameData-1.html
@@ -1367,18 +1646,20 @@ references:
   name: GameData(Feature)
   href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1__ctor_SlugBase_Features_Feature_
   commentId: M:SlugBase.Features.GameData`1.#ctor(SlugBase.Features.Feature)
+  name.vb: New(Feature)
   fullName: SlugBase.Features.GameData<TValue>.GameData(SlugBase.Features.Feature)
-  fullName.vb: SlugBase.Features.GameData(Of TValue).GameData(SlugBase.Features.Feature)
+  fullName.vb: SlugBase.Features.GameData(Of TValue).New(SlugBase.Features.Feature)
   nameWithType: GameData<TValue>.GameData(Feature)
-  nameWithType.vb: GameData(Of TValue).GameData(Feature)
+  nameWithType.vb: GameData(Of TValue).New(Feature)
 - uid: SlugBase.Features.GameData`1.#ctor*
   name: GameData
   href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1__ctor_
   commentId: Overload:SlugBase.Features.GameData`1.#ctor
+  name.vb: New
   fullName: SlugBase.Features.GameData<TValue>.GameData
-  fullName.vb: SlugBase.Features.GameData(Of TValue).GameData
+  fullName.vb: SlugBase.Features.GameData(Of TValue).New
   nameWithType: GameData<TValue>.GameData
-  nameWithType.vb: GameData(Of TValue).GameData
+  nameWithType.vb: GameData(Of TValue).New
 - uid: SlugBase.Features.GameData`1.Get(RainWorldGame)
   name: Get(RainWorldGame)
   href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1_Get_RainWorldGame_
@@ -1399,11 +1680,11 @@ references:
   name: TryGet(RainWorldGame, out TValue)
   href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1_TryGet_RainWorldGame__0__
   commentId: M:SlugBase.Features.GameData`1.TryGet(RainWorldGame,`0@)
-  name.vb: TryGet(RainWorldGame, ByRef TValue)
+  name.vb: TryGet(RainWorldGame, TValue)
   fullName: SlugBase.Features.GameData<TValue>.TryGet(RainWorldGame, out TValue)
-  fullName.vb: SlugBase.Features.GameData(Of TValue).TryGet(RainWorldGame, ByRef TValue)
+  fullName.vb: SlugBase.Features.GameData(Of TValue).TryGet(RainWorldGame, TValue)
   nameWithType: GameData<TValue>.TryGet(RainWorldGame, out TValue)
-  nameWithType.vb: GameData(Of TValue).TryGet(RainWorldGame, ByRef TValue)
+  nameWithType.vb: GameData(Of TValue).TryGet(RainWorldGame, TValue)
 - uid: SlugBase.Features.GameData`1.TryGet*
   name: TryGet
   href: api/SlugBase.Features.GameData-1.html#SlugBase_Features_GameData_1_TryGet_
@@ -1422,31 +1703,32 @@ references:
   nameWithType: GameFeature<T>
   nameWithType.vb: GameFeature(Of T)
 - uid: SlugBase.Features.GameFeature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
-  name: GameFeature(String, Func<JsonAny, T>)
+  name: GameFeature(string, Func<JsonAny, T>)
   href: api/SlugBase.Features.GameFeature-1.html#SlugBase_Features_GameFeature_1__ctor_System_String_System_Func_SlugBase_JsonAny__0__
   commentId: M:SlugBase.Features.GameFeature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
-  name.vb: GameFeature(String, Func(Of JsonAny, T))
-  fullName: SlugBase.Features.GameFeature<T>.GameFeature(System.String, System.Func<SlugBase.JsonAny, T>)
-  fullName.vb: SlugBase.Features.GameFeature(Of T).GameFeature(System.String, System.Func(Of SlugBase.JsonAny, T))
-  nameWithType: GameFeature<T>.GameFeature(String, Func<JsonAny, T>)
-  nameWithType.vb: GameFeature(Of T).GameFeature(String, Func(Of JsonAny, T))
+  name.vb: New(String, Func(Of JsonAny, T))
+  fullName: SlugBase.Features.GameFeature<T>.GameFeature(string, System.Func<SlugBase.JsonAny, T>)
+  fullName.vb: SlugBase.Features.GameFeature(Of T).New(String, System.Func(Of SlugBase.JsonAny, T))
+  nameWithType: GameFeature<T>.GameFeature(string, Func<JsonAny, T>)
+  nameWithType.vb: GameFeature(Of T).New(String, Func(Of JsonAny, T))
 - uid: SlugBase.Features.GameFeature`1.#ctor*
   name: GameFeature
   href: api/SlugBase.Features.GameFeature-1.html#SlugBase_Features_GameFeature_1__ctor_
   commentId: Overload:SlugBase.Features.GameFeature`1.#ctor
+  name.vb: New
   fullName: SlugBase.Features.GameFeature<T>.GameFeature
-  fullName.vb: SlugBase.Features.GameFeature(Of T).GameFeature
+  fullName.vb: SlugBase.Features.GameFeature(Of T).New
   nameWithType: GameFeature<T>.GameFeature
-  nameWithType.vb: GameFeature(Of T).GameFeature
+  nameWithType.vb: GameFeature(Of T).New
 - uid: SlugBase.Features.GameFeature`1.TryGet(RainWorldGame,`0@)
   name: TryGet(RainWorldGame, out T)
   href: api/SlugBase.Features.GameFeature-1.html#SlugBase_Features_GameFeature_1_TryGet_RainWorldGame__0__
   commentId: M:SlugBase.Features.GameFeature`1.TryGet(RainWorldGame,`0@)
-  name.vb: TryGet(RainWorldGame, ByRef T)
+  name.vb: TryGet(RainWorldGame, T)
   fullName: SlugBase.Features.GameFeature<T>.TryGet(RainWorldGame, out T)
-  fullName.vb: SlugBase.Features.GameFeature(Of T).TryGet(RainWorldGame, ByRef T)
+  fullName.vb: SlugBase.Features.GameFeature(Of T).TryGet(RainWorldGame, T)
   nameWithType: GameFeature<T>.TryGet(RainWorldGame, out T)
-  nameWithType.vb: GameFeature(Of T).TryGet(RainWorldGame, ByRef T)
+  nameWithType.vb: GameFeature(Of T).TryGet(RainWorldGame, T)
 - uid: SlugBase.Features.GameFeature`1.TryGet*
   name: TryGet
   href: api/SlugBase.Features.GameFeature-1.html#SlugBase_Features_GameFeature_1_TryGet_
@@ -1636,18 +1918,20 @@ references:
   name: PlayerData(Feature)
   href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1__ctor_SlugBase_Features_Feature_
   commentId: M:SlugBase.Features.PlayerData`1.#ctor(SlugBase.Features.Feature)
+  name.vb: New(Feature)
   fullName: SlugBase.Features.PlayerData<TValue>.PlayerData(SlugBase.Features.Feature)
-  fullName.vb: SlugBase.Features.PlayerData(Of TValue).PlayerData(SlugBase.Features.Feature)
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).New(SlugBase.Features.Feature)
   nameWithType: PlayerData<TValue>.PlayerData(Feature)
-  nameWithType.vb: PlayerData(Of TValue).PlayerData(Feature)
+  nameWithType.vb: PlayerData(Of TValue).New(Feature)
 - uid: SlugBase.Features.PlayerData`1.#ctor*
   name: PlayerData
   href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1__ctor_
   commentId: Overload:SlugBase.Features.PlayerData`1.#ctor
+  name.vb: New
   fullName: SlugBase.Features.PlayerData<TValue>.PlayerData
-  fullName.vb: SlugBase.Features.PlayerData(Of TValue).PlayerData
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).New
   nameWithType: PlayerData<TValue>.PlayerData
-  nameWithType.vb: PlayerData(Of TValue).PlayerData
+  nameWithType.vb: PlayerData(Of TValue).New
 - uid: SlugBase.Features.PlayerData`1.Get(Player)
   name: Get(Player)
   href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_Get_Player_
@@ -1676,20 +1960,20 @@ references:
   name: TryGet(Player, out TValue)
   href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_TryGet_Player__0__
   commentId: M:SlugBase.Features.PlayerData`1.TryGet(Player,`0@)
-  name.vb: TryGet(Player, ByRef TValue)
+  name.vb: TryGet(Player, TValue)
   fullName: SlugBase.Features.PlayerData<TValue>.TryGet(Player, out TValue)
-  fullName.vb: SlugBase.Features.PlayerData(Of TValue).TryGet(Player, ByRef TValue)
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).TryGet(Player, TValue)
   nameWithType: PlayerData<TValue>.TryGet(Player, out TValue)
-  nameWithType.vb: PlayerData(Of TValue).TryGet(Player, ByRef TValue)
+  nameWithType.vb: PlayerData(Of TValue).TryGet(Player, TValue)
 - uid: SlugBase.Features.PlayerData`1.TryGet(PlayerState,`0@)
   name: TryGet(PlayerState, out TValue)
   href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_TryGet_PlayerState__0__
   commentId: M:SlugBase.Features.PlayerData`1.TryGet(PlayerState,`0@)
-  name.vb: TryGet(PlayerState, ByRef TValue)
+  name.vb: TryGet(PlayerState, TValue)
   fullName: SlugBase.Features.PlayerData<TValue>.TryGet(PlayerState, out TValue)
-  fullName.vb: SlugBase.Features.PlayerData(Of TValue).TryGet(PlayerState, ByRef TValue)
+  fullName.vb: SlugBase.Features.PlayerData(Of TValue).TryGet(PlayerState, TValue)
   nameWithType: PlayerData<TValue>.TryGet(PlayerState, out TValue)
-  nameWithType.vb: PlayerData(Of TValue).TryGet(PlayerState, ByRef TValue)
+  nameWithType.vb: PlayerData(Of TValue).TryGet(PlayerState, TValue)
 - uid: SlugBase.Features.PlayerData`1.TryGet*
   name: TryGet
   href: api/SlugBase.Features.PlayerData-1.html#SlugBase_Features_PlayerData_1_TryGet_
@@ -1708,31 +1992,32 @@ references:
   nameWithType: PlayerFeature<T>
   nameWithType.vb: PlayerFeature(Of T)
 - uid: SlugBase.Features.PlayerFeature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
-  name: PlayerFeature(String, Func<JsonAny, T>)
+  name: PlayerFeature(string, Func<JsonAny, T>)
   href: api/SlugBase.Features.PlayerFeature-1.html#SlugBase_Features_PlayerFeature_1__ctor_System_String_System_Func_SlugBase_JsonAny__0__
   commentId: M:SlugBase.Features.PlayerFeature`1.#ctor(System.String,System.Func{SlugBase.JsonAny,`0})
-  name.vb: PlayerFeature(String, Func(Of JsonAny, T))
-  fullName: SlugBase.Features.PlayerFeature<T>.PlayerFeature(System.String, System.Func<SlugBase.JsonAny, T>)
-  fullName.vb: SlugBase.Features.PlayerFeature(Of T).PlayerFeature(System.String, System.Func(Of SlugBase.JsonAny, T))
-  nameWithType: PlayerFeature<T>.PlayerFeature(String, Func<JsonAny, T>)
-  nameWithType.vb: PlayerFeature(Of T).PlayerFeature(String, Func(Of JsonAny, T))
+  name.vb: New(String, Func(Of JsonAny, T))
+  fullName: SlugBase.Features.PlayerFeature<T>.PlayerFeature(string, System.Func<SlugBase.JsonAny, T>)
+  fullName.vb: SlugBase.Features.PlayerFeature(Of T).New(String, System.Func(Of SlugBase.JsonAny, T))
+  nameWithType: PlayerFeature<T>.PlayerFeature(string, Func<JsonAny, T>)
+  nameWithType.vb: PlayerFeature(Of T).New(String, Func(Of JsonAny, T))
 - uid: SlugBase.Features.PlayerFeature`1.#ctor*
   name: PlayerFeature
   href: api/SlugBase.Features.PlayerFeature-1.html#SlugBase_Features_PlayerFeature_1__ctor_
   commentId: Overload:SlugBase.Features.PlayerFeature`1.#ctor
+  name.vb: New
   fullName: SlugBase.Features.PlayerFeature<T>.PlayerFeature
-  fullName.vb: SlugBase.Features.PlayerFeature(Of T).PlayerFeature
+  fullName.vb: SlugBase.Features.PlayerFeature(Of T).New
   nameWithType: PlayerFeature<T>.PlayerFeature
-  nameWithType.vb: PlayerFeature(Of T).PlayerFeature
+  nameWithType.vb: PlayerFeature(Of T).New
 - uid: SlugBase.Features.PlayerFeature`1.TryGet(Player,`0@)
   name: TryGet(Player, out T)
   href: api/SlugBase.Features.PlayerFeature-1.html#SlugBase_Features_PlayerFeature_1_TryGet_Player__0__
   commentId: M:SlugBase.Features.PlayerFeature`1.TryGet(Player,`0@)
-  name.vb: TryGet(Player, ByRef T)
+  name.vb: TryGet(Player, T)
   fullName: SlugBase.Features.PlayerFeature<T>.TryGet(Player, out T)
-  fullName.vb: SlugBase.Features.PlayerFeature(Of T).TryGet(Player, ByRef T)
+  fullName.vb: SlugBase.Features.PlayerFeature(Of T).TryGet(Player, T)
   nameWithType: PlayerFeature<T>.TryGet(Player, out T)
-  nameWithType.vb: PlayerFeature(Of T).TryGet(Player, ByRef T)
+  nameWithType.vb: PlayerFeature(Of T).TryGet(Player, T)
 - uid: SlugBase.Features.PlayerFeature`1.TryGet*
   name: TryGet
   href: api/SlugBase.Features.PlayerFeature-1.html#SlugBase_Features_PlayerFeature_1_TryGet_
@@ -2054,11 +2339,14 @@ references:
   fullName: SlugBase.JsonAny.IsNull
   nameWithType: JsonAny.IsNull
 - uid: SlugBase.JsonAny.Parse(System.String)
-  name: Parse(String)
+  name: Parse(string)
   href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_Parse_System_String_
   commentId: M:SlugBase.JsonAny.Parse(System.String)
-  fullName: SlugBase.JsonAny.Parse(System.String)
-  nameWithType: JsonAny.Parse(String)
+  name.vb: Parse(String)
+  fullName: SlugBase.JsonAny.Parse(string)
+  fullName.vb: SlugBase.JsonAny.Parse(String)
+  nameWithType: JsonAny.Parse(string)
+  nameWithType.vb: JsonAny.Parse(String)
 - uid: SlugBase.JsonAny.Parse*
   name: Parse
   href: api/SlugBase.JsonAny.html#SlugBase_JsonAny_Parse_
@@ -2192,83 +2480,113 @@ references:
   fullName: SlugBase.JsonConverter.ToDictionary
   nameWithType: JsonConverter.ToDictionary
 - uid: SlugBase.JsonConverter.ToJson(System.Boolean)
-  name: ToJson(Boolean)
+  name: ToJson(bool)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_Boolean_
   commentId: M:SlugBase.JsonConverter.ToJson(System.Boolean)
-  fullName: SlugBase.JsonConverter.ToJson(System.Boolean)
-  nameWithType: JsonConverter.ToJson(Boolean)
+  name.vb: ToJson(Boolean)
+  fullName: SlugBase.JsonConverter.ToJson(bool)
+  fullName.vb: SlugBase.JsonConverter.ToJson(Boolean)
+  nameWithType: JsonConverter.ToJson(bool)
+  nameWithType.vb: JsonConverter.ToJson(Boolean)
 - uid: SlugBase.JsonConverter.ToJson(System.Collections.Generic.Dictionary{System.String,System.Object})
-  name: ToJson(Dictionary<String, Object>)
+  name: ToJson(Dictionary<string, object>)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_Collections_Generic_Dictionary_System_String_System_Object__
   commentId: M:SlugBase.JsonConverter.ToJson(System.Collections.Generic.Dictionary{System.String,System.Object})
   name.vb: ToJson(Dictionary(Of String, Object))
-  fullName: SlugBase.JsonConverter.ToJson(System.Collections.Generic.Dictionary<System.String, System.Object>)
-  fullName.vb: SlugBase.JsonConverter.ToJson(System.Collections.Generic.Dictionary(Of System.String, System.Object))
-  nameWithType: JsonConverter.ToJson(Dictionary<String, Object>)
+  fullName: SlugBase.JsonConverter.ToJson(System.Collections.Generic.Dictionary<string, object>)
+  fullName.vb: SlugBase.JsonConverter.ToJson(System.Collections.Generic.Dictionary(Of String, Object))
+  nameWithType: JsonConverter.ToJson(Dictionary<string, object>)
   nameWithType.vb: JsonConverter.ToJson(Dictionary(Of String, Object))
 - uid: SlugBase.JsonConverter.ToJson(System.Collections.Generic.List{System.Object})
-  name: ToJson(List<Object>)
+  name: ToJson(List<object>)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_Collections_Generic_List_System_Object__
   commentId: M:SlugBase.JsonConverter.ToJson(System.Collections.Generic.List{System.Object})
   name.vb: ToJson(List(Of Object))
-  fullName: SlugBase.JsonConverter.ToJson(System.Collections.Generic.List<System.Object>)
-  fullName.vb: SlugBase.JsonConverter.ToJson(System.Collections.Generic.List(Of System.Object))
-  nameWithType: JsonConverter.ToJson(List<Object>)
+  fullName: SlugBase.JsonConverter.ToJson(System.Collections.Generic.List<object>)
+  fullName.vb: SlugBase.JsonConverter.ToJson(System.Collections.Generic.List(Of Object))
+  nameWithType: JsonConverter.ToJson(List<object>)
   nameWithType.vb: JsonConverter.ToJson(List(Of Object))
 - uid: SlugBase.JsonConverter.ToJson(System.Double)
-  name: ToJson(Double)
+  name: ToJson(double)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_Double_
   commentId: M:SlugBase.JsonConverter.ToJson(System.Double)
-  fullName: SlugBase.JsonConverter.ToJson(System.Double)
-  nameWithType: JsonConverter.ToJson(Double)
+  name.vb: ToJson(Double)
+  fullName: SlugBase.JsonConverter.ToJson(double)
+  fullName.vb: SlugBase.JsonConverter.ToJson(Double)
+  nameWithType: JsonConverter.ToJson(double)
+  nameWithType.vb: JsonConverter.ToJson(Double)
 - uid: SlugBase.JsonConverter.ToJson(System.Int16)
-  name: ToJson(Int16)
+  name: ToJson(short)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_Int16_
   commentId: M:SlugBase.JsonConverter.ToJson(System.Int16)
-  fullName: SlugBase.JsonConverter.ToJson(System.Int16)
-  nameWithType: JsonConverter.ToJson(Int16)
+  name.vb: ToJson(Short)
+  fullName: SlugBase.JsonConverter.ToJson(short)
+  fullName.vb: SlugBase.JsonConverter.ToJson(Short)
+  nameWithType: JsonConverter.ToJson(short)
+  nameWithType.vb: JsonConverter.ToJson(Short)
 - uid: SlugBase.JsonConverter.ToJson(System.Int32)
-  name: ToJson(Int32)
+  name: ToJson(int)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_Int32_
   commentId: M:SlugBase.JsonConverter.ToJson(System.Int32)
-  fullName: SlugBase.JsonConverter.ToJson(System.Int32)
-  nameWithType: JsonConverter.ToJson(Int32)
+  name.vb: ToJson(Integer)
+  fullName: SlugBase.JsonConverter.ToJson(int)
+  fullName.vb: SlugBase.JsonConverter.ToJson(Integer)
+  nameWithType: JsonConverter.ToJson(int)
+  nameWithType.vb: JsonConverter.ToJson(Integer)
 - uid: SlugBase.JsonConverter.ToJson(System.Int64)
-  name: ToJson(Int64)
+  name: ToJson(long)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_Int64_
   commentId: M:SlugBase.JsonConverter.ToJson(System.Int64)
-  fullName: SlugBase.JsonConverter.ToJson(System.Int64)
-  nameWithType: JsonConverter.ToJson(Int64)
+  name.vb: ToJson(Long)
+  fullName: SlugBase.JsonConverter.ToJson(long)
+  fullName.vb: SlugBase.JsonConverter.ToJson(Long)
+  nameWithType: JsonConverter.ToJson(long)
+  nameWithType.vb: JsonConverter.ToJson(Long)
 - uid: SlugBase.JsonConverter.ToJson(System.Single)
-  name: ToJson(Single)
+  name: ToJson(float)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_Single_
   commentId: M:SlugBase.JsonConverter.ToJson(System.Single)
-  fullName: SlugBase.JsonConverter.ToJson(System.Single)
-  nameWithType: JsonConverter.ToJson(Single)
+  name.vb: ToJson(Single)
+  fullName: SlugBase.JsonConverter.ToJson(float)
+  fullName.vb: SlugBase.JsonConverter.ToJson(Single)
+  nameWithType: JsonConverter.ToJson(float)
+  nameWithType.vb: JsonConverter.ToJson(Single)
 - uid: SlugBase.JsonConverter.ToJson(System.String)
-  name: ToJson(String)
+  name: ToJson(string)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_String_
   commentId: M:SlugBase.JsonConverter.ToJson(System.String)
-  fullName: SlugBase.JsonConverter.ToJson(System.String)
-  nameWithType: JsonConverter.ToJson(String)
+  name.vb: ToJson(String)
+  fullName: SlugBase.JsonConverter.ToJson(string)
+  fullName.vb: SlugBase.JsonConverter.ToJson(String)
+  nameWithType: JsonConverter.ToJson(string)
+  nameWithType.vb: JsonConverter.ToJson(String)
 - uid: SlugBase.JsonConverter.ToJson(System.UInt16)
-  name: ToJson(UInt16)
+  name: ToJson(ushort)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_UInt16_
   commentId: M:SlugBase.JsonConverter.ToJson(System.UInt16)
-  fullName: SlugBase.JsonConverter.ToJson(System.UInt16)
-  nameWithType: JsonConverter.ToJson(UInt16)
+  name.vb: ToJson(UShort)
+  fullName: SlugBase.JsonConverter.ToJson(ushort)
+  fullName.vb: SlugBase.JsonConverter.ToJson(UShort)
+  nameWithType: JsonConverter.ToJson(ushort)
+  nameWithType.vb: JsonConverter.ToJson(UShort)
 - uid: SlugBase.JsonConverter.ToJson(System.UInt32)
-  name: ToJson(UInt32)
+  name: ToJson(uint)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_UInt32_
   commentId: M:SlugBase.JsonConverter.ToJson(System.UInt32)
-  fullName: SlugBase.JsonConverter.ToJson(System.UInt32)
-  nameWithType: JsonConverter.ToJson(UInt32)
+  name.vb: ToJson(UInteger)
+  fullName: SlugBase.JsonConverter.ToJson(uint)
+  fullName.vb: SlugBase.JsonConverter.ToJson(UInteger)
+  nameWithType: JsonConverter.ToJson(uint)
+  nameWithType.vb: JsonConverter.ToJson(UInteger)
 - uid: SlugBase.JsonConverter.ToJson(System.UInt64)
-  name: ToJson(UInt64)
+  name: ToJson(ulong)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_System_UInt64_
   commentId: M:SlugBase.JsonConverter.ToJson(System.UInt64)
-  fullName: SlugBase.JsonConverter.ToJson(System.UInt64)
-  nameWithType: JsonConverter.ToJson(UInt64)
+  name.vb: ToJson(ULong)
+  fullName: SlugBase.JsonConverter.ToJson(ulong)
+  fullName.vb: SlugBase.JsonConverter.ToJson(ULong)
+  nameWithType: JsonConverter.ToJson(ulong)
+  nameWithType.vb: JsonConverter.ToJson(ULong)
 - uid: SlugBase.JsonConverter.ToJson*
   name: ToJson
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJson_
@@ -2276,11 +2594,14 @@ references:
   fullName: SlugBase.JsonConverter.ToJson
   nameWithType: JsonConverter.ToJson
 - uid: SlugBase.JsonConverter.ToJsonAny(System.Object)
-  name: ToJsonAny(Object)
+  name: ToJsonAny(object)
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJsonAny_System_Object_
   commentId: M:SlugBase.JsonConverter.ToJsonAny(System.Object)
-  fullName: SlugBase.JsonConverter.ToJsonAny(System.Object)
-  nameWithType: JsonConverter.ToJsonAny(Object)
+  name.vb: ToJsonAny(Object)
+  fullName: SlugBase.JsonConverter.ToJsonAny(object)
+  fullName.vb: SlugBase.JsonConverter.ToJsonAny(Object)
+  nameWithType: JsonConverter.ToJsonAny(object)
+  nameWithType.vb: JsonConverter.ToJsonAny(Object)
 - uid: SlugBase.JsonConverter.ToJsonAny*
   name: ToJsonAny
   href: api/SlugBase.JsonConverter.html#SlugBase_JsonConverter_ToJsonAny_
@@ -2321,26 +2642,38 @@ references:
   name: JsonException(JsonAny)
   href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_SlugBase_JsonAny_
   commentId: M:SlugBase.JsonException.#ctor(SlugBase.JsonAny)
+  name.vb: New(JsonAny)
   fullName: SlugBase.JsonException.JsonException(SlugBase.JsonAny)
+  fullName.vb: SlugBase.JsonException.New(SlugBase.JsonAny)
   nameWithType: JsonException.JsonException(JsonAny)
+  nameWithType.vb: JsonException.New(JsonAny)
 - uid: SlugBase.JsonException.#ctor(System.String,SlugBase.JsonAny)
-  name: JsonException(String, JsonAny)
+  name: JsonException(string, JsonAny)
   href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_System_String_SlugBase_JsonAny_
   commentId: M:SlugBase.JsonException.#ctor(System.String,SlugBase.JsonAny)
-  fullName: SlugBase.JsonException.JsonException(System.String, SlugBase.JsonAny)
-  nameWithType: JsonException.JsonException(String, JsonAny)
+  name.vb: New(String, JsonAny)
+  fullName: SlugBase.JsonException.JsonException(string, SlugBase.JsonAny)
+  fullName.vb: SlugBase.JsonException.New(String, SlugBase.JsonAny)
+  nameWithType: JsonException.JsonException(string, JsonAny)
+  nameWithType.vb: JsonException.New(String, JsonAny)
 - uid: SlugBase.JsonException.#ctor(System.String,System.Exception,SlugBase.JsonAny)
-  name: JsonException(String, Exception, JsonAny)
+  name: JsonException(string, Exception, JsonAny)
   href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_System_String_System_Exception_SlugBase_JsonAny_
   commentId: M:SlugBase.JsonException.#ctor(System.String,System.Exception,SlugBase.JsonAny)
-  fullName: SlugBase.JsonException.JsonException(System.String, System.Exception, SlugBase.JsonAny)
-  nameWithType: JsonException.JsonException(String, Exception, JsonAny)
+  name.vb: New(String, Exception, JsonAny)
+  fullName: SlugBase.JsonException.JsonException(string, System.Exception, SlugBase.JsonAny)
+  fullName.vb: SlugBase.JsonException.New(String, System.Exception, SlugBase.JsonAny)
+  nameWithType: JsonException.JsonException(string, Exception, JsonAny)
+  nameWithType.vb: JsonException.New(String, Exception, JsonAny)
 - uid: SlugBase.JsonException.#ctor*
   name: JsonException
   href: api/SlugBase.JsonException.html#SlugBase_JsonException__ctor_
   commentId: Overload:SlugBase.JsonException.#ctor
+  name.vb: New
   fullName: SlugBase.JsonException.JsonException
+  fullName.vb: SlugBase.JsonException.New
   nameWithType: JsonException.JsonException
+  nameWithType.vb: JsonException.New
 - uid: SlugBase.JsonException.JsonPath
   name: JsonPath
   href: api/SlugBase.JsonException.html#SlugBase_JsonException_JsonPath
@@ -2372,11 +2705,14 @@ references:
   fullName: SlugBase.JsonList.Count
   nameWithType: JsonList.Count
 - uid: SlugBase.JsonList.Get(System.Int32)
-  name: Get(Int32)
+  name: Get(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_Get_System_Int32_
   commentId: M:SlugBase.JsonList.Get(System.Int32)
-  fullName: SlugBase.JsonList.Get(System.Int32)
-  nameWithType: JsonList.Get(Int32)
+  name.vb: Get(Integer)
+  fullName: SlugBase.JsonList.Get(int)
+  fullName.vb: SlugBase.JsonList.Get(Integer)
+  nameWithType: JsonList.Get(int)
+  nameWithType.vb: JsonList.Get(Integer)
 - uid: SlugBase.JsonList.Get*
   name: Get
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_Get_
@@ -2384,11 +2720,14 @@ references:
   fullName: SlugBase.JsonList.Get
   nameWithType: JsonList.Get
 - uid: SlugBase.JsonList.GetBool(System.Int32)
-  name: GetBool(Int32)
+  name: GetBool(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetBool_System_Int32_
   commentId: M:SlugBase.JsonList.GetBool(System.Int32)
-  fullName: SlugBase.JsonList.GetBool(System.Int32)
-  nameWithType: JsonList.GetBool(Int32)
+  name.vb: GetBool(Integer)
+  fullName: SlugBase.JsonList.GetBool(int)
+  fullName.vb: SlugBase.JsonList.GetBool(Integer)
+  nameWithType: JsonList.GetBool(int)
+  nameWithType.vb: JsonList.GetBool(Integer)
 - uid: SlugBase.JsonList.GetBool*
   name: GetBool
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetBool_
@@ -2396,11 +2735,14 @@ references:
   fullName: SlugBase.JsonList.GetBool
   nameWithType: JsonList.GetBool
 - uid: SlugBase.JsonList.GetDouble(System.Int32)
-  name: GetDouble(Int32)
+  name: GetDouble(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetDouble_System_Int32_
   commentId: M:SlugBase.JsonList.GetDouble(System.Int32)
-  fullName: SlugBase.JsonList.GetDouble(System.Int32)
-  nameWithType: JsonList.GetDouble(Int32)
+  name.vb: GetDouble(Integer)
+  fullName: SlugBase.JsonList.GetDouble(int)
+  fullName.vb: SlugBase.JsonList.GetDouble(Integer)
+  nameWithType: JsonList.GetDouble(int)
+  nameWithType.vb: JsonList.GetDouble(Integer)
 - uid: SlugBase.JsonList.GetDouble*
   name: GetDouble
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetDouble_
@@ -2420,11 +2762,14 @@ references:
   fullName: SlugBase.JsonList.GetEnumerator
   nameWithType: JsonList.GetEnumerator
 - uid: SlugBase.JsonList.GetFloat(System.Int32)
-  name: GetFloat(Int32)
+  name: GetFloat(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetFloat_System_Int32_
   commentId: M:SlugBase.JsonList.GetFloat(System.Int32)
-  fullName: SlugBase.JsonList.GetFloat(System.Int32)
-  nameWithType: JsonList.GetFloat(Int32)
+  name.vb: GetFloat(Integer)
+  fullName: SlugBase.JsonList.GetFloat(int)
+  fullName.vb: SlugBase.JsonList.GetFloat(Integer)
+  nameWithType: JsonList.GetFloat(int)
+  nameWithType.vb: JsonList.GetFloat(Integer)
 - uid: SlugBase.JsonList.GetFloat*
   name: GetFloat
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetFloat_
@@ -2432,11 +2777,14 @@ references:
   fullName: SlugBase.JsonList.GetFloat
   nameWithType: JsonList.GetFloat
 - uid: SlugBase.JsonList.GetInt(System.Int32)
-  name: GetInt(Int32)
+  name: GetInt(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetInt_System_Int32_
   commentId: M:SlugBase.JsonList.GetInt(System.Int32)
-  fullName: SlugBase.JsonList.GetInt(System.Int32)
-  nameWithType: JsonList.GetInt(Int32)
+  name.vb: GetInt(Integer)
+  fullName: SlugBase.JsonList.GetInt(int)
+  fullName.vb: SlugBase.JsonList.GetInt(Integer)
+  nameWithType: JsonList.GetInt(int)
+  nameWithType.vb: JsonList.GetInt(Integer)
 - uid: SlugBase.JsonList.GetInt*
   name: GetInt
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetInt_
@@ -2444,11 +2792,14 @@ references:
   fullName: SlugBase.JsonList.GetInt
   nameWithType: JsonList.GetInt
 - uid: SlugBase.JsonList.GetList(System.Int32)
-  name: GetList(Int32)
+  name: GetList(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetList_System_Int32_
   commentId: M:SlugBase.JsonList.GetList(System.Int32)
-  fullName: SlugBase.JsonList.GetList(System.Int32)
-  nameWithType: JsonList.GetList(Int32)
+  name.vb: GetList(Integer)
+  fullName: SlugBase.JsonList.GetList(int)
+  fullName.vb: SlugBase.JsonList.GetList(Integer)
+  nameWithType: JsonList.GetList(int)
+  nameWithType.vb: JsonList.GetList(Integer)
 - uid: SlugBase.JsonList.GetList*
   name: GetList
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetList_
@@ -2456,11 +2807,14 @@ references:
   fullName: SlugBase.JsonList.GetList
   nameWithType: JsonList.GetList
 - uid: SlugBase.JsonList.GetLong(System.Int32)
-  name: GetLong(Int32)
+  name: GetLong(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetLong_System_Int32_
   commentId: M:SlugBase.JsonList.GetLong(System.Int32)
-  fullName: SlugBase.JsonList.GetLong(System.Int32)
-  nameWithType: JsonList.GetLong(Int32)
+  name.vb: GetLong(Integer)
+  fullName: SlugBase.JsonList.GetLong(int)
+  fullName.vb: SlugBase.JsonList.GetLong(Integer)
+  nameWithType: JsonList.GetLong(int)
+  nameWithType.vb: JsonList.GetLong(Integer)
 - uid: SlugBase.JsonList.GetLong*
   name: GetLong
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetLong_
@@ -2468,11 +2822,14 @@ references:
   fullName: SlugBase.JsonList.GetLong
   nameWithType: JsonList.GetLong
 - uid: SlugBase.JsonList.GetObject(System.Int32)
-  name: GetObject(Int32)
+  name: GetObject(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetObject_System_Int32_
   commentId: M:SlugBase.JsonList.GetObject(System.Int32)
-  fullName: SlugBase.JsonList.GetObject(System.Int32)
-  nameWithType: JsonList.GetObject(Int32)
+  name.vb: GetObject(Integer)
+  fullName: SlugBase.JsonList.GetObject(int)
+  fullName.vb: SlugBase.JsonList.GetObject(Integer)
+  nameWithType: JsonList.GetObject(int)
+  nameWithType.vb: JsonList.GetObject(Integer)
 - uid: SlugBase.JsonList.GetObject*
   name: GetObject
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetObject_
@@ -2480,11 +2837,14 @@ references:
   fullName: SlugBase.JsonList.GetObject
   nameWithType: JsonList.GetObject
 - uid: SlugBase.JsonList.GetString(System.Int32)
-  name: GetString(Int32)
+  name: GetString(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetString_System_Int32_
   commentId: M:SlugBase.JsonList.GetString(System.Int32)
-  fullName: SlugBase.JsonList.GetString(System.Int32)
-  nameWithType: JsonList.GetString(Int32)
+  name.vb: GetString(Integer)
+  fullName: SlugBase.JsonList.GetString(int)
+  fullName.vb: SlugBase.JsonList.GetString(Integer)
+  nameWithType: JsonList.GetString(int)
+  nameWithType.vb: JsonList.GetString(Integer)
 - uid: SlugBase.JsonList.GetString*
   name: GetString
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_GetString_
@@ -2492,66 +2852,57 @@ references:
   fullName: SlugBase.JsonList.GetString
   nameWithType: JsonList.GetString
 - uid: SlugBase.JsonList.Item(System.Int32)
-  name: Item[Int32]
+  name: this[int]
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_Item_System_Int32_
   commentId: P:SlugBase.JsonList.Item(System.Int32)
-  name.vb: Item(Int32)
-  fullName: SlugBase.JsonList.Item[System.Int32]
-  fullName.vb: SlugBase.JsonList.Item(System.Int32)
-  nameWithType: JsonList.Item[Int32]
-  nameWithType.vb: JsonList.Item(Int32)
+  name.vb: this[](Integer)
+  fullName: SlugBase.JsonList.this[int]
+  fullName.vb: SlugBase.JsonList.this[](Integer)
+  nameWithType: JsonList.this[int]
+  nameWithType.vb: JsonList.this[](Integer)
 - uid: SlugBase.JsonList.Item*
-  name: Item
+  name: this
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_Item_
   commentId: Overload:SlugBase.JsonList.Item
-  fullName: SlugBase.JsonList.Item
-  nameWithType: JsonList.Item
-- uid: SlugBase.JsonList.op_Implicit(SlugBase.JsonList)~SlugBase.JsonAny
-  name: Implicit(JsonList to JsonAny)
-  href: api/SlugBase.JsonList.html#SlugBase_JsonList_op_Implicit_SlugBase_JsonList__SlugBase_JsonAny
-  commentId: M:SlugBase.JsonList.op_Implicit(SlugBase.JsonList)~SlugBase.JsonAny
-  name.vb: Widening(JsonList to JsonAny)
-  fullName: SlugBase.JsonList.Implicit(SlugBase.JsonList to SlugBase.JsonAny)
-  fullName.vb: SlugBase.JsonList.Widening(SlugBase.JsonList to SlugBase.JsonAny)
-  nameWithType: JsonList.Implicit(JsonList to JsonAny)
-  nameWithType.vb: JsonList.Widening(JsonList to JsonAny)
-- uid: SlugBase.JsonList.op_Implicit*
-  name: Implicit
-  href: api/SlugBase.JsonList.html#SlugBase_JsonList_op_Implicit_
-  commentId: Overload:SlugBase.JsonList.op_Implicit
-  name.vb: Widening
-  fullName: SlugBase.JsonList.Implicit
-  fullName.vb: SlugBase.JsonList.Widening
-  nameWithType: JsonList.Implicit
-  nameWithType.vb: JsonList.Widening
-- uid: SlugBase.JsonList.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/SlugBase.JsonList.html#SlugBase_JsonList_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:SlugBase.JsonList.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: SlugBase.JsonList.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: JsonList.IEnumerable.GetEnumerator()
-  nameWithType.vb: JsonList.System.Collections.IEnumerable.GetEnumerator()
-- uid: SlugBase.JsonList.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/SlugBase.JsonList.html#SlugBase_JsonList_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:SlugBase.JsonList.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: SlugBase.JsonList.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: JsonList.IEnumerable.GetEnumerator
-  nameWithType.vb: JsonList.System.Collections.IEnumerable.GetEnumerator
+  name.vb: this[]
+  fullName: SlugBase.JsonList.this
+  fullName.vb: SlugBase.JsonList.this[]
+  nameWithType: JsonList.this
+  nameWithType.vb: JsonList.this[]
 - uid: SlugBase.JsonList.TryGet(System.Int32)
-  name: TryGet(Int32)
+  name: TryGet(int)
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_TryGet_System_Int32_
   commentId: M:SlugBase.JsonList.TryGet(System.Int32)
-  fullName: SlugBase.JsonList.TryGet(System.Int32)
-  nameWithType: JsonList.TryGet(Int32)
+  name.vb: TryGet(Integer)
+  fullName: SlugBase.JsonList.TryGet(int)
+  fullName.vb: SlugBase.JsonList.TryGet(Integer)
+  nameWithType: JsonList.TryGet(int)
+  nameWithType.vb: JsonList.TryGet(Integer)
 - uid: SlugBase.JsonList.TryGet*
   name: TryGet
   href: api/SlugBase.JsonList.html#SlugBase_JsonList_TryGet_
   commentId: Overload:SlugBase.JsonList.TryGet
   fullName: SlugBase.JsonList.TryGet
   nameWithType: JsonList.TryGet
+- uid: SlugBase.JsonList.op_Implicit(SlugBase.JsonList)~SlugBase.JsonAny
+  name: implicit operator JsonAny(JsonList)
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_op_Implicit_SlugBase_JsonList__SlugBase_JsonAny
+  commentId: M:SlugBase.JsonList.op_Implicit(SlugBase.JsonList)~SlugBase.JsonAny
+  name.vb: CType(JsonList)
+  fullName: SlugBase.JsonList.implicit operator SlugBase.JsonAny(SlugBase.JsonList)
+  fullName.vb: SlugBase.JsonList.CType(SlugBase.JsonList)
+  nameWithType: JsonList.implicit operator JsonAny(JsonList)
+  nameWithType.vb: JsonList.CType(JsonList)
+- uid: SlugBase.JsonList.op_Implicit*
+  name: implicit operator
+  href: api/SlugBase.JsonList.html#SlugBase_JsonList_op_Implicit_
+  commentId: Overload:SlugBase.JsonList.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: SlugBase.JsonList.implicit operator
+  fullName.vb: SlugBase.JsonList.CType
+  nameWithType: JsonList.implicit operator
+  nameWithType.vb: JsonList.CType
 - uid: SlugBase.JsonObject
   name: JsonObject
   href: api/SlugBase.JsonObject.html
@@ -2559,11 +2910,14 @@ references:
   fullName: SlugBase.JsonObject
   nameWithType: JsonObject
 - uid: SlugBase.JsonObject.Get(System.String)
-  name: Get(String)
+  name: Get(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_Get_System_String_
   commentId: M:SlugBase.JsonObject.Get(System.String)
-  fullName: SlugBase.JsonObject.Get(System.String)
-  nameWithType: JsonObject.Get(String)
+  name.vb: Get(String)
+  fullName: SlugBase.JsonObject.Get(string)
+  fullName.vb: SlugBase.JsonObject.Get(String)
+  nameWithType: JsonObject.Get(string)
+  nameWithType.vb: JsonObject.Get(String)
 - uid: SlugBase.JsonObject.Get*
   name: Get
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_Get_
@@ -2571,11 +2925,14 @@ references:
   fullName: SlugBase.JsonObject.Get
   nameWithType: JsonObject.Get
 - uid: SlugBase.JsonObject.GetBool(System.String)
-  name: GetBool(String)
+  name: GetBool(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetBool_System_String_
   commentId: M:SlugBase.JsonObject.GetBool(System.String)
-  fullName: SlugBase.JsonObject.GetBool(System.String)
-  nameWithType: JsonObject.GetBool(String)
+  name.vb: GetBool(String)
+  fullName: SlugBase.JsonObject.GetBool(string)
+  fullName.vb: SlugBase.JsonObject.GetBool(String)
+  nameWithType: JsonObject.GetBool(string)
+  nameWithType.vb: JsonObject.GetBool(String)
 - uid: SlugBase.JsonObject.GetBool*
   name: GetBool
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetBool_
@@ -2583,11 +2940,14 @@ references:
   fullName: SlugBase.JsonObject.GetBool
   nameWithType: JsonObject.GetBool
 - uid: SlugBase.JsonObject.GetDouble(System.String)
-  name: GetDouble(String)
+  name: GetDouble(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetDouble_System_String_
   commentId: M:SlugBase.JsonObject.GetDouble(System.String)
-  fullName: SlugBase.JsonObject.GetDouble(System.String)
-  nameWithType: JsonObject.GetDouble(String)
+  name.vb: GetDouble(String)
+  fullName: SlugBase.JsonObject.GetDouble(string)
+  fullName.vb: SlugBase.JsonObject.GetDouble(String)
+  nameWithType: JsonObject.GetDouble(string)
+  nameWithType.vb: JsonObject.GetDouble(String)
 - uid: SlugBase.JsonObject.GetDouble*
   name: GetDouble
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetDouble_
@@ -2607,11 +2967,14 @@ references:
   fullName: SlugBase.JsonObject.GetEnumerator
   nameWithType: JsonObject.GetEnumerator
 - uid: SlugBase.JsonObject.GetFloat(System.String)
-  name: GetFloat(String)
+  name: GetFloat(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetFloat_System_String_
   commentId: M:SlugBase.JsonObject.GetFloat(System.String)
-  fullName: SlugBase.JsonObject.GetFloat(System.String)
-  nameWithType: JsonObject.GetFloat(String)
+  name.vb: GetFloat(String)
+  fullName: SlugBase.JsonObject.GetFloat(string)
+  fullName.vb: SlugBase.JsonObject.GetFloat(String)
+  nameWithType: JsonObject.GetFloat(string)
+  nameWithType.vb: JsonObject.GetFloat(String)
 - uid: SlugBase.JsonObject.GetFloat*
   name: GetFloat
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetFloat_
@@ -2619,11 +2982,14 @@ references:
   fullName: SlugBase.JsonObject.GetFloat
   nameWithType: JsonObject.GetFloat
 - uid: SlugBase.JsonObject.GetInt(System.String)
-  name: GetInt(String)
+  name: GetInt(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetInt_System_String_
   commentId: M:SlugBase.JsonObject.GetInt(System.String)
-  fullName: SlugBase.JsonObject.GetInt(System.String)
-  nameWithType: JsonObject.GetInt(String)
+  name.vb: GetInt(String)
+  fullName: SlugBase.JsonObject.GetInt(string)
+  fullName.vb: SlugBase.JsonObject.GetInt(String)
+  nameWithType: JsonObject.GetInt(string)
+  nameWithType.vb: JsonObject.GetInt(String)
 - uid: SlugBase.JsonObject.GetInt*
   name: GetInt
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetInt_
@@ -2631,11 +2997,14 @@ references:
   fullName: SlugBase.JsonObject.GetInt
   nameWithType: JsonObject.GetInt
 - uid: SlugBase.JsonObject.GetList(System.String)
-  name: GetList(String)
+  name: GetList(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetList_System_String_
   commentId: M:SlugBase.JsonObject.GetList(System.String)
-  fullName: SlugBase.JsonObject.GetList(System.String)
-  nameWithType: JsonObject.GetList(String)
+  name.vb: GetList(String)
+  fullName: SlugBase.JsonObject.GetList(string)
+  fullName.vb: SlugBase.JsonObject.GetList(String)
+  nameWithType: JsonObject.GetList(string)
+  nameWithType.vb: JsonObject.GetList(String)
 - uid: SlugBase.JsonObject.GetList*
   name: GetList
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetList_
@@ -2643,11 +3012,14 @@ references:
   fullName: SlugBase.JsonObject.GetList
   nameWithType: JsonObject.GetList
 - uid: SlugBase.JsonObject.GetLong(System.String)
-  name: GetLong(String)
+  name: GetLong(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetLong_System_String_
   commentId: M:SlugBase.JsonObject.GetLong(System.String)
-  fullName: SlugBase.JsonObject.GetLong(System.String)
-  nameWithType: JsonObject.GetLong(String)
+  name.vb: GetLong(String)
+  fullName: SlugBase.JsonObject.GetLong(string)
+  fullName.vb: SlugBase.JsonObject.GetLong(String)
+  nameWithType: JsonObject.GetLong(string)
+  nameWithType.vb: JsonObject.GetLong(String)
 - uid: SlugBase.JsonObject.GetLong*
   name: GetLong
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetLong_
@@ -2655,11 +3027,14 @@ references:
   fullName: SlugBase.JsonObject.GetLong
   nameWithType: JsonObject.GetLong
 - uid: SlugBase.JsonObject.GetObject(System.String)
-  name: GetObject(String)
+  name: GetObject(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetObject_System_String_
   commentId: M:SlugBase.JsonObject.GetObject(System.String)
-  fullName: SlugBase.JsonObject.GetObject(System.String)
-  nameWithType: JsonObject.GetObject(String)
+  name.vb: GetObject(String)
+  fullName: SlugBase.JsonObject.GetObject(string)
+  fullName.vb: SlugBase.JsonObject.GetObject(String)
+  nameWithType: JsonObject.GetObject(string)
+  nameWithType.vb: JsonObject.GetObject(String)
 - uid: SlugBase.JsonObject.GetObject*
   name: GetObject
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetObject_
@@ -2667,11 +3042,14 @@ references:
   fullName: SlugBase.JsonObject.GetObject
   nameWithType: JsonObject.GetObject
 - uid: SlugBase.JsonObject.GetString(System.String)
-  name: GetString(String)
+  name: GetString(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetString_System_String_
   commentId: M:SlugBase.JsonObject.GetString(System.String)
-  fullName: SlugBase.JsonObject.GetString(System.String)
-  nameWithType: JsonObject.GetString(String)
+  name.vb: GetString(String)
+  fullName: SlugBase.JsonObject.GetString(string)
+  fullName.vb: SlugBase.JsonObject.GetString(String)
+  nameWithType: JsonObject.GetString(string)
+  nameWithType.vb: JsonObject.GetString(String)
 - uid: SlugBase.JsonObject.GetString*
   name: GetString
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_GetString_
@@ -2679,66 +3057,57 @@ references:
   fullName: SlugBase.JsonObject.GetString
   nameWithType: JsonObject.GetString
 - uid: SlugBase.JsonObject.Item(System.String)
-  name: Item[String]
+  name: this[string]
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_Item_System_String_
   commentId: P:SlugBase.JsonObject.Item(System.String)
-  name.vb: Item(String)
-  fullName: SlugBase.JsonObject.Item[System.String]
-  fullName.vb: SlugBase.JsonObject.Item(System.String)
-  nameWithType: JsonObject.Item[String]
-  nameWithType.vb: JsonObject.Item(String)
+  name.vb: this[](String)
+  fullName: SlugBase.JsonObject.this[string]
+  fullName.vb: SlugBase.JsonObject.this[](String)
+  nameWithType: JsonObject.this[string]
+  nameWithType.vb: JsonObject.this[](String)
 - uid: SlugBase.JsonObject.Item*
-  name: Item
+  name: this
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_Item_
   commentId: Overload:SlugBase.JsonObject.Item
-  fullName: SlugBase.JsonObject.Item
-  nameWithType: JsonObject.Item
-- uid: SlugBase.JsonObject.op_Implicit(SlugBase.JsonObject)~SlugBase.JsonAny
-  name: Implicit(JsonObject to JsonAny)
-  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_op_Implicit_SlugBase_JsonObject__SlugBase_JsonAny
-  commentId: M:SlugBase.JsonObject.op_Implicit(SlugBase.JsonObject)~SlugBase.JsonAny
-  name.vb: Widening(JsonObject to JsonAny)
-  fullName: SlugBase.JsonObject.Implicit(SlugBase.JsonObject to SlugBase.JsonAny)
-  fullName.vb: SlugBase.JsonObject.Widening(SlugBase.JsonObject to SlugBase.JsonAny)
-  nameWithType: JsonObject.Implicit(JsonObject to JsonAny)
-  nameWithType.vb: JsonObject.Widening(JsonObject to JsonAny)
-- uid: SlugBase.JsonObject.op_Implicit*
-  name: Implicit
-  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_op_Implicit_
-  commentId: Overload:SlugBase.JsonObject.op_Implicit
-  name.vb: Widening
-  fullName: SlugBase.JsonObject.Implicit
-  fullName.vb: SlugBase.JsonObject.Widening
-  nameWithType: JsonObject.Implicit
-  nameWithType.vb: JsonObject.Widening
-- uid: SlugBase.JsonObject.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:SlugBase.JsonObject.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: SlugBase.JsonObject.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: JsonObject.IEnumerable.GetEnumerator()
-  nameWithType.vb: JsonObject.System.Collections.IEnumerable.GetEnumerator()
-- uid: SlugBase.JsonObject.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:SlugBase.JsonObject.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: SlugBase.JsonObject.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: JsonObject.IEnumerable.GetEnumerator
-  nameWithType.vb: JsonObject.System.Collections.IEnumerable.GetEnumerator
+  name.vb: this[]
+  fullName: SlugBase.JsonObject.this
+  fullName.vb: SlugBase.JsonObject.this[]
+  nameWithType: JsonObject.this
+  nameWithType.vb: JsonObject.this[]
 - uid: SlugBase.JsonObject.TryGet(System.String)
-  name: TryGet(String)
+  name: TryGet(string)
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_TryGet_System_String_
   commentId: M:SlugBase.JsonObject.TryGet(System.String)
-  fullName: SlugBase.JsonObject.TryGet(System.String)
-  nameWithType: JsonObject.TryGet(String)
+  name.vb: TryGet(String)
+  fullName: SlugBase.JsonObject.TryGet(string)
+  fullName.vb: SlugBase.JsonObject.TryGet(String)
+  nameWithType: JsonObject.TryGet(string)
+  nameWithType.vb: JsonObject.TryGet(String)
 - uid: SlugBase.JsonObject.TryGet*
   name: TryGet
   href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_TryGet_
   commentId: Overload:SlugBase.JsonObject.TryGet
   fullName: SlugBase.JsonObject.TryGet
   nameWithType: JsonObject.TryGet
+- uid: SlugBase.JsonObject.op_Implicit(SlugBase.JsonObject)~SlugBase.JsonAny
+  name: implicit operator JsonAny(JsonObject)
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_op_Implicit_SlugBase_JsonObject__SlugBase_JsonAny
+  commentId: M:SlugBase.JsonObject.op_Implicit(SlugBase.JsonObject)~SlugBase.JsonAny
+  name.vb: CType(JsonObject)
+  fullName: SlugBase.JsonObject.implicit operator SlugBase.JsonAny(SlugBase.JsonObject)
+  fullName.vb: SlugBase.JsonObject.CType(SlugBase.JsonObject)
+  nameWithType: JsonObject.implicit operator JsonAny(JsonObject)
+  nameWithType.vb: JsonObject.CType(JsonObject)
+- uid: SlugBase.JsonObject.op_Implicit*
+  name: implicit operator
+  href: api/SlugBase.JsonObject.html#SlugBase_JsonObject_op_Implicit_
+  commentId: Overload:SlugBase.JsonObject.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: SlugBase.JsonObject.implicit operator
+  fullName.vb: SlugBase.JsonObject.CType
+  nameWithType: JsonObject.implicit operator
+  nameWithType.vb: JsonObject.CType
 - uid: SlugBase.JsonParseException
   name: JsonParseException
   href: api/SlugBase.JsonParseException.html
@@ -2782,19 +3151,20 @@ references:
   name: JsonRegistry(Func<TKey, JsonObject, TValue>)
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2__ctor_System_Func__0_SlugBase_JsonObject__1__
   commentId: M:SlugBase.JsonRegistry`2.#ctor(System.Func{`0,SlugBase.JsonObject,`1})
-  name.vb: JsonRegistry(Func(Of TKey, JsonObject, TValue))
+  name.vb: New(Func(Of TKey, JsonObject, TValue))
   fullName: SlugBase.JsonRegistry<TKey, TValue>.JsonRegistry(System.Func<TKey, SlugBase.JsonObject, TValue>)
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).JsonRegistry(System.Func(Of TKey, SlugBase.JsonObject, TValue))
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).New(System.Func(Of TKey, SlugBase.JsonObject, TValue))
   nameWithType: JsonRegistry<TKey, TValue>.JsonRegistry(Func<TKey, JsonObject, TValue>)
-  nameWithType.vb: JsonRegistry(Of TKey, TValue).JsonRegistry(Func(Of TKey, JsonObject, TValue))
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).New(Func(Of TKey, JsonObject, TValue))
 - uid: SlugBase.JsonRegistry`2.#ctor*
   name: JsonRegistry
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2__ctor_
   commentId: Overload:SlugBase.JsonRegistry`2.#ctor
+  name.vb: New
   fullName: SlugBase.JsonRegistry<TKey, TValue>.JsonRegistry
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).JsonRegistry
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).New
   nameWithType: JsonRegistry<TKey, TValue>.JsonRegistry
-  nameWithType.vb: JsonRegistry(Of TKey, TValue).JsonRegistry
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).New
 - uid: SlugBase.JsonRegistry`2.Add(SlugBase.JsonObject)
   name: Add(JsonObject)
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_Add_SlugBase_JsonObject_
@@ -2812,12 +3182,13 @@ references:
   nameWithType: JsonRegistry<TKey, TValue>.Add
   nameWithType.vb: JsonRegistry(Of TKey, TValue).Add
 - uid: SlugBase.JsonRegistry`2.AddFromFile(System.String)
-  name: AddFromFile(String)
+  name: AddFromFile(string)
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_AddFromFile_System_String_
   commentId: M:SlugBase.JsonRegistry`2.AddFromFile(System.String)
-  fullName: SlugBase.JsonRegistry<TKey, TValue>.AddFromFile(System.String)
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).AddFromFile(System.String)
-  nameWithType: JsonRegistry<TKey, TValue>.AddFromFile(String)
+  name.vb: AddFromFile(String)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.AddFromFile(string)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).AddFromFile(String)
+  nameWithType: JsonRegistry<TKey, TValue>.AddFromFile(string)
   nameWithType.vb: JsonRegistry(Of TKey, TValue).AddFromFile(String)
 - uid: SlugBase.JsonRegistry`2.AddFromFile*
   name: AddFromFile
@@ -3006,12 +3377,13 @@ references:
   nameWithType: JsonRegistry<TKey, TValue>.Remove
   nameWithType.vb: JsonRegistry(Of TKey, TValue).Remove
 - uid: SlugBase.JsonRegistry`2.ScanDirectory(System.String)
-  name: ScanDirectory(String)
+  name: ScanDirectory(string)
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_ScanDirectory_System_String_
   commentId: M:SlugBase.JsonRegistry`2.ScanDirectory(System.String)
-  fullName: SlugBase.JsonRegistry<TKey, TValue>.ScanDirectory(System.String)
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ScanDirectory(System.String)
-  nameWithType: JsonRegistry<TKey, TValue>.ScanDirectory(String)
+  name.vb: ScanDirectory(String)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.ScanDirectory(string)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).ScanDirectory(String)
+  nameWithType: JsonRegistry<TKey, TValue>.ScanDirectory(string)
   nameWithType.vb: JsonRegistry(Of TKey, TValue).ScanDirectory(String)
 - uid: SlugBase.JsonRegistry`2.ScanDirectory*
   name: ScanDirectory
@@ -3022,12 +3394,13 @@ references:
   nameWithType: JsonRegistry<TKey, TValue>.ScanDirectory
   nameWithType.vb: JsonRegistry(Of TKey, TValue).ScanDirectory
 - uid: SlugBase.JsonRegistry`2.TryAddFromFile(System.String)
-  name: TryAddFromFile(String)
+  name: TryAddFromFile(string)
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryAddFromFile_System_String_
   commentId: M:SlugBase.JsonRegistry`2.TryAddFromFile(System.String)
-  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryAddFromFile(System.String)
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryAddFromFile(System.String)
-  nameWithType: JsonRegistry<TKey, TValue>.TryAddFromFile(String)
+  name.vb: TryAddFromFile(String)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryAddFromFile(string)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryAddFromFile(String)
+  nameWithType: JsonRegistry<TKey, TValue>.TryAddFromFile(string)
   nameWithType.vb: JsonRegistry(Of TKey, TValue).TryAddFromFile(String)
 - uid: SlugBase.JsonRegistry`2.TryAddFromFile*
   name: TryAddFromFile
@@ -3041,11 +3414,11 @@ references:
   name: TryGet(TKey, out TValue)
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGet__0__1__
   commentId: M:SlugBase.JsonRegistry`2.TryGet(`0,`1@)
-  name.vb: TryGet(TKey, ByRef TValue)
+  name.vb: TryGet(TKey, TValue)
   fullName: SlugBase.JsonRegistry<TKey, TValue>.TryGet(TKey, out TValue)
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryGet(TKey, ByRef TValue)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryGet(TKey, TValue)
   nameWithType: JsonRegistry<TKey, TValue>.TryGet(TKey, out TValue)
-  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGet(TKey, ByRef TValue)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGet(TKey, TValue)
 - uid: SlugBase.JsonRegistry`2.TryGet*
   name: TryGet
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGet_
@@ -3055,14 +3428,14 @@ references:
   nameWithType: JsonRegistry<TKey, TValue>.TryGet
   nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGet
 - uid: SlugBase.JsonRegistry`2.TryGetPath(`0,System.String@)
-  name: TryGetPath(TKey, out String)
+  name: TryGetPath(TKey, out string)
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGetPath__0_System_String__
   commentId: M:SlugBase.JsonRegistry`2.TryGetPath(`0,System.String@)
-  name.vb: TryGetPath(TKey, ByRef String)
-  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryGetPath(TKey, out System.String)
-  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryGetPath(TKey, ByRef System.String)
-  nameWithType: JsonRegistry<TKey, TValue>.TryGetPath(TKey, out String)
-  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGetPath(TKey, ByRef String)
+  name.vb: TryGetPath(TKey, String)
+  fullName: SlugBase.JsonRegistry<TKey, TValue>.TryGetPath(TKey, out string)
+  fullName.vb: SlugBase.JsonRegistry(Of TKey, TValue).TryGetPath(TKey, String)
+  nameWithType: JsonRegistry<TKey, TValue>.TryGetPath(TKey, out string)
+  nameWithType.vb: JsonRegistry(Of TKey, TValue).TryGetPath(TKey, String)
 - uid: SlugBase.JsonRegistry`2.TryGetPath*
   name: TryGetPath
   href: api/SlugBase.JsonRegistry-2.html#SlugBase_JsonRegistry_2_TryGetPath_
@@ -3187,6 +3560,21 @@ references:
   fullName.vb: SlugBase.JsonUtils.ToExtEnum(Of T)(SlugBase.JsonAny)
   nameWithType: JsonUtils.ToExtEnum<T>(JsonAny)
   nameWithType.vb: JsonUtils.ToExtEnum(Of T)(JsonAny)
+- uid: SlugBase.JsonUtils.ToExtEnums*
+  name: ToExtEnums
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToExtEnums_
+  commentId: Overload:SlugBase.JsonUtils.ToExtEnums
+  fullName: SlugBase.JsonUtils.ToExtEnums
+  nameWithType: JsonUtils.ToExtEnums
+- uid: SlugBase.JsonUtils.ToExtEnums``1(SlugBase.JsonAny)
+  name: ToExtEnums<T>(JsonAny)
+  href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToExtEnums__1_SlugBase_JsonAny_
+  commentId: M:SlugBase.JsonUtils.ToExtEnums``1(SlugBase.JsonAny)
+  name.vb: ToExtEnums(Of T)(JsonAny)
+  fullName: SlugBase.JsonUtils.ToExtEnums<T>(SlugBase.JsonAny)
+  fullName.vb: SlugBase.JsonUtils.ToExtEnums(Of T)(SlugBase.JsonAny)
+  nameWithType: JsonUtils.ToExtEnums<T>(JsonAny)
+  nameWithType.vb: JsonUtils.ToExtEnums(Of T)(JsonAny)
 - uid: SlugBase.JsonUtils.ToFloat(SlugBase.JsonAny)
   name: ToFloat(JsonAny)
   href: api/SlugBase.JsonUtils.html#SlugBase_JsonUtils_ToFloat_SlugBase_JsonAny_
@@ -3356,7 +3744,7 @@ references:
   fullName: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(MiscWorldSaveData)
   nameWithType: SaveDataExtension.GetSlugBaseData(MiscWorldSaveData)
 - uid: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(PlayerProgression.MiscProgressionData)
-  name: GetSlugBaseData(PlayerProgression.MiscProgressionData)
+  name: GetSlugBaseData(MiscProgressionData)
   href: api/SlugBase.SaveData.SaveDataExtension.html#SlugBase_SaveData_SaveDataExtension_GetSlugBaseData_PlayerProgression_MiscProgressionData_
   commentId: M:SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(PlayerProgression.MiscProgressionData)
   fullName: SlugBase.SaveData.SaveDataExtension.GetSlugBaseData(PlayerProgression.MiscProgressionData)
@@ -3374,11 +3762,14 @@ references:
   fullName: SlugBase.SaveData.SlugBaseSaveData
   nameWithType: SlugBaseSaveData
 - uid: SlugBase.SaveData.SlugBaseSaveData.Remove(System.String)
-  name: Remove(String)
+  name: Remove(string)
   href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_Remove_System_String_
   commentId: M:SlugBase.SaveData.SlugBaseSaveData.Remove(System.String)
-  fullName: SlugBase.SaveData.SlugBaseSaveData.Remove(System.String)
-  nameWithType: SlugBaseSaveData.Remove(String)
+  name.vb: Remove(String)
+  fullName: SlugBase.SaveData.SlugBaseSaveData.Remove(string)
+  fullName.vb: SlugBase.SaveData.SlugBaseSaveData.Remove(String)
+  nameWithType: SlugBaseSaveData.Remove(string)
+  nameWithType.vb: SlugBaseSaveData.Remove(String)
 - uid: SlugBase.SaveData.SlugBaseSaveData.Remove*
   name: Remove
   href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_Remove_
@@ -3392,13 +3783,13 @@ references:
   fullName: SlugBase.SaveData.SlugBaseSaveData.Set
   nameWithType: SlugBaseSaveData.Set
 - uid: SlugBase.SaveData.SlugBaseSaveData.Set``1(System.String,``0)
-  name: Set<T>(String, T)
+  name: Set<T>(string, T)
   href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_Set__1_System_String___0_
   commentId: M:SlugBase.SaveData.SlugBaseSaveData.Set``1(System.String,``0)
   name.vb: Set(Of T)(String, T)
-  fullName: SlugBase.SaveData.SlugBaseSaveData.Set<T>(System.String, T)
-  fullName.vb: SlugBase.SaveData.SlugBaseSaveData.Set(Of T)(System.String, T)
-  nameWithType: SlugBaseSaveData.Set<T>(String, T)
+  fullName: SlugBase.SaveData.SlugBaseSaveData.Set<T>(string, T)
+  fullName.vb: SlugBase.SaveData.SlugBaseSaveData.Set(Of T)(String, T)
+  nameWithType: SlugBaseSaveData.Set<T>(string, T)
   nameWithType.vb: SlugBaseSaveData.Set(Of T)(String, T)
 - uid: SlugBase.SaveData.SlugBaseSaveData.TryGet*
   name: TryGet
@@ -3407,14 +3798,14 @@ references:
   fullName: SlugBase.SaveData.SlugBaseSaveData.TryGet
   nameWithType: SlugBaseSaveData.TryGet
 - uid: SlugBase.SaveData.SlugBaseSaveData.TryGet``1(System.String,``0@)
-  name: TryGet<T>(String, out T)
+  name: TryGet<T>(string, out T)
   href: api/SlugBase.SaveData.SlugBaseSaveData.html#SlugBase_SaveData_SlugBaseSaveData_TryGet__1_System_String___0__
   commentId: M:SlugBase.SaveData.SlugBaseSaveData.TryGet``1(System.String,``0@)
-  name.vb: TryGet(Of T)(String, ByRef T)
-  fullName: SlugBase.SaveData.SlugBaseSaveData.TryGet<T>(System.String, out T)
-  fullName.vb: SlugBase.SaveData.SlugBaseSaveData.TryGet(Of T)(System.String, ByRef T)
-  nameWithType: SlugBaseSaveData.TryGet<T>(String, out T)
-  nameWithType.vb: SlugBaseSaveData.TryGet(Of T)(String, ByRef T)
+  name.vb: TryGet(Of T)(String, T)
+  fullName: SlugBase.SaveData.SlugBaseSaveData.TryGet<T>(string, out T)
+  fullName.vb: SlugBase.SaveData.SlugBaseSaveData.TryGet(Of T)(String, T)
+  nameWithType: SlugBaseSaveData.TryGet<T>(string, out T)
+  nameWithType.vb: SlugBaseSaveData.TryGet(Of T)(String, T)
 - uid: SlugBase.SlugBaseCharacter
   name: SlugBaseCharacter
   href: api/SlugBase.SlugBaseCharacter.html
@@ -3422,11 +3813,14 @@ references:
   fullName: SlugBase.SlugBaseCharacter
   nameWithType: SlugBaseCharacter
 - uid: SlugBase.SlugBaseCharacter.Create(System.String)
-  name: Create(String)
+  name: Create(string)
   href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Create_System_String_
   commentId: M:SlugBase.SlugBaseCharacter.Create(System.String)
-  fullName: SlugBase.SlugBaseCharacter.Create(System.String)
-  nameWithType: SlugBaseCharacter.Create(String)
+  name.vb: Create(String)
+  fullName: SlugBase.SlugBaseCharacter.Create(string)
+  fullName.vb: SlugBase.SlugBaseCharacter.Create(String)
+  nameWithType: SlugBaseCharacter.Create(string)
+  nameWithType.vb: SlugBaseCharacter.Create(String)
 - uid: SlugBase.SlugBaseCharacter.Create*
   name: Create
   href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Create_
@@ -3467,14 +3861,20 @@ references:
   name: FeatureList()
   href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList__ctor
   commentId: M:SlugBase.SlugBaseCharacter.FeatureList.#ctor
+  name.vb: New()
   fullName: SlugBase.SlugBaseCharacter.FeatureList.FeatureList()
+  fullName.vb: SlugBase.SlugBaseCharacter.FeatureList.New()
   nameWithType: SlugBaseCharacter.FeatureList.FeatureList()
+  nameWithType.vb: SlugBaseCharacter.FeatureList.New()
 - uid: SlugBase.SlugBaseCharacter.FeatureList.#ctor*
   name: FeatureList
   href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList__ctor_
   commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.#ctor
+  name.vb: New
   fullName: SlugBase.SlugBaseCharacter.FeatureList.FeatureList
+  fullName.vb: SlugBase.SlugBaseCharacter.FeatureList.New
   nameWithType: SlugBaseCharacter.FeatureList.FeatureList
+  nameWithType.vb: SlugBaseCharacter.FeatureList.New
 - uid: SlugBase.SlugBaseCharacter.FeatureList.Contains(SlugBase.Features.Feature)
   name: Contains(Feature)
   href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_Contains_SlugBase_Features_Feature_
@@ -3523,22 +3923,6 @@ references:
   commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.Set
   fullName: SlugBase.SlugBaseCharacter.FeatureList.Set
   nameWithType: SlugBaseCharacter.FeatureList.Set
-- uid: SlugBase.SlugBaseCharacter.FeatureList.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:SlugBase.SlugBaseCharacter.FeatureList.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: SlugBase.SlugBaseCharacter.FeatureList.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: SlugBaseCharacter.FeatureList.IEnumerable.GetEnumerator()
-  nameWithType.vb: SlugBaseCharacter.FeatureList.System.Collections.IEnumerable.GetEnumerator()
-- uid: SlugBase.SlugBaseCharacter.FeatureList.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:SlugBase.SlugBaseCharacter.FeatureList.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: SlugBase.SlugBaseCharacter.FeatureList.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: SlugBaseCharacter.FeatureList.IEnumerable.GetEnumerator
-  nameWithType.vb: SlugBaseCharacter.FeatureList.System.Collections.IEnumerable.GetEnumerator
 - uid: SlugBase.SlugBaseCharacter.FeatureList.TryGet*
   name: TryGet
   href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_TryGet_
@@ -3549,11 +3933,11 @@ references:
   name: TryGet<T>(Feature<T>, out T)
   href: api/SlugBase.SlugBaseCharacter.FeatureList.html#SlugBase_SlugBaseCharacter_FeatureList_TryGet__1_SlugBase_Features_Feature___0____0__
   commentId: M:SlugBase.SlugBaseCharacter.FeatureList.TryGet``1(SlugBase.Features.Feature{``0},``0@)
-  name.vb: TryGet(Of T)(Feature(Of T), ByRef T)
+  name.vb: TryGet(Of T)(Feature(Of T), T)
   fullName: SlugBase.SlugBaseCharacter.FeatureList.TryGet<T>(SlugBase.Features.Feature<T>, out T)
-  fullName.vb: SlugBase.SlugBaseCharacter.FeatureList.TryGet(Of T)(SlugBase.Features.Feature(Of T), ByRef T)
+  fullName.vb: SlugBase.SlugBaseCharacter.FeatureList.TryGet(Of T)(SlugBase.Features.Feature(Of T), T)
   nameWithType: SlugBaseCharacter.FeatureList.TryGet<T>(Feature<T>, out T)
-  nameWithType.vb: SlugBaseCharacter.FeatureList.TryGet(Of T)(Feature(Of T), ByRef T)
+  nameWithType.vb: SlugBaseCharacter.FeatureList.TryGet(Of T)(Feature(Of T), T)
 - uid: SlugBase.SlugBaseCharacter.Features
   name: Features
   href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Features
@@ -3567,7 +3951,7 @@ references:
   fullName: SlugBase.SlugBaseCharacter.Features
   nameWithType: SlugBaseCharacter.Features
 - uid: SlugBase.SlugBaseCharacter.Get(SlugcatStats.Name)
-  name: Get(SlugcatStats.Name)
+  name: Get(Name)
   href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Get_SlugcatStats_Name_
   commentId: M:SlugBase.SlugBaseCharacter.Get(SlugcatStats.Name)
   fullName: SlugBase.SlugBaseCharacter.Get(SlugcatStats.Name)
@@ -3590,12 +3974,6 @@ references:
   commentId: Overload:SlugBase.SlugBaseCharacter.Name
   fullName: SlugBase.SlugBaseCharacter.Name
   nameWithType: SlugBaseCharacter.Name
-- uid: SlugBase.SlugBaseCharacter.Refreshed
-  name: Refreshed
-  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Refreshed
-  commentId: E:SlugBase.SlugBaseCharacter.Refreshed
-  fullName: SlugBase.SlugBaseCharacter.Refreshed
-  nameWithType: SlugBaseCharacter.Refreshed
 - uid: SlugBase.SlugBaseCharacter.RefreshEventArgs
   name: SlugBaseCharacter.RefreshEventArgs
   href: api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html
@@ -3638,6 +4016,12 @@ references:
   commentId: Overload:SlugBase.SlugBaseCharacter.RefreshEventArgs.ID
   fullName: SlugBase.SlugBaseCharacter.RefreshEventArgs.ID
   nameWithType: SlugBaseCharacter.RefreshEventArgs.ID
+- uid: SlugBase.SlugBaseCharacter.Refreshed
+  name: Refreshed
+  href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Refreshed
+  commentId: E:SlugBase.SlugBaseCharacter.Refreshed
+  fullName: SlugBase.SlugBaseCharacter.Refreshed
+  nameWithType: SlugBaseCharacter.Refreshed
 - uid: SlugBase.SlugBaseCharacter.Registry
   name: Registry
   href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_Registry
@@ -3651,14 +4035,14 @@ references:
   fullName: SlugBase.SlugBaseCharacter.Registry
   nameWithType: SlugBaseCharacter.Registry
 - uid: SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name,SlugBase.SlugBaseCharacter@)
-  name: TryGet(SlugcatStats.Name, out SlugBaseCharacter)
+  name: TryGet(Name, out SlugBaseCharacter)
   href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_TryGet_SlugcatStats_Name_SlugBase_SlugBaseCharacter__
   commentId: M:SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name,SlugBase.SlugBaseCharacter@)
-  name.vb: TryGet(SlugcatStats.Name, ByRef SlugBaseCharacter)
+  name.vb: TryGet(Name, SlugBaseCharacter)
   fullName: SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name, out SlugBase.SlugBaseCharacter)
-  fullName.vb: SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name, ByRef SlugBase.SlugBaseCharacter)
+  fullName.vb: SlugBase.SlugBaseCharacter.TryGet(SlugcatStats.Name, SlugBase.SlugBaseCharacter)
   nameWithType: SlugBaseCharacter.TryGet(SlugcatStats.Name, out SlugBaseCharacter)
-  nameWithType.vb: SlugBaseCharacter.TryGet(SlugcatStats.Name, ByRef SlugBaseCharacter)
+  nameWithType.vb: SlugBaseCharacter.TryGet(SlugcatStats.Name, SlugBaseCharacter)
 - uid: SlugBase.SlugBaseCharacter.TryGet*
   name: TryGet
   href: api/SlugBase.SlugBaseCharacter.html#SlugBase_SlugBaseCharacter_TryGet_

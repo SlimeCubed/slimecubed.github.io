@@ -1,6 +1,5 @@
 {
-  "homepages": [],
-  "source_base_path": "C:/Users/thego/source/repos/Rain World Remix/SlugBase/Docs",
+  "source_base_path": "D:/Users/thego/source/repos/Rain World Remix/SlugBase/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -8,515 +7,611 @@
       "source_relative_path": "api/SlugBase.Assets.CustomDreams.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Assets.CustomDreams.html",
-          "hash": "Zredssi2C1FmSiDdpXNl1jmXi2cLTUJXiuzyetY6SzI="
+          "relative_path": "api/SlugBase.Assets.CustomDreams.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Assets.CustomDreams",
+      "Summary": "<p sourcefile=\"api/SlugBase.Assets.CustomDreams.yml\" sourcestartlinenumber=\"1\">Helpers for adding custom dreams.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Assets.CustomScene.Image.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Assets.CustomScene.Image.html",
-          "hash": "SWWN3IiOzfYdqqg3xe8+rCPn8SOVQ0C0D28mL/TQk0w="
+          "relative_path": "api/SlugBase.Assets.CustomScene.Image.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Assets.CustomScene.Image",
+      "Summary": "<p sourcefile=\"api/SlugBase.Assets.CustomScene.Image.yml\" sourcestartlinenumber=\"1\">An image from a <xref href=\"SlugBase.Assets.CustomScene\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Assets.CustomScene.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Assets.CustomScene.html",
-          "hash": "ClCkFShVkasMboWbztmUbIcvLH+7CqcsT5vErBWfjWo="
+          "relative_path": "api/SlugBase.Assets.CustomScene.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Assets.CustomScene",
+      "Summary": "<p sourcefile=\"api/SlugBase.Assets.CustomScene.yml\" sourcestartlinenumber=\"1\">A scene added by SlugBase.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html",
-          "hash": "2JVjG+F21ifeu8wmiUyQ99nadGHBVqg5T3TpCbFTEVM="
+          "relative_path": "api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Assets.CustomSlideshow.CustomSlideshowScene",
+      "Summary": "<p sourcefile=\"api/SlugBase.Assets.CustomSlideshow.CustomSlideshowScene.yml\" sourcestartlinenumber=\"1\">A scene from a <xref href=\"SlugBase.Assets.CustomSlideshow\" data-throw-if-not-resolved=\"false\"></xref> that holds data about when to appear and what images to use for what amount of time.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html",
-          "hash": "Uo7G/zUrDm5uqix8yUWuL/fwpTH85QcIqMx+Ty3SOJw="
+          "relative_path": "api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Assets.CustomSlideshow.SlideshowMusic",
+      "Summary": "<p sourcefile=\"api/SlugBase.Assets.CustomSlideshow.SlideshowMusic.yml\" sourcestartlinenumber=\"1\">Data about a song from a <xref href=\"SlugBase.Assets.CustomSlideshow\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Assets.CustomSlideshow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Assets.CustomSlideshow.html",
-          "hash": "NTHKeU4EByJObYItLvWtF+w/Z/iMcaPE1Vmf0PJc0Ds="
+          "relative_path": "api/SlugBase.Assets.CustomSlideshow.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Assets.CustomSlideshow",
+      "Summary": "<p sourcefile=\"api/SlugBase.Assets.CustomSlideshow.yml\" sourcestartlinenumber=\"1\">An intro cutscene added by SlugBase.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Assets.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Assets.html",
-          "hash": "LUrFoZCzzN0zUDPI6qIuGT/ahEguhi9kpwdrecTY6q0="
+          "relative_path": "api/SlugBase.Assets.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Assets",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SlugBase.CustomTimeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SlugBase.CustomTimeline.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.CustomTimeline",
+      "Summary": "<p sourcefile=\"api/SlugBase.CustomTimeline.yml\" sourcestartlinenumber=\"1\">A timeline added by SlugBase.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.DataTypes.ColorSlot.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.DataTypes.ColorSlot.html",
-          "hash": "69nDaPxhjK7bmoykmqv8CWvDoCpoVzD1UnW/CtZ9Uw0="
+          "relative_path": "api/SlugBase.DataTypes.ColorSlot.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.DataTypes.ColorSlot",
+      "Summary": "<p sourcefile=\"api/SlugBase.DataTypes.ColorSlot.yml\" sourcestartlinenumber=\"1\">Represents a color that may be configured by the user.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.DataTypes.Diet.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.DataTypes.Diet.html",
-          "hash": "16VNL/xwjpHUpcLgwtZzW+WFlSm3cmcm9GD2oUQmgp8="
+          "relative_path": "api/SlugBase.DataTypes.Diet.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.DataTypes.Diet",
+      "Summary": "<p sourcefile=\"api/SlugBase.DataTypes.Diet.yml\" sourcestartlinenumber=\"1\">Represents the nourishment and edibility of foods for a <xref href=\"SlugBase.SlugBaseCharacter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.DataTypes.PlayerColor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.DataTypes.PlayerColor.html",
-          "hash": "l3s/aZVNPyZ69Ob0cQYCdTro3Kn5aFBGBKbspCzVg2A="
+          "relative_path": "api/SlugBase.DataTypes.PlayerColor.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.DataTypes.PlayerColor",
+      "Summary": "<p sourcefile=\"api/SlugBase.DataTypes.PlayerColor.yml\" sourcestartlinenumber=\"1\">Represents a color that may copy from <xref href=\"SlugBase.Features.PlayerFeatures.CustomColors\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.DataTypes.RepOverride.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.DataTypes.RepOverride.html",
-          "hash": "7fTOxqCaL825YIDcD8BSV8R7uWl/6v/PvmpYnKEP0fk="
+          "relative_path": "api/SlugBase.DataTypes.RepOverride.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.DataTypes.RepOverride",
+      "Summary": "<p sourcefile=\"api/SlugBase.DataTypes.RepOverride.yml\" sourcestartlinenumber=\"1\">Represents the initial reputation of the player with a community.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.DataTypes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.DataTypes.html",
-          "hash": "8yxV4q5jy6HgpqX9uEkdosU0dtFfcpHuS3aT1T1FNc8="
+          "relative_path": "api/SlugBase.DataTypes.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.DataTypes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.Data-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.Data-2.html",
-          "hash": "iVLgtWZA6nTE3MK+bpkL+mUQSvwSTCSAKYi9mLX/724="
+          "relative_path": "api/SlugBase.Features.Data-2.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.Data<THolder, TValue>",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.Data-2.yml\" sourcestartlinenumber=\"1\">Stores <code class=\"typeparamref\">TValue</code>s associated with <code class=\"typeparamref\">THolder</code>s.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.Data.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.Data.html",
-          "hash": "4Ufe/2ZJ0JvLYcQGOwPyo8fFZx662B+zhmH1E9k7zG4="
+          "relative_path": "api/SlugBase.Features.Data.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.Data",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.Data.yml\" sourcestartlinenumber=\"1\">Represents variable information of a <xref href=\"SlugBase.SlugBaseCharacter\" data-throw-if-not-resolved=\"false\"></xref> that depends on a <xref href=\"SlugBase.Features.Feature\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.Feature-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.Feature-1.html",
-          "hash": "r091agAJJqEDR20vNx5QGcgaKFR1ZlZJB8BLIS93AkQ="
+          "relative_path": "api/SlugBase.Features.Feature-1.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.Feature<T>",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.Feature-1.yml\" sourcestartlinenumber=\"1\">A strongly-typed constant setting of a <xref href=\"SlugBase.SlugBaseCharacter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.Feature.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.Feature.html",
-          "hash": "BxuwiBH8fFUqsS/MZYGBqI7sCbKF4Rg7BVKrUnenffY="
+          "relative_path": "api/SlugBase.Features.Feature.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.Feature",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.Feature.yml\" sourcestartlinenumber=\"1\">Represents a constant setting of a <xref href=\"SlugBase.SlugBaseCharacter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.FeatureTypes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.FeatureTypes.html",
-          "hash": "ToeQ83yMVQ+7nqji6slNoaXbglEZD3/omfrAxAWp6O4="
+          "relative_path": "api/SlugBase.Features.FeatureTypes.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.FeatureTypes",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.FeatureTypes.yml\" sourcestartlinenumber=\"1\">Helper methods to construct <xref href=\"SlugBase.Features.Feature%601\" data-throw-if-not-resolved=\"false\"></xref>s with simple parsing rules.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.GameData-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.GameData-1.html",
-          "hash": "3TspAudNeSTWjKdxsZcDMkdCRToUVWC6Ff6E89K08Xc="
+          "relative_path": "api/SlugBase.Features.GameData-1.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.GameData<TValue>",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.GameData-1.yml\" sourcestartlinenumber=\"1\">Stores per-game variables.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.GameFeature-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.GameFeature-1.html",
-          "hash": "nZVg7wF+WwC3wvbRakC8gEkouYVJs12/POffXULw/6Y="
+          "relative_path": "api/SlugBase.Features.GameFeature-1.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.GameFeature<T>",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.GameFeature-1.yml\" sourcestartlinenumber=\"1\">A constant setting of a <xref href=\"SlugBase.SlugBaseCharacter\" data-throw-if-not-resolved=\"false\"></xref>'s save slot.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.GameFeatures.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.GameFeatures.html",
-          "hash": "EqSQ8+Dc1E1xSTCl/e6HOyv0vVHgOSutxDTGHm4EFL4="
+          "relative_path": "api/SlugBase.Features.GameFeatures.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.GameFeatures",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.GameFeatures.yml\" sourcestartlinenumber=\"1\">Built-in <xref href=\"SlugBase.Features.Feature\" data-throw-if-not-resolved=\"false\"></xref>s describing the game.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.PlayerData-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.PlayerData-1.html",
-          "hash": "pyH6c5CjnRxI1fKhqJhGOX72Bp3u9X9iuhvQYBlA7h8="
+          "relative_path": "api/SlugBase.Features.PlayerData-1.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.PlayerData<TValue>",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.PlayerData-1.yml\" sourcestartlinenumber=\"1\">Stores per-player variables.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.PlayerFeature-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.PlayerFeature-1.html",
-          "hash": "Zw5AN3S2QbFtzu4gMoQiW1YJ0YeNiTTVvrv42E4ZAZA="
+          "relative_path": "api/SlugBase.Features.PlayerFeature-1.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.PlayerFeature<T>",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.PlayerFeature-1.yml\" sourcestartlinenumber=\"1\">A constant setting of a <xref href=\"SlugBase.SlugBaseCharacter\" data-throw-if-not-resolved=\"false\"></xref>'s player.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.PlayerFeatures.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.PlayerFeatures.html",
-          "hash": "3b5FtjbkbjG/AlHXmjUm03TPPecF8yXVsGlGqrvt2pQ="
+          "relative_path": "api/SlugBase.Features.PlayerFeatures.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features.PlayerFeatures",
+      "Summary": "<p sourcefile=\"api/SlugBase.Features.PlayerFeatures.yml\" sourcestartlinenumber=\"1\">Built-in <xref href=\"SlugBase.Features.Feature\" data-throw-if-not-resolved=\"false\"></xref>s describing the player.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.Features.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.Features.html",
-          "hash": "MutRMynaeJoIdwBgMuZ7+VGJZ6lZQza/beBd+vPIU4Y="
+          "relative_path": "api/SlugBase.Features.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.Features",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonAny.Element.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonAny.Element.html",
-          "hash": "HQ2v1jZxQFmLDM6+2wOznWt3lzeEf2Rc8welAEPuMMY="
+          "relative_path": "api/SlugBase.JsonAny.Element.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonAny.Element",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonAny.Element.yml\" sourcestartlinenumber=\"1\">Represents the type of a JSON element.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonAny.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonAny.html",
-          "hash": "C2fhQjh/YNjoMH6fhLYjP7ksr99Vh5zsO9ZRvyge/3o="
+          "relative_path": "api/SlugBase.JsonAny.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonAny",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonAny.yml\" sourcestartlinenumber=\"1\">A JSON object, list, number, or string.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonConverter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonConverter.html",
-          "hash": "6r/8sbTamMILr3zLlBLB/wRCuDfVR1zTGqWbQlHEGBs="
+          "relative_path": "api/SlugBase.JsonConverter.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonConverter",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonConverter.yml\" sourcestartlinenumber=\"1\">Converts to and from JSON values.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonException.html",
-          "hash": "l22tn1ozN4g1WONetpTvzjlG+5ixRpoSFrBJ5KS8G7E="
+          "relative_path": "api/SlugBase.JsonException.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonException",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonException.yml\" sourcestartlinenumber=\"1\">Represents errors that occur when accessing JSON data.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonList.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonList.html",
-          "hash": "bWsiEBuG5RrKhA1/FgIC8YWB0tzVjVHGxHlPCymlUk0="
+          "relative_path": "api/SlugBase.JsonList.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonList",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonList.yml\" sourcestartlinenumber=\"1\">A JSON list.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonObject.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonObject.html",
-          "hash": "4/J9KJUvlv97fCp7tpNS9OSLUXe7B1tUj5XuOLGOxus="
+          "relative_path": "api/SlugBase.JsonObject.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonObject",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonObject.yml\" sourcestartlinenumber=\"1\">A JSON object.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonParseException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonParseException.html",
-          "hash": "Tz4/6+r6BRW6ROVCiC2fduS0Ea2rMjTs0cpoAGNXqr4="
+          "relative_path": "api/SlugBase.JsonParseException.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonParseException",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonParseException.yml\" sourcestartlinenumber=\"1\">Represents errors that occur when parsing JSON data.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html",
-          "hash": "FXneHDvVlTDKurOFt0ORtlqYdNoFxVSBaCqq43YA1kQ="
+          "relative_path": "api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonRegistry<TKey, TValue>.LoadErrorEventArgs",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonRegistry-2.LoadErrorEventArgs.yml\" sourcestartlinenumber=\"1\">Provides data for the <xref href=\"SlugBase.JsonRegistry%602.LoadFailed\" data-throw-if-not-resolved=\"false\"></xref> event.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonRegistry-2.ReloadedEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonRegistry-2.ReloadedEventArgs.html",
-          "hash": "04bOX40FJ38RsDNtdaag7dKrlXFroKiu2VmE9UqRT2s="
+          "relative_path": "api/SlugBase.JsonRegistry-2.ReloadedEventArgs.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonRegistry<TKey, TValue>.ReloadedEventArgs",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonRegistry-2.ReloadedEventArgs.yml\" sourcestartlinenumber=\"1\">Provides data for the <xref href=\"SlugBase.JsonRegistry%602.EntryReloaded\" data-throw-if-not-resolved=\"false\"></xref> event.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonRegistry-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonRegistry-2.html",
-          "hash": "Xu+LMS36qx6Tn3mQMmhKY6kiYim6ybjmOaO8LgVWt6I="
+          "relative_path": "api/SlugBase.JsonRegistry-2.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonRegistry<TKey, TValue>",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonRegistry-2.yml\" sourcestartlinenumber=\"1\">Represents a collection of values with unique IDs that can be loaded from JSON.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.JsonUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.JsonUtils.html",
-          "hash": "IxLvF13lWWbc9iJj9Gd5mt6LicmjBkwZk5bMf77VtGc="
+          "relative_path": "api/SlugBase.JsonUtils.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.JsonUtils",
+      "Summary": "<p sourcefile=\"api/SlugBase.JsonUtils.yml\" sourcestartlinenumber=\"1\">Converts <xref href=\"SlugBase.JsonAny\" data-throw-if-not-resolved=\"false\"></xref> to other types.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.SaveData.SaveDataExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.SaveData.SaveDataExtension.html",
-          "hash": "z4mV2iDZQyc4N48CaPKPBCqLVIcgQ3p72lSqfwOC5nA="
+          "relative_path": "api/SlugBase.SaveData.SaveDataExtension.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.SaveData.SaveDataExtension",
+      "Summary": "<p sourcefile=\"api/SlugBase.SaveData.SaveDataExtension.yml\" sourcestartlinenumber=\"1\">Extensions to generate the <xref href=\"SlugBase.SaveData.SlugBaseSaveData\" data-throw-if-not-resolved=\"false\"></xref> helper from the game's save data.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.SaveData.SlugBaseSaveData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.SaveData.SlugBaseSaveData.html",
-          "hash": "c0qN8sPGcm0EHujXLQaSk0gFnP/KSsjmbj6u9swsaCI="
+          "relative_path": "api/SlugBase.SaveData.SlugBaseSaveData.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.SaveData.SlugBaseSaveData",
+      "Summary": "<p sourcefile=\"api/SlugBase.SaveData.SlugBaseSaveData.yml\" sourcestartlinenumber=\"1\">A helper for interacting with the game's save data.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.SaveData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.SaveData.html",
-          "hash": "gl9ehNn+M5pQJWmauPQJcm6E15uqOdRtn3QqV03o/Y8="
+          "relative_path": "api/SlugBase.SaveData.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.SaveData",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.SlugBaseCharacter.FeatureList.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.SlugBaseCharacter.FeatureList.html",
-          "hash": "vUg8dSjnmbNToVr1ZrlW1l11DVTeDP627Fz/dak9k70="
+          "relative_path": "api/SlugBase.SlugBaseCharacter.FeatureList.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.SlugBaseCharacter.FeatureList",
+      "Summary": "<p sourcefile=\"api/SlugBase.SlugBaseCharacter.FeatureList.yml\" sourcestartlinenumber=\"1\">Stores the <xref href=\"SlugBase.Features.Feature\" data-throw-if-not-resolved=\"false\"></xref>s of a <xref href=\"SlugBase.SlugBaseCharacter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.SlugBaseCharacter.RefreshEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html",
-          "hash": "pDFX6zz/ppVWL1o8hsryYblaBRileF3FohdO+LbH+Co="
+          "relative_path": "api/SlugBase.SlugBaseCharacter.RefreshEventArgs.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.SlugBaseCharacter.RefreshEventArgs",
+      "Summary": "<p sourcefile=\"api/SlugBase.SlugBaseCharacter.RefreshEventArgs.yml\" sourcestartlinenumber=\"1\">Provides data for the <xref href=\"SlugBase.SlugBaseCharacter.Refreshed\" data-throw-if-not-resolved=\"false\"></xref> event.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.SlugBaseCharacter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.SlugBaseCharacter.html",
-          "hash": "w3sPk4jVUs5ttf9nnt8Ha1rKO9pezIc+x/61AJlsHlI="
+          "relative_path": "api/SlugBase.SlugBaseCharacter.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase.SlugBaseCharacter",
+      "Summary": "<p sourcefile=\"api/SlugBase.SlugBaseCharacter.yml\" sourcestartlinenumber=\"1\">A character added by SlugBase.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/SlugBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SlugBase.html",
-          "hash": "9lARwghETUmvRN+dQ3rgkTSChUBjnMHHg5T8ut0nVX8="
+          "relative_path": "api/SlugBase.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SlugBase",
+      "Summary": null
     },
     {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "b8lAI9Bqpv7PGOHB2h3PWBcOTJRwlmPtjwgj0Vf2YtY="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -524,11 +619,12 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "yckEf9rzhgr5FKpuo1bKkk0CQ3AgcrX7Ooqcf0pHRbA="
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -536,11 +632,9 @@
       "source_relative_path": "articles/custom-features.md",
       "output": {
         ".html": {
-          "relative_path": "articles/custom-features.html",
-          "hash": "gntEo7VCOtLWEnu0yJ1XyEGcZoOahs3y7UZpb1bU+NA="
+          "relative_path": "articles/custom-features.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -548,11 +642,9 @@
       "source_relative_path": "articles/features.md",
       "output": {
         ".html": {
-          "relative_path": "articles/features.html",
-          "hash": "vRKQPSDmAt8tWdJFLjl+AjoRffFAb9XriVEWUjpxIWc="
+          "relative_path": "articles/features.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -560,11 +652,9 @@
       "source_relative_path": "articles/gettingstarted.md",
       "output": {
         ".html": {
-          "relative_path": "articles/gettingstarted.html",
-          "hash": "TOgXET3qzXUKP1jFQWQ+wM8PL+Tk5tBeCijE7UnhR2o="
+          "relative_path": "articles/gettingstarted.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -572,11 +662,9 @@
       "source_relative_path": "articles/template.md",
       "output": {
         ".html": {
-          "relative_path": "articles/template.html",
-          "hash": "b67NYkPDCmLeOy7G6R9ShsT6JYfeho67lJ8JvqWEAvg="
+          "relative_path": "articles/template.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -584,11 +672,12 @@
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "9JTAnpJLnPmL/aXtn7ZEJStmM8uwfar8dDvwar9N0LY="
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -596,11 +685,9 @@
       "source_relative_path": "articles/world-state-tutorial.md",
       "output": {
         ".html": {
-          "relative_path": "articles/world-state-tutorial.html",
-          "hash": "s+FP407jeMtVT203zRDgLEMVLNI59PhZqdnOGNGuqHU="
+          "relative_path": "articles/world-state-tutorial.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     },
     {
@@ -611,7 +698,6 @@
           "relative_path": "favicon.ico"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -622,7 +708,6 @@
           "relative_path": "images/template/download.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -633,7 +718,6 @@
           "relative_path": "images/template/make-junction.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -644,7 +728,6 @@
           "relative_path": "images/template/rename-plugin.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -655,7 +738,6 @@
           "relative_path": "images/template/rename-sln.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -666,7 +748,6 @@
           "relative_path": "images/template/update-character.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -677,7 +758,6 @@
           "relative_path": "images/template/update-modinfo.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -688,7 +768,6 @@
           "relative_path": "images/template/update-scenes.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -696,11 +775,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "b1t9Q29ZmekAu+RSdjR4+WrEW62zekgJFfqDk4N/gcs="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -711,7 +788,6 @@
           "relative_path": "logo.svg"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -719,63 +795,15 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "qK9hF0OHOqNgFQyaNVftPCMRQxwJd5IY+AM/Kbs3PBU="
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": true,
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 7,
-          "skipped_file_count": 5
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 42,
-          "skipped_file_count": 16
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
